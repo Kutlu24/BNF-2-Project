@@ -19,10 +19,18 @@ Write the entry directly after the work step, and not at the end of the exercise
 
 You need no special tool. A text file or a document in your word processor is enough. A sheet in a spreadsheet program also works.
 
-1. Create one file per exercise.
-2. Give the file a clear name, for example `ai-log_source-criticism.md`.
-3. Write each entry below the previous one in the same file.
-4. Save the file together with your hand-in.
+1. Create **one single file for the whole course**, for example `ai-log.md`.
+2. Give the file this one name and keep it across all exercises.
+3. Create one section per exercise, for example `## Source Criticism`, and write that exercise's entries under it.
+4. Write each new entry at the end of the relevant section.
+5. Save the file together with your hand-in.
+
+::: callout-important
+
+## One file, not one per exercise
+
+Earlier versions of this guide left open whether you keep one file per exercise or one file for the whole course. The rule is now fixed: **one file, one section per exercise.** An exercise that asks for "your AI log from the earlier exercises" (for example [Citing](citing.qmd)) means the earlier sections of that same file, not merging several files.
+:::
 
 ### How long an entry is
 
@@ -39,35 +47,54 @@ Each exercise states how much it requires. Some exercises name a number of entri
 
 Copy this table again for each entry.
 
-| Field                   | Content |
-| ----------------------- | ------- |
-| Date                    |         |
-| Step (exercise, number) |         |
-| Goal (1 sentence)       |         |
-| Material (input)        |         |
-| Prompt (verbatim)       |         |
-| Answer (short version)  |         |
-| Verification steps      |         |
-| Decision                |         |
-| Reason (1 sentence)     |         |
+| Field                               | Content |
+| ----------------------------------- | ------- |
+| Date                                |         |
+| Step (exercise, number)             |         |
+| Tool (name and version)             |         |
+| Provider                            |         |
+| Account type (free/paid)            |         |
+| Web search (on/off)                 |         |
+| Reasoning mode (on/off, if present) |         |
+| File uploaded (yes/no)              |         |
+| Goal (1 sentence)                   |         |
+| Material (input)                    |         |
+| Prompt (verbatim)                   |         |
+| Answer (short version)              |         |
+| Verification steps                  |         |
+| Decision                            |         |
+| Reason (1 sentence)                 |         |
 
 If you write in Markdown, copy this source text:
 
 ```markdown
-| Field                   | Content |
-| ----------------------- | ------- |
-| Date                    |         |
-| Step (exercise, number) |         |
-| Goal (1 sentence)       |         |
-| Material (input)        |         |
-| Prompt (verbatim)       |         |
-| Answer (short version)  |         |
-| Verification steps      |         |
-| Decision                |         |
-| Reason (1 sentence)     |         |
+| Field                                | Content |
+| ------------------------------------- | ------- |
+| Date                                   |        |
+| Step (exercise, number)                |        |
+| Tool (name and version)                |        |
+| Provider                               |        |
+| Account type (free/paid)               |        |
+| Web search (on/off)                    |        |
+| Reasoning mode (on/off, if present)    |        |
+| File uploaded (yes/no)                 |        |
+| Goal (1 sentence)                      |        |
+| Material (input)                       |        |
+| Prompt (verbatim)                      |        |
+| Answer (short version)                 |        |
+| Verification steps                     |        |
+| Decision                               |        |
+| Reason (1 sentence)                    |        |
 ```
 
 A list with the same fields is equally valid. Choose the form that you fill in faster.
+
+::: callout-note
+
+## Why these six new fields
+
+The fields "Tool", "Provider", "Account type", "Web search", "Reasoning mode" and "File uploaded" were missing from earlier versions of this template. The exercise [Citing](citing.qmd) needs exactly this information for the disclosure of AI use ("tool, version, provider"), and [Prompt Engineering](prompt-engineering.qmd) step 8 asks for the reasoning mode "in the same way as you note the model and the date". Without these fields in the log you cannot write the disclosure at the end. Fill in these six fields once per session, not once per entry, when nothing changes.
+:::
 
 ### A filled-in entry as an example
 
@@ -88,4 +115,11 @@ The example comes from the exercise [Source Criticism](source-criticism-federal-
 The entry shows the normal case: one part of the answer is usable, one part is wrong, and one part has no support.
 
 Note the third category. The student does not claim that the reference is invented. She records only what she can check: the reference is not in the material. Whether the holding exists is a different question. You can call a statement wrong only after you checked it. Until then it has no support. This distinction is the core of source criticism, and it also applies towards the AI.
+
+::: callout-note
+
+## What counts as "the material" here
+
+"Material" in this example means only the copied text of the memorandum itself, not the footnotes of the printed edition. The edition of Dodis 5020 does cite archival references such as E 2001(E) and E 2800 in its footnotes, but these footnotes were not part of what the student copied into the prompt. "The reference appears nowhere in the material" therefore means: nowhere in the copied memorandum text, not: nowhere in the printed edition. If you copy the whole edition page with its footnotes instead, what counts as checked changes.
+:::
 ::::
