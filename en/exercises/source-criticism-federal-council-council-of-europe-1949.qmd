@@ -23,7 +23,7 @@ author:
     affiliations:
       - "University of Bern"
 date: "2025-12-29"
-date-modified: "2026-08-16"
+date-modified: "2026-09-25"
 references:
 - id: altermatt-casasus-2013-europarat
   type: book
@@ -59,6 +59,15 @@ This exercise teaches **transferable competencies in source criticism** (externa
 ## Note on digital transmission
 
 The source that we use here exists in an **edited digital edition**. For source criticism, the object of study therefore holds not only the text, but also the **edition layer** (metadata, archive reference, links, editorial guidelines). [@fickers2022criticism]
+:::
+
+::: callout-tip
+
+## Two terms to know before step 1
+
+**Who is Hansen?** The memorandum names him in every prompt but never introduces him. The text itself reveals that Hansen is Petitpierre's Danish interlocutor and lives in Switzerland. He delivers a message from the Danish foreign minister Rasmussen. This one piece of information makes task 5 of the internal criticism ("What can I say about the Danish position?") noticeably easier.
+
+**What is a memorandum ("Aktennotiz")?** In Swiss administrative practice, an "Aktennotiz" is a short, informal record kept for the files: it captures a conversation or a matter of fact without recording who attended a meeting, its agenda, or its resolutions. It is therefore shorter and more informal than **minutes** ("Protokoll"), which record a meeting's formal proceedings. This distinction matters in the filled-in AI-log example in the exercise [Prompt Engineering](prompt-engineering.qmd) (section "Working Mode: AI Log and A/B Testing"): the AI there calls the text "minutes of a Federal Council meeting", which misidentifies the text type.
 :::
 
 ## At a Glance
@@ -102,6 +111,10 @@ The system must be able to do the three following things:
 
 - The source as a file. You download the document Dodis 5020 freely, and you need no institutional access for it.
 - One file for your source analysis log and one file for your AI log.
+
+**Language**
+
+The memorandum Dodis 5020 is in **French**. Plan extra time for translation if French is not your working language. Also decide in which language the AI should answer and quote, and note that choice in your AI log (see [Prompt Engineering](prompt-engineering.qmd), section "What You Need").
 
 {{< include ../_ai-requirements.qmd >}}
 
@@ -155,13 +168,28 @@ Who speaks or acts?
 What is the occasion?
 What is the central statement or decision?
 Which consequence is indicated?
+At most 4 sentences. No interpretation.
 ```
+
+::: callout-note
+
+## When no consequence is stated explicitly
+
+The fourth question asks for an indicated consequence, but the "no interpretation" rule still applies. The memorandum records a refusal and a signal of goodwill; anything beyond that is already your own conclusion. **"None stated explicitly" is a fully valid answer** to this question when the text does not name a consequence explicitly.
+:::
 
 ::: callout-tip
 
 ## Uploading the source
 
-Check before the upload whether you have the right to pass the material on. The section "What you need" names the materials that stay outside the AI system. Free access alone permits no upload: a freely accessible source can still forbid a disclosure. Check therefore the terms of use of Dodis before you upload the digitized item.
+Check before the upload whether you have the right to pass the material on. The section "What you need" names the materials that stay outside the AI system. Free access alone permits no upload: a freely accessible source can still forbid a disclosure.
+
+::: callout-important
+
+## On Dodis's terms of use
+
+The Dodis website blocks automated access, so the exact reuse terms for edition texts could not be conclusively checked while building this exercise (as of 2026-09-25). Dodis's imprint assigns responsibility for source criticism to the user, but does not clearly address disclosure to an AI system. Check for yourself on the Dodis website whether, and under what conditions, an upload for study purposes is permitted before you upload the digitized item. When in doubt, copy only the plain edition text into the prompt (see the exception below) rather than uploading a file.
+:::
 
 Upload the document as a PDF file together with the prompt. That is the normal case. Make sure that the AI also has access to the metadata. Retrieve the metadata online, or state it yourself.
 
@@ -253,7 +281,9 @@ Formulate three verifiable questions on authenticity, for example:
 
 Reconstruct a plausible chain of transmission:
 
-**Creation → filing in the administrative process → archiving → cataloguing → digitization and edition → display on the web**
+**Creation → filing in the administrative process → archiving → cataloguing → printed critical edition → digitization → display on the web**
+
+The printed edition is a separate, often overlooked station here: this text appeared in 2001 in a printed edition volume of the Diplomatic Documents of Switzerland before it became accessible as a web page. Check therefore whether the web metadata points to this printed edition (volume, publisher, place of publication).
 
 Note at each station:
 
@@ -291,7 +321,7 @@ Important:
   [document text] / [edition or metadata] / [conclusion].
 ```
 
-### Reflection Assignment
+### Work Assignment (Reflection)
 
 - Where does the AI add systematically, and where does it **hallucinate** assumptions about the transmission?
 - Which metadata does it adopt correctly, and which stay vague or wrong?
@@ -387,7 +417,7 @@ Rules:
 - Use no context information that the text does not carry.
 ```
 
-### Reflection Assignment
+### Work Assignment (Reflection)
 
 - Which readings of the AI are close to the text, and which are speculative?
 - Where does the AI level institutional perspectives into general statements?
@@ -460,7 +490,7 @@ Constraints:
 - Focus only on verification steps and counter-checks.
 ```
 
-### Reflection Assignment
+### Work Assignment (Reflection)
 
 - Which contexts does the AI prioritize systematically (politics, institutions)?
 - Which contexts are conspicuously missing (for example media, law, economy)?
@@ -527,13 +557,15 @@ For two statements from list B, formulate one
 concrete path to falsification each (which source would have to show what?).
 ```
 
-### Reflection Assignment
+### Work Assignment (Reflection)
+
+Regarding the AI's answer from task 3:
 
 - Where is the AI surprisingly restrictive, and where is it too generous?
 - Which statements look "plausible", but get a correct veto?
 - How does the explicit split into A and B change your own urge to interpret?
 
-### Work Assignment (Reflection)
+Regarding your own analysis:
 
 - Which statement "would you like to make", although the source does not permit it?
 - Where is the border between **interpretation** and **claim**?

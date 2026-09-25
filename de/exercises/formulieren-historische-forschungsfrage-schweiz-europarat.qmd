@@ -10,7 +10,7 @@ author:
     affiliations:
       - "Universität Bern"
 date: "2025-12-29"
-date-modified: "2026-08-16"
+date-modified: "2026-09-25"
 categories: [Methoden]
 image: ../../assets/images/research_question_Gemini_Generated_Image_25bend25bend25be.png
 tags:
@@ -94,6 +94,10 @@ Das System muss die zwei folgenden Dinge können:
 
 - Eine Datei für Ihr KI-Protokoll.
 - Ein Konto für den Bibliothekskatalog Ihrer Hochschule. Sie prüfen damit in Schritt 4 die Quellenlage.
+
+**Sprache**
+
+Drei der vier Vergleichsleitfäden in Schritt 1 (Zürich, Bremen, Hamburg) liegen nur auf Deutsch vor. Der Leitfaden aus Basel existiert zusätzlich in einer englischen Übersetzung ("History: A Toolkit for Students") - für die englischsprachige Version dieser Übung wird diese englische Fassung verlinkt.
 
 {{< include ../_ki-anforderungen.qmd >}}
 
@@ -260,12 +264,9 @@ Einschätzung, ob eine Forschungsfrage **quellenbasiert bearbeitbar** ist.
 
 ### Aufgabe (Primärquellen)
 
-Ersetzen Sie im folgenden Prompt die Beispielfrage durch Ihre eigene Arbeitsfrage.
-
 ```markdown
 Welche Primärquellen eignen sich zur Untersuchung der Forschungsfrage
-«Wie wurde Neutralität zwischen 1949 und 1963 als Argument gegen einen Beitritt
-der Schweiz zum Europarat verwendet?»
+«[Ihre eigene Arbeitsfrage einsetzen, nicht eine vorgegebene Beispielfrage]»
 ```
 
 Falls nötig:
@@ -304,18 +305,9 @@ Transformation einer offenen Fragestellung in eine **präzise analytische histor
 
 ### Aufgabe (Eingrenzung)
 
-Ersetzen Sie im folgenden Prompt die Beispielfrage durch Ihre eigene Arbeitsfrage.
-
 ```markdown
 Schlage mögliche zeitliche, räumliche und thematische Eingrenzungen für die Forschungsfrage
-«Wie wurde Neutralität zwischen 1949 und 1963 als Argument gegen einen Beitritt
-der Schweiz zum Europarat verwendet?» vor.
-```
-
-### Aufgabe (Formulierung)
-
-```markdown
-Formuliere auf dieser Basis eine analytische historische Forschungsfrage.
+«[Ihre eigene Arbeitsfrage einsetzen, nicht eine vorgegebene Beispielfrage]» vor.
 ```
 
 ### Qualitätscheck
@@ -325,6 +317,24 @@ Die Forschungsfrage sollte:
 - offen und analytisch sein („Wie“, „Warum“, „Inwiefern“),
 - historisch kontextualisiert sein,
 - mit verfügbaren Quellen bearbeitbar erscheinen.
+
+### Aufgabe (Formulierung): Sie schreiben, die KI kritisiert
+
+Formulieren Sie **selbst** eine erste Fassung Ihrer analytischen historischen Forschungsfrage, auf Basis der Eingrenzungen aus dem letzten Schritt. Das ist Ihre eigene Forschungsentscheidung, keine Aufgabe für die KI.
+
+Lassen Sie die KI danach nur **kritisieren**, nicht neu formulieren:
+
+```markdown
+Hier ist meine Forschungsfrage: [Ihre eigene Frage einsetzen].
+Prüfe sie anhand dieser drei Kriterien:
+- Ist sie offen und analytisch («Wie», «Warum», «Inwiefern»)?
+- Ist sie historisch kontextualisiert (Zeitraum, Raum, Akteure erkennbar)?
+- Erscheint sie mit verfügbaren Quellen bearbeitbar?
+Nenne für jedes Kriterium, ob es erfüllt ist, und wenn nicht, warum nicht.
+Schlage keine alternative Formulierung vor, sondern nur die Kritik.
+```
+
+Überarbeiten Sie Ihre Frage danach selbst, auf Basis der Kritik.
 
 ## 6. Iterative Revision und Reflexion
 

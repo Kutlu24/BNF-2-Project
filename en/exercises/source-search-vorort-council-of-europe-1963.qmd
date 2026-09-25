@@ -10,7 +10,7 @@ author:
     affiliations:
       - "University of Bern"
 date: "2025-12-29"
-date-modified: "2026-08-16"
+date-modified: "2026-09-25"
 categories: [Sources]
 image: ../../assets/images/source_research_Gemini_Generated_Image_u5ngfyu5ngfyu5ng.png
 tags:
@@ -445,13 +445,14 @@ At least 3 entries. Each entry holds:
 
 ## Learning Outcome
 
-At the end you hold these artifacts:
+At the end you hold these artifacts from the core path:
 
 1. A matrix of sources (sub-questions × source types)
 2. A search log (15 entries or more)
 3. A shortlist of 10 units of primary sources
-4. A short annotated bibliography (8 to 12 titles)
-5. A reflection on the AI use, with an AI log (3 entries or more)
+4. A reflection on the AI use, with an AI log (3 entries or more)
+
+If you also completed the optional step 5, you additionally hold a short annotated bibliography (8 to 12 titles).
 
 One methodological insight comes on top: you can give reasons for which search paths deliver reliable hits, and where an AI answer only sounds plausible.
 

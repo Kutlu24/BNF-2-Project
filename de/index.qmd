@@ -24,7 +24,27 @@ listing:
 Dieses Repository bietet strukturierte, praxisorientierte Übungen für Historiker:innen zur Entwicklung von **kritischer KI-Kompetenz**, **digitaler Quellenkritik** und **wissenschaftlicher Praxis** mit grossen Sprachmodellen (LLMs).
 
 ::: {.callout-warning title="DISCLAIMER"}
-Dieses Projekt ist derzeit noch in einer sehr frühen Phase und wird aktiv entwickelt (unter der Zuhilfenahme von AI). Die Materialien, die hier zur Verfügung gestellt werden, sind vorläufig und können sich erheblich verändern. Bitte verwenden Sie sie mit Vorsicht und achten Sie darauf, dass sie möglicherweise noch nicht die endgültige Qualität oder den gewünschten Umfang repräsentieren, die für diese Ressource vorgesehen waren.
+Dieses Projekt ist derzeit noch in einer sehr frühen Phase und wird aktiv entwickelt. Die Materialien, die hier zur Verfügung gestellt werden, sind vorläufig und können sich erheblich verändern. Bitte verwenden Sie sie mit Vorsicht und achten Sie darauf, dass sie möglicherweise noch nicht die endgültige Qualität oder den gewünschten Umfang repräsentieren, die für diese Ressource vorgesehen waren.
+:::
+
+### Offenlegung des KI-Einsatzes bei diesem Kurs
+
+Dieser Kurs setzt selbst generative KI ein, und zwar bei der Erstellung seiner eigenen Materialien. Die Übung [Zitieren](exercises/zitieren.qmd) verlangt von Lernenden eine Offenlegung nach sechs Punkten; hier ist die Offenlegung, die derselbe Massstab für dieses Projekt verlangt.
+
+1. **Ob**: Ja, generative KI wurde eingesetzt.
+2. **Welche**: [Werkzeug, Version und Anbieter hier eintragen], Zeitraum [Zeitraum hier eintragen].
+3. **Zweck**: Unterstützung beim Verfassen und Übersetzen der Übungstexte (Deutsch führt, Englisch und Französisch folgen), bei der Strukturierung der Inhalte nach der in `AGENTS.md` festgelegten Vorlage, und bei der Recherche und Prüfung der zitierten Literatur.
+4. **Umfang**: [Hier eintragen, welche Dateien/Abschnitte betroffen sind, z. B. "alle Übungstexte in `de/`, `en/`, `fr/`"].
+5. **Prüfung**: Jede inhaltliche Aussage, jede Quellenangabe und jeder DOI wurde von der verantwortlichen Person geprüft, bevor sie veröffentlicht wurde.
+6. **Verantwortung**: Der Inhalt dieses Kurses ist die Verantwortung der Autorin bzw. des Autors (siehe `CITATION.cff`). Eine KI ist keine Autorin und trägt keine Verantwortung für diesen Text.
+
+::: callout-note
+
+## Warum diese Offenlegung hier steht, und nicht der frühere Satz
+
+Der frühere Satz auf dieser Seite lautete sinngemäss "entwickelt unter der Zuhilfenahme von AI". Die Übung [Zitieren](exercises/zitieren.qmd) nennt fast genau diesen Satz als Beispiel für eine **unzureichende** Offenlegung: Er nennt weder Werkzeug noch Zweck noch Umfang noch Prüfung. Diese Seite folgt jetzt demselben Massstab, den der Kurs von Lernenden verlangt.
+
+**Für die Kursverantwortlichen**: Die Felder in eckigen Klammern oben sind Platzhalter. Bitte ersetzen Sie sie mit den tatsächlichen Angaben, bevor Sie diese Änderung veröffentlichen. Beachten Sie dabei die Regel aus `AGENTS.md` Abschnitt 5, kein KI-Produkt und keinen Anbieter beim Namen zu nennen, ausserhalb von Zitationen; prüfen Sie, ob diese Regel auch für die Offenlegung der eigenen Kursentwicklung gelten soll, oder ob eine Offenlegung wie ein Zitat als Tatsachenangabe zu behandeln ist.
 :::
 
 ### Zweck

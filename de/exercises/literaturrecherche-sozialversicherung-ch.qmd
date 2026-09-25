@@ -10,7 +10,7 @@ author:
     affiliations:
       - "Universität Bern"
 date: "2025-12-29"
-date-modified: "2026-08-16"
+date-modified: "2026-09-25"
 categories: [Methoden]
 image: ../../assets/images/literature_research_Gemini_Generated_Image_77nsl877nsl877ns.png
 tags:
@@ -102,11 +102,11 @@ Die Übung folgt einem zirkulären Such- und Analyseprozess: Ausgangspunkt ist e
 | ------------------------ | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Dauer**                | ca. 1 Arbeitstag (6 bis 8 Stunden)                                                                                                                                                              |
 | **Niveau**               | Intermediate                                                                                                                                                                                    |
-| **Kernpfad**             | 1 → 2 → 3 → 5 → 6 → 8 → 9                                                                                                                                                                       |
-| **Optionale Vertiefung** | 4 (Spezialpfade), 7 (Debattenkartierung), Advanced Track                                                                                                                                        |
+| **Kernpfad**             | 1 → 2 → 3 → 5 → 6 → 7 → 8 → 9                                                                                                                                                                   |
+| **Optionale Vertiefung** | 4 (Spezialpfade), Advanced Track                                                                                                                                                                |
 | **Abgabe (Minimum)**     | [Rechercheprotokoll](../glossary.qmd#gl-rechercheprotokoll): 12 Einträge. [Reject-Log](../glossary.qmd#gl-reject-log): 5 Einträge. [KI-Protokoll](../glossary.qmd#gl-ki-protokoll): 4 Einträge. |
 
-Teilen Sie den Arbeitstag auf zwei oder drei Sitzungen auf. Der Kernpfad führt Sie zu einer präzisierten Forschungsfrage. Die optionale Vertiefung kostet ca. 2 Stunden zusätzlich.
+Teilen Sie den Arbeitstag auf zwei oder drei Sitzungen auf. Der Kernpfad führt Sie zu einer präzisierten Forschungsfrage. Schritt 7 (Debattenkartierung) ist neu Teil des Kernpfads, nicht mehr optional: Die Forschungslücke aus Schritt 8 lässt sich ohne diese Vorarbeit kaum präzise formulieren. Die verbleibende optionale Vertiefung (Spezialpfade, Advanced Track) kostet ca. 2 Stunden zusätzlich.
 
 ::: callout-caution
 

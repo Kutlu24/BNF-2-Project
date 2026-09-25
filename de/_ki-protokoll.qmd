@@ -19,10 +19,18 @@ Schreiben Sie den Eintrag direkt nach dem Arbeitsschritt, nicht am Ende der Übu
 
 Sie brauchen kein besonderes Werkzeug. Eine Textdatei oder ein Dokument in Ihrer Textverarbeitung genügt. Auch eine Tabelle in einem Tabellenprogramm ist möglich.
 
-1. Legen Sie pro Übung eine Datei an.
-2. Geben Sie der Datei einen klaren Namen, zum Beispiel `ki-protokoll_quellenkritik.md`.
-3. Schreiben Sie jeden Eintrag untereinander in dieselbe Datei.
-4. Speichern Sie die Datei zusammen mit Ihrer Abgabe.
+1. Legen Sie **eine einzige Datei für den ganzen Kurs** an, zum Beispiel `ki-protokoll.md`.
+2. Geben Sie der Datei diesen einen Namen und behalten Sie ihn über alle Übungen bei.
+3. Legen Sie pro Übung einen eigenen Abschnitt an, zum Beispiel `## Quellenkritik`, und schreiben Sie die Einträge dieser Übung darunter.
+4. Schreiben Sie jeden neuen Eintrag ans Ende des jeweiligen Abschnitts.
+5. Speichern Sie die Datei zusammen mit Ihrer Abgabe.
+
+::: callout-important
+
+## Eine Datei, nicht eine pro Übung
+
+Frühere Fassungen dieser Anleitung liessen offen, ob Sie eine Datei pro Übung oder eine Datei für den ganzen Kurs führen. Die Regel ist jetzt eindeutig: **eine Datei, ein Abschnitt pro Übung.** Übungen, die "Ihr KI-Protokoll aus den früheren Übungen" verlangen (zum Beispiel [Zitieren](zitieren.qmd)), meinen damit die früheren Abschnitte derselben Datei, kein Zusammenführen mehrerer Dateien.
+:::
 
 ### Wie lang ein Eintrag ist
 
@@ -39,35 +47,54 @@ Wie viel eine Übung verlangt, steht in der jeweiligen Übung. Manche Übungen n
 
 Kopieren Sie diese Tabelle für jeden Eintrag neu.
 
-| Feld                    | Inhalt |
-| ----------------------- | ------ |
-| Datum                   |        |
-| Schritt (Übung, Nummer) |        |
-| Ziel (1 Satz)           |        |
-| Material (Input)        |        |
-| Prompt (wörtlich)       |        |
-| Antwort (Kurzfassung)   |        |
-| Prüfschritte            |        |
-| Entscheidung            |        |
-| Begründung (1 Satz)     |        |
+| Feld                                | Inhalt |
+| ----------------------------------- | ------ |
+| Datum                               |        |
+| Schritt (Übung, Nummer)             |        |
+| Werkzeug (Name und Version)         |        |
+| Anbieter                            |        |
+| Kontotyp (kostenlos/bezahlt)        |        |
+| Websuche (an/aus)                   |        |
+| Denkmodus (an/aus, falls vorhanden) |        |
+| Datei hochgeladen (ja/nein)         |        |
+| Ziel (1 Satz)                       |        |
+| Material (Input)                    |        |
+| Prompt (wörtlich)                   |        |
+| Antwort (Kurzfassung)               |        |
+| Prüfschritte                        |        |
+| Entscheidung                        |        |
+| Begründung (1 Satz)                 |        |
 
 Wenn Sie in Markdown schreiben, kopieren Sie diesen Quelltext:
 
 ```markdown
-| Feld                    | Inhalt |
-| ----------------------- | ------ |
-| Datum                   |        |
-| Schritt (Übung, Nummer) |        |
-| Ziel (1 Satz)           |        |
-| Material (Input)        |        |
-| Prompt (wörtlich)       |        |
-| Antwort (Kurzfassung)   |        |
-| Prüfschritte            |        |
-| Entscheidung            |        |
-| Begründung (1 Satz)     |        |
+| Feld                         | Inhalt |
+| ----------------------------- | ------ |
+| Datum                         |        |
+| Schritt (Übung, Nummer)       |        |
+| Werkzeug (Name und Version)   |        |
+| Anbieter                      |        |
+| Kontotyp (kostenlos/bezahlt)  |        |
+| Websuche (an/aus)             |        |
+| Denkmodus (an/aus, falls vorhanden) |  |
+| Datei hochgeladen (ja/nein)   |        |
+| Ziel (1 Satz)                 |        |
+| Material (Input)              |        |
+| Prompt (wörtlich)             |        |
+| Antwort (Kurzfassung)         |        |
+| Prüfschritte                  |        |
+| Entscheidung                  |        |
+| Begründung (1 Satz)           |        |
 ```
 
 Eine Liste mit denselben Feldern ist ebenso gültig. Wählen Sie die Form, die Sie schneller ausfüllen.
+
+::: callout-note
+
+## Warum diese sechs neuen Felder
+
+Die Felder "Werkzeug", "Anbieter", "Kontotyp", "Websuche", "Denkmodus" und "Datei hochgeladen" fehlten in früheren Fassungen dieser Vorlage. Die Übung [Zitieren](zitieren.qmd) verlangt aber genau diese Angaben für die Offenlegung der KI-Nutzung ("Werkzeug, Version, Anbieter"), und [Prompt Engineering](prompt-engineering.qmd) Schritt 8 verlangt den Denkmodus "auf dieselbe Weise wie Modell und Datum". Ohne diese Felder im Protokoll können Sie die Offenlegung am Ende nicht schreiben. Füllen Sie diese sechs Felder einmal pro Sitzung aus, nicht pro Eintrag, wenn sich nichts ändert.
+:::
 
 ### Ein ausgefüllter Eintrag als Beispiel
 
@@ -88,4 +115,11 @@ Das Beispiel stammt aus der Übung [Quellenkritik](quellenkritik-bundesrat-europ
 Der Eintrag zeigt den Normalfall: Ein Teil der Antwort ist brauchbar, ein Teil ist falsch, und ein Teil ist unbelegt.
 
 Beachten Sie die dritte Kategorie. Die Studentin behauptet nicht, die Signatur sei erfunden. Sie hält nur fest, was sie prüfen kann: Die Signatur steht nicht im Material. Ob es den Bestand gibt, ist eine andere Frage. Sie können eine Angabe erst dann als falsch bezeichnen, wenn Sie sie geprüft haben. Bis dahin ist sie unbelegt. Diese Unterscheidung ist der Kern der Quellenkritik, und sie gilt auch gegenüber der KI.
+
+::: callout-note
+
+## Was zählt hier als "Material"
+
+"Material" meint in diesem Beispiel ausschliesslich den kopierten Text der Aktennotiz selbst, nicht die Fussnoten der gedruckten Edition. Die Edition von Dodis 5020 zitiert in ihren Fussnoten tatsächlich Aktenzeichen wie E 2001(E) und E 2800, aber diese Fussnoten waren nicht Teil dessen, was die Studentin in den Prompt kopiert hat. Die Signatur "steht nirgends im Material" heisst also: nirgends im kopierten Aktennotiz-Text, nicht: nirgends in der gedruckten Edition. Wenn Sie stattdessen die ganze Editionsseite mit Fussnoten kopieren, ändert sich, was als geprüft gelten kann.
+:::
 ::::

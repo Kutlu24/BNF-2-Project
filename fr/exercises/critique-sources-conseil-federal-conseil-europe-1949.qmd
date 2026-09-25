@@ -23,7 +23,7 @@ author:
     affiliations:
       - "Université de Berne"
 date: "2025-12-29"
-date-modified: "2026-08-17"
+date-modified: "2026-09-25"
 references:
 - id: altermatt-casasus-2013-europarat
   type: book
@@ -59,6 +59,15 @@ Cet exercice transmet des **compétences transférables de critique des sources*
 ## Remarque sur la transmission numérique
 
 La source utilisée ici existe dans une **édition numérique préparée éditorialement**. Pour la critique des sources, l'objet d'étude comprend donc non seulement le texte, mais aussi la **couche éditoriale** (métadonnées, cote d'archives, liens, principes d'édition). [@fickers2022criticism]
+:::
+
+::: callout-tip
+
+## Deux notions à connaître avant l'étape 1
+
+**Qui est Hansen?** La notice le nomme dans chaque prompt, mais ne le présente jamais. Le texte lui-même révèle que Hansen est l'interlocuteur danois de Petitpierre et vit en Suisse. Il transmet un message du ministre danois des Affaires étrangères Rasmussen. Cette seule information facilite nettement la tâche 5 de la critique interne («Que puis-je dire de la position danoise?»).
+
+**Qu'est-ce qu'une notice («Aktennotiz»)?** Dans la pratique administrative suisse, une «Aktennotiz» est un bref document informel destiné aux dossiers: elle consigne un entretien ou un fait, sans protocoler les participants, l'ordre du jour ou les décisions d'une séance. Elle est donc plus courte et plus informelle qu'un **procès-verbal** («Protokoll»), qui consigne le déroulement formel d'une séance. Cette distinction importe dans l'exemple de journal IA rempli dans l'exercice [Prompt Engineering](prompt-engineering.qmd) (section «Mode de travail: journal IA et test A/B»): l'IA y qualifie le texte de «procès-verbal d'une séance du Conseil fédéral», ce qui identifie mal le genre du texte.
 :::
 
 ## En un coup d'œil
@@ -102,6 +111,10 @@ Le système doit savoir faire les trois choses suivantes:
 
 - La source comme fichier. Vous téléchargez librement le document Dodis 5020, et vous n'avez besoin d'aucun accès institutionnel.
 - Un fichier pour votre journal d'analyse de source et un fichier pour votre journal IA.
+
+**Langue**
+
+La notice Dodis 5020 est en **français**. Décidez en outre dans quelle langue l'IA doit répondre et citer, et notez ce choix dans votre journal IA (voir [Prompt Engineering](prompt-engineering.qmd), section «Ce dont vous avez besoin»).
 
 {{< include ../_exigences-ia.qmd >}}
 
@@ -155,13 +168,28 @@ Qui parle et qui agit?
 Quelle est l'occasion?
 Quelle est l'affirmation ou la décision centrale?
 Quelle conséquence est suggérée?
+4 phrases au plus. Aucune interprétation.
 ```
+
+::: callout-note
+
+## Quand aucune conséquence n'est mentionnée explicitement
+
+La quatrième question demande une conséquence suggérée, mais la règle «aucune interprétation» reste valable. La notice consigne un refus et un signal de bonne volonté; tout ce qui va au-delà est déjà votre propre conclusion. **«Aucune mentionnée explicitement» est une réponse parfaitement valable** à cette question lorsque le texte n'énonce pas de conséquence de façon explicite.
+:::
 
 ::: callout-tip
 
 ## Téléverser la source
 
-Avant le téléversement, vérifiez si vous avez le droit de disposer du matériel. La section «Ce dont vous avez besoin» nomme les matériels qui restent hors du système d'IA. Le libre accès ne permet pas à lui seul un téléversement: une source librement accessible peut malgré tout interdire une communication. Vérifiez donc les conditions d'utilisation de Dodis avant de téléverser la numérisation.
+Avant le téléversement, vérifiez si vous avez le droit de disposer du matériel. La section «Ce dont vous avez besoin» nomme les matériels qui restent hors du système d'IA. Le libre accès ne permet pas à lui seul un téléversement: une source librement accessible peut malgré tout interdire une communication.
+
+::: callout-important
+
+## À propos des conditions d'utilisation de Dodis
+
+Le site de Dodis bloque l'accès automatisé; les conditions exactes de réutilisation des textes d'édition n'ont donc pas pu être vérifiées de manière concluante lors de la création de cet exercice (au 2026-09-25). La mention légale de Dodis attribue aux utilisateurs la responsabilité de la critique des sources, mais ne se prononce pas clairement sur une communication à un système d'IA. Vérifiez donc vous-même sur le site de Dodis si, et à quelles conditions, un téléversement à des fins d'étude est autorisé, avant de téléverser la numérisation. En cas de doute, copiez uniquement le texte brut de l'édition dans le prompt (voir l'exception ci-dessous) plutôt que de téléverser un fichier.
+:::
 
 Téléversez le document en fichier PDF avec le prompt. C'est le cas normal. Assurez-vous que l'IA a aussi accès aux métadonnées. Appelez les métadonnées en ligne ou indiquez-les vous-même.
 
@@ -253,7 +281,9 @@ Formulez trois questions vérifiables sur l'authenticité, par exemple:
 
 Reconstruisez une chaîne de transmission plausible:
 
-**Création → classement dans le processus administratif → archivage → catalogage → numérisation et édition → affichage sur le web**
+**Création → classement dans le processus administratif → archivage → catalogage → édition critique imprimée → numérisation → affichage sur le web**
+
+L'édition imprimée constitue ici une étape à part, souvent négligée: ce texte a paru en 2001 dans un volume imprimé des Documents diplomatiques suisses avant de devenir accessible comme page web. Vérifiez donc si les métadonnées web renvoient à cette édition imprimée (volume, éditeur, lieu de publication).
 
 À chaque étape, notez:
 
@@ -291,7 +321,7 @@ Important:
   [texte du document] / [édition/métadonnées] / [conclusion].
 ```
 
-### Consigne de réflexion
+### Consigne de travail (réflexion)
 
 - Où l'IA complète-t-elle systématiquement, et où **hallucine**-t-elle des hypothèses de transmission?
 - Quelles métadonnées reprend-elle correctement, lesquelles restent vagues ou fausses?
@@ -387,7 +417,7 @@ Règles:
 - N'utilise aucune information de contexte qui n'est pas présente dans le texte.
 ```
 
-### Consigne de réflexion
+### Consigne de travail (réflexion)
 
 - Quelles interprétations de l'IA sont proches du texte, lesquelles sont spéculatives?
 - Où l'IA nivelle-t-elle des perspectives institutionnelles en affirmations générales?
@@ -460,7 +490,7 @@ Consignes:
 - Focalisation exclusive sur les étapes de vérification et les contre-épreuves.
 ```
 
-### Consigne de réflexion
+### Consigne de travail (réflexion)
 
 - Quels contextes l'IA privilégie-t-elle systématiquement (politique, institutions)?
 - Quels contextes manquent de manière frappante (par exemple les médias, le droit, l'économie)?
@@ -527,13 +557,15 @@ Formule pour deux affirmations de la liste B une
 voie de falsification concrète chacune (quelle source devrait montrer quoi?).
 ```
 
-### Consigne de réflexion
+### Consigne de travail (réflexion)
+
+Sur la réponse de l'IA à la tâche 3:
 
 - Où l'IA est-elle étonnamment restrictive, et où est-elle trop généreuse?
 - Quelles affirmations paraissent «plausibles», mais font correctement l'objet d'un veto?
 - Comment la séparation explicite entre A et B modifie-t-elle votre propre envie d'interpréter?
 
-### Consigne de travail (réflexion)
+Sur votre propre analyse:
 
 - Quelle affirmation «aimerait-on faire», alors que la source ne la permet pas?
 - Où passe la limite entre l'**interprétation** et l'**affirmation**?

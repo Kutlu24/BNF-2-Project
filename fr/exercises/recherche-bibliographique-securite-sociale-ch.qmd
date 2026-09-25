@@ -10,7 +10,7 @@ author:
     affiliations:
       - "Université de Berne"
 date: "2025-12-29"
-date-modified: "2026-08-17"
+date-modified: "2026-09-25"
 categories: [Méthodes]
 image: ../../assets/images/literature_research_Gemini_Generated_Image_77nsl877nsl877ns.png
 tags:
@@ -109,11 +109,11 @@ L'exercice suit un processus circulaire de recherche et d'analyse: le point de d
 | ------------------------------- | ----------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------------- |
 | **Durée**                       | env. 1 journée de travail (6 à 8 heures)                                                                                                                                                                          |
 | **Niveau**                      | Intermediate                                                                                                                                                                                                      |
-| **Parcours principal**          | 1 → 2 → 3 → 5 → 6 → 8 → 9                                                                                                                                                                                         |
-| **Approfondissement optionnel** | 4 (voies spécialisées), 7 (cartographie des débats), Advanced Track                                                                                                                                               |
+| **Parcours principal**          | 1 → 2 → 3 → 5 → 6 → 7 → 8 → 9                                                                                                                                                                                     |
+| **Approfondissement optionnel** | 4 (voies spécialisées), Advanced Track                                                                                                                                                                            |
 | **Rendu (minimum)**             | [Journal de recherche documentaire](../glossary.qmd#gl-rechercheprotokoll): 12 entrées. [Journal des rejets](../glossary.qmd#gl-reject-log): 5 entrées. [Journal IA](../glossary.qmd#gl-ki-protokoll): 4 entrées. |
 
-Répartissez la journée de travail sur deux ou trois séances. Le parcours principal vous mène à une question de recherche précisée. L'approfondissement optionnel coûte environ 2 heures de plus.
+Répartissez la journée de travail sur deux ou trois séances. Le parcours principal vous mène à une question de recherche précisée. L'étape 7 (cartographie des débats) fait désormais partie du parcours principal, elle n'est plus optionnelle: sans ce travail préalable, la lacune de recherche de l'étape 8 est difficile à formuler avec précision. L'approfondissement optionnel restant (voies spécialisées, Advanced Track) coûte environ 2 heures de plus.
 
 ::: callout-caution
 

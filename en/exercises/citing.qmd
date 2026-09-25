@@ -10,7 +10,7 @@ author:
     affiliations:
       - "University of Bern"
 date: "2025-12-29"
-date-modified: "2026-08-16"
+date-modified: "2026-09-25"
 categories: [Methods]
 image: ../../assets/images/citing_Gemini_Generated_Image_331x2e331x2e331x.png
 tags:
@@ -114,7 +114,7 @@ This exercise was translated automatically from the [German original](../../de/e
 
 This exercise teaches the **fundamentals of academic citation** in historical research, with a particular focus on the **critical use of generative AI**. You learn how citations work as a methodological tool that makes historical arguments traceable and verifiable. You also learn how you shape AI-assisted work on text so that the **chain of evidence** stays intact.
 
-The exercise has two parts. The first part covers the **citation** of sources and literature. The second part covers the **disclosure**: the declaration in which you state your own AI use. This exercise closes both learning paths.
+The exercise has two parts. The first part covers the **citation** of sources and literature. The second part covers the **disclosure**: the declaration in which you state your own AI use. This exercise closes Track A. In Track B, the exercise [Public History](public-history.qmd) still follows after it.
 
 ## At a Glance
 
@@ -430,7 +430,7 @@ Andreas Fickers, "Update für die Hermeneutik. Geschichtswissenschaft auf dem We
 
 The full text and a PDF are freely available at <https://zeithistorische-forschungen.de/1-2020/5823>. Download the PDF before you start. You need it to check the AI answers against the original.
 
-**Variant with institutional access**: repeat both exercises with an article behind a paywall, for example <https://doi.org/10.1093/pastj/gtae018>. Compare how the answers of the AI differ.
+**Variant with institutional access**: repeat both exercises with an article that you can only reach through your university's library access (choose an example from your own library's databases). Compare how the answers of the AI differ. Always check an article's access status yourself before using it as an example: <https://doi.org/10.1093/pastj/gtae018>, named as an example text in the exercise [Public History](public-history.qmd), carries a CC-BY licence and is freely accessible, not behind a paywall.
 
 :::
 
