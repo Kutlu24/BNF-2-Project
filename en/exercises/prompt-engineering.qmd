@@ -10,7 +10,7 @@ author:
     affiliations:
       - "University of Bern"
 date: "2025-12-29"
-date-modified: "2026-08-16"
+date-modified: "2026-09-25"
 categories: [AI & Digital Methods]
 image: ../../assets/images/prompting_Gemini_Generated_Image_ez3ygnez3ygnez3y.png
 tags:
@@ -87,6 +87,10 @@ The system must be able to do the three following things:
 
 - A file for your AI log. A text file or a document in your word processor is enough.
 - The material package from the section "Case package for all exercises". For it you download a freely accessible source.
+
+**Language**
+
+The memorandum Dodis 5020 that you work with in this exercise is in **French**. All prompts below are in English, but none tells the model which language to answer or quote in. Decide this for yourself before you start (for example: "Answer in English, quote passages in the French original"), and note your choice in the AI log.
 
 {{< include ../_ai-requirements.qmd >}}
 
@@ -361,29 +365,39 @@ Write 3 to 5 short example sentences and label them. The sentences can be **fict
 
 ```markdown
 Examples (input → label):
-1) "Place: Bern; date: 7.7.1949." → [edition or metadata]
-2) "In the text, neutrality serves as an argument against a step X." → [document text]
-3) "It follows that Switzerland was fundamentally anti-European." → [conclusion] (too strong; needs a check or a weaker wording)
+1) "Bern, 7 July 1949." (the memorandum's own heading) → [document text] (place and date sit here in the document's own heading, not first in the edition)
+2) "Published in: Diplomatic Documents of Switzerland, vol. 17 (Zurich/Locarno/Geneva, 2001)." → [edition or metadata] (a statement about the printing, not about the document's content)
+3) "In the text, neutrality serves as an argument against a step X." → [conclusion] (already an analytical paraphrase, not the wording itself; [document text] would need the literal quotation)
+4) "It follows that Switzerland was fundamentally anti-European." → [conclusion] (too strong; needs a check or a weaker wording)
 
 Task:
 Now label the following 10 sentences from my material as
 [document text] / [edition or metadata] / [conclusion].
 For each label, give 1 piece of evidence (a quotation fragment or a metadata field) or "no support".
-Material: ...
+Material: [insert your 10 sentences from the memorandum here]
 ```
+
+::: callout-note
+
+## Why examples 1 and 2 changed
+
+Earlier versions of this example labelled "Place: Bern; date: 7.7.1949" as [edition or metadata] and an already-analytical paraphrase as [document text]. Both labels were contestable: a memorandum usually carries place and date in its own heading, not first in the printed edition, and a sentence that already states an interpretation ("neutrality serves as an argument") is no longer a literal passage. The corrected examples above show the distinction this task is actually meant to train.
+:::
 
 **Work assignment:** Then take the few-shot block into your prompt from the exercise [Source Criticism](source-criticism-federal-council-council-of-europe-1949.qmd), and check whether the labels become more reliable.
 
 ### Exercise 4B: Few-shot for Research Questions (Weak Against Strong)
 
-Take 2 weak and 2 strong questions from your exercise [Research Question](formulating-historical-research-question-switzerland-council-of-europe.qmd) or from the seminar. Enter them as examples with a short comment.
+This exercise needs no result from the exercise [Research Question](formulating-historical-research-question-switzerland-council-of-europe.qmd). The two weak and two strong examples below are enough. If you have already done the Research Question exercise, you can also add your own questions.
 
 **Scaffold:**
 
 ```markdown
 Examples (weak/strong):
-Weak: "Why did Switzerland join the Council of Europe?" → too broad, teleological, unclear evidence base.
-Strong: "How was 'neutrality' operationalized in internal FDFA notes of 1949–1953 as an argument for or against an institutional rapprochement with the Council of Europe?" → clear operator, period, closeness to the sources.
+Weak 1: "Why did Switzerland join the Council of Europe?" → too broad, teleological, unclear evidence base.
+Weak 2: "Was Swiss neutrality policy successful after 1945?" → evaluative, no checkable standard for "successful".
+Strong 1: "How was 'neutrality' operationalized in internal FDFA notes of 1949–1953 as an argument for or against an institutional rapprochement with the Council of Europe?" → clear operator, period, closeness to the sources.
+Strong 2: "Which actors within the federal administration held differing positions on Council of Europe accession in 1949, and how can this be read from the surviving records?" → checkable actors, concrete source basis.
 
 Task:
 Formulate 3 new research questions in the style of the strong examples.
@@ -454,12 +468,10 @@ Material: ...
 
 ### Exercise 5B: Research Plan as a Pipeline
 
-Transfer the structure from [Source Search](source-search-vorort-council-of-europe-1963.qmd) (sub-questions → source types → search locations → search strings) into an explicit pipeline:
-
-Replace the example question in the following prompt with your own question.
+Transfer the structure from [Source Search](source-search-vorort-council-of-europe-1963.qmd) (sub-questions → source types → search locations → search strings) into an explicit pipeline. Insert your own question below; the bracketed question is only a placeholder, not a suggestion to adopt.
 
 ```markdown
-Goal: Build a research plan for the question: How did neutrality serve between 1949 and 1963 as an argument against an accession of Switzerland to the Council of Europe?
+Goal: Build a research plan for the question: [insert your own research question, for example one from exercise 4B or from the Research Question exercise]
 
 Steps:
 1) Break the question into 4–6 sub-questions that I can check.

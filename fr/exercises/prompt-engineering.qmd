@@ -10,7 +10,7 @@ author:
     affiliations:
       - "Université de Berne"
 date: "2025-12-29"
-date-modified: "2026-08-17"
+date-modified: "2026-09-25"
 categories: [IA & Méthodes numériques]
 image: ../../assets/images/prompting_Gemini_Generated_Image_ez3ygnez3ygnez3y.png
 tags:
@@ -87,6 +87,10 @@ Le système doit savoir faire les trois choses suivantes:
 
 - Un fichier pour votre journal IA. Un fichier texte ou un document dans votre traitement de texte suffit.
 - Le paquet de matériel de la section «Paquet de cas pour tous les exercices». Vous téléchargez pour cela une source librement accessible.
+
+**Langue**
+
+La notice Dodis 5020 avec laquelle vous travaillez dans cet exercice est en **français**. Tous les prompts ci-dessous sont en français, mais aucun ne précise dans quelle langue le modèle doit répondre ou citer. Décidez-le vous-même avant de commencer (par exemple: «Réponds en français, cite les passages dans l'original français»), et notez votre choix dans le journal IA.
 
 {{< include ../_exigences-ia.qmd >}}
 
@@ -361,29 +365,39 @@ Créez 3 à 5 phrases d'exemple courtes (elles peuvent être **fictives**, mais 
 
 ```markdown
 Exemples (entrée → étiquette):
-1) "Lieu: Berne; date: 7.7.1949." → [édition/métadonnées]
-2) "Dans le texte, la neutralité sert d'argument contre une étape X." → [texte du document]
-3) "Il en découle que la Suisse était fondamentalement anti-européenne." → [conclusion] (trop forte; à vérifier ou à atténuer)
+1) "Berne, le 7 juillet 1949." (en-tête de la notice elle-même) → [texte du document] (le lieu et la date figurent ici dans l'en-tête du document, pas seulement dans l'édition)
+2) "Publié dans: Documents diplomatiques suisses, vol. 17 (Zurich/Locarno/Genève, 2001)." → [édition/métadonnées] (une indication sur l'impression, pas sur le contenu du document)
+3) "Dans le texte, la neutralité sert d'argument contre une étape X." → [conclusion] (déjà une paraphrase analytique, pas le texte littéral; pour [texte du document] il faudrait la citation littérale)
+4) "Il en découle que la Suisse était fondamentalement anti-européenne." → [conclusion] (trop forte; à vérifier ou à atténuer)
 
 Tâche:
 Étiquette maintenant les 10 phrases suivantes de mon matériel comme
 [texte du document] / [édition/métadonnées] / [conclusion].
 Pour chaque étiquette, donne 1 indice de preuve (fragment de citation ou champ de métadonnées) ou «pas d'appui».
-Matériel: ...
+Matériel: [insérer ici vos 10 phrases tirées de la notice]
 ```
+
+::: callout-note
+
+## Pourquoi les exemples 1 et 2 ont changé
+
+Les versions précédentes de cet exemple étiquetaient «Lieu: Berne; date: 7.7.1949» comme [édition/métadonnées] et une paraphrase déjà analytique comme [texte du document]. Les deux attributions étaient contestables: une notice porte généralement le lieu et la date dans son propre en-tête, pas seulement dans l'édition imprimée, et une phrase qui formule déjà une interprétation («la neutralité sert d'argument») n'est plus un passage littéral. Les exemples corrigés ci-dessus montrent la distinction que cette tâche est censée entraîner.
+:::
 
 **Consigne de travail:** reprenez ensuite le bloc few-shot dans votre prompt de l'exercice [Critique des sources](critique-sources-conseil-federal-conseil-europe-1949.qmd) et vérifiez si les étiquettes deviennent plus fiables.
 
 ### Exercice 4B: few-shot pour les questions de recherche (faible ou forte)
 
-Prenez 2 questions faibles et 2 questions fortes (de votre exercice [Question de recherche](formuler-question-recherche-historique-suisse-conseil-europe.qmd) ou du séminaire) et saisissez-les comme exemples, avec un bref commentaire.
+Cet exercice ne nécessite aucun résultat de l'exercice [Question de recherche](formuler-question-recherche-historique-suisse-conseil-europe.qmd). Les deux exemples faibles et les deux exemples forts ci-dessous suffisent. Si vous avez déjà fait l'exercice Question de recherche, vous pouvez aussi ajouter vos propres questions.
 
 **Ossature:**
 
 ```markdown
 Exemples (faible/forte):
-Faible: "Pourquoi la Suisse a-t-elle adhéré au Conseil de l'Europe?" → trop large, téléologique, base de preuves floue.
-Forte: "Comment la 'neutralité' a-t-elle été opérationnalisée dans les notes internes du DFAE de 1949 à 1953, comme argument pour ou contre un rapprochement institutionnel avec le Conseil de l'Europe?" → opérateur clair, période, proximité des sources.
+Faible 1: "Pourquoi la Suisse a-t-elle adhéré au Conseil de l'Europe?" → trop large, téléologique, base de preuves floue.
+Faible 2: "La politique de neutralité suisse a-t-elle été un succès après 1945?" → évaluative, aucun critère vérifiable pour «succès».
+Forte 1: "Comment la 'neutralité' a-t-elle été opérationnalisée dans les notes internes du DFAE de 1949 à 1953, comme argument pour ou contre un rapprochement institutionnel avec le Conseil de l'Europe?" → opérateur clair, période, proximité des sources.
+Forte 2: "Quels acteurs au sein de l'administration fédérale défendaient en 1949 des positions divergentes sur une adhésion au Conseil de l'Europe, et comment cela se lit-il dans les archives?" → acteurs vérifiables, base documentaire concrète.
 
 Tâche:
 Formule 3 nouvelles questions de recherche dans le style des exemples forts.
@@ -454,12 +468,10 @@ Matériel: ...
 
 ### Exercice 5B: le plan de recherche comme chaîne de traitement
 
-Transposez la structure de l'exercice [Recherche de sources](recherche-sources-vorort-conseil-europe-1963.qmd) (sous-questions → types de sources → lieux de recherche → chaînes de recherche) en une chaîne de traitement explicite:
-
-Remplacez dans le prompt suivant la question d'exemple par votre propre question.
+Transposez la structure de l'exercice [Recherche de sources](recherche-sources-vorort-conseil-europe-1963.qmd) (sous-questions → types de sources → lieux de recherche → chaînes de recherche) en une chaîne de traitement explicite. Insérez ci-dessous votre propre question; la question entre crochets n'est qu'un espace réservé, pas une suggestion à reprendre telle quelle.
 
 ```markdown
-But: établis un plan de recherche pour la question: comment la neutralité a-t-elle servi, entre 1949 et 1963, d'argument contre une adhésion de la Suisse au Conseil de l'Europe?
+But: établis un plan de recherche pour la question: [insérer votre propre question de recherche, par exemple une question de l'exercice 4B ou de l'exercice Question de recherche]
 
 Étapes:
 1) Décompose en 4–6 sous-questions (vérifiables).
