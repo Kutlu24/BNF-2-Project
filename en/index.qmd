@@ -26,7 +26,27 @@ aliases:
 This repository provides structured, hands-on exercises for historians to develop **critical AI literacy**, **digital source criticism**, and **scholarly practice** with large language models (LLMs).
 
 ::: {.callout-warning title="DISCLAIMER"}
-This project is currently under active development (with the help of AI) and in a very early stage. The materials provided here are preliminary and may change significantly. Please use them with caution and be aware that they may not yet represent the final quality or scope intended for this resource.
+This project is currently under active development and in a very early stage. The materials provided here are preliminary and may change significantly. Please use them with caution and be aware that they may not yet represent the final quality or scope intended for this resource.
+:::
+
+### Disclosure of AI use for this course
+
+This course itself uses generative AI, in building its own materials. The [Citing](exercises/citing.qmd) exercise asks learners for a disclosure with six points; here is the disclosure that the same standard requires for this project.
+
+1. **Whether**: Yes, generative AI was used.
+2. **Which**: [enter tool, version and provider here], period [enter period here].
+3. **Purpose**: Support in writing and translating the exercise texts (German leads, English and French follow), in structuring the content per the template fixed in `AGENTS.md`, and in researching and checking the cited literature.
+4. **Extent**: [enter which files/sections are affected here, e.g. "all exercise texts in `de/`, `en/`, `fr/`"].
+5. **Verification**: Every substantive claim, every citation and every DOI was checked by the responsible person before publication.
+6. **Responsibility**: The content of this course is the responsibility of the author (see `CITATION.cff`). An AI is not an author and carries no responsibility for this text.
+
+::: callout-note
+
+## Why this disclosure is here, and not the earlier sentence
+
+The earlier sentence on this page said, in effect, "developed with the help of AI". The [Citing](exercises/citing.qmd) exercise names almost exactly this sentence as an example of an **insufficient** disclosure: it names no tool, no purpose, no extent and no verification. This page now follows the same standard the course asks of learners.
+
+**For the course maintainers**: the bracketed fields above are placeholders. Please replace them with the real details before publishing this change. Note the rule in `AGENTS.md` section 5 against naming an AI product or vendor outside a citation; consider whether that rule should also cover the disclosure of the course's own development, or whether a disclosure, like a citation, states a fact rather than prose.
 :::
 
 ### Purpose

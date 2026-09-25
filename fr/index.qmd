@@ -24,7 +24,27 @@ listing:
 Ce dépôt propose des exercices structurés et pratiques permettant aux historien·ne·s de développer une **littératie critique de l'IA**, une **critique des sources numériques** et des **pratiques savantes** avec les grands modèles de langage (LLM).
 
 ::: {.callout-warning title="DISCLAIMER"}
-Ce projet est actuellement en développement actif (avec l'aide de l'IA) et dans une phase très précoce. Les matériels fournis ici sont provisoires et peuvent subir des changements significatifs. Utilisez-les avec prudence et soyez conscients que les ressources actuelles peuvent ne pas représenter la qualité finale ou l'étendue voulue pour cette ressource.
+Ce projet est actuellement en développement actif et dans une phase très précoce. Les matériels fournis ici sont provisoires et peuvent subir des changements significatifs. Utilisez-les avec prudence et soyez conscients que les ressources actuelles peuvent ne pas représenter la qualité finale ou l'étendue voulue pour cette ressource.
+:::
+
+### Déclaration de l'usage de l'IA pour ce cours
+
+Ce cours emploie lui-même de l'IA générative, pour construire ses propres matériels. L'exercice [Citer](exercises/citer.qmd) demande aux apprenants une déclaration en six points; voici la déclaration que le même standard exige pour ce projet.
+
+1. **Si**: oui, de l'IA générative a été employée.
+2. **Lesquels**: [indiquer ici l'outil, la version et le fournisseur], période [indiquer ici la période].
+3. **But**: aide à la rédaction et à la traduction des textes d'exercices (l'allemand mène, l'anglais et le français suivent), à la structuration du contenu selon le modèle fixé dans `AGENTS.md`, et à la recherche et à la vérification de la littérature citée.
+4. **Étendue**: [indiquer ici quels fichiers/sections sont concernés, par exemple «tous les textes d'exercices dans `de/`, `en/`, `fr/`»].
+5. **Vérification**: chaque affirmation de fond, chaque citation et chaque DOI a été vérifié par la personne responsable avant publication.
+6. **Responsabilité**: le contenu de ce cours relève de la responsabilité de l'autrice ou de l'auteur (voir `CITATION.cff`). Une IA n'est pas une autrice et ne porte aucune responsabilité pour ce texte.
+
+::: callout-note
+
+## Pourquoi cette déclaration est ici, et non la phrase précédente
+
+La phrase précédente sur cette page disait, en substance, «développé avec l'aide de l'IA». L'exercice [Citer](exercises/citer.qmd) nomme presque exactement cette phrase comme exemple d'une déclaration **insuffisante**: elle ne nomme ni outil, ni but, ni étendue, ni vérification. Cette page suit maintenant le même standard que le cours exige des apprenants.
+
+**Pour les responsables du cours**: les champs entre crochets ci-dessus sont des espaces réservés. Merci de les remplacer par les indications réelles avant de publier ce changement. Notez la règle de `AGENTS.md` section 5 contre le fait de nommer un produit ou un fournisseur d'IA en dehors d'une citation; examinez si cette règle doit aussi couvrir la déclaration du développement du cours lui-même, ou si une déclaration, comme une citation, énonce un fait plutôt qu'une prose.
 :::
 
 ### Objectif
