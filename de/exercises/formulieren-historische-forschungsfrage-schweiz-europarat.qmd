@@ -97,7 +97,7 @@ Das System muss die zwei folgenden Dinge können:
 
 **Sprache**
 
-Drei der vier Vergleichsleitfäden in Schritt 1 (Basel, Zürich, Bremen) sind auf Deutsch; nur der Leitfaden aus Hamburg liegt ebenfalls auf Deutsch vor, es gibt in dieser Liste keinen englischsprachigen Leitfaden. Planen Sie Zeit für die Lektüre auf Deutsch ein, wenn das nicht Ihre Arbeitssprache ist.
+Drei der vier Vergleichsleitfäden in Schritt 1 (Zürich, Bremen, Hamburg) liegen nur auf Deutsch vor. Der Leitfaden aus Basel existiert zusätzlich in einer englischen Übersetzung ("History: A Toolkit for Students") - für die englischsprachige Version dieser Übung wird diese englische Fassung verlinkt.
 
 {{< include ../_ki-anforderungen.qmd >}}
 

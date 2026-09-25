@@ -10,7 +10,7 @@ author:
     affiliations:
       - "Université de Berne"
 date: "2025-12-29"
-date-modified: "2026-08-17"
+date-modified: "2026-09-25"
 categories: [Méthodes]
 image: ../../assets/images/research_question_Gemini_Generated_Image_25bend25bend25be.png
 tags:
@@ -102,6 +102,10 @@ Le système doit savoir faire les deux choses suivantes:
 - Un fichier pour votre journal IA.
 - Un compte pour le catalogue de bibliothèque de votre haute école. Vous vérifiez avec lui la situation documentaire à l'étape 4.
 
+**Langue**
+
+Aucun des quatre guides de comparaison de l'étape 1 n'est disponible en français: celui de Bâle est en anglais, ceux de Zurich, Brême et Hambourg sont en allemand. Prévoyez du temps de lecture dans ces langues si le français est votre seule langue de travail.
+
 {{< include ../_exigences-ia.qmd >}}
 
 ## Objectifs d'apprentissage
@@ -151,7 +155,7 @@ Quelles étapes sont nécessaires pour développer une question de recherche his
 
 Comparez systématiquement la réponse de l'IA avec:
 
-- [History: A Toolkit for Students (Université de Bâle)](https://dg.philhist.unibas.ch/fileadmin/user_upload/dg/Studium/Fuer_Studierende/Werkzeugkasten/Dokumente/Texte_des_Werkzeugkastens/History_a_Toolkit_en.pdf) (ENGLISH only)
+- [History: A Toolkit for Students (Université de Bâle)](https://dg.philhist.unibas.ch/fileadmin/user_upload/dg/Studium/Fuer_Studierende/Werkzeugkasten/Dokumente/Texte_des_Werkzeugkastens/History_a_Toolkit_en.pdf) (ENGLISH only) — voir «Formulating a Research Question», p. 9–11, plutôt que de parcourir les 156 pages du PDF
 - [Kompass Geschichtsstudium (Université de Zurich)](https://www.hist.uzh.ch/de/studium/geschichte-studieren-in-zuerich/studienrelevante-dokumente/kompass.html) (GERMAN only)
 - [Leitfaden Geschichtswissenschaft (Université de Brême)](https://www.uni-bremen.de/fileadmin/user_upload/fachbereiche/fb8/ifges/Geschaeftsfuehrung/Sonstiges/Leitfaden_8._Auflage_IS.pdf) (GERMAN only)
 - [Studienleitfaden Fachbereich Geschichte (Université de Hambourg)](https://www.geschichte.uni-hamburg.de/1ressourcen/studienleitfaden.pdf) (GERMAN only)
@@ -267,12 +271,9 @@ Apprécier si une question de recherche est **traitable sur la base des sources*
 
 ### Tâche (sources primaires)
 
-Remplacez dans le prompt suivant la question d'exemple par votre propre question de travail.
-
 ```markdown
 Quelles sources primaires conviennent à l'étude de la question de recherche
-«Comment la neutralité a-t-elle servi, entre 1949 et 1963, d'argument contre une adhésion
-de la Suisse au Conseil de l'Europe?»
+«[insérer votre propre question de travail, pas une question d'exemple donnée]»
 ```
 
 Si nécessaire:
@@ -311,18 +312,9 @@ Transformer une problématique ouverte en une **question de recherche historique
 
 ### Tâche (délimitation)
 
-Remplacez dans le prompt suivant la question d'exemple par votre propre question de travail.
-
 ```markdown
 Propose des délimitations temporelles, spatiales et thématiques possibles pour la question de recherche
-«Comment la neutralité a-t-elle servi, entre 1949 et 1963, d'argument contre une adhésion
-de la Suisse au Conseil de l'Europe?»
-```
-
-### Tâche (formulation)
-
-```markdown
-Formule sur cette base une question de recherche historique analytique.
+«[insérer votre propre question de travail, pas une question d'exemple donnée]»
 ```
 
 ### Contrôle de qualité
@@ -332,6 +324,24 @@ La question de recherche devrait:
 - être ouverte et analytique («comment», «pourquoi», «dans quelle mesure»),
 - être contextualisée historiquement,
 - paraître traitable avec les sources disponibles.
+
+### Tâche (formulation): vous écrivez, l'IA critique
+
+Formulez **vous-même** une première version de votre question de recherche historique analytique, sur la base des délimitations de l'étape précédente. C'est votre propre décision de recherche, pas une tâche pour l'IA.
+
+Laissez ensuite l'IA seulement **critiquer**, pas reformuler:
+
+```markdown
+Voici ma question de recherche: [insérer votre propre question].
+Vérifie-la selon ces trois critères:
+- Est-elle ouverte et analytique («comment», «pourquoi», «dans quelle mesure»)?
+- Est-elle contextualisée historiquement (période, espace, acteurs reconnaissables)?
+- Paraît-elle traitable avec les sources disponibles?
+Indique pour chaque critère s'il est rempli, et sinon pourquoi pas.
+Ne propose pas de formulation alternative, seulement la critique.
+```
+
+Révisez ensuite votre question vous-même, sur la base de la critique.
 
 ## 6. Révision itérative et réflexion
 
