@@ -1,16 +1,23 @@
 ---
 title: "Exercices"
 lang: fr
-date-modified: "2026-08-17"
+date-modified: "2026-09-25"
 listing:
   id: exercises
   # Ordre d'apprentissage, et non alphabétique. « sort: false » conserve cet ordre.
+  # Critique des sources avant recherche de sources (et non l'inverse) :
+  # la recherche de sources est l'exercice le plus difficile et le plus long
+  # (Advanced, plusieurs jours), mais la critique des sources enseigne
+  # justement la compétence de lecture nécessaire pour évaluer une source
+  # trouvée. L'ordre précédent produisait aussi le saut de difficulté
+  # Beginner -> Advanced -> Intermediate signalé dans le Friction Log v3,
+  # point d'achoppement 7.
   contents:
     - prompt-engineering.qmd
     - recherche-bibliographique-securite-sociale-ch.qmd
     - formuler-question-recherche-historique-suisse-conseil-europe.qmd
-    - recherche-sources-vorort-conseil-europe-1963.qmd
     - critique-sources-conseil-federal-conseil-europe-1949.qmd
+    - recherche-sources-vorort-conseil-europe-1963.qmd
     - ecriture.qmd
     - citer.qmd
     - public-history.qmd
@@ -46,8 +53,8 @@ Commencez par l'exercice [Prompt Engineering](prompt-engineering.qmd). Il est la
 1. [Prompt Engineering](prompt-engineering.qmd) – la base commune. Vous y créez aussi votre [journal IA](../glossary.qmd#gl-ki-protokoll).
 2. [Recherche bibliographique](recherche-bibliographique-securite-sociale-ch.qmd) – explorer l'état de la recherche de manière systématique.
 3. [Question de recherche](formuler-question-recherche-historique-suisse-conseil-europe.qmd) – faire du sujet une question traitable.
-4. [Recherche de sources](recherche-sources-vorort-conseil-europe-1963.qmd) – trouver des sources primaires et planifier l'accès.
-5. [Critique des sources](critique-sources-conseil-federal-conseil-europe-1949.qmd) – examiner et situer une source unique.
+4. [Critique des sources](critique-sources-conseil-federal-conseil-europe-1949.qmd) – examiner et situer une source unique. Vous avez besoin de cette compétence de lecture pour l'exercice suivant.
+5. [Recherche de sources](recherche-sources-vorort-conseil-europe-1963.qmd) – utiliser cette compétence de lecture pour trouver d'autres sources primaires et planifier l'accès.
 6. [Écriture scientifique](ecriture.qmd) – développer un texte à partir du matériel.
 7. [Citation](citer.qmd) – sécuriser les références et déclarer votre usage de l'IA.
 8. [Public History](public-history.qmd) – traduire les résultats pour un public.

@@ -80,8 +80,8 @@ Ce parcours vous guide à travers l'ensemble du processus de recherche en utilis
 
 1. [**Prompt Engineering**](exercises/prompt-engineering.qmd): Bases de l'interaction avec les LLM.
 2. [**Question de recherche**](exercises/formuler-question-recherche-historique-suisse-conseil-europe.qmd): Développer une question de recherche historique.
-3. [**Recherche de sources**](exercises/recherche-sources-vorort-conseil-europe-1963.qmd): Recherche ciblée de sources primaires.
-4. [**Critique des sources**](exercises/critique-sources-conseil-federal-conseil-europe-1949.qmd): Appliquer la critique des sources numériques.
+3. [**Critique des sources**](exercises/critique-sources-conseil-federal-conseil-europe-1949.qmd): Appliquer la critique des sources numériques – la compétence de lecture nécessaire pour l'exercice suivant.
+4. [**Recherche de sources**](exercises/recherche-sources-vorort-conseil-europe-1963.qmd): Utiliser cette compétence de lecture pour une recherche ciblée d'autres sources primaires.
 5. [**Écriture**](exercises/ecriture.qmd): Rédiger et affiner des textes historiques.
 6. [**Citer**](exercises/citer.qmd): Documenter correctement l'utilisation de l'IA.
 

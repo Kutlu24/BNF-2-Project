@@ -82,8 +82,8 @@ This track guides you through the entire research process using the example of S
 
 1. [**Prompt Engineering**](exercises/prompt-engineering.qmd): Basics of interacting with LLMs.
 2. [**Research Question**](exercises/formulating-historical-research-question-switzerland-council-of-europe.qmd): Developing a historical research question.
-3. [**Source Search**](exercises/source-search-vorort-council-of-europe-1963.qmd): Targeted search for primary sources.
-4. [**Source Criticism**](exercises/source-criticism-federal-council-council-of-europe-1949.qmd): Applying digital source criticism.
+3. [**Source Criticism**](exercises/source-criticism-federal-council-council-of-europe-1949.qmd): Applying digital source criticism — the reading skill the next exercise needs.
+4. [**Source Search**](exercises/source-search-vorort-council-of-europe-1963.qmd): Using this reading skill for a targeted search for further primary sources.
 5. [**Writing**](exercises/writing.qmd): Drafting and refining historical texts.
 6. [**Citing**](exercises/citing.qmd): Properly documenting AI use.
 

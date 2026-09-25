@@ -80,8 +80,8 @@ Dieser Pfad führt Sie durch den gesamten Forschungsprozess am Beispiel der Schw
 
 1. [**Prompt Engineering**](exercises/prompt-engineering.qmd): Grundlagen der Interaktion mit LLMs.
 2. [**Forschungsfrage**](exercises/formulieren-historische-forschungsfrage-schweiz-europarat.qmd): Eine historische Forschungsfrage entwickeln.
-3. [**Quellensuche**](exercises/quellensuche-vorort-europarat-1963.qmd): Gezielte Suche nach Primärquellen.
-4. [**Quellenkritik**](exercises/quellenkritik-bundesrat-europarat-1949.qmd): Digitale Quellenkritik anwenden.
+3. [**Quellenkritik**](exercises/quellenkritik-bundesrat-europarat-1949.qmd): Digitale Quellenkritik anwenden – die Lesefähigkeit, die die nächste Übung braucht.
+4. [**Quellensuche**](exercises/quellensuche-vorort-europarat-1963.qmd): Mit dieser Lesefähigkeit gezielt weitere Primärquellen finden.
 5. [**Schreiben**](exercises/schreiben.qmd): Texte verfassen und überarbeiten.
 6. [**Zitieren**](exercises/zitieren.qmd): KI-Nutzung korrekt ausweisen.
 

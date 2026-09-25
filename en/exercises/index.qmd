@@ -1,16 +1,22 @@
 ---
 title: Exercises
 lang: en
-date-modified: "2026-08-16"
+date-modified: "2026-09-25"
 listing:
   id: exercises
   # Learning order, not alphabetical order. "sort: false" keeps this order.
+  # Source Criticism before Source Search (not the reverse): Source Search
+  # is the hardest and longest exercise (Advanced, several days), but
+  # Source Criticism teaches exactly the reading skill needed to assess a
+  # source once found. The previous order (Source Search before Source
+  # Criticism) also produced the Beginner -> Advanced -> Intermediate
+  # difficulty jump flagged in Friction Log v3, stumbling block 7.
   contents:
     - prompt-engineering.qmd
     - literature-research-social-security-ch.qmd
     - formulating-historical-research-question-switzerland-council-of-europe.qmd
-    - source-search-vorort-council-of-europe-1963.qmd
     - source-criticism-federal-council-council-of-europe-1949.qmd
+    - source-search-vorort-council-of-europe-1963.qmd
     - writing.qmd
     - citing.qmd
     - public-history.qmd
@@ -46,8 +52,8 @@ Start with the exercise [Prompt Engineering](prompt-engineering.qmd). It is the 
 1. [Prompt Engineering](prompt-engineering.qmd) – the shared basis. You also set up your [AI log](../glossary.qmd#gl-ki-protokoll) here.
 2. [Literature Research](literature-research-social-security-ch.qmd) – open up the state of research systematically.
 3. [Research Question](formulating-historical-research-question-switzerland-council-of-europe.qmd) – turn the topic into a question that you can work on.
-4. [Source Search](source-search-vorort-council-of-europe-1963.qmd) – find primary sources and plan the access.
-5. [Source Criticism](source-criticism-federal-council-council-of-europe-1949.qmd) – check and classify one single source.
+4. [Source Criticism](source-criticism-federal-council-council-of-europe-1949.qmd) – check and classify one single source. You need this reading skill for the next exercise.
+5. [Source Search](source-search-vorort-council-of-europe-1963.qmd) – use this reading skill to find further primary sources and plan the access.
 6. [Academic Writing](writing.qmd) – develop a text from your material.
 7. [Citing](citing.qmd) – secure your references and disclose your own AI use.
 8. [Public History](public-history.qmd) – translate the results for an audience.
