@@ -10,7 +10,7 @@ author:
     affiliations:
       - "University of Bern"
 date: "2025-12-29"
-date-modified: "2026-08-16"
+date-modified: "2026-09-25"
 categories: [Methods]
 image: ../../assets/images/literature_research_Gemini_Generated_Image_77nsl877nsl877ns.png
 tags:
@@ -109,11 +109,11 @@ The exercise follows a circular process of search and analysis. It starts from a
 | ---------------------- | ------------------------------------------------------------------------------------------------------------------------------------------------------------------------------ |
 | **Duration**           | about 1 working day (6 to 8 hours)                                                                                                                                             |
 | **Level**              | Intermediate                                                                                                                                                                   |
-| **Core path**          | 1 → 2 → 3 → 5 → 6 → 8 → 9                                                                                                                                                      |
-| **Optional deepening** | 4 (special paths), 7 (mapping the debate), the advanced track                                                                                                                  |
+| **Core path**          | 1 → 2 → 3 → 5 → 6 → 7 → 8 → 9                                                                                                                                                  |
+| **Optional deepening** | 4 (special paths), the advanced track                                                                                                                                          |
 | **Hand-in (minimum)**  | [Search log](../glossary.qmd#gl-rechercheprotokoll): 12 entries. [Reject log](../glossary.qmd#gl-reject-log): 5 entries. [AI log](../glossary.qmd#gl-ki-protokoll): 4 entries. |
 
-Split the working day over two or three sessions. The core path leads you to a precise research question. The optional deepening costs about 2 hours more.
+Split the working day over two or three sessions. The core path leads you to a precise research question. Step 7 (mapping the debate) moved from optional into the core path: step 8's gap-in-research statement is hard to formulate well without it, so treating it as optional left the core path with a hidden dependency. The remaining optional deepening (special paths, advanced track) costs about 2 hours more.
 
 ::: callout-caution
 

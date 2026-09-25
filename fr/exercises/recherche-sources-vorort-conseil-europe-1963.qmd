@@ -10,7 +10,7 @@ author:
     affiliations:
       - "Université de Berne"
 date: "2025-12-29"
-date-modified: "2026-08-17"
+date-modified: "2026-09-25"
 categories: [Sources]
 image: ../../assets/images/source_research_Gemini_Generated_Image_u5ngfyu5ngfyu5ng.png
 tags:
@@ -445,13 +445,14 @@ Au moins 3 entrées. Chaque entrée contient:
 
 ## Résultat d'apprentissage
 
-À la fin, vous disposez de ces artefacts:
+À la fin, vous disposez de ces artefacts issus du parcours principal:
 
 1. La matrice des sources (sous-questions × types de sources)
 2. Le journal de recherche documentaire (≥ 15 entrées)
 3. La liste restreinte: 10 unités de sources primaires
-4. La bibliographie brièvement annotée (8 à 12 titres)
-5. La réflexion sur l'usage de l'IA, journal IA compris (≥ 3 entrées)
+4. La réflexion sur l'usage de l'IA, journal IA compris (≥ 3 entrées)
+
+Si vous avez aussi traité l'approfondissement optionnel (étape 5), vous disposez en plus d'une bibliographie brièvement annotée (8 à 12 titres).
 
 S'y ajoute une connaissance méthodique: vous pouvez justifier quelles voies de recherche livrent des résultats solides, et où une réponse d'IA ne fait que sonner juste.
 

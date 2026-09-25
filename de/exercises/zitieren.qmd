@@ -10,7 +10,7 @@ author:
     affiliations:
       - "Universität Bern"
 date: "2025-12-29"
-date-modified: "2026-08-16"
+date-modified: "2026-09-25"
 categories: [Methoden]
 image: ../../assets/images/citing_Gemini_Generated_Image_331x2e331x2e331x.png
 tags:
@@ -107,7 +107,7 @@ references:
 
 Diese Übung vermittelt die **Grundlagen wissenschaftlichen Zitierens** in der Geschichtswissenschaft, mit besonderem Fokus auf den **kritischen Einsatz generativer KI**. Sie lernen, wie Zitate als methodisches Werkzeug funktionieren, um historische Argumente nachvollziehbar und überprüfbar zu machen. Sie lernen ausserdem, wie Sie KI-gestützte Textarbeit so gestalten, dass die **Evidenzkette** intakt bleibt.
 
-Die Übung hat zwei Teile. Der erste Teil behandelt das **Zitieren** von Quellen und Literatur. Der zweite Teil behandelt die **Offenlegung**: die Erklärung, mit der Sie Ihre eigene KI-Nutzung ausweisen. Diese Übung schliesst beide Lernpfade ab.
+Die Übung hat zwei Teile. Der erste Teil behandelt das **Zitieren** von Quellen und Literatur. Der zweite Teil behandelt die **Offenlegung**: die Erklärung, mit der Sie Ihre eigene KI-Nutzung ausweisen. Diese Übung schliesst Track A ab. In Track B folgt danach noch die Übung [Public History](public-history.qmd).
 
 ## Auf einen Blick
 
@@ -426,7 +426,7 @@ Andreas Fickers, «Update für die Hermeneutik. Geschichtswissenschaft auf dem W
 
 Der Volltext und ein PDF stehen frei unter <https://zeithistorische-forschungen.de/1-2020/5823>. Laden Sie das PDF vor Beginn herunter. Sie brauchen es, um die KI-Antworten gegen das Original zu prüfen.
 
-**Variante mit institutionellem Zugang**: Wiederholen Sie beide Übungen mit einem Artikel hinter einer Bezahlschranke, zum Beispiel <https://doi.org/10.1093/pastj/gtae018>. Vergleichen Sie, wie sich die Antworten der KI unterscheiden.
+**Variante mit institutionellem Zugang**: Wiederholen Sie beide Übungen mit einem Artikel, den Sie nur über den Bibliothekszugang Ihrer Hochschule erreichen (wählen Sie ein Beispiel aus den Datenbanken Ihrer eigenen Bibliothek). Vergleichen Sie, wie sich die Antworten der KI unterscheiden. Prüfen Sie den Zugangsstatus eines Artikels immer selbst, bevor Sie ihn als Beispiel verwenden: <https://doi.org/10.1093/pastj/gtae018>, das in der Übung [Public History](public-history.qmd) als Beispieltext genannt wird, trägt eine CC-BY-Lizenz und ist frei zugänglich, nicht hinter einer Bezahlschranke.
 
 :::
 

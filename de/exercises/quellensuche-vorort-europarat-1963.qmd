@@ -10,7 +10,7 @@ author:
     affiliations:
       - "Universität Bern"
 date: "2025-12-29"
-date-modified: "2026-08-16"
+date-modified: "2026-09-25"
 categories: [Quellen]
 image: ../../assets/images/source_research_Gemini_Generated_Image_u5ngfyu5ngfyu5ng.png
 tags:
@@ -438,13 +438,14 @@ Mindestens 3 Einträge. Jeder Eintrag enthält:
 
 ## Lernergebnis
 
-Am Ende verfügen Sie über diese Artefakte:
+Am Ende verfügen Sie über diese Artefakte aus dem Kernpfad:
 
 1. Quellen-Matrix (Teilfragen × Quellentypen)
 2. Rechercheprotokoll (≥ 15 Einträge)
 3. Shortlist: 10 Primärquellen-Einheiten
-4. Kurzannotierte Bibliografie (8–12 Titel)
-5. Reflexion zum KI-Einsatz inkl. KI-Protokoll (≥ 3 Einträge)
+4. Reflexion zum KI-Einsatz inkl. KI-Protokoll (≥ 3 Einträge)
+
+Wenn Sie zusätzlich die optionale Vertiefung (Schritt 5) bearbeitet haben, verfügen Sie ausserdem über eine kurzannotierte Bibliografie (8–12 Titel).
 
 Dazu kommt eine methodische Einsicht: Sie können begründen, welche Suchwege belastbare Treffer liefern und wo eine KI-Antwort nur plausibel klingt.
 

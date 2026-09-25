@@ -10,7 +10,7 @@ author:
     affiliations:
       - "Université de Berne"
 date: "2025-12-29"
-date-modified: "2026-08-17"
+date-modified: "2026-09-25"
 categories: [Méthodes]
 image: ../../assets/images/citing_Gemini_Generated_Image_331x2e331x2e331x.png
 tags:
@@ -114,7 +114,7 @@ Cet exercice a été traduit automatiquement depuis l'[original allemand](../../
 
 Cet exercice transmet les **bases de la citation scientifique** en sciences historiques, avec un accent particulier sur l'**usage critique de l'IA générative**. Vous apprenez comment les citations fonctionnent comme outil méthodique, pour rendre les arguments historiques traçables et vérifiables. Vous apprenez en outre comment organiser le travail de texte assisté par l'IA pour que la **chaîne de preuves** reste intacte.
 
-L'exercice a deux parties. La première partie traite de la **citation** des sources et de la littérature. La seconde partie traite de la **déclaration**: l'énoncé par lequel vous exposez votre propre usage de l'IA. Cet exercice clôt les deux parcours d'apprentissage.
+L'exercice a deux parties. La première partie traite de la **citation** des sources et de la littérature. La seconde partie traite de la **déclaration**: l'énoncé par lequel vous exposez votre propre usage de l'IA. Cet exercice clôt le parcours A. Dans le parcours B, l'exercice [Public History](public-history.qmd) suit encore après celui-ci.
 
 ## En un coup d'œil
 
@@ -433,7 +433,7 @@ Andreas Fickers, «Update für die Hermeneutik. Geschichtswissenschaft auf dem W
 
 Le texte intégral et un PDF sont librement disponibles sur <https://zeithistorische-forschungen.de/1-2020/5823>. Téléchargez le PDF avant de commencer. Vous en avez besoin pour vérifier les réponses de l'IA contre l'original.
 
-**Variante avec un accès institutionnel**: refaites les deux exercices avec un article derrière un péage, par exemple <https://doi.org/10.1093/pastj/gtae018>. Comparez la manière dont les réponses de l'IA diffèrent.
+**Variante avec un accès institutionnel**: refaites les deux exercices avec un article que vous ne pouvez atteindre que via l'accès bibliothèque de votre haute école (choisissez un exemple dans les bases de données de votre propre bibliothèque). Comparez la manière dont les réponses de l'IA diffèrent. Vérifiez toujours vous-même le statut d'accès d'un article avant de l'utiliser comme exemple: <https://doi.org/10.1093/pastj/gtae018>, cité comme texte d'exemple dans l'exercice [Public History](public-history.qmd), porte une licence CC-BY et est en libre accès, pas derrière un péage.
 
 :::
 
