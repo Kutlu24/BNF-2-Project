@@ -23,7 +23,7 @@ author:
     affiliations:
       - "Universität Bern"
 date: "2025-12-29"
-date-modified: "2026-08-16"
+date-modified: "2026-09-25"
 references:
 - id: altermatt-casasus-2013-europarat
   type: book
@@ -52,6 +52,15 @@ Diese Übung vermittelt **übertragbare Kompetenzen der Quellenkritik** (äusser
 ## Hinweis zur digitalen Überlieferung
 
 Die hier verwendete Quelle liegt in einer **editorisch aufbereiteten digitalen Edition** vor. Für die Quellenkritik gehört deshalb nicht nur der Text, sondern auch die **Editionsebene** (Metadaten, Archivsignatur, Verlinkungen, Editionsrichtlinien) zum Untersuchungsgegenstand. [@fickers2022criticism]
+:::
+
+::: callout-tip
+
+## Zwei Begriffe, die Sie vor Schritt 1 kennen sollten
+
+**Wer ist Hansen?** Die Notiz nennt ihn in jedem Prompt, führt ihn aber nirgends ein. Aus dem Text selbst geht hervor: Hansen ist der dänische Gesprächspartner Petitpierres und lebt in der Schweiz. Er überbringt eine Botschaft des dänischen Aussenministers Rasmussen. Diese eine Information löst Aufgabe 5 der internen Kritik («Was kann ich über die dänische Position sagen?») deutlich leichter.
+
+**Was ist eine Aktennotiz?** In der schweizerischen Verwaltungspraxis ist eine Aktennotiz eine kurze, formlose Dokumentation für die Akten: Sie hält ein Gespräch oder einen Sachverhalt fest, ohne Sitzungsteilnehmende, Traktanden oder Beschlüsse zu protokollieren. Sie ist deshalb kürzer und informeller als ein **Protokoll**, das eine Sitzung im formalen Ablauf festhält. Diese Unterscheidung ist im ausgefüllten KI-Protokoll-Beispiel in der Übung [Prompt Engineering](prompt-engineering.qmd) (Abschnitt «Arbeitsmodus: KI-Protokoll und A/B-Testing») wichtig: Die KI dort nennt den Text ein «Protokoll einer Bundesratssitzung», was die Textsorte falsch bestimmt.
 :::
 
 ## Auf einen Blick
@@ -95,6 +104,10 @@ Das System muss die drei folgenden Dinge können:
 
 - Die Quelle als Datei. Sie laden das Dokument Dodis 5020 frei herunter, und Sie brauchen dafür keinen institutionellen Zugang.
 - Eine Datei für Ihr Analyseprotokoll und eine Datei für Ihr KI-Protokoll.
+
+**Sprache**
+
+Die Aktennotiz Dodis 5020 ist auf **Französisch**. Rechnen Sie mit zusätzlicher Zeit für die Übersetzung, wenn Französisch nicht Ihre Arbeitssprache ist. Legen Sie ausserdem fest, in welcher Sprache die KI antworten und zitieren soll, und notieren Sie diese Wahl im KI-Protokoll (siehe [Prompt Engineering](prompt-engineering.qmd), Abschnitt «Was Sie brauchen»).
 
 {{< include ../_ki-anforderungen.qmd >}}
 
@@ -148,13 +161,28 @@ Wer spricht/handelt?
 Was ist der Anlass?
 Was ist die zentrale Aussage/Entscheidung?
 Welche Konsequenz wird angedeutet?
+Maximal 4 Sätze. Keine Interpretation.
 ```
+
+::: callout-note
+
+## Wenn keine Konsequenz explizit genannt wird
+
+Die vierte Frage fragt nach einer angedeuteten Konsequenz, aber die Regel «Keine Interpretation» gilt weiterhin. Die Notiz hält eine Absage und ein Wohlwollenssignal fest; alles darüber hinaus ist bereits Ihre eigene Schlussfolgerung. **«Keine explizit genannt» ist eine vollständig gültige Antwort** auf diese Frage, wenn der Text keine Konsequenz ausdrücklich benennt.
+:::
 
 ::: callout-tip
 
 ## Hochladen der Quelle
 
-Prüfen Sie vor dem Upload, ob Sie über das Material verfügen dürfen. Der Abschnitt «Was Sie brauchen» nennt die Materialien, die ausserhalb des KI-Systems bleiben. Freier Zugang allein erlaubt keinen Upload: eine frei zugängliche Quelle kann eine Weitergabe trotzdem untersagen. Prüfen Sie deshalb die Nutzungsbedingungen von Dodis, bevor Sie das Digitalisat hochladen.
+Prüfen Sie vor dem Upload, ob Sie über das Material verfügen dürfen. Der Abschnitt «Was Sie brauchen» nennt die Materialien, die ausserhalb des KI-Systems bleiben. Freier Zugang allein erlaubt keinen Upload: eine frei zugängliche Quelle kann eine Weitergabe trotzdem untersagen.
+
+::: callout-important
+
+## Zu den Nutzungsbedingungen von Dodis
+
+Die Dodis-Website blockiert automatisierten Zugriff, deshalb konnten die genauen Wiederverwendungsbedingungen für Editionstexte bei der Erstellung dieser Übung (Stand 2026-09-25) nicht abschliessend geprüft werden. Das Impressum von Dodis weist die Verantwortung für die Quellenkritik den Nutzenden zu, äussert sich aber nicht eindeutig zu einer Weitergabe an ein KI-System. Prüfen Sie deshalb selbst auf der Dodis-Website, ob und unter welchen Bedingungen ein Upload zu Studienzwecken zulässig ist, bevor Sie das Digitalisat hochladen. Kopieren Sie im Zweifelsfall nur den reinen Editionstext in den Prompt (siehe die Ausnahmeregel unten), statt eine Datei hochzuladen.
+:::
 
 Laden Sie das Dokument als PDF-Datei zusammen mit dem Prompt hoch. Das ist der Normalfall. Stellen Sie sicher, dass die KI auch Zugriff auf die Metadaten hat. Rufen Sie die Metadaten online ab oder geben Sie sie selbst an.
 
@@ -246,7 +274,9 @@ Formulieren Sie drei prüfbare Fragen zur Authentizität, z. B.:
 
 Rekonstruieren Sie eine plausible Überlieferungskette:
 
-**Entstehung → Ablage im Verwaltungsprozess → Archivierung → Erschliessung → Digitalisierung/Edition → Anzeige im Web**
+**Entstehung → Ablage im Verwaltungsprozess → Archivierung → Erschliessung → gedruckte kritische Edition → Digitalisierung → Anzeige im Web**
+
+Die gedruckte Edition ist hier eine eigene, oft übersehene Station: Dieser Text erschien 2001 in einem gedruckten Editionsband der Diplomatischen Dokumente der Schweiz, bevor er als Webseite zugänglich wurde. Prüfen Sie deshalb, ob die Web-Metadaten auf diese gedruckte Ausgabe verweisen (Band, Verlag, Erscheinungsort).
 
 Notieren Sie an jeder Station:
 
@@ -284,7 +314,7 @@ Wichtig:
   [Dokumenttext] / [Edition/Metadaten] / [Schlussfolgerung].
 ```
 
-### Reflexionsauftrag
+### Arbeitsauftrag (Reflexion)
 
 - Wo ergänzt die KI systematisch, wo **halluziniert** sie Überlieferungsannahmen?
 - Welche Metadaten übernimmt sie korrekt, welche bleiben vage oder falsch?
@@ -380,7 +410,7 @@ Regeln:
 - Keine Kontextinformationen verwenden, die nicht im Text angelegt sind.
 ```
 
-### Reflexionsauftrag
+### Arbeitsauftrag (Reflexion)
 
 - Welche Interpretationen der KI sind textnah, welche spekulativ?
 - Wo nivelliert die KI institutionelle Perspektiven zu allgemeinen Aussagen?
@@ -453,7 +483,7 @@ Vorgaben:
 - Fokus ausschliesslich auf Prüfschritte und Gegenproben.
 ```
 
-### Reflexionsauftrag
+### Arbeitsauftrag (Reflexion)
 
 - Welche Kontexte priorisiert die KI systematisch (Politik, Institutionen)?
 - Welche Kontexte fehlen auffällig (z. B. Medien, Recht, Ökonomie)?
@@ -520,13 +550,15 @@ Formuliere für zwei Aussagen aus Liste B je einen
 konkreten Falsifikationspfad (welche Quelle müsste was zeigen?).
 ```
 
-### Reflexionsauftrag
+### Arbeitsauftrag (Reflexion)
+
+Zur KI-Antwort aus Aufgabe 3:
 
 - Wo ist die KI überraschend restriktiv, wo zu grosszügig?
 - Welche Aussagen erscheinen „plausibel“, werden aber korrekt vetoisiert?
 - Wie verändert die explizite A/B-Trennung den eigenen Interpretationsdrang?
 
-### Arbeitsauftrag (Reflexion)
+Zu Ihrer eigenen Analyse:
 
 - Welche Aussage „würde man gern machen“, aber die Quelle erlaubt sie nicht?
 - Wo ist die Grenze zwischen **Interpretation** und **Behauptung**?

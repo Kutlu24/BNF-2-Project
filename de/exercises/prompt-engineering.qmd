@@ -10,7 +10,7 @@ author:
     affiliations:
       - "Universität Bern"
 date: "2025-12-29"
-date-modified: "2026-08-16"
+date-modified: "2026-09-25"
 categories: [KI & Digitale Methoden]
 image: ../../assets/images/prompting_Gemini_Generated_Image_ez3ygnez3ygnez3y.png
 tags:
@@ -80,6 +80,10 @@ Das System muss die drei folgenden Dinge können:
 
 - Eine Datei für Ihr KI-Protokoll. Eine Textdatei oder ein Dokument in Ihrer Textverarbeitung genügt.
 - Das Materialpaket aus dem Abschnitt «Fallpaket für alle Übungen». Sie laden dafür eine frei zugängliche Quelle herunter.
+
+**Sprache**
+
+Die Aktennotiz Dodis 5020, mit der Sie in dieser Übung arbeiten, ist auf **Französisch**. Alle Prompts unten sind auf Deutsch, aber keiner sagt dem Modell, in welcher Sprache es antworten oder zitieren soll. Legen Sie das für sich selbst fest, bevor Sie beginnen (zum Beispiel: «Antworte auf Deutsch, zitiere Textstellen im französischen Original»), und notieren Sie Ihre Wahl im KI-Protokoll.
 
 {{< include ../_ki-anforderungen.qmd >}}
 
@@ -354,29 +358,39 @@ Erstellen Sie 3–5 kurze Beispielsätze (dürfen **fiktiv**, aber historisch pl
 
 ```markdown
 Beispiele (Input → Label):
-1) "Ort: Bern; Datum: 7.7.1949." → [Edition/Metadaten]
-2) "Im Text wird Neutralität als Argument gegen einen Schritt X verwendet." → [Dokumenttext]
-3) "Daraus folgt, dass die Schweiz grundsätzlich anti-europäisch war." → [Schlussfolgerung] (zu stark; müsste geprüft/abgeschwächt werden)
+1) "Bern, den 7. Juli 1949." (Kopfzeile der Aktennotiz selbst) → [Dokumenttext] (Ort und Datum stehen hier in der Kopfzeile des Dokuments, nicht erst in der Edition)
+2) "Herausgegeben in: Diplomatische Dokumente der Schweiz, Bd. 17 (Zürich/Locarno/Genf, 2001)." → [Edition/Metadaten] (eine Angabe über die Drucklegung, nicht über den Inhalt des Dokuments)
+3) "Im Text wird Neutralität als Argument gegen einen Schritt X verwendet." → [Schlussfolgerung] (bereits eine analytische Paraphrase, nicht der Wortlaut selbst; für [Dokumenttext] bräuchte es das wörtliche Zitat)
+4) "Daraus folgt, dass die Schweiz grundsätzlich anti-europäisch war." → [Schlussfolgerung] (zu stark; müsste geprüft/abgeschwächt werden)
 
 Aufgabe:
 Labeln Sie nun die folgenden 10 Sätze aus meinem Material als
 [Dokumenttext] / [Edition/Metadaten] / [Schlussfolgerung].
 Geben Sie bei jedem Label 1 Evidenzhinweis (Zitatfragment/Metadatenfeld) oder 'keine Stütze'.
-Material: ...
+Material: [hier Ihre 10 Sätze aus der Aktennotiz einfügen]
 ```
+
+::: callout-note
+
+## Warum Beispiel 1 und 2 geändert wurden
+
+Frühere Fassungen dieses Beispiels labelten «Ort: Bern; Datum: 7.7.1949» als [Edition/Metadaten] und eine bereits analytische Paraphrase als [Dokumenttext]. Beide Zuordnungen waren angreifbar: Aktennotizen tragen Ort und Datum meist in der eigenen Kopfzeile, nicht erst in der gedruckten Edition, und ein Satz, der bereits eine Interpretation formuliert ("Neutralität wird als Argument verwendet"), ist keine wörtliche Textstelle mehr. Die korrigierten Beispiele oben zeigen die Unterscheidung, die diese Aufgabe eigentlich trainieren soll.
+:::
 
 **Arbeitsauftrag:** Übernehmen Sie danach den Few-shot-Block in Ihren Prompt aus der Übung [Quellenkritik](quellenkritik-bundesrat-europarat-1949.qmd) und prüfen Sie, ob die Labels zuverlässiger werden.
 
 ### Übung 4B: Few-shot für Forschungsfragen (schwach vs. stark)
 
-Nehmen Sie 2 schwache und 2 starke Fragen (aus Ihrer Übung [Forschungsfrage](formulieren-historische-forschungsfrage-schweiz-europarat.qmd) oder aus dem Seminar) und geben Sie sie als Beispiele mit kurzem Kommentar ein.
+Diese Übung braucht kein Ergebnis aus der Übung [Forschungsfrage](formulieren-historische-forschungsfrage-schweiz-europarat.qmd). Die zwei schwachen und zwei starken Beispiele unten genügen. Wenn Sie die Forschungsfrage-Übung bereits gemacht haben, können Sie Ihre eigenen Fragen zusätzlich einsetzen.
 
 **Gerüst:**
 
 ```markdown
 Beispiele (Schwach/Stark):
-Schwach: "Warum trat die Schweiz dem Europarat bei?" → zu breit, teleologisch, unklare Evidenzbasis.
-Stark: "Wie wurde 'Neutralität' in internen EDA-Notizen 1949–1953 als Argument für/gegen eine institutionelle Annäherung an den Europarat operationalisiert?" → klarer Operator, Zeitraum, Quellennähe.
+Schwach 1: "Warum trat die Schweiz dem Europarat bei?" → zu breit, teleologisch, unklare Evidenzbasis.
+Schwach 2: "War die Schweizer Neutralitätspolitik nach 1945 erfolgreich?" → wertend, kein prüfbarer Massstab für "erfolgreich".
+Stark 1: "Wie wurde 'Neutralität' in internen EDA-Notizen 1949–1953 als Argument für/gegen eine institutionelle Annäherung an den Europarat operationalisiert?" → klarer Operator, Zeitraum, Quellennähe.
+Stark 2: "Welche Akteure innerhalb der Bundesverwaltung vertraten 1949 unterschiedliche Positionen zu einem Europarats-Beitritt, und woran lässt sich das in der Aktenüberlieferung ablesen?" → prüfbare Akteure, konkrete Quellenbasis.
 
 Aufgabe:
 Formuliere 3 neue Forschungsfragen im Stil der starken Beispiele.
@@ -447,12 +461,10 @@ Material: ...
 
 ### Übung 5B: Rechercheplan als Pipeline
 
-Übertragen Sie die Struktur aus [Quellensuche](quellensuche-vorort-europarat-1963.qmd) (Teilfragen → Quellentypen → Suchorte → Suchstrings) in eine explizite Pipeline:
-
-Ersetzen Sie im folgenden Prompt die Beispielfrage durch Ihre eigene Frage.
+Übertragen Sie die Struktur aus [Quellensuche](quellensuche-vorort-europarat-1963.qmd) (Teilfragen → Quellentypen → Suchorte → Suchstrings) in eine explizite Pipeline. Setzen Sie unten Ihre eigene Frage ein; die Frage in Klammern ist nur ein Platzhalter und kein Vorschlag, den Sie übernehmen sollten.
 
 ```markdown
-Ziel: Erstelle einen Rechercheplan zur Frage: Wie wurde Neutralität zwischen 1949 und 1963 als Argument gegen einen Beitritt der Schweiz zum Europarat verwendet?
+Ziel: Erstelle einen Rechercheplan zur Frage: [Ihre eigene Forschungsfrage einsetzen, zum Beispiel eine Frage aus Übung 4B oder aus der Übung Forschungsfrage]
 
 Schritte:
 1) Zerlege in 4–6 Teilfragen (prüfbar).
