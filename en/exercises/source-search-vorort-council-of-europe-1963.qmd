@@ -155,6 +155,7 @@ The Vorort holdings and finding aids are mostly in German, and the newspaper arc
 ::: {.callout-tip title="Required reading"}
 
 - @putnam2016shadows (access is often only through a university library): What are the consequences of full-text search for the sources you select? Answer in three sentences before you start step 3.
+- No access to a text? See [Reading access](../reading-access.qmd).
 
 :::
 

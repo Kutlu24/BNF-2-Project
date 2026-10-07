@@ -9,6 +9,8 @@ nocite: |
 
 ## Remarque: droits d'auteur
 
+Les sources librement lisibles et la manière d'obtenir les autres figurent sur la page [Accès aux lectures](acces-aux-lectures.qmd).
+
 Nous nous efforçons d'utiliser des ouvrages librement accessibles. Si cela n'est pas possible, nous vous prions de vous procurer les ouvrages via la plateforme bibliothécaire [LIBER Libraries](https://libereurope.eu/user-list/). Malgré des arguments valables, nous déconseillons l'utilisation de plateformes telles que [Anna's Archive](https://fr.wikipedia.org/wiki/Anna%27s_Archive) ou [Library Genesis](https://fr.wikipedia.org/wiki/Library_Genesis).
 
 Voir @karaganis2018shadow

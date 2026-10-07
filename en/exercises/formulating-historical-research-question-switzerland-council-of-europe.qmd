@@ -125,6 +125,7 @@ Three of the four comparison guides in step 1 (Zurich, Bremen, Hamburg) are Germ
 ::: {.callout-tip title="Required reading"}
 
 - Basel "History: A Toolkit for Students", section "Formulating a Research Question" (around p. 11). Questions: which two features of a workable question does the section name? Test your question against both before you finish step 1.
+- No access to a text? See [Reading access](../reading-access.qmd).
 
 :::
 

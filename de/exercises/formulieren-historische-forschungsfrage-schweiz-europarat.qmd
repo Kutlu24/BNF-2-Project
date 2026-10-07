@@ -117,6 +117,7 @@ Drei der vier Vergleichsleitfäden in Schritt 1 (Zürich, Bremen, Hamburg) liege
 ::: {.callout-tip title="Pflichtlektüre"}
 
 - Basel «History: A Toolkit for Students», Abschnitt «Formulating a Research Question» (um S. 11). Fragen: Welche zwei Merkmale einer bearbeitbaren Frage nennt der Abschnitt? Prüfen Sie Ihre Frage an beiden Merkmalen, bevor Sie Schritt 1 abschliessen.
+- Kein Zugriff auf einen Text? Siehe [Lesezugang](../lesezugang.qmd).
 
 :::
 

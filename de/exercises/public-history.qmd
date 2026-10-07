@@ -172,6 +172,7 @@ Der Beispielartikel ist auf Englisch, Ihr Zielpublikum kann eine andere Sprache 
 ::: {.callout-tip title="Pflichtlektüre"}
 
 - Der Ausgangsartikel selbst. Lesen Sie ihn vollständig und notieren Sie fünf Kernaussagen mit Seitenzahl, bevor Sie Schritt 1 beginnen. Nur diese Kernaussagen gehen in das Quellenpaket.
+- Kein Zugriff auf einen Text? Siehe [Lesezugang](../lesezugang.qmd).
 
 :::
 

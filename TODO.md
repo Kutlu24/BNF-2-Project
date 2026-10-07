@@ -51,3 +51,15 @@ These items need a human decision or real model output. They are marked with `TO
 - Pilot with 5 to 8 students: log actual minutes per step, run the prompts on two consumer systems, then rewrite the "At a glance" tables.
 - Fill the placeholders in the course's own AI-use disclosure on the home page.
 - Interactive web version: every `_rueckmeldung.qmd` / `_feedback.qmd` / `_retour.qmd` include marks the place for a per-page feedback form. Bracketed `[...]` fields in prompts and templates mark the inputs the interactive page should render as form fields.
+
+## Reading access (open-access check)
+
+`scripts/reading_access.py` classifies every entry of `bibliography.bib` and generates the pages
+`de/lesezugang.qmd`, `en/reading-access.qmd` and `fr/acces-aux-lectures.qmd`. Do not edit those pages by hand.
+
+- `python3 scripts/reading_access.py fetch` asks OpenAlex for each DOI and writes `data/reading-access.json`.
+  Entries without a DOI are classified by hand in `OVERRIDES` (with a note of what was verified).
+- `python3 scripts/reading_access.py pages` rewrites the three pages from that file.
+- Re-run both before a release and review the diff. A new bibliography entry without a DOI needs an `OVERRIDES` entry.
+- Open to check once in a browser: the EDPB consultation page (the host did not resolve during the check) and the
+  Data Feminism web edition (the automated check got HTTP 403).

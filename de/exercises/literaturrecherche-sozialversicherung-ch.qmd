@@ -166,6 +166,7 @@ Die Plattform «Geschichte der Sozialen Sicherheit in der Schweiz» und das Hist
 ::: {.callout-tip title="Pflichtlektüre"}
 
 - @walters2023fabrication (bereits in Prompt Engineering gelesen): Lesen Sie die Ergebnisse noch einmal, bevor Sie Schritt 3 beginnen, und notieren Sie drei Prüfschritte für jeden Literaturhinweis der KI.
+- Kein Zugriff auf einen Text? Siehe [Lesezugang](../lesezugang.qmd).
 
 :::
 

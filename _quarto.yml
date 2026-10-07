@@ -65,6 +65,8 @@ website:
           href: en/templates.qmd
         - text: Glossary
           href: en/glossary.qmd
+        - text: Reading access
+          href: en/reading-access.qmd
         - text: Bibliography
           href: en/bibliography.qmd
     - id: de
@@ -92,6 +94,8 @@ website:
           href: de/vorlagen.qmd
         - text: Glossar
           href: de/glossary.qmd
+        - text: Lesezugang
+          href: de/lesezugang.qmd
         - text: Bibliographie
           href: de/bibliography.qmd
     - id: fr
@@ -119,6 +123,8 @@ website:
           href: fr/modeles.qmd
         - text: Glossaire
           href: fr/glossary.qmd
+        - text: Accès aux lectures
+          href: fr/acces-aux-lectures.qmd
         - text: Bibliographie
           href: fr/bibliography.qmd
 format:

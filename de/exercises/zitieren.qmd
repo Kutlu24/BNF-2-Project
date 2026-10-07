@@ -180,6 +180,7 @@ Der Testartikel von Fickers (2020) liegt nur auf Deutsch vor. Sie brauchen Deuts
 ::: {.callout-tip title="Pflichtlektüre"}
 
 - Chicago Manual of Style, Quick Guide: <https://www.chicagomanualofstyle.org/tools_citationguide.html>. Frage: Wie zitiert der Guide einen Zeitschriftenartikel mit DOI? Schreiben Sie Ihre eigene Zitierung des Testartikels **vor** Übung 1 und vergleichen Sie danach.
+- Kein Zugriff auf einen Text? Siehe [Lesezugang](../lesezugang.qmd).
 
 :::
 

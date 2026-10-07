@@ -188,6 +188,7 @@ The test article by Fickers (2020) is available in German only. You need to read
 ::: {.callout-tip title="Required reading"}
 
 - Chicago Manual of Style, Quick Guide: <https://www.chicagomanualofstyle.org/tools_citationguide.html>. Question: how does the guide cite a journal article with a DOI? Write your own citation of the test article **before** exercise 1 and compare afterwards.
+- No access to a text? See [Reading access](../reading-access.qmd).
 
 :::
 

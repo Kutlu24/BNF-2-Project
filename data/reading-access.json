@@ -1,0 +1,480 @@
+{
+	"checked": "2026-10-07",
+	"entries": {
+		"bender2021stochastic": {
+			"status": "hybrid",
+			"is_oa": true,
+			"url": "https://doi.org/10.1145/3442188.3445922",
+			"license": "cc-by",
+			"version": "publishedVersion",
+			"repository_copy": null,
+			"source": "openalex",
+			"doi": "10.1145/3442188.3445922"
+		},
+		"buolamwini2018gender": {
+			"status": "open",
+			"url": "https://proceedings.mlr.press/v81/buolamwini18a.html",
+			"license": null,
+			"verified": "page opens (HTTP 200); PMLR proceedings are free to read",
+			"source": "manual"
+		},
+		"buolamwini2023unmasking": {
+			"status": "closed",
+			"kind": "book",
+			"verified": "trade book; no open full text found",
+			"source": "manual"
+		},
+		"campbell2025historian": {
+			"status": "hybrid",
+			"is_oa": true,
+			"url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/37E3B742A2983DF4DAA2E38D48252F89/S0080440125100509a.pdf/div-class-title-the-historian-in-the-age-of-ai-div.pdf",
+			"license": "cc-by",
+			"version": "publishedVersion",
+			"repository_copy": null,
+			"source": "openalex",
+			"doi": "10.1017/S0080440125100509"
+		},
+		"carroll2020care": {
+			"status": "gold",
+			"is_oa": true,
+			"url": "http://datascience.codata.org/articles/10.5334/dsj-2020-043/galley/1010/download/",
+			"license": "cc-by",
+			"version": "publishedVersion",
+			"repository_copy": "https://openresearch-repository.anu.edu.au/bitstreams/b7f07fd0-2245-48f2-ace0-b89a1a476dc3/download",
+			"source": "openalex",
+			"doi": "10.5334/dsj-2020-043"
+		},
+		"chen2023ethics": {
+			"status": "gold",
+			"is_oa": true,
+			"url": "https://www.nature.com/articles/s41599-023-02079-x.pdf",
+			"license": "cc-by",
+			"version": "publishedVersion",
+			"repository_copy": "https://doaj.org/article/0b4102d54cfa4388a85ecb8c55c9edfa",
+			"source": "openalex",
+			"doi": "10.1057/s41599-023-02079-x"
+		},
+		"chicago2024manual": {
+			"status": "closed",
+			"kind": "standard",
+			"free_alternative": "https://www.chicagomanualofstyle.org/tools_citationguide.html",
+			"verified": "Quick Guide (free) opens; the full manual is a paid product",
+			"source": "manual"
+		},
+		"dfg2023generative": {
+			"status": "free",
+			"url": null,
+			"verified": "PDF opens (HTTP 200); official publication",
+			"source": "manual"
+		},
+		"diezgarcia2025evaluating": {
+			"status": "closed",
+			"is_oa": false,
+			"url": null,
+			"license": null,
+			"version": null,
+			"repository_copy": null,
+			"source": "openalex",
+			"doi": "10.1007/978-3-031-99474-6_24"
+		},
+		"dignazio2023feminism": {
+			"status": "open",
+			"url": "https://data-feminism.mitpress.mit.edu/",
+			"license": null,
+			"verified": "automated check blocked (HTTP 403); MIT Press publishes the book as an open-access web edition. Check once in a browser.",
+			"source": "manual"
+		},
+		"dignazio2024feminicide": {
+			"status": "hybrid",
+			"is_oa": true,
+			"url": "https://doi.org/10.7551/mitpress/14671.001.0001",
+			"license": "cc-by-nc-nd",
+			"version": "publishedVersion",
+			"repository_copy": null,
+			"source": "openalex",
+			"doi": "10.7551/mitpress/14671.001.0001"
+		},
+		"drage2022recruitment": {
+			"status": "hybrid",
+			"is_oa": true,
+			"url": "https://link.springer.com/content/pdf/10.1007/s13347-022-00543-1.pdf",
+			"license": "cc-by",
+			"version": "publishedVersion",
+			"repository_copy": "https://www.ncbi.nlm.nih.gov/pmc/articles/9550152",
+			"source": "openalex",
+			"doi": "10.1007/s13347-022-00543-1"
+		},
+		"drucker2011humanities": {
+			"status": "diamond",
+			"is_oa": true,
+			"url": "https://dhq-static.digitalhumanities.org/pdf/000091.pdf",
+			"license": "cc-by-nd",
+			"version": "publishedVersion",
+			"repository_copy": null,
+			"source": "openalex",
+			"doi": "10.63744/r4ysrh7ae534"
+		},
+		"edpb2026forschung": {
+			"status": "free",
+			"url": null,
+			"verified": "NOT verified: the host did not resolve from the machine that ran the check. Official EDPB consultation page; open it once in a browser.",
+			"source": "manual"
+		},
+		"eu2016dsgvo": {
+			"status": "free",
+			"url": null,
+			"multilingual": "eurlex",
+			"verified": "EUR-Lex answers (HTTP 202); official text",
+			"source": "manual"
+		},
+		"eu2024kiverordnung": {
+			"status": "free",
+			"url": null,
+			"multilingual": "eurlex",
+			"verified": "EUR-Lex answers (HTTP 202); official text",
+			"source": "manual"
+		},
+		"eucommission2026genai": {
+			"status": "free",
+			"url": null,
+			"verified": "document opens (HTTP 200); official publication",
+			"source": "manual"
+		},
+		"fickers2020hermeneutik": {
+			"status": "green",
+			"is_oa": true,
+			"url": "http://orbilu.uni.lu/handle/10993/44086",
+			"license": "cc-by-nc-sa",
+			"version": "submittedVersion",
+			"repository_copy": "http://orbilu.uni.lu/handle/10993/44086",
+			"source": "openalex",
+			"doi": "10.14765/zzf.dok-1765"
+		},
+		"fickers2022criticism": {
+			"status": "hybrid",
+			"is_oa": true,
+			"url": "https://www.degruyter.com/document/doi/10.1515/9783110723991-001/pdf",
+			"license": "cc-by-nc-nd",
+			"version": "publishedVersion",
+			"repository_copy": "https://orbilu.uni.lu/handle/10993/54878",
+			"source": "openalex",
+			"doi": "10.1515/9783110723991-001"
+		},
+		"hodel2021general": {
+			"status": "gold",
+			"is_oa": true,
+			"url": "https://storage.googleapis.com/jnl-up-j-johd-files/journals/1/articles/46/submission/proof/46-1-597-1-10-20210709.pdf",
+			"license": "cc-by",
+			"version": "publishedVersion",
+			"repository_copy": "https://boris.unibe.ch/157474/",
+			"source": "openalex",
+			"doi": "10.5334/johd.46"
+		},
+		"icmje2026recommendations": {
+			"status": "free",
+			"url": null,
+			"verified": "page opens (HTTP 200)",
+			"source": "manual"
+		},
+		"kapoor2024agents": {
+			"status": "green",
+			"is_oa": true,
+			"url": "https://arxiv.org/pdf/2407.01502",
+			"license": null,
+			"version": "submittedVersion",
+			"repository_copy": "https://arxiv.org/pdf/2407.01502",
+			"source": "openalex",
+			"doi": "10.48550/arXiv.2407.01502"
+		},
+		"karaganis2018shadow": {
+			"status": "hybrid",
+			"is_oa": true,
+			"url": "https://doi.org/10.7551/mitpress/11339.001.0001",
+			"license": "cc-by-nc",
+			"version": "publishedVersion",
+			"repository_copy": null,
+			"source": "openalex",
+			"doi": "10.7551/mitpress/11339.001.0001"
+		},
+		"karpathy2025deepdive": {
+			"status": "free",
+			"url": null,
+			"verified": "video page opens (HTTP 200)",
+			"source": "manual"
+		},
+		"lang2026beyond": {
+			"status": "green",
+			"is_oa": true,
+			"url": "https://doaj.org/article/0fa784f3bc8246f487596398ce1bfdd0",
+			"license": "cc-by-sa",
+			"version": "submittedVersion",
+			"repository_copy": "https://doaj.org/article/0fa784f3bc8246f487596398ce1bfdd0",
+			"source": "openalex",
+			"doi": "10.17175/wp_2026"
+		},
+		"lewis2020retrieval": {
+			"status": "green",
+			"is_oa": true,
+			"url": "https://arxiv.org/pdf/2005.11401",
+			"license": null,
+			"version": "submittedVersion",
+			"repository_copy": "https://arxiv.org/pdf/2005.11401",
+			"source": "openalex",
+			"doi": "10.48550/arXiv.2005.11401"
+		},
+		"luccioni2023stable": {
+			"status": "green",
+			"is_oa": true,
+			"url": "https://arxiv.org/pdf/2303.11408",
+			"license": "cc-by-nc-sa",
+			"version": "submittedVersion",
+			"repository_copy": "https://arxiv.org/pdf/2303.11408",
+			"source": "openalex",
+			"doi": "10.48550/arXiv.2303.11408"
+		},
+		"luccioni2024power": {
+			"status": "gold",
+			"is_oa": true,
+			"url": "https://doi.org/10.1145/3630106.3658542",
+			"license": "cc-by-sa",
+			"version": "publishedVersion",
+			"repository_copy": "https://arxiv.org/pdf/2311.16863",
+			"source": "openalex",
+			"doi": "10.1145/3630106.3658542"
+		},
+		"mattu2016machine": {
+			"status": "free",
+			"url": null,
+			"verified": "article opens (HTTP 200)",
+			"source": "manual"
+		},
+		"meadows2023practice": {
+			"status": "closed",
+			"is_oa": false,
+			"url": null,
+			"license": null,
+			"version": null,
+			"repository_copy": null,
+			"source": "openalex",
+			"doi": "10.1093/ahr/rhad362"
+		},
+		"mehrabi2021survey": {
+			"status": "green",
+			"is_oa": true,
+			"url": "https://arxiv.org/pdf/1908.09635",
+			"license": null,
+			"version": "submittedVersion",
+			"repository_copy": "https://arxiv.org/pdf/1908.09635",
+			"source": "openalex",
+			"doi": "10.1145/3457607"
+		},
+		"milligan2019history": {
+			"status": "closed",
+			"kind": "book",
+			"verified": "OpenAlex and DOAB: no open full text found",
+			"source": "manual"
+		},
+		"mueller2025distributed": {
+			"status": "hybrid",
+			"is_oa": true,
+			"url": "https://doi.org/10.1016/j.telpol.2025.102917",
+			"license": "cc-by-nc-nd",
+			"version": "publishedVersion",
+			"repository_copy": null,
+			"source": "openalex",
+			"doi": "10.1016/j.telpol.2025.102917"
+		},
+		"noble2018oppression": {
+			"status": "closed",
+			"kind": "book",
+			"verified": "OpenAlex and DOAB: no open full text found",
+			"source": "manual"
+		},
+		"oberbichler2025implementing": {
+			"status": "open",
+			"url": "https://zenodo.org/records/14924737",
+			"license": "cc-by-4.0",
+			"version": "working paper",
+			"verified": "Zenodo API: access_right open, licence CC BY 4.0",
+			"source": "manual"
+		},
+		"offert2024method": {
+			"status": "green",
+			"is_oa": true,
+			"url": "https://arxiv.org/pdf/2411.18833",
+			"license": null,
+			"version": "submittedVersion",
+			"repository_copy": "https://arxiv.org/pdf/2411.18833",
+			"source": "openalex",
+			"doi": "10.48550/arXiv.2411.18833"
+		},
+		"oneil2016weapons": {
+			"status": "closed",
+			"kind": "book",
+			"verified": "trade book; no open full text found",
+			"source": "manual"
+		},
+		"ouyang2022instruct": {
+			"status": "green",
+			"is_oa": true,
+			"url": "https://arxiv.org/pdf/2203.02155",
+			"license": null,
+			"version": "submittedVersion",
+			"repository_copy": "https://arxiv.org/pdf/2203.02155",
+			"source": "openalex",
+			"doi": "10.48550/arXiv.2203.02155"
+		},
+		"penedo2024fineweb": {
+			"status": "green",
+			"is_oa": true,
+			"url": "https://arxiv.org/pdf/2406.17557",
+			"license": "cc-by",
+			"version": "submittedVersion",
+			"repository_copy": "https://arxiv.org/pdf/2406.17557",
+			"source": "openalex",
+			"doi": "10.48550/arXiv.2406.17557"
+		},
+		"putnam2016shadows": {
+			"status": "bronze",
+			"is_oa": true,
+			"url": "https://academic.oup.com/ahr/article-pdf/121/2/377/25736337/zah377.pdf",
+			"license": null,
+			"version": "publishedVersion",
+			"repository_copy": null,
+			"source": "openalex",
+			"doi": "10.1093/ahr/121.2.377"
+		},
+		"risam2022minimal": {
+			"status": "open",
+			"url": "https://digitalhumanities.org/dhq/vol/16/2/000646/000646.html",
+			"license": null,
+			"verified": "page opens (HTTP 200); DHQ is a free journal",
+			"source": "manual"
+		},
+		"romein2025assessing": {
+			"status": "hybrid",
+			"is_oa": true,
+			"url": "https://link.springer.com/content/pdf/10.1007/s42803-025-00100-0.pdf",
+			"license": "cc-by",
+			"version": "publishedVersion",
+			"repository_copy": "https://research.utwente.nl/en/publications/58023f5f-54f9-4f9d-97e7-9a672f40cd6e",
+			"source": "openalex",
+			"doi": "10.1007/s42803-025-00100-0"
+		},
+		"russell2020ai": {
+			"status": "closed",
+			"kind": "book",
+			"verified": "textbook; no open full text found",
+			"source": "manual"
+		},
+		"schweiz2020datenschutzgesetz": {
+			"status": "free",
+			"url": null,
+			"multilingual": "fedlex",
+			"verified": "Fedlex opens (HTTP 200); official text",
+			"source": "manual"
+		},
+		"spirling2023open": {
+			"status": "bronze",
+			"is_oa": true,
+			"url": "https://www.nature.com/articles/d41586-023-01295-4.pdf",
+			"license": null,
+			"version": "publishedVersion",
+			"repository_copy": null,
+			"source": "openalex",
+			"doi": "10.1038/d41586-023-01295-4"
+		},
+		"stark2023conjectural": {
+			"status": "gold",
+			"is_oa": true,
+			"url": "https://www.cambridge.org/core/services/aop-cambridge-core/content/view/AFF12080CBC3E80DFDBF642A2CE2C7D5/S2058850X23000036a.pdf/div-class-title-artificial-intelligence-and-the-conjectural-sciences-div.pdf",
+			"license": "cc-by-nc-sa",
+			"version": "publishedVersion",
+			"repository_copy": "https://doaj.org/article/0475c3ab9aab4b0c9e47588c750e15da",
+			"source": "openalex",
+			"doi": "10.1017/bjt.2023.3"
+		},
+		"sternfeld2023historian": {
+			"status": "closed",
+			"is_oa": false,
+			"url": null,
+			"license": null,
+			"version": null,
+			"repository_copy": null,
+			"source": "openalex",
+			"doi": "10.1093/ahr/rhad368"
+		},
+		"turingway2022handbook": {
+			"status": "green",
+			"is_oa": true,
+			"url": "https://doi.org/10.5281/zenodo.3233853",
+			"license": "cc-by",
+			"version": null,
+			"repository_copy": "https://doi.org/10.5281/zenodo.3233853",
+			"source": "openalex",
+			"doi": "10.5281/zenodo.3233853"
+		},
+		"turpin2023unfaithful": {
+			"status": "green",
+			"is_oa": true,
+			"url": "https://arxiv.org/pdf/2305.04388",
+			"license": "cc-by",
+			"version": "submittedVersion",
+			"repository_copy": "https://arxiv.org/pdf/2305.04388",
+			"source": "openalex",
+			"doi": "10.48550/arXiv.2305.04388"
+		},
+		"unibe2026kirichtlinien": {
+			"status": "free",
+			"url": null,
+			"verified": "page opens (HTTP 200)",
+			"source": "manual"
+		},
+		"vanstrien2020assessing": {
+			"status": "hybrid",
+			"is_oa": true,
+			"url": "https://doi.org/10.5220/0009169004840496",
+			"license": "cc-by-nc-nd",
+			"version": "publishedVersion",
+			"repository_copy": "https://handle.uba.uva.nl/personal/pure/en/publications/assessing-the-impact-of-ocr-quality-on-downstream-nlp-tasks(fd295310-eb9e-4271-9dad-862bd3f4eb57).html",
+			"source": "openalex",
+			"doi": "10.5220/0009169004840496"
+		},
+		"walters2023fabrication": {
+			"status": "gold",
+			"is_oa": true,
+			"url": "https://www.nature.com/articles/s41598-023-41032-5.pdf",
+			"license": "cc-by",
+			"version": "publishedVersion",
+			"repository_copy": "https://pmc.ncbi.nlm.nih.gov/articles/PMC10484980/pdf/41598_2023_Article_41032.pdf",
+			"source": "openalex",
+			"doi": "10.1038/s41598-023-41032-5"
+		},
+		"wei2022chain": {
+			"status": "green",
+			"is_oa": true,
+			"url": "https://arxiv.org/pdf/2201.11903",
+			"license": null,
+			"version": "submittedVersion",
+			"repository_copy": "https://arxiv.org/pdf/2201.11903",
+			"source": "openalex",
+			"doi": "10.48550/arXiv.2201.11903"
+		},
+		"wilkinson2016fair": {
+			"status": "gold",
+			"is_oa": true,
+			"url": "https://www.nature.com/articles/sdata201618.pdf",
+			"license": "cc-by",
+			"version": "publishedVersion",
+			"repository_copy": "https://cris.maastrichtuniversity.nl/en/publications/e7d82549-3369-4186-bc3c-5817554e56d7",
+			"source": "openalex",
+			"doi": "10.1038/sdata.2016.18"
+		},
+		"zuboff2017surveillance": {
+			"status": "closed",
+			"kind": "book",
+			"verified": "trade book; no open full text found",
+			"source": "manual"
+		}
+	}
+}

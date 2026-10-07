@@ -136,6 +136,7 @@ La notice Dodis 5020 est en **français**. Décidez en outre dans quelle langue 
 ::: {.callout-tip title="Lecture obligatoire"}
 
 - @fickers2020hermeneutik (libre accès, allemand uniquement): que signifie «mise à jour pour l'herméneutique»? Nommez deux points qui changent pour votre travail sur Dodis 5020 et deux qui restent identiques. Si vous ne lisez pas l'allemand, lisez plutôt @oberbichler2025implementing (anglais) et répondez à la même question pour l'idée d'«outil et méthode».
+- Pas d'accès à un texte? Voir [Accès aux lectures](../acces-aux-lectures.qmd).
 
 :::
 
