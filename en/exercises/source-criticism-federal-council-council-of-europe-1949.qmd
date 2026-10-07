@@ -123,7 +123,7 @@ The system must be able to do the three following things:
 **Other tools and access**
 
 - The source as a file. You download the document Dodis 5020 freely, and you need no institutional access for it.
-- One file for your source analysis log and one file for your AI log.
+- One file for your source analysis log and one file for your AI log. Use the [templates to download](../templates.qmd).
 
 **Language**
 

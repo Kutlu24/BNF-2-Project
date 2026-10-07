@@ -433,7 +433,7 @@ Markiere: welche 3 wären für einen „State of Research“-Abschnitt unverzich
 
 ### Kritischer Check
 
-Führen Sie im Rechercheprotokoll einen Abschnitt _Reject-Log_: mind. 5 abgelehnte, aber „verführerisch plausible“ Treffer inkl. Ablehnungsgrund (falscher Zeitraum, falsche Arena, nur populärwissenschaftlich, etc.).
+Führen Sie im Rechercheprotokoll einen Abschnitt _Reject-Log_ (siehe die [Vorlage](../vorlagen.qmd)): mind. 5 abgelehnte, aber „verführerisch plausible“ Treffer inkl. Ablehnungsgrund (falscher Zeitraum, falsche Arena, nur populärwissenschaftlich, etc.).
 
 **Deliverable**: Snowball-Liste (≥ 30 Referenzen insgesamt) + Abschnitt _Reject-Log_ (≥ 5).
 

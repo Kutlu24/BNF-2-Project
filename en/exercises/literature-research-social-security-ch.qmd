@@ -441,7 +441,7 @@ Mark which 3 would be indispensable for a section on the state of research, and 
 
 ### Critical Check
 
-Keep a section _reject log_ in your search log: at least 5 hits that you rejected although they looked plausible, with the reason for the rejection (wrong period, wrong arena, popular science only, and so on).
+Keep a section _reject log_ in your search log (see the [template](../templates.qmd)): at least 5 hits that you rejected although they looked plausible, with the reason for the rejection (wrong period, wrong arena, popular science only, and so on).
 
 **Deliverable**: a snowball list of at least 30 references and a section _reject log_ with at least 5 entries.
 
