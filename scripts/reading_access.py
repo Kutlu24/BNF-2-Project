@@ -316,7 +316,9 @@ def pages():
                     ways.append(f'[{t["doi"]}](https://doi.org/{doi})')
                 rows_closed.append(f'| {cite(key)} | {kind} | {" · ".join(ways)} | {usedin(key)} |')
         def table(cols, rows):
-            return '| ' + ' | '.join(cols) + ' |\n| ' + ' | '.join('---' for _ in cols) + ' |\n' + '\n'.join(rows)
+            widths = {5: '[36, 9, 15, 10, 30]', 4: '[36, 8, 36, 20]'}[len(cols)]
+            return ('| ' + ' | '.join(cols) + ' |\n| ' + ' | '.join('---' for _ in cols) + ' |\n' + '\n'.join(rows)
+                    + '\n\n: {tbl-colwidths="' + widths + '"}')
         md = f"""---
 lang: {lang}
 title: '{t["title"]}'
