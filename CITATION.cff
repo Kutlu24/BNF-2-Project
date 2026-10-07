@@ -10,7 +10,9 @@ authors:
     orcid: 'https://orcid.org/0000-0002-1367-1618'
     email: 'moritz.maehr@gmail.com'
     affiliation: 'University of Bern'
-repository-code: 'https://github.com/maehr/critical-ai-literacy-for-historians'
+  - family-names: 'Yilmaz'
+    given-names: 'Kutlu'
+repository-code: 'https://github.com/Kutlu24/BNF-2-Project'
 url: 'https://maehr.github.io/critical-ai-literacy-for-historians/'
 keywords:
   - AI literacy

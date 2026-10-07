@@ -16,7 +16,7 @@ The project has no release and no DOI yet. Complete these four steps in order.
 
 1. Connect the repository to [Zenodo](https://zenodo.org/account/settings/github/). See the
    [GitHub guide](https://docs.github.com/en/repositories/archiving-a-github-repository/referencing-and-citing-content).
-2. Create a `.zenodo.json` file. Add the creators, the contributors, the keywords, and the two licenses. See
+2. `.zenodo.json` exists, with Moritz Mähr and Kutlu Yilmaz as creators. Moritz has to agree to being listed before the first release. See
    the [Zenodo documentation](https://developers.zenodo.org/#add-metadata-to-your-github-repository-release).
 3. Tag the first release. The tag must match the pattern `v[0-9]*`, because `cliff.toml` looks for that
    pattern.
