@@ -136,6 +136,7 @@ The memorandum Dodis 5020 is in **French**. Plan extra time for translation if F
 ::: {.callout-tip title="Required reading"}
 
 - @fickers2020hermeneutik (open access, German only): What does "update for hermeneutics" mean? Name two points that change for your work on Dodis 5020 and two that stay the same. If you do not read German, read @oberbichler2025implementing (English) instead and answer the same question for the idea of "tool and method".
+- No access to a text? See [Reading access](../reading-access.qmd).
 
 :::
 

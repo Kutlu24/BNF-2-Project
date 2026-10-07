@@ -155,6 +155,7 @@ Les fonds et instruments de recherche sur le Vorort sont surtout en allemand, et
 ::: {.callout-tip title="Lecture obligatoire"}
 
 - @putnam2016shadows (l'accès passe souvent par une bibliothèque universitaire): quelles sont les conséquences de la recherche en plein texte sur le choix de vos sources? Répondez en trois phrases avant l'étape 3.
+- Pas d'accès à un texte? Voir [Accès aux lectures](../acces-aux-lectures.qmd).
 
 :::
 

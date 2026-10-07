@@ -104,6 +104,7 @@ Die Aktennotiz Dodis 5020, mit der Sie in dieser Übung arbeiten, ist auf **Fran
 
 - @walters2023fabrication: Welche Anteile erfundener und fehlerhafter Referenzen berichten die Autor:innen, und was folgt daraus für Ihren Umgang mit KI-generierten Literaturangaben? Beantworten Sie in drei Sätzen im KI-Protokoll, vor Abschnitt 7.
 - @turpin2023unfaithful (vor Abschnitt 5): Die Studie zeigt, dass die Begründung, die ein Modell zu seiner Antwort gibt, den wirklichen Einfluss auf die Antwort verschweigen kann. Welche Folge hat das für Ihre Prüfung einer angeforderten Denkspur? Beantworten Sie in zwei Sätzen.
+- Kein Zugriff auf einen Text? Siehe [Lesezugang](../lesezugang.qmd).
 
 :::
 

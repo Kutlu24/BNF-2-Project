@@ -174,6 +174,7 @@ La plateforme «Histoire de la sécurité sociale en Suisse» et le Dictionnaire
 ::: {.callout-tip title="Lecture obligatoire"}
 
 - @walters2023fabrication (déjà lu dans Prompt Engineering): relisez les résultats avant l'étape 3 et notez trois contrôles pour chaque référence bibliographique que l'IA vous donne.
+- Pas d'accès à un texte? Voir [Accès aux lectures](../acces-aux-lectures.qmd).
 
 :::
 

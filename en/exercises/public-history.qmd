@@ -180,6 +180,7 @@ The example article is in English, and your target audience may use another lang
 ::: {.callout-tip title="Required reading"}
 
 - The base article itself. Read it in full and note five key claims with page numbers before you start step 1. Only these key claims go into the source package.
+- No access to a text? See [Reading access](../reading-access.qmd).
 
 :::
 

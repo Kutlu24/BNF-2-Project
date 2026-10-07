@@ -147,6 +147,7 @@ Die Bestände und Findmittel zum Vorort sind überwiegend deutschsprachig, die Z
 ::: {.callout-tip title="Pflichtlektüre"}
 
 - @putnam2016shadows (Zugang oft nur über die Hochschulbibliothek): Welche Folge hat die Volltextsuche für die Auswahl Ihrer Quellen? Beantworten Sie in drei Sätzen, bevor Sie Schritt 3 beginnen.
+- Kein Zugriff auf einen Text? Siehe [Lesezugang](../lesezugang.qmd).
 
 :::
 

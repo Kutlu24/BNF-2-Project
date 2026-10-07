@@ -128,6 +128,7 @@ Die Aktennotiz Dodis 5020 ist auf **Französisch**. Rechnen Sie mit zusätzliche
 ::: {.callout-tip title="Pflichtlektüre"}
 
 - @fickers2020hermeneutik (offen zugänglich, nur auf Deutsch): Was meint «Update für die Hermeneutik»? Nennen Sie zwei Punkte, die sich für Ihre Arbeit an Dodis 5020 ändern, und zwei, die gleich bleiben. Wenn Sie kein Deutsch lesen, lesen Sie stattdessen @oberbichler2025implementing (Englisch) und beantworten Sie dieselbe Frage für den Begriff «Werkzeug und Methode».
+- Kein Zugriff auf einen Text? Siehe [Lesezugang](../lesezugang.qmd).
 
 :::
 

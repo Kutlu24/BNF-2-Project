@@ -9,6 +9,8 @@ nocite: |
 
 ## Hinweis: Urheberrecht
 
+Welche Quellen frei lesbar sind und wie Sie die übrigen beschaffen, zeigt die Seite [Lesezugang](lesezugang.qmd).
+
 Wir bemühen uns, frei zugängliche Literatur zu verwenden. Sollte dies nicht möglich sein, bitten wir Sie, die Literatur über die Bibliotheksplattform [LIBER Libraries](https://libereurope.eu/user-list/) zu beziehen. Von der Verwendung von Plattformen wie [Anna's Archive](https://de.wikipedia.org/wiki/Anna%27s_Archive) oder [Library Genesis](https://de.wikipedia.org/wiki/Library_Genesis) raten wir trotz stichhaltiger Argumente ab.
 
 Siehe @karaganis2018shadow

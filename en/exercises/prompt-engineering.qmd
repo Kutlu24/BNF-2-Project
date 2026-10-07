@@ -112,6 +112,7 @@ The memorandum Dodis 5020 that you work with in this exercise is in **French**. 
 
 - @walters2023fabrication: Which shares of fabricated and faulty references do the authors report, and what follows for how you treat AI-generated literature references? Answer in three sentences in your AI log, before section 7.
 - @turpin2023unfaithful (before section 5): The study shows that the reasons a model gives for its answer can hide what actually influenced it. What does this mean for how you check a requested reasoning trace? Answer in two sentences.
+- No access to a text? See [Reading access](../reading-access.qmd).
 
 :::
 

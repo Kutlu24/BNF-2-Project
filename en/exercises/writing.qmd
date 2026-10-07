@@ -188,6 +188,7 @@ The prompts are in English and ask for academic English. If you write your paper
 ::: {.callout-tip title="Required reading"}
 
 - @bender2021stochastic (introduction and conclusion are enough): Why is plausible text not evidence? Answer in three sentences and apply the answer to the paragraph version in step 4.
+- No access to a text? See [Reading access](../reading-access.qmd).
 
 :::
 

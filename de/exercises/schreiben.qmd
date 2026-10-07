@@ -181,6 +181,7 @@ Die Prompts sind auf Deutsch und verlangen akademisches Deutsch. Schreiben Sie I
 ::: {.callout-tip title="Pflichtlektüre"}
 
 - @bender2021stochastic (Einleitung und Schluss genügen): Warum ist ein plausibler Text kein Beleg? Beantworten Sie in drei Sätzen und wenden Sie die Antwort auf die Absatzfassung in Schritt 4 an.
+- Kein Zugriff auf einen Text? Siehe [Lesezugang](../lesezugang.qmd).
 
 :::
 
