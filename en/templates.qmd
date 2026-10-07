@@ -1,0 +1,21 @@
+---
+lang: en
+title: 'Templates to download'
+description: "Templates for the AI log, search log, working environment, prompt layout and feedback, as Word files and as Markdown."
+date: '2026-10-07'
+date-modified: '2026-10-07'
+draft: false
+citation: false
+---
+
+These templates help you record your work. Download the Word file (`.docx`) if you work in a word processor, or the Markdown file (`.md`) if you work in a text editor. Copy the file before you fill it in and keep the original.
+
+| Template               | What for                                                                 | When                                    | Download                                                                                                                |
+| ---------------------- | ------------------------------------------------------------------------ | --------------------------------------- | ----------------------------------------------------------------------------------------------------------------------- |
+| AI log                 | Every work step with AI: material, prompt, answer, check, decision       | In every exercise, right after the step | [Word](../templates/en/ai-log-template.docx) · [Markdown](../templates/en/ai-log-template.md)                           |
+| Search log             | Your searches: system, query, filters, hits, selection                   | Literature Research, Source Search      | [Word](../templates/en/search-log-template.docx) · [Markdown](../templates/en/search-log-template.md)                   |
+| Working environment    | Tool, account, settings and rules, recorded once                         | Set up your workspace                   | [Word](../templates/en/working-environment-template.docx) · [Markdown](../templates/en/working-environment-template.md) |
+| Prompt layout          | Put source and metadata cleanly separated into the prompt                | Prompt Engineering, Source Criticism    | [Markdown](../templates/en/prompt-layout-template.md)                                                                   |
+| Where did I get stuck? | Time per step and sticking points that you can report back to the course | After every exercise                    | [Word](../templates/en/stuck-log-template.docx) · [Markdown](../templates/en/stuck-log-template.md)                     |
+
+The prompt layout is available as a Markdown file only. The templates are also available in German and French through the other language versions of this page.

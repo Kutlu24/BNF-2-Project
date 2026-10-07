@@ -46,6 +46,7 @@ references:
 ## Traduction automatique
 
 Cet exercice a été traduit automatiquement depuis l'[original allemand](../../de/exercises/quellenkritik-bundesrat-europarat-1949.qmd) et peut contenir des erreurs. En cas de doute, consultez la version originale.
+
 :::
 
 ## Aperçu et objectif didactique
@@ -59,6 +60,7 @@ Cet exercice transmet des **compétences transférables de critique des sources*
 ## Remarque sur la transmission numérique
 
 La source utilisée ici existe dans une **édition numérique préparée éditorialement**. Pour la critique des sources, l'objet d'étude comprend donc non seulement le texte, mais aussi la **couche éditoriale** (métadonnées, cote d'archives, liens, principes d'édition). [@fickers2022criticism]
+
 :::
 
 ::: callout-tip
@@ -68,6 +70,7 @@ La source utilisée ici existe dans une **édition numérique préparée éditor
 **Qui est Hansen?** La notice le nomme dans chaque prompt, mais ne le présente jamais. Le texte lui-même révèle que Hansen est l'interlocuteur danois de Petitpierre et vit en Suisse. Il transmet un message du ministre danois des Affaires étrangères Rasmussen. Cette seule information facilite nettement la tâche 5 de la critique interne («Que puis-je dire de la position danoise?»).
 
 **Qu'est-ce qu'une notice («Aktennotiz»)?** Dans la pratique administrative suisse, une «Aktennotiz» est un bref document informel destiné aux dossiers: elle consigne un entretien ou un fait, sans protocoler les participants, l'ordre du jour ou les décisions d'une séance. Elle est donc plus courte et plus informelle qu'un **procès-verbal** («Protokoll»), qui consigne le déroulement formel d'une séance. Cette distinction importe dans l'exemple de journal IA rempli dans l'exercice [Prompt Engineering](prompt-engineering.qmd) (section «Mode de travail: journal IA et test A/B»): l'IA y qualifie le texte de «procès-verbal d'une séance du Conseil fédéral», ce qui identifie mal le genre du texte.
+
 :::
 
 ## En un coup d'œil
@@ -83,6 +86,16 @@ La source utilisée ici existe dans une **édition numérique préparée éditor
 Le parcours principal vous mène à une critique des sources complète en 180 minutes environ. L'étape 4 coûte environ 90 minutes de plus, car vous y cherchez d'autres sources.
 
 Les deux journaux ont des tâches différentes. Le journal d'analyse de source décrit la source. Le journal IA décrit votre usage de l'IA. Tenez les deux séparément.
+
+<!-- bridge -->
+
+::: {.callout-note title="Passerelle: ce que vous apportez"}
+De l'exercice précédent, il vous faut:
+
+- Votre journal d'IA et le [kit de départ Dodis 5020](kit-de-depart-dodis-5020.qmd) rempli. La source est la même dans les deux exercices.
+- Parcours A: votre question de travail de [Question de recherche](formuler-question-recherche-historique-suisse-conseil-europe.qmd).
+
+:::
 
 ## Ce dont vous avez besoin
 
@@ -117,6 +130,14 @@ Le système doit savoir faire les trois choses suivantes:
 La notice Dodis 5020 est en **français**. Décidez en outre dans quelle langue l'IA doit répondre et citer, et notez ce choix dans votre journal IA (voir [Prompt Engineering](prompt-engineering.qmd), section «Ce dont vous avez besoin»).
 
 {{< include ../_exigences-ia.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Lecture obligatoire"}
+
+- @fickers2020hermeneutik (libre accès, allemand uniquement): que signifie «mise à jour pour l'herméneutique»? Nommez deux points qui changent pour votre travail sur Dodis 5020 et deux qui restent identiques. Si vous ne lisez pas l'allemand, lisez plutôt @oberbichler2025implementing (anglais) et répondez à la même question pour l'idée d'«outil et méthode».
+
+:::
 
 ## Objectifs d'apprentissage
 
@@ -160,6 +181,15 @@ Formulez en **4 phrases au plus**:
 - Quelle est l'affirmation ou la décision centrale?
 - Quelle conséquence est suggérée?
 
+::: {.callout-note collapse="true" title="Exemple de réponse à la tâche 1a (à ouvrir seulement après votre propre paraphrase)"}
+Le conseiller fédéral Petitpierre consigne un entretien avec M. Hansen. Hansen, sur instruction du ministre danois des Affaires étrangères Rasmussen, a attiré l'attention sur la session d'août du Conseil de l'Europe à Strasbourg et promis le plein soutien du Danemark si la Suisse posait sa candidature. Petitpierre répond que la politique de neutralité suisse s'oppose à une adhésion: la Suède ne voit pas d'incompatibilité, mais la neutralité suisse est «plus absolue». Il souligne un intérêt sans «indifférence ni hostilité» et renvoie à des figures dirigeantes de partis dans un comité fédéraliste privé et à l'information des commissions des affaires étrangères.
+
+Sur la quatrième question: la note consigne un refus et un signe de bienveillance. Toute «conséquence» supplémentaire serait votre propre inférence. «Aucune indiquée explicitement» est donc une réponse admise.
+
+<!-- TODO responsables du cours: comparer l'exemple de réponse avec le texte de l'édition. -->
+
+:::
+
 ### Tâche 1b: la même paraphrase minimale au moyen de l'IA
 
 ```markdown
@@ -176,6 +206,7 @@ Quelle conséquence est suggérée?
 ## Quand aucune conséquence n'est mentionnée explicitement
 
 La quatrième question demande une conséquence suggérée, mais la règle «aucune interprétation» reste valable. La notice consigne un refus et un signal de bonne volonté; tout ce qui va au-delà est déjà votre propre conclusion. **«Aucune mentionnée explicitement» est une réponse parfaitement valable** à cette question lorsque le texte n'énonce pas de conséquence de façon explicite.
+
 :::
 
 ::: callout-tip
@@ -189,6 +220,7 @@ Avant le téléversement, vérifiez si vous avez le droit de disposer du matéri
 ## À propos des conditions d'utilisation de Dodis
 
 Le site de Dodis bloque l'accès automatisé; les conditions exactes de réutilisation des textes d'édition n'ont donc pas pu être vérifiées de manière concluante lors de la création de cet exercice (au 2026-09-25). La mention légale de Dodis attribue aux utilisateurs la responsabilité de la critique des sources, mais ne se prononce pas clairement sur une communication à un système d'IA. Vérifiez donc vous-même sur le site de Dodis si, et à quelles conditions, un téléversement à des fins d'étude est autorisé, avant de téléverser la numérisation. En cas de doute, copiez uniquement le texte brut de l'édition dans le prompt (voir l'exception ci-dessous) plutôt que de téléverser un fichier.
+
 :::
 
 Téléversez le document en fichier PDF avec le prompt. C'est le cas normal. Assurez-vous que l'IA a aussi accès aux métadonnées. Appelez les métadonnées en ligne ou indiquez-les vous-même.
@@ -218,6 +250,7 @@ Cet exercice utilise une version éditée avec un texte vérifié. Pour un scan 
 Un système d'IA général ne s'arrête pas devant un passage illisible. Il insère un mot plausible et ne marque rien. Le taux d'erreur de la [reconnaissance de l'écriture manuscrite](../glossary.qmd#gl-htr) dépend fortement de l'écriture, de la mise en page et de la langue [@romein2025assessing; @diezgarcia2025evaluating]. De telles erreurs modifient toute analyse ultérieure [@vanstrien2020assessing].
 
 Comparez donc chaque citation avec la numérisation. Notez dans le [journal d'analyse de source](../glossary.qmd#gl-analyseprotokoll) si le texte a été reconnu par machine. La section [Vérifier et situer les capacités](prompt-engineering.qmd#sec-capacites) explique ce point en détail.
+
 :::
 
 ### Consigne de travail (réflexion)
@@ -605,6 +638,7 @@ Notez:
 ## Critère de qualité
 
 Une bonne critique des sources n'est pas celle qui «explique tout», mais celle qui rend visibles les **limites et les étapes de vérification**: qu'est-ce qui est étayé? qu'est-ce qui est hypothétique? qu'est-ce qu'il faudrait vérifier ensuite?
+
 :::
 
 ## Résultat d'apprentissage
@@ -618,12 +652,22 @@ Une bonne critique des sources n'est pas celle qui «explique tout», mais celle
 - d'un **journal IA** avec au moins 6 entrées,
 - d'une appréciation réfléchie de **là où l'IA soutient l'exploration** et de **là où il faut la limiter sur le plan méthodique**.
 
+<!-- take -->
+
+::: {.callout-note title="À emporter dans l'exercice suivant"}
+
+- Votre journal d'analyse de source sur Dodis 5020 dans [Recherche de sources](recherche-sources-vorort-conseil-europe-1963.qmd) (pour classer les sources trouvées) et dans [Écriture](ecriture.qmd) (comme matériau).
+
+:::
+
 ## Ressources complémentaires
 
 - [Ranke.2: Wikipedia as a historical source](https://ranke2.uni.lu/u/wikipedia-historical-source/) – Provenance, historiques de révision et critique des sources numériques. (ENGLISH only)
 - [Knowing Machines: Models All the Way Down](https://knowingmachines.org/models-all-the-way) – Critique des données d'entraînement et parallèles avec la critique des sources. (ENGLISH only)
 - @stark2023conjectural – Lit l'apprentissage automatique comme une science conjecturale qui infère à partir de traces; discute les risques épistémologiques de la reconnaissance automatisée de motifs.
 - @lang2026beyond – Travail éthique sur les données dans les humanités (numériques); pertinent pour la provenance des données et la documentation des jeux de données.
+
+{{< include ../_retour.qmd >}}
 
 ## Bibliographie
 

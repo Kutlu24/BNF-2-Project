@@ -33,6 +33,7 @@ references: []
 ## Traduction automatique
 
 Cet exercice a été traduit automatiquement depuis l'[original allemand](../../de/exercises/prompt-engineering.qmd) et peut contenir des erreurs. En cas de doute, consultez la version originale.
+
 :::
 
 ## Aperçu et objectif didactique
@@ -53,6 +54,7 @@ Contrairement aux exercices thématiques ([Question de recherche](formuler-quest
 ## Règle de base: l'IA comme hypothèse
 
 Dès que le modèle fournit des faits, de la littérature, des archives, des cotes ou des citations qui ne viennent pas de votre entrée ou de références vérifiables, traitez cela comme une **hypothèse**, et non comme un résultat. [@bender2021stochastic] Votre travail reste le même: **contre-épreuve, preuve, décision**.
+
 :::
 
 ## En un coup d'œil
@@ -68,6 +70,16 @@ Dès que le modèle fournit des faits, de la littérature, des archives, des cot
 Le parcours principal vous mène à un résultat complet en 150 minutes environ. L'approfondissement optionnel coûte environ 30 minutes de plus.
 
 Cet exercice est la base de tous les autres exercices. Prévoyez plus de temps au premier passage, car vous mettez aussi en place votre journal IA.
+
+<!-- bridge -->
+
+::: {.callout-note title="Passerelle: ce que vous apportez"}
+De l'exercice précédent, il vous faut:
+
+- Votre fichier de journal avec la section «Environnement de travail» de l'exercice [Préparer votre espace de travail](preparer-espace-de-travail.qmd).
+- Le [kit de départ Dodis 5020](kit-de-depart-dodis-5020.qmd) rempli.
+
+:::
 
 ## Ce dont vous avez besoin
 
@@ -86,13 +98,22 @@ Le système doit savoir faire les trois choses suivantes:
 **Autres outils et accès**
 
 - Un fichier pour votre journal IA. Un fichier texte ou un document dans votre traitement de texte suffit.
-- Le paquet de matériel de la section «Paquet de cas pour tous les exercices». Vous téléchargez pour cela une source librement accessible.
+- Le [kit de départ Dodis 5020](kit-de-depart-dodis-5020.qmd) rempli.
 
 **Langue**
 
 La notice Dodis 5020 avec laquelle vous travaillez dans cet exercice est en **français**. Tous les prompts ci-dessous sont en français, mais aucun ne précise dans quelle langue le modèle doit répondre ou citer. Décidez-le vous-même avant de commencer (par exemple: «Réponds en français, cite les passages dans l'original français»), et notez votre choix dans le journal IA.
 
 {{< include ../_exigences-ia.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Lecture obligatoire"}
+
+- @walters2023fabrication: Quelles parts de références inventées et erronées les auteurs rapportent-ils, et qu'en résulte-t-il pour votre usage des références bibliographiques générées par l'IA? Répondez en trois phrases dans le journal d'IA, avant la section 7.
+- @turpin2023unfaithful (avant la section 5): L'étude montre que les raisons qu'un modèle donne pour sa réponse peuvent masquer ce qui l'a réellement influencé. Qu'est-ce que cela implique pour votre contrôle d'une trace de raisonnement demandée? Répondez en deux phrases.
+
+:::
 
 ## Objectifs d'apprentissage
 
@@ -121,13 +142,9 @@ Pour chaque technique, exécutez au moins **deux variantes de prompt**. Comparez
 2. les débordements (spéculations),
 3. l'utilité pour vos prochaines étapes de travail.
 
-## Paquet de cas pour tous les exercices
+## Paquet de cas: le kit de départ Dodis 5020
 
-Utilisez, comme dans les autres exercices, un **paquet de matériel concret et contrôlable**:
-
-1. **Source primaire**: voir l'exercice [Critique des sources](critique-sources-conseil-federal-conseil-europe-1949.qmd)
-2. **Ressource de contexte**: voir l'exercice [Question de recherche](formuler-question-recherche-historique-suisse-conseil-europe.qmd) ou [Recherche de sources](recherche-sources-vorort-conseil-europe-1963.qmd).
-3. **Source secondaire optionnelle**: voir l'exercice [Recherche bibliographique](recherche-bibliographique-securite-sociale-ch.qmd) ou [Citation](citer.qmd).
+Cet exercice travaille sur une seule source: la note de dossier Dodis 5020. Tout ce qu'il vous faut figure dans le [kit de départ Dodis 5020](kit-de-depart-dodis-5020.qmd): la source, un bloc de métadonnées à remplir, des repères sur la personne et le type de texte, de la place pour vos dix phrases et vos hypothèses de travail. Travaillez d'abord le kit de départ. Vous n'avez besoin d'aucun autre exercice pour terminer celui-ci.
 
 ::: callout-tip
 
@@ -203,7 +220,7 @@ Résume le document et dis-moi ce qui est important.
 - **Variante A (minimale):** seulement le but et le format de réponse.
 - **Variante B (robuste):** but + contexte structuré + contraintes + format de réponse + auto-vérification.
 
-Orientez-vous sur la configuration de l'exercice [Critique des sources](critique-sources-conseil-federal-conseil-europe-1949.qmd) (paraphrase minimale, 4 phrases au plus).
+La tâche est une paraphrase minimale de la note de dossier Dodis 5020 (4 phrases au plus). La configuration comprend quatre questions: qui parle ou agit? quelle est l'occasion? quel est l'énoncé central? quelle conséquence est suggérée, le cas échéant?
 
 **Ossature de prompt (robuste, adaptable):**
 
@@ -231,13 +248,13 @@ Utiliser les rôles comme **consignes méthodiques**: chaque rôle impose d'autr
 
 ### Exercice 2A: une tâche, trois rôles
 
-Choisissez **une** tâche parmi les autres exercices (par exemple développer une question de recherche, critique externe des sources, termes de recherche pour les catalogues, briefing de blog).
+La tâche pour les trois rôles est: **critique externe de Dodis 5020** (origine, transmission, édition). Vous n'avez besoin d'aucun autre exercice.
 
 Faites traiter la même tâche dans trois rôles:
 
-1. **Critique des sources** (proche du texte, sépare les niveaux) – voir [Critique des sources](critique-sources-conseil-federal-conseil-europe-1949.qmd).
-2. **Avocat du diable** (tests de résistance, contre-arguments) – voir [Écriture](ecriture.qmd).
-3. **Structurateur** (plan de travail, produits intermédiaires) – voir [Public History](public-history.qmd) ou [Écriture](ecriture.qmd).
+1. **Critique des sources** (proche du texte, sépare les niveaux) (approfondi plus tard dans l'exercice [Critique des sources](critique-sources-conseil-federal-conseil-europe-1949.qmd)).
+2. **Avocat du diable** (tests de résistance, contre-arguments) (approfondi plus tard dans l'exercice [Écriture](ecriture.qmd)).
+3. **Structurateur** (plan de travail, produits intermédiaires) (revient dans [Écriture](ecriture.qmd) et [Public History](public-history.qmd)).
 
 **Prompt de rôle (exemple: critique des sources, fortement limitant):**
 
@@ -258,7 +275,7 @@ Sortie:
 
 ```markdown
 Rôle: avocat du diable.
-Entrée: mes hypothèses de travail (H1–H3) + indications de matériel.
+Entrée: mes hypothèses de travail [H1–H3 du kit de départ, section 4.2] + indications de matériel.
 Tâche:
 - Nomme pour chaque hypothèse la prémisse discutable.
 - Formule un test de résistance (quel constat la ferait basculer?).
@@ -271,7 +288,7 @@ Pas de faits externes.
 Prenez la **meilleure** réponse de 2A et faites-la **vérifier** par un second rôle, sans la réécrire:
 
 - Rôle «vérificateur de logique» (cf. l'exercice [Écriture](ecriture.qmd)): cohérence, sauts, points de preuve manquants.
-- Rôle «assistant de catalogue» (cf. l'exercice [Recherche bibliographique](recherche-bibliographique-securite-sociale-ch.qmd)): traduit en chaînes de recherche et en indicateurs.
+- Rôle «assistant de catalogue» (revient plus tard dans l'exercice [Recherche bibliographique](recherche-bibliographique-securite-sociale-ch.qmd)): traduit en chaînes de recherche et en indicateurs.
 
 ## 3. Prompting zero-shot
 
@@ -289,7 +306,7 @@ Utiliser le zero-shot comme **base de comparaison**: rapide, mais sujet aux erre
 
 ### Exercice 3A: paraphrase minimale (zero-shot)
 
-Utilisez la tâche de l'exercice [Critique des sources](critique-sources-conseil-federal-conseil-europe-1949.qmd) (paraphrase minimale, 4 phrases au plus) en zero-shot.
+Utilisez la tâche de paraphrase minimale (4 phrases au plus) en zero-shot.
 
 ```markdown
 Analyse la note de dossier jointe (Berne, 7.7.1949, Petitpierre/Hansen, Conseil de l'Europe) et réponds:
@@ -333,7 +350,7 @@ Marquez dans la réponse:
 
 ### Exercice 3B: trois questions de recherche (zero-shot)
 
-Utilisez le modèle de l'exercice [Question de recherche](formuler-question-recherche-historique-suisse-conseil-europe.qmd).
+Utilisez le prompt suivant comme modèle zero-shot.
 
 ```markdown
 Donne-moi trois questions de recherche historiques possibles que l'on peut dériver de la note de dossier.
@@ -382,9 +399,10 @@ Matériel: [insérer ici vos 10 phrases tirées de la notice]
 ## Pourquoi les exemples 1 et 2 ont changé
 
 Les versions précédentes de cet exemple étiquetaient «Lieu: Berne; date: 7.7.1949» comme [édition/métadonnées] et une paraphrase déjà analytique comme [texte du document]. Les deux attributions étaient contestables: une notice porte généralement le lieu et la date dans son propre en-tête, pas seulement dans l'édition imprimée, et une phrase qui formule déjà une interprétation («la neutralité sert d'argument») n'est plus un passage littéral. Les exemples corrigés ci-dessus montrent la distinction que cette tâche est censée entraîner.
+
 :::
 
-**Consigne de travail:** reprenez ensuite le bloc few-shot dans votre prompt de l'exercice [Critique des sources](critique-sources-conseil-federal-conseil-europe-1949.qmd) et vérifiez si les étiquettes deviennent plus fiables.
+**Consigne de travail:** reprenez ensuite le bloc few-shot dans votre prompt de l'exercice 3A et vérifiez si les étiquettes deviennent plus fiables.
 
 ### Exercice 4B: few-shot pour les questions de recherche (faible ou forte)
 
@@ -429,6 +447,7 @@ Décomposer les tâches complexes en **produits intermédiaires** et imposer une
 ## Remarque sur la «trace de raisonnement»
 
 Formulez la trace de raisonnement pour qu'elle reste **courte** et **vérifiable** (points, critères, tests). Le but est la vérifiabilité, et non un «journal intime» détaillé.
+
 :::
 
 ::: callout-caution
@@ -445,11 +464,12 @@ Seule la trace de raisonnement demandée est un artefact que vous avez produit v
 La même limite vaut pour les deux formes. Les étapes visibles ne prouvent pas le calcul réel. Les modèles nomment des raisons qui taisent l'influence véritable sur la réponse. [@turpin2023unfaithful] Traitez chaque trace de raisonnement comme une aide à la vérification, et jamais comme une preuve.
 
 La section [Vérifier et situer les capacités](#sec-capacites) approfondit le mode de raisonnement.
+
 :::
 
 ### Exercice 5A: cartographie d'arguments avec étapes intermédiaires
 
-Utilisez la cartographie d'arguments de l'exercice [Critique des sources](critique-sources-conseil-federal-conseil-europe-1949.qmd) (affirmation/justification/prémisse/implication), mais imposez une logique d'étapes:
+Une cartographie d'arguments range un énoncé en affirmation, justification, prémisse et implication. Imposez une logique d'étapes:
 
 ```markdown
 Tâche: produis une cartographie d'arguments pour les passages qui concernent la neutralité, la compatibilité et le processus de décision.
@@ -499,7 +519,7 @@ L'itération comme **révision contrôlée**: vous ne produisez pas «plus de te
 ### Exercice 6A: générer → critiquer → réviser (question de recherche)
 
 1. **Générer (v1):** questions de recherche en zero-shot (exercice 3B).\
-2. **Critiquer:** utilisez la confrontation critique de l'exercice [Question de recherche](formuler-question-recherche-historique-suisse-conseil-europe.qmd) («Pourquoi l'aspect de la neutralité manque-t-il?» / «Sur quelles sources cela repose-t-il?»).\
+2. **Critiquer:** critiquez v1 avec vos propres questions, par exemple: «Pourquoi l'aspect de la neutralité manque-t-il?» et «Sur quelles sources cela repose-t-il?»\
 3. **Réviser (v2):** faites réviser les questions par l'IA, mais uniquement à partir de vos points de critique.
 
 **Prompt de critique (modèle):**
@@ -518,7 +538,7 @@ Pas de faits nouveaux.
 
 ### Exercice 6B: itération sur le format de réponse (citer et résumer)
 
-Prenez l'exercice [Citation](citer.qmd) et imposez une sortie en deux temps:
+La source à citer est la note de dossier Dodis 5020 du kit de départ. Faites citer cette source par l'IA et imposez une sortie en deux temps. La **citation Chicago** est une référence selon le style du Chicago Manual of Style; le **format d'import pour Zotero** est un fichier (par exemple RIS ou BibTeX) que vous pouvez charger dans le logiciel de gestion bibliographique Zotero. L'exercice [Citer](citer.qmd) approfondit les deux plus tard.
 
 1. extraction de métadonnées structurées (champs),\
 2. seulement ensuite la citation Chicago et le format d'import pour le logiciel de gestion bibliographique.
@@ -541,9 +561,21 @@ Améliorer les prompts de manière systématique: non pas «plus jolis», mais *
 4. **Transparence des erreurs** (marque-t-il les incertitudes?)
 5. **Utilité pour la suite** (la réponse est-elle directement réutilisable, par exemple pour un extrait, un plan ou un journal de recherche documentaire?)
 
+**Ancrage des points.** Évaluez chaque critère avec ce tableau pour que deux personnes jugent la même réponse de la même façon:
+
+| Critère                  | 0 point                                                            | 1 point                                                                 | 2 points                                                            |
+| ------------------------ | ------------------------------------------------------------------ | ----------------------------------------------------------------------- | ------------------------------------------------------------------- |
+| Liaison à l'entrée       | La réponse contient des faits qui ne figurent pas dans le matériel | La réponse reste en général dans le matériel mais ajoute 1 à 2 éléments | Chaque énoncé se retrouve dans le matériel                          |
+| Séparation des niveaux   | Texte, métadonnées et conclusion sont mélangés                     | Les niveaux sont nommés, mais certains énoncés sont mal attribués       | Chaque énoncé est attribué au bon niveau                            |
+| Stabilité du format      | Le format demandé manque ou change                                 | Le format convient, mais un élément manque ou s'écarte                  | Le format convient dans tous les éléments, même à la répétition     |
+| Transparence des erreurs | Les incertitudes ne sont pas nommées                               | Les incertitudes sont nommées en général («pourrait être»)              | Les incertitudes sont marquées et justifiées pour chaque énoncé     |
+| Utilité pour la suite    | Vous devez restructurer la réponse avant de la réutiliser          | Vous devez remodeler de petites parties                                 | Vous reprenez la réponse sans refonte dans un extrait ou un journal |
+
+Évaluez la même réponse à nouveau après quelques jours. Si vos points diffèrent, un critère est trop flou pour vous. Notez-le dans votre journal d'IA.
+
 ### Exercice 7A: «durcir» un prompt (recherche bibliographique)
 
-Prenez un prompt bibliographique naïf («Nomme la littérature centrale sur X») et optimisez-le pour qu'il serve d'**assistance à la recherche**, et non de producteur de sources. Orientation: l'exercice [Recherche bibliographique](recherche-bibliographique-securite-sociale-ch.qmd) («Pas de titres inventés; pas de connaissance simulée des catalogues; marquer les incertitudes»).
+Prenez un prompt bibliographique naïf («Nomme la littérature centrale sur X») et optimisez-le pour qu'il serve d'**assistance à la recherche**, et non de producteur de sources. Trois règles sont centrales: pas de titres inventés, pas de connaissance simulée des catalogues, marquer les incertitudes.
 
 **Prompt optimisé (ossature):**
 
@@ -568,7 +600,7 @@ Définissez un budget d'erreur et optimisez sur cette base:
 - **Budget B:** «0 hypothèse de contexte non étayée» (critique des sources),
 - **Budget C:** «0 infraction au format» (par exemple 4 phrases au plus, tableau, identifiants d'affirmation).
 
-Menez 3 itérations (v1 à v3) et consignez:
+Choisissez **un** budget et un prompt. Menez 3 itérations (v1 à v3), soit trois passages. Si vous voulez traiter un second budget, c'est une série distincte avec ses propres passages. Consignez:
 
 - quelle modification du prompt a réduit quel champ d'erreur,
 - quels effets secondaires apparaissent (par exemple une réponse qui devient trop vague).
@@ -584,6 +616,7 @@ Nommer cinq capacités récentes des systèmes d'IA, les vérifier dans votre pr
 ## Ces capacités non plus ne produisent pas de preuve
 
 Aucune des cinq capacités ne transforme une sortie en preuve. Chacune produit des hypothèses, et vous vérifiez chaque hypothèse sur l'original. [@bender2021stochastic] Les capacités déplacent seulement l'endroit **où** l'erreur naît: dans le mode de raisonnement, dans l'étape de recherche, dans l'extraction, dans la transcription ou dans le modèle lui-même.
+
 :::
 
 ### 8.1 Mode de raisonnement intégré
@@ -629,6 +662,7 @@ Cet exercice est un exercice de critique des sources. L'erreur est donc au premi
 ## Traitez une transcription automatique comme une hypothèse de lecture
 
 Comparez chaque citation avec la numérisation avant de la reprendre. Notez dans le [journal d'analyse de source](../glossary.qmd#gl-analyseprotokoll) que le texte a été reconnu par machine. Notez aussi la date et la forme d'affichage. Dans un texte, une transcription sans cette mention ne se distingue pas d'une lecture vérifiée.
+
 :::
 
 ### 8.5 Modèles locaux et modèles ouverts
@@ -712,10 +746,18 @@ Auto-vérification: nomme 3 contre-preuves plausibles ou interprétations altern
 
 À la fin, vous disposez de ces artefacts:
 
-1. Un journal IA avec au moins 8 entrées, réparties sur les techniques.\
+1. Un journal IA avec au moins 8 entrées, réparties sur les techniques. Les 8 sont une limite inférieure. Sinon, tenez une entrée par étape de travail avec IA. Vous pouvez regrouper les deux passages d'une variante A/B en une seule entrée.\
 2. Par technique, une courte comparaison A/B et 5 à 8 phrases de réflexion. Décrivez-y ce qui s'est amélioré ou détérioré sur le plan méthodique.\
 3. Un modèle de «bonne pratique». C'est votre prompt standard personnel pour (a) la critique des sources, (b) la recherche bibliographique ou (c) l'assistance à l'écriture.\
 4. Le tableau rempli de la tâche 8A. Il décrit les capacités de votre compte et fait partie de la documentation de votre environnement de travail.
+
+<!-- take -->
+
+::: {.callout-note title="À emporter dans l'exercice suivant"}
+
+- Votre modèle de «bonne pratique» et le tableau de la tâche 8A, dans votre journal d'IA. Vous avez besoin des deux dans chaque exercice suivant.
+
+:::
 
 ## Ressources complémentaires
 
@@ -729,6 +771,8 @@ Auto-vérification: nomme 3 contre-preuves plausibles ou interprétations altern
 - [Wikipédia: Ingénierie de prompt](https://fr.wikipedia.org/wiki/Ing%C3%A9nierie_de_prompt) – Vue d'ensemble encyclopédique avec des références à la littérature de recherche.
 - [Playlist YouTube: Littératie critique de l'IA (Zentralbibliothek Zürich)](https://www.youtube.com/playlist?list=PLxDekeBVQtVJoizqbYM0ghqolcN3jUPsy) – Série de vidéos sur l'apprentissage automatique, les modèles de langue, le prompting, les biais, la visualisation de données, les méthodes d'évaluation et la science ouverte. (GERMAN only)
 - @sternfeld2023historian – Explique comment un système d'apprentissage automatique «apprend» à partir d'un jeu de données, et pourquoi l'IA fonctionne comme un système sociotechnique et non comme une instance autonome.
+
+{{< include ../_retour.qmd >}}
 
 ## Bibliographie
 

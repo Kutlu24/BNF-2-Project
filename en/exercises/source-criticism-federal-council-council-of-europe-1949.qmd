@@ -46,6 +46,7 @@ references:
 ## Automated Translation
 
 This exercise was translated automatically from the [German original](../../de/exercises/quellenkritik-bundesrat-europarat-1949.qmd) and can contain errors. Consult the original version in case of doubt.
+
 :::
 
 ## Overview and Didactic Goal
@@ -59,6 +60,7 @@ This exercise teaches **transferable competencies in source criticism** (externa
 ## Note on digital transmission
 
 The source that we use here exists in an **edited digital edition**. For source criticism, the object of study therefore holds not only the text, but also the **edition layer** (metadata, archive reference, links, editorial guidelines). [@fickers2022criticism]
+
 :::
 
 ::: callout-tip
@@ -68,6 +70,7 @@ The source that we use here exists in an **edited digital edition**. For source 
 **Who is Hansen?** The memorandum names him in every prompt but never introduces him. The text itself reveals that Hansen is Petitpierre's Danish interlocutor and lives in Switzerland. He delivers a message from the Danish foreign minister Rasmussen. This one piece of information makes task 5 of the internal criticism ("What can I say about the Danish position?") noticeably easier.
 
 **What is a memorandum ("Aktennotiz")?** In Swiss administrative practice, an "Aktennotiz" is a short, informal record kept for the files: it captures a conversation or a matter of fact without recording who attended a meeting, its agenda, or its resolutions. It is therefore shorter and more informal than **minutes** ("Protokoll"), which record a meeting's formal proceedings. This distinction matters in the filled-in AI-log example in the exercise [Prompt Engineering](prompt-engineering.qmd) (section "Working Mode: AI Log and A/B Testing"): the AI there calls the text "minutes of a Federal Council meeting", which misidentifies the text type.
+
 :::
 
 ## At a Glance
@@ -83,6 +86,16 @@ The source that we use here exists in an **edited digital edition**. For source 
 The core path leads you to a complete source criticism in about 180 minutes. Step 4 costs about 90 minutes more, because you search for further sources.
 
 The two logs have different tasks. The source analysis log describes the source. The AI log describes your AI use. Keep the two separately.
+
+<!-- bridge -->
+
+::: {.callout-note title="Bridge: what you bring"}
+From the previous exercise you need:
+
+- Your AI log and the completed [Dodis 5020 starter kit](starter-kit-dodis-5020.qmd). The source is the same in both exercises.
+- Track A: your working question from [Research Question](formulating-historical-research-question-switzerland-council-of-europe.qmd).
+
+:::
 
 ## What You Need
 
@@ -117,6 +130,14 @@ The system must be able to do the three following things:
 The memorandum Dodis 5020 is in **French**. Plan extra time for translation if French is not your working language. Also decide in which language the AI should answer and quote, and note that choice in your AI log (see [Prompt Engineering](prompt-engineering.qmd), section "What You Need").
 
 {{< include ../_ai-requirements.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Required reading"}
+
+- @fickers2020hermeneutik (open access, German only): What does "update for hermeneutics" mean? Name two points that change for your work on Dodis 5020 and two that stay the same. If you do not read German, read @oberbichler2025implementing (English) instead and answer the same question for the idea of "tool and method".
+
+:::
 
 ## Learning Objectives
 
@@ -160,6 +181,15 @@ Formulate in **at most 4 sentences**:
 - What is the central statement or decision?
 - Which consequence is indicated?
 
+::: {.callout-note collapse="true" title="Sample answer to task 1a (open only after your own paraphrase)"}
+Federal Councillor Petitpierre records a conversation with Mr Hansen. Hansen, on the instructions of the Danish foreign minister Rasmussen, drew attention to the Council of Europe's August session in Strasbourg and promised full Danish support should Switzerland apply. Petitpierre replies that Swiss neutrality policy rules out accession: Sweden sees no incompatibility, but Swiss neutrality is "more absolute". He stresses interest without "indifference or hostility", pointing to leading party figures in a private federalist committee and to his briefing of the foreign-affairs commissions.
+
+On the fourth question: the note records a refusal and a signal of goodwill. Any further "consequence" would be your own inference. "None stated explicitly" is therefore an acceptable answer.
+
+<!-- TODO course maintainers: check the sample answer against the edition text. -->
+
+:::
+
 ### Task 1b: The Same Minimal Paraphrase with AI
 
 ```markdown
@@ -176,6 +206,7 @@ At most 4 sentences. No interpretation.
 ## When no consequence is stated explicitly
 
 The fourth question asks for an indicated consequence, but the "no interpretation" rule still applies. The memorandum records a refusal and a signal of goodwill; anything beyond that is already your own conclusion. **"None stated explicitly" is a fully valid answer** to this question when the text does not name a consequence explicitly.
+
 :::
 
 ::: callout-tip
@@ -189,6 +220,7 @@ Check before the upload whether you have the right to pass the material on. The 
 ## On Dodis's terms of use
 
 The Dodis website blocks automated access, so the exact reuse terms for edition texts could not be conclusively checked while building this exercise (as of 2026-09-25). Dodis's imprint assigns responsibility for source criticism to the user, but does not clearly address disclosure to an AI system. Check for yourself on the Dodis website whether, and under what conditions, an upload for study purposes is permitted before you upload the digitized item. When in doubt, copy only the plain edition text into the prompt (see the exception below) rather than uploading a file.
+
 :::
 
 Upload the document as a PDF file together with the prompt. That is the normal case. Make sure that the AI also has access to the metadata. Retrieve the metadata online, or state it yourself.
@@ -218,6 +250,7 @@ This exercise uses an edited version with a checked text. For a scan or for a ha
 A general AI system does not stop at an illegible passage. It inserts a plausible word and marks nothing. The error rate of [handwritten text recognition](../glossary.qmd#gl-htr) depends strongly on the script, the layout and the language [@romein2025assessing; @diezgarcia2025evaluating]. Such errors change every later analysis [@vanstrien2020assessing].
 
 Compare therefore every citation with the digitized item. Note in the [source analysis log](../glossary.qmd#gl-analyseprotokoll) whether a machine recognized the text. The section [Check and classify capabilities](prompt-engineering.qmd#sec-capabilities) explains this point in detail.
+
 :::
 
 ### Work Assignment (Reflection)
@@ -605,6 +638,7 @@ Note:
 ## Quality criterion
 
 A good source criticism is not the one that "explains everything". It is the one that makes **limits and verification steps** visible: what has support? what is hypothetical? what would you have to check next?
+
 :::
 
 ## Learning Outcome
@@ -618,12 +652,22 @@ At the end you hold:
 - an **AI log** with at least 6 entries,
 - a considered judgement on **where AI supports exploration** and **where you must limit it methodologically**.
 
+<!-- take -->
+
+::: {.callout-note title="Take this into the next exercise"}
+
+- Your source analysis log on Dodis 5020 into [Source Search](source-search-vorort-council-of-europe-1963.qmd) (to classify the sources you find) and into [Writing](writing.qmd) (as material).
+
+:::
+
 ## Further Resources
 
 - [Ranke.2: Wikipedia as Historical Source](https://ranke2.uni.lu/u/wikipedia-historical-source/) – Provenance, revision histories and digital source criticism.
 - [Knowing Machines: Models All the Way Down](https://knowingmachines.org/models-all-the-way) – Critique of training data and its parallels to source criticism.
 - @stark2023conjectural – Reads machine learning as a conjectural science that infers from traces; discusses the epistemological risks of automated pattern recognition.
 - @lang2026beyond – Ethical data work in the (digital) humanities; relevant to data provenance and dataset documentation.
+
+{{< include ../_feedback.qmd >}}
 
 ## Bibliography
 

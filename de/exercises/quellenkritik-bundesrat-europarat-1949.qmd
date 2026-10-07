@@ -52,6 +52,7 @@ Diese Übung vermittelt **übertragbare Kompetenzen der Quellenkritik** (äusser
 ## Hinweis zur digitalen Überlieferung
 
 Die hier verwendete Quelle liegt in einer **editorisch aufbereiteten digitalen Edition** vor. Für die Quellenkritik gehört deshalb nicht nur der Text, sondern auch die **Editionsebene** (Metadaten, Archivsignatur, Verlinkungen, Editionsrichtlinien) zum Untersuchungsgegenstand. [@fickers2022criticism]
+
 :::
 
 ::: callout-tip
@@ -61,6 +62,7 @@ Die hier verwendete Quelle liegt in einer **editorisch aufbereiteten digitalen E
 **Wer ist Hansen?** Die Notiz nennt ihn in jedem Prompt, führt ihn aber nirgends ein. Aus dem Text selbst geht hervor: Hansen ist der dänische Gesprächspartner Petitpierres und lebt in der Schweiz. Er überbringt eine Botschaft des dänischen Aussenministers Rasmussen. Diese eine Information löst Aufgabe 5 der internen Kritik («Was kann ich über die dänische Position sagen?») deutlich leichter.
 
 **Was ist eine Aktennotiz?** In der schweizerischen Verwaltungspraxis ist eine Aktennotiz eine kurze, formlose Dokumentation für die Akten: Sie hält ein Gespräch oder einen Sachverhalt fest, ohne Sitzungsteilnehmende, Traktanden oder Beschlüsse zu protokollieren. Sie ist deshalb kürzer und informeller als ein **Protokoll**, das eine Sitzung im formalen Ablauf festhält. Diese Unterscheidung ist im ausgefüllten KI-Protokoll-Beispiel in der Übung [Prompt Engineering](prompt-engineering.qmd) (Abschnitt «Arbeitsmodus: KI-Protokoll und A/B-Testing») wichtig: Die KI dort nennt den Text ein «Protokoll einer Bundesratssitzung», was die Textsorte falsch bestimmt.
+
 :::
 
 ## Auf einen Blick
@@ -76,6 +78,16 @@ Die hier verwendete Quelle liegt in einer **editorisch aufbereiteten digitalen E
 Der Kernpfad führt Sie in ca. 180 Minuten zu einer vollständigen Quellenkritik. Schritt 4 kostet ca. 90 Minuten zusätzlich, denn Sie suchen dafür weitere Quellen.
 
 Die zwei Protokolle haben unterschiedliche Aufgaben. Das Analyseprotokoll beschreibt die Quelle. Das KI-Protokoll beschreibt Ihre KI-Nutzung. Führen Sie beide getrennt.
+
+<!-- bridge -->
+
+::: {.callout-note title="Brücke: Das bringen Sie mit"}
+Aus der vorigen Übung brauchen Sie:
+
+- Ihr KI-Protokoll und das ausgefüllte [Startpaket Dodis 5020](startpaket-dodis-5020.qmd). Die Quelle ist in beiden Übungen dieselbe.
+- Pfad A: Ihre Arbeitsfrage aus [Forschungsfrage](formulieren-historische-forschungsfrage-schweiz-europarat.qmd).
+
+:::
 
 ## Was Sie brauchen
 
@@ -110,6 +122,14 @@ Das System muss die drei folgenden Dinge können:
 Die Aktennotiz Dodis 5020 ist auf **Französisch**. Rechnen Sie mit zusätzlicher Zeit für die Übersetzung, wenn Französisch nicht Ihre Arbeitssprache ist. Legen Sie ausserdem fest, in welcher Sprache die KI antworten und zitieren soll, und notieren Sie diese Wahl im KI-Protokoll (siehe [Prompt Engineering](prompt-engineering.qmd), Abschnitt «Was Sie brauchen»).
 
 {{< include ../_ki-anforderungen.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Pflichtlektüre"}
+
+- @fickers2020hermeneutik (offen zugänglich, nur auf Deutsch): Was meint «Update für die Hermeneutik»? Nennen Sie zwei Punkte, die sich für Ihre Arbeit an Dodis 5020 ändern, und zwei, die gleich bleiben. Wenn Sie kein Deutsch lesen, lesen Sie stattdessen @oberbichler2025implementing (Englisch) und beantworten Sie dieselbe Frage für den Begriff «Werkzeug und Methode».
+
+:::
 
 ## Lernziele
 
@@ -153,6 +173,15 @@ Formulieren Sie in **max. 4 Sätzen**:
 - Was ist die zentrale Aussage/Entscheidung?
 - Welche Konsequenz wird angedeutet?
 
+::: {.callout-note collapse="true" title="Beispielantwort zu Aufgabe 1a (erst nach Ihrer eigenen Paraphrase aufklappen)"}
+Bundesrat Petitpierre hält ein Gespräch mit Herrn Hansen fest. Hansen hat im Auftrag des dänischen Aussenministers Rasmussen auf die Tagung des Europarats im August in Strassburg hingewiesen und der Schweiz im Falle einer Bewerbung volle dänische Unterstützung zugesagt. Petitpierre antwortet, die schweizerische Neutralitätspolitik stehe einem Beitritt entgegen: Schweden sehe keine Unvereinbarkeit, die Schweizer Neutralität sei jedoch «absoluter». Er betont Interesse ohne «Gleichgültigkeit oder Feindseligkeit» und verweist auf führende Parteivertreter in einem privaten föderalistischen Komitee und auf seine Information der aussenpolitischen Kommissionen.
+
+Zur vierten Frage: Die Notiz hält eine Absage und ein Signal des Wohlwollens fest. Eine weitergehende «Konsequenz» wäre Ihre eigene Folgerung. «Keine ausdrücklich genannt» ist daher eine zulässige Antwort.
+
+<!-- TODO Kursverantwortliche: Beispielantwort mit dem Editionstext abgleichen. -->
+
+:::
+
 ### Aufgabe 1b: Dieselbe Minimalparaphrase mittels KI
 
 ```markdown
@@ -169,6 +198,7 @@ Maximal 4 Sätze. Keine Interpretation.
 ## Wenn keine Konsequenz explizit genannt wird
 
 Die vierte Frage fragt nach einer angedeuteten Konsequenz, aber die Regel «Keine Interpretation» gilt weiterhin. Die Notiz hält eine Absage und ein Wohlwollenssignal fest; alles darüber hinaus ist bereits Ihre eigene Schlussfolgerung. **«Keine explizit genannt» ist eine vollständig gültige Antwort** auf diese Frage, wenn der Text keine Konsequenz ausdrücklich benennt.
+
 :::
 
 ::: callout-tip
@@ -182,6 +212,7 @@ Prüfen Sie vor dem Upload, ob Sie über das Material verfügen dürfen. Der Abs
 ## Zu den Nutzungsbedingungen von Dodis
 
 Die Dodis-Website blockiert automatisierten Zugriff, deshalb konnten die genauen Wiederverwendungsbedingungen für Editionstexte bei der Erstellung dieser Übung (Stand 2026-09-25) nicht abschliessend geprüft werden. Das Impressum von Dodis weist die Verantwortung für die Quellenkritik den Nutzenden zu, äussert sich aber nicht eindeutig zu einer Weitergabe an ein KI-System. Prüfen Sie deshalb selbst auf der Dodis-Website, ob und unter welchen Bedingungen ein Upload zu Studienzwecken zulässig ist, bevor Sie das Digitalisat hochladen. Kopieren Sie im Zweifelsfall nur den reinen Editionstext in den Prompt (siehe die Ausnahmeregel unten), statt eine Datei hochzuladen.
+
 :::
 
 Laden Sie das Dokument als PDF-Datei zusammen mit dem Prompt hoch. Das ist der Normalfall. Stellen Sie sicher, dass die KI auch Zugriff auf die Metadaten hat. Rufen Sie die Metadaten online ab oder geben Sie sie selbst an.
@@ -211,6 +242,7 @@ Diese Übung nutzt eine edierte Fassung mit geprüftem Text. Bei einem Scan oder
 Ein allgemeines KI-System hält an einer unleserlichen Stelle nicht an. Es setzt ein plausibles Wort ein und markiert nichts. Die Fehlerrate der [Handschriftenerkennung](../glossary.qmd#gl-htr) hängt stark von Schrift, Layout und Sprache ab [@romein2025assessing; @diezgarcia2025evaluating]. Solche Fehler verändern jede spätere Auswertung [@vanstrien2020assessing].
 
 Vergleichen Sie deshalb jedes Zitat mit dem Digitalisat. Notieren Sie im [Analyseprotokoll](../glossary.qmd#gl-analyseprotokoll), ob der Text maschinell erkannt wurde. Der Abschnitt [Fähigkeiten prüfen und einordnen](prompt-engineering.qmd#sec-faehigkeiten) erklärt diesen Punkt ausführlich.
+
 :::
 
 ### Arbeitsauftrag (Reflexion)
@@ -598,6 +630,7 @@ Notieren Sie:
 ## Qualitätskriterium
 
 Eine gute Quellenkritik ist nicht die, die „alles erklärt“, sondern die, die **Grenzen und Prüfschritte** sichtbar macht: Was ist belegt? Was ist hypothetisch? Was müsste als Nächstes geprüft werden?
+
 :::
 
 ## Lernergebnis
@@ -611,12 +644,22 @@ Am Ende verfügen Sie über:
 - ein **KI-Protokoll** mit mindestens 6 Einträgen,
 - eine reflektierte Einschätzung, **wo KI Exploration unterstützt** und **wo sie methodisch zu begrenzen** ist.
 
+<!-- take -->
+
+::: {.callout-note title="Mitnehmen in die nächste Übung"}
+
+- Ihr Quellenanalyseprotokoll zu Dodis 5020 in [Quellensuche](quellensuche-vorort-europarat-1963.qmd) (Einordnung gefundener Quellen) und in [Schreiben](schreiben.qmd) (als Material).
+
+:::
+
 ## Weiterführende Ressourcen
 
 - [Ranke.2: Wikipedia als historische Quelle](https://ranke2.uni.lu/u/wikipedia-historical-source/) – Provenienz, Revisionsgeschichten und digitale Quellenkritik.
 - [Knowing Machines: Models All the Way Down](https://knowingmachines.org/models-all-the-way) – Kritik an Trainingsdaten und ihre Parallelen zur Quellenkritik.
 - @stark2023conjectural – Liest maschinelles Lernen als konjekturale Wissenschaft, die aus Spuren schliesst; diskutiert die epistemologischen Risiken automatisierter Mustererkennung.
 - @lang2026beyond – Ethische Datenarbeit in den (digitalen) Geisteswissenschaften; relevant für Datenprovenienz und Datensatzdokumentation.
+
+{{< include ../_rueckmeldung.qmd >}}
 
 ## Bibliographie
 

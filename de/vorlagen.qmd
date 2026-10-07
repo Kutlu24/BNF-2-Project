@@ -1,0 +1,21 @@
+---
+lang: de
+title: 'Vorlagen zum Herunterladen'
+description: "Vorlagen für KI-Protokoll, Rechercheprotokoll, Arbeitsumgebung, Prompt-Layout und Rückmeldung, als Word-Datei und als Markdown."
+date: '2026-10-07'
+date-modified: '2026-10-07'
+draft: false
+citation: false
+---
+
+Diese Vorlagen helfen Ihnen, Ihre Arbeit festzuhalten. Laden Sie die Word-Datei (`.docx`) herunter, wenn Sie in einer Textverarbeitung arbeiten, oder die Markdown-Datei (`.md`), wenn Sie in einem Texteditor arbeiten. Kopieren Sie die Datei, bevor Sie sie ausfüllen, und behalten Sie das Original.
+
+| Vorlage                      | Wofür                                                                         | Wann                                    | Download                                                                                                                        |
+| ---------------------------- | ----------------------------------------------------------------------------- | --------------------------------------- | ------------------------------------------------------------------------------------------------------------------------------- |
+| KI-Protokoll                 | Jeder Arbeitsschritt mit KI: Material, Prompt, Antwort, Prüfung, Entscheidung | In jeder Übung, direkt nach dem Schritt | [Word](../templates/de/ki-protokoll-vorlage.docx) · [Markdown](../templates/de/ki-protokoll-vorlage.md)                         |
+| Rechercheprotokoll           | Ihre Suchen: System, Suchanfrage, Filter, Treffer, Auswahl                    | Literaturrecherche, Quellensuche        | [Word](../templates/de/rechercheprotokoll-vorlage.docx) · [Markdown](../templates/de/rechercheprotokoll-vorlage.md)             |
+| Arbeitsumgebung              | Werkzeug, Konto, Einstellungen und Regeln, einmal festgehalten                | Arbeitsbereich einrichten               | [Word](../templates/de/arbeitsumgebung-vorlage.docx) · [Markdown](../templates/de/arbeitsumgebung-vorlage.md)                   |
+| Prompt-Layout                | Quelle und Metadaten sauber getrennt in den Prompt setzen                     | Prompt Engineering, Quellenkritik       | [Markdown](../templates/de/prompt-layout-vorlage.md)                                                                            |
+| Wo bin ich hängen geblieben? | Zeit pro Schritt und Stolperstellen, die Sie dem Kurs zurückmelden können     | Nach jeder Übung                        | [Word](../templates/de/haengenbleiben-protokoll-vorlage.docx) · [Markdown](../templates/de/haengenbleiben-protokoll-vorlage.md) |
+
+Das Prompt-Layout gibt es nur als Markdown-Datei. Die Vorlagen gibt es auch auf Englisch und Französisch, über die anderen Sprachversionen dieser Seite.

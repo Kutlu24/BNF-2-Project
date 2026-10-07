@@ -108,6 +108,7 @@ references:
 ## Traduction automatique
 
 Cet exercice a été traduit automatiquement depuis l'[original allemand](../../de/exercises/zitieren.qmd) et peut contenir des erreurs. En cas de doute, consultez la version originale.
+
 :::
 
 ## Aperçu et objectif didactique
@@ -135,6 +136,16 @@ Les trois exercices font tous partie du parcours principal. L'approfondissement 
 L'exercice 3 travaille avec le journal IA des exercices précédents. Sans ce journal, vous ne pouvez pas écrire de déclaration.
 
 Vous n'avez pas encore de journal? Faites d'abord l'exercice [Prompt Engineering](prompt-engineering.qmd). Vous y créez votre journal.
+
+:::
+
+<!-- bridge -->
+
+::: {.callout-note title="Passerelle: ce que vous apportez"}
+De l'exercice précédent, il vous faut:
+
+- Votre journal d'IA de **toutes les sections précédentes du même fichier**. L'exercice le prend comme entrée. Il n'y a pas de fusion de plusieurs fichiers.
+
 :::
 
 ## Ce dont vous avez besoin
@@ -166,7 +177,19 @@ Le système doit savoir faire les deux choses suivantes:
 - Votre journal IA des exercices précédents.
 - La règle contraignante de votre institution sur l'usage de l'IA. Vous trouvez cette règle par la procédure de cet exercice.
 
+**Langue**
+
+L'article test de Fickers (2020) n'existe qu'en allemand. Il faut lire l'allemand pour vérifier les citations de l'exercice 2 avec le texte original. Sinon, choisissez un article en libre accès dans votre langue de travail et notez ce choix dans votre journal d'IA.
+
 {{< include ../_exigences-ia.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Lecture obligatoire"}
+
+- Chicago Manual of Style, Quick Guide: <https://www.chicagomanualofstyle.org/tools_citationguide.html>. Question: comment le guide cite-t-il un article de revue avec DOI? Rédigez votre propre citation de l'article test **avant** l'exercice 1 et comparez ensuite.
+
+:::
 
 ## Objectifs d'apprentissage
 
@@ -463,6 +486,36 @@ VOTRE PROMPT
 
 :::
 
+::: {.callout-note collapse="true" title="Solution de référence: entrée Chicago pour l'article test (à ouvrir seulement après votre propre citation)"}
+**Bibliographie:**
+
+Fickers, Andreas. «Update für die Hermeneutik: Geschichtswissenschaft auf dem Weg zur digitalen Forensik?» _Zeithistorische Forschungen / Studies in Contemporary History_ 17, no. 1 (2020): 157–68. <https://doi.org/10.14765/zzf.dok-1765>.
+
+**Note de bas de page:**
+
+Andreas Fickers, «Update für die Hermeneutik: Geschichtswissenschaft auf dem Weg zur digitalen Forensik?», _Zeithistorische Forschungen / Studies in Contemporary History_ 17, no. 1 (2020): 157–68, <https://doi.org/10.14765/zzf.dok-1765>.
+
+**Variantes admises** (si vous les appliquez de façon cohérente):
+
+- Titre de la revue en allemand seulement ou bilingue.
+- «Heft 1» au lieu de «no. 1» si votre travail suit les conventions allemandes.
+- Pages «157–68» ou «157–168».
+- Citation de l'édition en ligne: sans numéros de page, mais avec le DOI.
+
+**Erreurs** (pas une question de style): mauvaise année, mauvais volume, un autre DOI ou un DOI inventé, coauteurs ou éditeurs ajoutés, mauvaise plage de pages.
+
+<!-- TODO responsables du cours: comparer l'entrée avec le Chicago Manual of Style (18e édition). -->
+
+:::
+
+::: {.callout-note title="Remplacement anglophone de l'article test"}
+
+<!-- TODO responsables du cours: choisir un article anglais en libre accès sur l'histoire numérique, ajouter une solution de référence Chicago et tester l'exercice 2 avec lui. -->
+
+[Indiquer ici titre, auteur, année et DOI d'un article anglais en libre accès.]
+
+:::
+
 Comparez la réponse avec votre citation manuelle, avec les recommandations de citation officielles de la page de l'éditeur, ou avec l'import par DOI dans votre logiciel de gestion bibliographique. Testez d'autres sources de littérature secondaire (d'autres articles, des monographies).
 
 - Toutes les indications concordent-elles?
@@ -532,6 +585,14 @@ Vous retirez quatre résultats de cet exercice:
 3. la référence de la règle contraignante de votre institution, notée dans le journal IA
 4. un journal IA avec au moins 4 entrées provenant de cet exercice
 
+<!-- take -->
+
+::: {.callout-note title="À emporter dans l'exercice suivant"}
+
+- Votre déclaration pour le rendu. Dans le parcours B, emportez-la dans [Public History](public-history.qmd).
+
+:::
+
 ## Ressources complémentaires
 
 - [DFG: Stellungnahme zum Einfluss generativer Modelle](https://www.dfg.de/resource/blob/289674/ff57cf46c5ca109cb18533b21fba49bd/230921-stellungnahme-praesidium-ki-ai-data.pdf) – Court texte de fond sur la déclaration et la paternité [@dfg2023generative]. (GERMAN only)
@@ -540,6 +601,8 @@ Vous retirez quatre résultats de cet exercice:
 - [Historisches Institut Bern: Plagiate und KI-Gebrauch](https://www.hist.unibe.ch/studium/plagiate__ki_gebrauch/index_ger.html) – Exemple de règle institutionnelle avec un modèle de déclaration d'IA. (GERMAN only)
 - [Stanford HAI: AI-Detectors Biased Against Non-Native English Writers](https://hai.stanford.edu/news/ai-detectors-biased-against-non-native-english-writers) – Compte rendu d'une étude qui examine les détecteurs d'IA. Ces détecteurs classent souvent à tort comme automatiques les textes d'étudiants dont l'anglais n'est pas la langue maternelle. (ENGLISH only)
 - [The Turing Way](https://book.the-turing-way.org/) – Manuel pour une recherche reproductible, éthique et collaborative. (ENGLISH only)
+
+{{< include ../_retour.qmd >}}
 
 ## Bibliographie
 

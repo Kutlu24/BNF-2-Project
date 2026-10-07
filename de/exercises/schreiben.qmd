@@ -129,6 +129,17 @@ Ziel ist nicht, Textproduktion zu «automatisieren», sondern **Entscheidungsqua
 
 Der Kernpfad führt Sie in 45 bis 60 Minuten zu einem überarbeiteten Text. Jede optionale Vertiefung kostet ca. 15 Minuten zusätzlich. Führen Sie pro Schritt des Kernpfads einen Eintrag im KI-Protokoll.
 
+<!-- bridge -->
+
+::: {.callout-note title="Brücke: Das bringen Sie mit"}
+Als Material nutzen Sie:
+
+- Pfad A: Ihr Quellenanalyseprotokoll aus [Quellenkritik](quellenkritik-bundesrat-europarat-1949.qmd) und Ihr Rechercheprotokoll aus [Quellensuche](quellensuche-vorort-europarat-1963.qmd).
+- Pfad B: Ihre Literaturliste und Ihre Forschungslücke aus [Literaturrecherche](literaturrecherche-sozialversicherung-ch.qmd).
+- Pfad C: ein Textfragment (halbe bis eine Seite) und mindestens 10 Stichpunkte zu Ihrem Thema.
+
+:::
+
 ## Was Sie brauchen
 
 **Fachliches Wissen**
@@ -159,7 +170,19 @@ Diese Übung braucht weder eine Websuche noch einen Datei-Upload. Ein kostenlose
 - Eigene Stichpunkte oder Notizen zum Thema, mindestens 10 Punkte.
 - Eine Datei für Ihr KI-Protokoll.
 
+**Sprache**
+
+Die Prompts sind auf Deutsch und verlangen akademisches Deutsch. Schreiben Sie Ihre Arbeit in einer anderen Sprache, ersetzen Sie die Zielsprache in den Prompts (siehe Schritt 4 und Schritt 7) und notieren Sie die Wahl im KI-Protokoll.
+
 {{< include ../_ki-anforderungen.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Pflichtlektüre"}
+
+- @bender2021stochastic (Einleitung und Schluss genügen): Warum ist ein plausibler Text kein Beleg? Beantworten Sie in drei Sätzen und wenden Sie die Antwort auf die Absatzfassung in Schritt 4 an.
+
+:::
 
 ## Lernziele
 
@@ -185,6 +208,7 @@ Für verlässlicheres Arbeiten nutzen Sie konsequent zwei Prompt-Prinzipien: 1. 
 ## Grundregel: KI darf nichts «erfinden»
 
 Nutzen Sie KI nur als **Transformations- und Prüfwerkzeug** für _Ihr_ Material (Notizen, Quellenexzerpte, Literaturzusammenfassungen, Gliederungsentwürfe). Wenn KI zusätzliche Fakten, Literatur oder Quellen nennt, gilt das als **Recherche-Hypothese**, die Sie **extern verifizieren** müssen.
+
 :::
 
 {{< include ../_ki-protokoll.qmd >}}
@@ -330,7 +354,7 @@ Wählen Sie **einen** Gliederungspunkt (z.B. «Hauptargument 1») und liefern Si
 
 ```markdown
 Rolle: Textgenerator aus Stichpunkten.
-Schreibe einen Absatz (120–180 Wörter) in akademischem Deutsch.
+Schreibe einen Absatz (120–180 Wörter) in akademischer Sprache ([Zielsprache, z. B. Deutsch]).
 Bedingungen:
 - Verwende ausschliesslich Informationen aus meinen Stichpunkten.
 - Keine neuen Beispiele, Daten, Namen, Quellen.
@@ -526,10 +550,20 @@ Am Ende haben Sie ein kleines Paket an Artefakten, das wissenschaftlich weiterve
 - Abstract (und optional Übersetzung + Glossar)\
 - KI-Protokoll mit mindestens 6 Einträgen
 
+<!-- take -->
+
+::: {.callout-note title="Mitnehmen in die nächste Übung"}
+
+- Ihr Textfragment, das Abstract und den Meta-Kommentar in [Zitieren](zitieren.qmd). Dort sichern Sie die Belege.
+
+:::
+
 ## Weiterführende Ressourcen
 
 - [AI Pedagogy Project: LLM Tutorial](https://aipedagogy.org/guide/llm-tutorial/) – Grenzen, Halluzinationen, Verifikation und kritische Nutzung von LLMs.
 - [The Turing Way](https://book.the-turing-way.org/) – Handbuch für reproduzierbare, ethische und kollaborative Forschung.
+
+{{< include ../_rueckmeldung.qmd >}}
 
 ## Bibliographie
 

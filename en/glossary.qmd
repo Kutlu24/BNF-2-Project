@@ -14,6 +14,7 @@ citation: false
 ## Automated Translation
 
 This glossary was translated automatically from the [German original](../de/glossary.qmd) and can contain errors. Consult the original version in case of doubt.
+
 :::
 
 This glossary explains the terms that the exercises use without further explanation. Each entry is a working definition for this course and not an encyclopedia article. The exercises say **AI system** when a program builds on a large language model.

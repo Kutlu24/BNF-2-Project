@@ -13,6 +13,7 @@ La version allemande de ce cours nomme ce journal **KI-Protokoll**. La littérat
 ## Écrivez chaque entrée immédiatement
 
 Écrivez l'entrée directement après l'étape de travail, et non à la fin de l'exercice. Après une heure, vous ne connaissez plus la formulation exacte de votre prompt.
+
 :::
 
 ### Où tenir le journal
@@ -30,6 +31,7 @@ Vous n'avez besoin d'aucun outil particulier. Un fichier texte ou un document da
 ## Un fichier, pas un par exercice
 
 Des versions antérieures de ce guide laissaient ouvert le choix entre un fichier par exercice et un fichier pour tout le cours. La règle est maintenant fixe: **un fichier, une section par exercice.** Un exercice qui demande «votre journal IA des exercices précédents» (par exemple [Citer](citer.qmd)) désigne les sections précédentes de ce même fichier, et non la fusion de plusieurs fichiers.
+
 :::
 
 ### Quelle longueur pour une entrée
@@ -45,7 +47,7 @@ Chaque exercice indique ce qu'il exige. Certains exercices nomment un nombre d'e
 
 ### Modèle pour une entrée
 
-Copiez ce tableau à nouveau pour chaque entrée.
+Copiez ce tableau à nouveau pour chaque entrée. Le modèle existe aussi en fichier Word et Markdown à [télécharger](../modeles.qmd).
 
 | Champ                                               | Contenu |
 | --------------------------------------------------- | ------- |
@@ -94,6 +96,7 @@ Une liste avec les mêmes champs est tout aussi valable. Choisissez la forme que
 ## Pourquoi ces six nouveaux champs
 
 Les champs «Outil», «Fournisseur», «Type de compte», «Recherche web», «Mode de raisonnement» et «Fichier téléversé» manquaient dans les versions antérieures de ce modèle. L'exercice [Citer](citer.qmd) a besoin exactement de ces informations pour la déclaration de l'usage de l'IA («outil, version, fournisseur»), et [Prompt Engineering](prompt-engineering.qmd), étape 8, demande le mode de raisonnement «de la même manière que vous notez le modèle et la date». Sans ces champs dans le journal, vous ne pouvez pas rédiger la déclaration à la fin. Remplissez ces six champs une fois par session, pas une fois par entrée, tant que rien ne change.
+
 :::
 
 ### Une entrée remplie comme exemple
@@ -121,5 +124,6 @@ Notez la troisième catégorie. L'étudiante n'affirme pas que la cote est inven
 ## Ce qui compte ici comme «le matériel»
 
 «Matériel» désigne ici uniquement le texte copié de la note de dossier elle-même, pas les notes de bas de page de l'édition imprimée. L'édition de Dodis 5020 cite bien des cotes d'archives comme E 2001(E) et E 2800 dans ses notes de bas de page, mais ces notes ne faisaient pas partie de ce que l'étudiante a copié dans le prompt. «La cote ne figure nulle part dans le matériel» signifie donc: nulle part dans le texte copié de la note de dossier, pas: nulle part dans l'édition imprimée. Si vous copiez à la place toute la page de l'édition avec ses notes de bas de page, ce qui compte comme vérifié change.
+
 :::
 ::::

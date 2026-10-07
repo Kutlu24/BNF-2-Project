@@ -1,0 +1,162 @@
+---
+lang: fr
+title: "Kit de départ Dodis 5020"
+subtitle: "Le matériel pour Prompt Engineering et la critique des sources au même endroit"
+description: "Un paquet de matériel pour démarrer: la note de dossier Dodis 5020 avec un bloc de métadonnées, des repères sur la personne et le type de texte, une remarque sur les conditions d'utilisation, du matériel de travail pour les exercices et des espaces réservés pour vos propres saisies."
+author:
+  - name: "Moritz Mähr"
+    orcid: 0000-0002-1367-1618
+    email: moritz.maehr@gmail.com
+    affiliations:
+      - "Université de Berne"
+date: "2026-10-07"
+date-modified: "2026-10-07"
+categories: [Sources]
+tags:
+  - Critique des sources
+  - Dodis
+  - Prompting
+difficulty: Beginner
+time_estimate: "20-30 min"
+draft: false
+nocite: ""
+references: []
+---
+
+::: callout-warning
+
+## Traduction automatique
+
+Cet exercice a été traduit automatiquement depuis l'[original allemand](../../de/exercises/startpaket-dodis-5020.qmd) et peut contenir des erreurs. En cas de doute, consultez la version originale.
+
+:::
+
+## À quoi sert ce paquet
+
+L'exercice [Prompt Engineering](prompt-engineering.qmd) travaille sur une seule source: la note de dossier Dodis 5020. Ce paquet fournit tout ce qu'il vous faut, pour que vous n'ayez pas à passer d'un exercice à l'autre. Il ne contient aucun renvoi anticipé aux exercices suivants.
+
+## En un coup d'œil
+
+| Indication                       | Valeur                                                                                                |
+| -------------------------------- | ----------------------------------------------------------------------------------------------------- |
+| **Durée**                        | environ 20 à 30 minutes                                                                               |
+| **Niveau**                       | Beginner                                                                                              |
+| **Parcours principal**           | 1 → 2 → 3 → 4                                                                                         |
+| **Approfondissement facultatif** | Rédiger votre propre résumé sans IA (recommandé avant le premier prompt)                              |
+| **Rendu (minimum)**              | Un fichier avec le texte de la source, le bloc de métadonnées et votre sélection de phrases (étape 4) |
+
+## Ce dont vous avez besoin
+
+- L'accès à <https://dodis.ch/5020> (base de données Documents diplomatiques suisses).
+- Votre [journal d'IA](../glossary.qmd#gl-ki-protokoll) de l'exercice [Préparer votre espace de travail](preparer-espace-de-travail.qmd).
+
+**Langue**
+
+La source est en **français**. Prévoyez du temps de lecture supplémentaire si le français n'est pas votre langue de travail. Notez dans votre journal d'IA dans quelle langue l'IA doit répondre et citer.
+
+{{< include ../_exigences-ia.qmd >}}
+
+## 1. Se procurer la source
+
+1. Ouvrez <https://dodis.ch/5020>.
+2. Enregistrez le **texte de l'édition** (titre, regeste, texte du document et notes de bas de page) dans un fichier texte. Copiez le texte, ne téléversez pas de fichier tiers.
+3. Notez la date de consultation.
+
+::: callout-caution
+
+## Conditions d'utilisation
+
+Les mentions légales de Dodis confient la responsabilité de la critique des sources aux utilisateurs. Elles ne disent pas clairement si la transmission à un système d'IA est permise. Vérifiez les conditions vous-même avant de téléverser un fichier. En cas de doute, copiez seulement le texte brut de l'édition dans le prompt.
+
+<!-- TODO responsables du cours: clarifier de façon contraignante les conditions d'utilisation de Dodis et les inscrire ici. Le site Dodis bloque l'accès automatisé et n'a pas pu être vérifié. -->
+
+:::
+
+## 2. Bloc de métadonnées
+
+Remplissez ce bloc à partir du champ de métadonnées de Dodis. Vous le transmettez avec chaque tâche où l'IA doit situer la provenance. Sans lui, un modèle invente facilement une provenance.
+
+```markdown
+MÉTADONNÉES
+Titre: [titre selon Dodis]
+Date: 7 juillet 1949
+Lieu: Berne
+Auteur: conseiller fédéral Max Petitpierre (chef du Département politique)
+Interlocuteur: Hansen, représentant du Danemark en Suisse [indiquer prénom et fonction d'après la fiche personne de Dodis]
+Type de texte: note de dossier (note d'entretien)
+Langue: français
+Édition: Documents diplomatiques suisses, vol. 17, Zurich/Locarno/Genève 2001
+URL Dodis: https://dodis.ch/5020
+Cote d'archive: [indiquer d'après le champ de métadonnées de Dodis]
+Date de consultation: [indiquer la date]
+```
+
+## 3. Contexte en trois lignes
+
+- **Qui est Hansen?** L'interlocuteur représente le Danemark en Suisse. Vérifiez nom et fonction dans la fiche personne de Dodis.
+- **Qu'est-ce qu'une note de dossier?** Un fonctionnaire ou un magistrat consigne un entretien pour ses propres dossiers. Ce n'est ni un procès-verbal de séance ni une décision. Elle rend le point de vue de la personne qui l'écrit.
+- **Quelle est l'occasion?** La session du Conseil de l'Europe à Strasbourg en août 1949.
+
+## 4. Matériel de travail pour Prompt Engineering
+
+### 4.1 Dix phrases pour la séparation des niveaux (exercice 4A)
+
+Choisissez dix phrases dans le texte de l'édition. Il vous faut trois groupes:
+
+| Groupe                         | Nombre | D'où                                                                |
+| ------------------------------ | ------ | ------------------------------------------------------------------- |
+| Texte du document              | 4      | En-tête ou corps de la note de dossier                              |
+| Édition et métadonnées         | 3      | Titre, regeste, notes de bas de page, indications sur l'impression  |
+| Conclusion (formulée par vous) | 3      | Vos propres énoncés sur la source que le texte ne fait pas lui-même |
+
+Saisissez les phrases ici:
+
+```markdown
+1) [phrase 1]
+2) [phrase 2]
+3) [phrase 3]
+4) [phrase 4]
+5) [phrase 5]
+6) [phrase 6]
+7) [phrase 7]
+8) [phrase 8]
+9) [phrase 9]
+10) [phrase 10]
+```
+
+En-têtes, pieds de page, titre et regeste comptent comme **édition ou métadonnées** quand ils viennent des éditeurs, et comme **texte du document** quand ils appartiennent à l'original. Décidez-le pour chaque phrase et notez votre raison.
+
+### 4.2 Hypothèses de travail (exercice 2A, avocat du diable)
+
+Après votre lecture, saisissez trois hypothèses à vous. Les formes ci-dessous sont des exemples que vous devez tester et modifier:
+
+```markdown
+H1: [Dans la note, la neutralité sert d'argument contre une adhésion.]
+H2: [Malgré le refus, Petitpierre signale un intérêt pour une coopération.]
+H3: [La note montre que la décision n'a pas été prise par le seul département.]
+```
+
+### 4.3 Résumé sans IA (recommandé)
+
+Avant le premier prompt, rédigez sans IA un résumé de quatre phrases au plus. Vous y comparerez plus tard les réponses du modèle.
+
+```markdown
+Qui parle/agit: [...]
+Occasion: [...]
+Énoncé central: [...]
+Conséquence suggérée: [...] (la réponse «aucune indiquée explicitement» est admise)
+```
+
+## Objectifs d'apprentissage
+
+Après le paquet, vous pouvez:
+
+- vous procurer la source avec des métadonnées complètes et la classer,
+- distinguer texte du document, édition et conclusion,
+- rédiger un résumé sans IA auquel vous comparez les réponses de l'IA.
+
+## Suite
+
+Continuez avec [Prompt Engineering](prompt-engineering.qmd).
+
+{{< include ../_retour.qmd >}}

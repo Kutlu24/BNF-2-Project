@@ -107,6 +107,7 @@ references:
 ## Traduction automatique
 
 Cet exercice a été traduit automatiquement depuis l'[original allemand](../../de/exercises/public-history.qmd) et peut contenir des erreurs. En cas de doute, consultez la version originale.
+
 :::
 
 ## Aperçu et objectif didactique
@@ -128,6 +129,17 @@ Le parcours principal vous mène en 4 heures environ à un billet de blog et à 
 À la place du billet de blog, vous pouvez rendre un script de podcast de 6 à 8 minutes. Remplacez pour cela l'étape 3 par l'étape 5B.
 
 Le billet de blog reste un rendu textuel, l'exercice nomme donc un nombre de mots. Pour le journal IA, vous comptez des entrées.
+
+<!-- bridge -->
+
+::: {.callout-note title="Passerelle: ce que vous apportez"}
+De l'exercice précédent, il vous faut:
+
+- Parcours B: utilisez comme article de départ un travail scientifique de votre liste de lectures de [Recherche bibliographique](recherche-bibliographique-securite-sociale-ch.qmd).
+- Parcours C: un article de votre domaine.
+- Votre déclaration de [Citer](citer.qmd).
+
+:::
 
 ## Ce dont vous avez besoin
 
@@ -157,7 +169,19 @@ Le système doit savoir faire les trois choses suivantes:
 - Un article scientifique comme texte de base. Choisissez un article librement accessible dans votre champ thématique.
 - Un fichier pour votre journal IA.
 
+**Langue**
+
+L'article d'exemple est en anglais, et votre public cible peut utiliser une autre langue. Fixez la langue du produit de médiation dans le briefing et gardez-la identique dans tous les prompts.
+
 {{< include ../_exigences-ia.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Lecture obligatoire"}
+
+- L'article de départ lui-même. Lisez-le en entier et notez cinq affirmations clés avec numéro de page avant l'étape 1. Seules ces affirmations clés vont dans le paquet de sources.
+
+:::
 
 ## Objectifs d'apprentissage
 
@@ -186,6 +210,7 @@ Les moteurs de recherche et les systèmes d'IA structurent la visibilité de man
 
 Travaillez avec un **paquet de sources**: titre et DOI, résumé, résultats centraux dans vos propres notes, quelques points clés et lieux de preuve (pages, sections), et si possible figures et tableaux.
 Ne donnez à l'IA que du matériel que vous pouvez contrôler vous-même, et faites-la travailler explicitement **uniquement à partir de là**.
+
 :::
 
 ::: callout-tip
@@ -193,6 +218,7 @@ Ne donnez à l'IA que du matériel que vous pouvez contrôler vous-même, et fai
 ## Transparence dans le produit
 
 Prévoyez à la fin un court élément de transparence (par exemple «Comment ce travail a été fait» ou «Soutien de l'IA»): ce pour quoi l'IA a servi (structure, variantes de langue, relecture), et ce pour quoi elle n'a pas servi (faits, décisions d'interprétation).
+
 :::
 
 ::: callout-important
@@ -207,6 +233,7 @@ Cet exercice mène à des produits destinés à un public. À côté de la décl
 L'article 50, paragraphe 4, n'exige donc pas une indication pour chaque image générée. Une image générée sans lien avec des personnes ou des événements existants n'en relève pas. L'obligation distincte de marquer les contenus générés dans un format lisible par machine incombe au fournisseur selon l'article 50, paragraphe 2, et non à vous.
 
 L'exception pour un texte examiné ne supprime pas votre déclaration scientifique. Déclarez votre usage de l'IA même lorsque le règlement n'exige aucune indication. L'exercice [Citation](citer.qmd) montre comment satisfaire les deux obligations.
+
 :::
 
 {{< include ../_journal-ia.qmd >}}
@@ -288,7 +315,7 @@ Matériel: ...
 
 ### Tâche
 
-Écrivez un billet de blog d'environ 700 à 1000 mots. Le billet contient:
+Rédigez **vous-même** le brouillon d'un billet de blog d'environ 700 à 1000 mots. L'IA joue le rôle de rédaction et vérifie votre brouillon, elle ne l'écrit pas. Si vous révisez plutôt un brouillon d'IA, indiquez-le explicitement dans votre journal d'IA et dans votre déclaration. Le billet contient:
 
 - une accroche qui atteint le public cible et le but,
 - une structure de sections claire avec des intertitres,
@@ -299,9 +326,10 @@ Matériel: ...
 ### Flux de travail avec l'IA (esquisse de prompt)
 
 ```markdown
-Rôle: tu es rédacteur de blog. Écris un billet de blog pour le contexte suivant.
+Rôle: tu es rédacteur de blog. Vérifie mon brouillon de billet de blog pour le contexte suivant.
+Brouillon: [votre propre brouillon]
 Consignes: longueur 900 mots, intertitres clairs, aucun fait nouveau.
-Utilise des identifiants d'affirmation dans le texte, entre crochets, par exemple [C3].
+Signale entre crochets les passages sans identifiant d'affirmation, par exemple [C3], et propose des coupes. Ne réécris aucun paragraphe.
 Matériel: briefing + paquet de sources + carte des messages + tableau des affirmations.
 ```
 
@@ -441,11 +469,21 @@ Entrée: carte des messages + paquet de sources + ébauche du blog ou du podcast
 
 S'y ajoute une connaissance méthodique: vous pouvez justifier où l'IA améliore une médiation, et où vous portez vous-même la responsabilité des preuves et de l'interprétation.
 
+<!-- take -->
+
+::: {.callout-note title="À emporter dans l'exercice suivant"}
+
+- Le produit avec déclaration. C'est le rendu.
+
+:::
+
 ## Ressources complémentaires
 
 - [AI Pedagogy Project: What is AI?](https://aipedagogy.org/guide/what-is-ai/) – Introduction conceptuelle pour un public non technique. (ENGLISH only)
 - [Critical AI Literacy: ressources curées](https://critical-ai-literacy.github.io/resources/) – Éthique, pouvoir, travail et politique de l'IA. (ENGLISH only)
 - @drucker2011humanities – Critique des conventions de la visualisation de données; introduit le concept de «capta», l'idée que les données sont construites et non données de manière objective.
+
+{{< include ../_retour.qmd >}}
 
 ## Bibliographie
 

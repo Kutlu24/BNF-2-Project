@@ -1,0 +1,8 @@
+<!-- Shared feedback note. The exercises pull this file in with the include shortcode. -->
+
+::: {.callout-note title="Where did you get stuck?"}
+Note at which step you hesitated, how long you actually needed and what was unclear. Report it through an [issue in the repository](https://github.com/maehr/critical-ai-literacy-for-historians/issues/new/choose). Your time data feed into the duration of the exercise.
+
+<!-- TODO interactive version: form with the fields "step", "minutes", "what was unclear?". Placeholder for the later web version. -->
+
+:::

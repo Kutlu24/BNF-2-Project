@@ -1,0 +1,8 @@
+<!-- Note de retour commune. Les exercices intègrent ce fichier avec le shortcode include. -->
+
+::: {.callout-note title="Où êtes-vous resté bloqué?"}
+Notez à quelle étape vous avez hésité, combien de temps il vous a réellement fallu et ce qui était peu clair. Signalez-le via une [issue dans le dépôt](https://github.com/maehr/critical-ai-literacy-for-historians/issues/new/choose). Vos indications de temps alimentent la durée de l'exercice.
+
+<!-- TODO version interactive: formulaire avec les champs «étape», «minutes», «qu'est-ce qui était peu clair?». Espace réservé pour la future version web. -->
+
+:::

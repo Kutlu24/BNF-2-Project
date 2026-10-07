@@ -13,6 +13,8 @@ listing:
   # Beginner -> Advanced -> Intermediate signalé dans le Friction Log v3,
   # point d'achoppement 7.
   contents:
+    - preparer-espace-de-travail.qmd
+    - kit-de-depart-dodis-5020.qmd
     - prompt-engineering.qmd
     - recherche-bibliographique-securite-sociale-ch.qmd
     - formuler-question-recherche-historique-suisse-conseil-europe.qmd
@@ -48,9 +50,9 @@ Suit ensuite la section «Ce dont vous avez besoin». Elle nomme les connaissanc
 
 ## Ordre recommandé
 
-Commencez par l'exercice [Prompt Engineering](prompt-engineering.qmd). Il est la base de tous les autres exercices. Ensuite, les exercices suivent le déroulement d'un projet de recherche:
+Commencez par l'exercice [Préparer votre espace de travail](preparer-espace-de-travail.qmd). Il règle une fois compte, droit et journal d'IA pour tout le cours. Vient ensuite [Prompt Engineering](prompt-engineering.qmd), la base de tous les autres exercices, avec le [kit de départ Dodis 5020](kit-de-depart-dodis-5020.qmd). Ensuite, les exercices suivent le déroulement d'un projet de recherche:
 
-1. [Prompt Engineering](prompt-engineering.qmd) – la base commune. Vous y créez aussi votre [journal IA](../glossary.qmd#gl-ki-protokoll).
+1. [Prompt Engineering](prompt-engineering.qmd) – la base commune (matériel de travail: [kit de départ Dodis 5020](kit-de-depart-dodis-5020.qmd)).
 2. [Recherche bibliographique](recherche-bibliographique-securite-sociale-ch.qmd) – explorer l'état de la recherche de manière systématique.
 3. [Question de recherche](formuler-question-recherche-historique-suisse-conseil-europe.qmd) – faire du sujet une question traitable.
 4. [Critique des sources](critique-sources-conseil-federal-conseil-europe-1949.qmd) – examiner et situer une source unique. Vous avez besoin de cette compétence de lecture pour l'exercice suivant.
@@ -66,6 +68,7 @@ Vous pouvez aussi traiter les exercices 2 à 8 séparément. L'exercice [Citatio
 ## Planifiez tôt la recherche de sources
 
 L'exercice [Recherche de sources](recherche-sources-vorort-conseil-europe-1963.qmd) est un projet de recherche de plusieurs jours. Tous les autres exercices durent entre une heure et une journée de travail. Commencez donc tôt la recherche de sources si vous suivez le cours entier en un semestre.
+
 :::
 
 ## Tous les exercices

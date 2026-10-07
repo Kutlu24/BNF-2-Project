@@ -115,6 +115,7 @@ references:
 ## Automated Translation
 
 This exercise was translated automatically from the [German original](../../de/exercises/schreiben.qmd) and can contain errors. Consult the original version in case of doubt.
+
 :::
 
 ## Overview and Didactic Goal
@@ -134,6 +135,17 @@ The goal is not to "automate" the production of text. The goal is to raise the *
 | **Hand-in (minimum)**  | One revised section of text. [AI log](../glossary.qmd#gl-ki-protokoll): 6 entries. |
 
 The core path leads you to a revised text in 45 to 60 minutes. Each optional deepening costs about 15 minutes more. Write one entry in the AI log for each step of the core path.
+
+<!-- bridge -->
+
+::: {.callout-note title="Bridge: what you bring"}
+Use as material:
+
+- Track A: your source analysis log from [Source Criticism](source-criticism-federal-council-council-of-europe-1949.qmd) and your search log from [Source Search](source-search-vorort-council-of-europe-1963.qmd).
+- Track B: your literature list and research gap from [Literature Research](literature-research-social-security-ch.qmd).
+- Track C: a text fragment (half a page to one page) and at least 10 bullet points on your topic.
+
+:::
 
 ## What You Need
 
@@ -165,7 +177,19 @@ This exercise needs neither a web search nor a file upload. A free account is en
 - Your own bullet points or notes on the topic, at least 10 points.
 - A file for your AI log.
 
+**Language**
+
+The prompts are in English and ask for academic English. If you write your paper in another language, replace the target language in the prompts (see steps 4 and 7) and record the choice in your AI log.
+
 {{< include ../_ai-requirements.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Required reading"}
+
+- @bender2021stochastic (introduction and conclusion are enough): Why is plausible text not evidence? Answer in three sentences and apply the answer to the paragraph version in step 4.
+
+:::
 
 ## Learning Objectives
 
@@ -191,6 +215,7 @@ For more reliable work, use two principles of prompting consistently. 1. **Delim
 ## Basic rule: the AI may "invent" nothing
 
 Use AI only as a **tool of transformation and verification** for _your_ material (notes, excerpts from sources, summaries of literature, drafts of an outline). If the AI names additional facts, literature or sources, that counts as a **hypothesis for a search** that you must **verify externally**.
+
 :::
 
 {{< include ../_ai-log.qmd >}}
@@ -336,7 +361,7 @@ Choose **one** point of the outline (for example "main argument 1") and supply 8
 
 ```markdown
 Role: text generator from bullet points.
-Write a paragraph (120–180 words) in academic English.
+Write a paragraph (120–180 words) in academic language ([target language, e.g. English]).
 Conditions:
 - Use only information from my bullet points.
 - No new examples, data, names or sources.
@@ -532,10 +557,20 @@ At the end you hold a small package of artifacts that you can reuse in your acad
 - an abstract (and, as an option, a translation and a glossary)\
 - an AI log with at least 6 entries
 
+<!-- take -->
+
+::: {.callout-note title="Take this into the next exercise"}
+
+- Your text fragment, the abstract and the meta-comment into [Citing](citing.qmd). There you secure the references.
+
+:::
+
 ## Further Resources
 
 - [AI Pedagogy Project: LLM Tutorial](https://aipedagogy.org/guide/llm-tutorial/) – Limits, hallucinations, verification and critical use of LLMs.
 - [The Turing Way](https://book.the-turing-way.org/) – Handbook for reproducible, ethical and collaborative research.
+
+{{< include ../_feedback.qmd >}}
 
 ## Bibliography
 

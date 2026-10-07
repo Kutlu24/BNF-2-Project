@@ -33,6 +33,7 @@ references: []
 ## Automated Translation
 
 This exercise was translated automatically from the [German original](../../de/exercises/prompt-engineering.qmd) and can contain errors. Consult the original version in case of doubt.
+
 :::
 
 ## Overview and Didactic Goal
@@ -53,6 +54,7 @@ Unlike the thematic exercises ([Research Question](formulating-historical-resear
 ## Basic rule: AI as hypothesis
 
 As soon as the model delivers facts, literature, archives, references or citations that do not come from your input or from verifiable records, treat that as a **hypothesis** and not as a result. [@bender2021stochastic] Your work stays the same: **counter-check, record, decide**.
+
 :::
 
 ## At a Glance
@@ -68,6 +70,16 @@ As soon as the model delivers facts, literature, archives, references or citatio
 The core path leads you to a complete result in about 150 minutes. The optional deepening costs about 30 minutes more.
 
 This exercise is the basis for all other exercises. Plan more time for the first run, because you also set up your AI log here.
+
+<!-- bridge -->
+
+::: {.callout-note title="Bridge: what you bring"}
+From the previous exercise you need:
+
+- Your log file with the section "Working environment" from the exercise [Set up your workspace](set-up-workspace.qmd).
+- The completed [Dodis 5020 starter kit](starter-kit-dodis-5020.qmd).
+
+:::
 
 ## What You Need
 
@@ -86,13 +98,22 @@ The system must be able to do the three following things:
 **Other tools and access**
 
 - A file for your AI log. A text file or a document in your word processor is enough.
-- The material package from the section "Case package for all exercises". For it you download a freely accessible source.
+- The completed [Dodis 5020 starter kit](starter-kit-dodis-5020.qmd).
 
 **Language**
 
 The memorandum Dodis 5020 that you work with in this exercise is in **French**. All prompts below are in English, but none tells the model which language to answer or quote in. Decide this for yourself before you start (for example: "Answer in English, quote passages in the French original"), and note your choice in the AI log.
 
 {{< include ../_ai-requirements.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Required reading"}
+
+- @walters2023fabrication: Which shares of fabricated and faulty references do the authors report, and what follows for how you treat AI-generated literature references? Answer in three sentences in your AI log, before section 7.
+- @turpin2023unfaithful (before section 5): The study shows that the reasons a model gives for its answer can hide what actually influenced it. What does this mean for how you check a requested reasoning trace? Answer in two sentences.
+
+:::
 
 ## Learning Objectives
 
@@ -121,13 +142,9 @@ Run at least **two prompt variants** for each technique. Then compare:
 2. overreach (speculation),
 3. fit with your next work steps.
 
-## Case Package for All Exercises
+## Case Package: the Dodis 5020 Starter Kit
 
-Use a **concrete, controllable material package**, as in the other exercises:
-
-1. **Primary source**: see the exercise [Source Criticism](source-criticism-federal-council-council-of-europe-1949.qmd).
-2. **Context resource**: see the exercise [Research Question](formulating-historical-research-question-switzerland-council-of-europe.qmd) or [Source Search](source-search-vorort-council-of-europe-1963.qmd).
-3. **Optional secondary source**: see the exercise [Literature Research](literature-research-social-security-ch.qmd) or [Citing](citing.qmd).
+This exercise works on a single source: the file note Dodis 5020. Everything you need for it is in the [Dodis 5020 starter kit](starter-kit-dodis-5020.qmd): the source, a metadata block to fill in, notes on the person and the text type, room for your ten sentences and your working hypotheses. Work through the starter kit first. You need no other exercise to finish this exercise.
 
 ::: callout-tip
 
@@ -203,7 +220,7 @@ Summarize the document and tell me what is important.
 - **Variant A (minimal):** only goal and answer format.
 - **Variant B (robust):** goal, structured context, constraints, answer format and self-check.
 
-Take the setup from the exercise [Source Criticism](source-criticism-federal-council-council-of-europe-1949.qmd) as your model (minimal paraphrase, at most 4 sentences).
+The task is a minimal paraphrase of the file note Dodis 5020 (at most 4 sentences). The setup consists of four questions: Who speaks or acts? What is the occasion? What is the central statement? Which consequence is implied, if any?
 
 **Prompt scaffold (robust, adaptable):**
 
@@ -231,13 +248,13 @@ Use roles as **methodological constraints**: each role enforces different heuris
 
 ### Exercise 2A: One Task, Three Roles
 
-Choose **one** task from the other exercises, for example develop a research question, do external source criticism, build search terms for catalogues, or write a blog briefing.
+The task for all three roles is: **external source criticism of Dodis 5020** (origin, transmission, edition). You need no other exercise for it.
 
 Have the same task worked on in three roles:
 
-1. **Source critic** (close to the text, separate the levels) – see [Source Criticism](source-criticism-federal-council-council-of-europe-1949.qmd).
-2. **Devil's advocate** (stress tests, counter-arguments) – see [Writing](writing.qmd).
-3. **Structurer** (work plan, intermediate products) – see [Public History](public-history.qmd) or [Writing](writing.qmd).
+1. **Source critic** (close to the text, separate the levels) (deepened later in the exercise [Source Criticism](source-criticism-federal-council-council-of-europe-1949.qmd)).
+2. **Devil's advocate** (stress tests, counter-arguments) (deepened later in the exercise [Writing](writing.qmd)).
+3. **Structurer** (work plan, intermediate products) (comes back in [Writing](writing.qmd) and [Public History](public-history.qmd)).
 
 **Role prompt (example: source critic, strongly limiting):**
 
@@ -258,7 +275,7 @@ Output:
 
 ```markdown
 Role: devil's advocate.
-Input: My working hypotheses (H1–H3) + notes on the material.
+Input: My working hypotheses [H1–H3 from the starter kit, section 4.2] + notes on the material.
 Task:
 - Name the debatable assumption for each hypothesis.
 - Formulate a stress test (which finding would overturn it?).
@@ -270,8 +287,8 @@ No external facts.
 
 Take the **best** answer from 2A and have a second role **check** it, not rewrite it:
 
-- Role "logic checker" (see the exercise [Writing](writing.qmd)): consistency, jumps, missing evidence.
-- Role "catalogue assistant" (see the exercise [Literature Research](literature-research-social-security-ch.qmd)): translates into search strings and indicators.
+- Role "logic checker" (comes back later in the exercise [Writing](writing.qmd)): consistency, jumps, missing evidence.
+- Role "catalogue assistant" (comes back later in the exercise [Literature Research](literature-research-social-security-ch.qmd)): translates into search strings and indicators.
 
 ## 3. Zero-shot Prompting
 
@@ -333,7 +350,7 @@ Mark in the answer:
 
 ### Exercise 3B: Three Research Questions (Zero-shot)
 
-Use the template from the exercise [Research Question](formulating-historical-research-question-switzerland-council-of-europe.qmd).
+Use the following prompt as a zero-shot template.
 
 ```markdown
 Give me three possible historical research questions that follow from the memorandum.
@@ -382,9 +399,10 @@ Material: [insert your 10 sentences from the memorandum here]
 ## Why examples 1 and 2 changed
 
 Earlier versions of this example labelled "Place: Bern; date: 7.7.1949" as [edition or metadata] and an already-analytical paraphrase as [document text]. Both labels were contestable: a memorandum usually carries place and date in its own heading, not first in the printed edition, and a sentence that already states an interpretation ("neutrality serves as an argument") is no longer a literal passage. The corrected examples above show the distinction this task is actually meant to train.
+
 :::
 
-**Work assignment:** Then take the few-shot block into your prompt from the exercise [Source Criticism](source-criticism-federal-council-council-of-europe-1949.qmd), and check whether the labels become more reliable.
+**Work assignment:** Then take the few-shot block into your prompt from exercise 3A, and check whether the labels become more reliable.
 
 ### Exercise 4B: Few-shot for Research Questions (Weak Against Strong)
 
@@ -429,6 +447,7 @@ Break complex tasks into **intermediate products** (decomposition) and enforce a
 ## Note on the reasoning trace
 
 Formulate the reasoning trace so that it stays **short** and **auditable** (bullet points, criteria, tests). The goal is verifiability and not a detailed "inner diary".
+
 :::
 
 ::: callout-caution
@@ -445,11 +464,12 @@ Only the requested reasoning trace is an artifact that you made yourself. Only i
 The same limit applies to both forms. The visible steps do not prove the actual computation. Models name reasons that hide the real influence on the answer. [@turpin2023unfaithful] Treat every reasoning trace as an aid to your check and never as evidence.
 
 The section [Check and classify capabilities](#sec-capabilities) goes deeper into the reasoning mode.
+
 :::
 
 ### Exercise 5A: Argument Mapping with Intermediate Steps
 
-Use the argument mapping from the exercise [Source Criticism](source-criticism-federal-council-council-of-europe-1949.qmd) (claim, warrant, assumption, implication), but enforce the step logic:
+An argument mapping sorts a statement into claim, warrant, assumption and implication. Enforce the step logic:
 
 ```markdown
 Task: Produce an argument mapping for the passages on neutrality, compatibility and the decision process.
@@ -499,7 +519,7 @@ Iteration as a **controlled revision**: you do not build "more text", but improv
 ### Exercise 6A: Generate → Critique → Revise (Research Question)
 
 1. **Generate (v1):** zero-shot research questions (exercise 3B).\
-2. **Critique:** use the critical comparison from the exercise [Research Question](formulating-historical-research-question-switzerland-council-of-europe.qmd) ("Why is the aspect of neutrality missing?" and "Which sources support this?").\
+2. **Critique:** criticise v1 with your own follow-up questions, for example: "Why is the aspect of neutrality missing?" and "Which sources support this?"\
 3. **Revise (v2):** have the AI revise the questions, but only along your points of criticism.
 
 **Critique prompt (template):**
@@ -518,7 +538,7 @@ No new facts.
 
 ### Exercise 6B: Iteration on the Answer Format (Citing and Summarizing)
 
-Take the exercise [Citing](citing.qmd) and enforce a two-stage output:
+The source to cite is the file note Dodis 5020 from the starter kit. Have the AI cite this source, and enforce a two-stage output. The **Chicago citation** is a reference in the style of the Chicago Manual of Style; the **Zotero import format** is a file (for example RIS or BibTeX) that you can load into the reference manager Zotero. The exercise [Citing](citing.qmd) deepens both later.
 
 1. extraction of structured metadata (fields),\
 2. only then the Chicago citation and the Zotero import format.
@@ -541,9 +561,21 @@ Rate each prompt variant with 0 to 2 points per criterion:
 4. **Error transparency** (does it mark uncertainties?)
 5. **Fit** (can you use the answer directly, for example for an excerpt, an outline or a search log?)
 
+**Anchoring the points.** Rate each criterion with this table so that two people judge the same answer the same way:
+
+| Criterion            | 0 points                                                | 1 point                                                          | 2 points                                                      |
+| -------------------- | ------------------------------------------------------- | ---------------------------------------------------------------- | ------------------------------------------------------------- |
+| Input binding        | The answer contains facts that are not in the material  | The answer mostly stays in the material but adds 1 to 2 things   | Every statement can be found in the material                  |
+| Separation of levels | Text, metadata and conclusion are mixed                 | The levels are named, but single statements are assigned wrongly | Every statement is assigned to the right level                |
+| Format stability     | The requested format is missing or changes              | The format fits, but one element is missing or deviates          | The format fits in all elements, also when repeated           |
+| Error transparency   | Uncertainties are not named                             | Uncertainties are named in general ("might be")                  | Uncertainties are marked and justified per statement          |
+| Fit                  | You must restructure the answer before you can reuse it | You must reshape small parts                                     | You take the answer into an excerpt or log without rebuilding |
+
+Rate the same answer again after a few days. If your points differ, a criterion is too blurred for you. Note this in your AI log.
+
 ### Exercise 7A: "Harden" a Prompt (Literature Research)
 
-Take a naive literature prompt ("Name the central literature on X") and optimize it so that it works as a **research assistant** and not as a producer of sources. For guidance, see the exercise [Literature Research](literature-research-social-security-ch.qmd) ("no invented titles; no pretended knowledge of the catalogue; mark uncertainties").
+Take a naive literature prompt ("Name the central literature on X") and optimize it so that it works as a **research assistant** and not as a producer of sources. Three rules are central: no invented titles, no pretended knowledge of the catalogue, mark uncertainties.
 
 **Optimized prompt (scaffold):**
 
@@ -568,7 +600,7 @@ Define an error budget and optimize against it:
 - **Budget B:** "0 unsupported context assumptions" (source criticism),
 - **Budget C:** "0 format violations" (for example at most 4 sentences, a table, claim IDs).
 
-Run 3 iterations (v1 to v3) and record:
+Choose **one** budget and one prompt. Run 3 iterations (v1 to v3), that is three runs. If you want to work on a second budget, that is a separate round with its own runs. Record:
 
 - which prompt change reduced which error field,
 - which side effects appear (for example an answer that becomes too vague).
@@ -584,6 +616,7 @@ Name five newer capabilities of AI systems, check them in your own account, and 
 ## These capabilities produce no evidence either
 
 None of the five capabilities turns an output into evidence. Each one produces hypotheses, and you check each hypothesis against the original. [@bender2021stochastic] The capabilities only move **where** the error appears: in the reasoning mode, in the search step, in the retrieval, in the transcription or in the model itself.
+
 :::
 
 ### 8.1 Built-in Reasoning Mode
@@ -629,6 +662,7 @@ This exercise is an exercise on source criticism. The error therefore stands in 
 ## Treat a machine transcription as a reading hypothesis
 
 Compare every citation with the digitized item before you adopt it. Note in the [source analysis log](../glossary.qmd#gl-analyseprotokoll) that a machine recognized the text. Note the date and the display form as well. In your text, a transcription without this note is indistinguishable from a reading that you checked.
+
 :::
 
 ### 8.5 Local and Open-Weight Models
@@ -712,10 +746,18 @@ Self-check: Name 3 plausible counter-records or alternative readings, and what y
 
 At the end you hold these artifacts:
 
-1. An AI log with at least 8 entries, spread over the techniques.\
+1. An AI log with at least 8 entries, spread over the techniques. The 8 are a lower limit. Otherwise keep one entry per work step with AI. You may combine the two runs of an A/B variant in one entry.\
 2. One short A/B comparison per technique, and 5 to 8 sentences of reflection. Describe there what improved or worsened in method terms.\
 3. A "best practice" template. That is your personal standard prompt for (a) source criticism or (b) literature research or (c) writing support.\
 4. The filled-in table from task 8A. It describes the capabilities of your account and belongs to the documentation of your work environment.
+
+<!-- take -->
+
+::: {.callout-note title="Take this into the next exercise"}
+
+- Your "best practice" template and the table from task 8A, in your AI log. You need both in every further exercise.
+
+:::
 
 ## Further Resources
 
@@ -729,6 +771,8 @@ At the end you hold these artifacts:
 - [Wikipedia: Prompt engineering](https://en.wikipedia.org/wiki/Prompt_engineering) – Encyclopedic overview with references to the research literature.
 - [YouTube playlist: Critical AI Literacy (Zentralbibliothek Zürich)](https://www.youtube.com/playlist?list=PLxDekeBVQtVJoizqbYM0ghqolcN3jUPsy) – Video series on machine learning, language models, prompting, bias, data visualization, evaluation methods and open science. (GERMAN only)
 - @sternfeld2023historian – Explains how a machine learning system "learns" from a dataset, and why AI works as a socio-technical system and not as an autonomous agent.
+
+{{< include ../_feedback.qmd >}}
 
 ## Bibliography
 

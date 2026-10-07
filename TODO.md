@@ -38,3 +38,16 @@ The repository already has these items:
 - A lint gate that covers every `.md`, `.yml`, `.json`, and `.qmd` file
 - A publish workflow that lints, renders, checks the links, and deploys to GitHub Pages
 - A changelog workflow that generates `CHANGELOG.md` and commits it to the pull request branch
+
+## Open items from the Friction Log v3 walkthrough (round 3)
+
+These items need a human decision or real model output. They are marked with `TODO` comments or bracketed placeholders in the exercise files.
+
+- Legal check of the answer to "Is a seminar paper professional or private use?" in the exercise "Arbeitsbereich einrichten" (de, en, fr).
+- Dodis terms of use for passing the edition text to an AI system (`startpaket-dodis-5020.qmd` and the translations).
+- Check the sample answer to Source Criticism task 1a and the Chicago reference solution in Citing against the sources.
+- Choose an open-access English article to replace the German test article in Citing (placeholder callout in Citing).
+- Answer keys and a gallery of typical AI errors on Dodis 5020 need real model output. Collect them in the pilot.
+- Pilot with 5 to 8 students: log actual minutes per step, run the prompts on two consumer systems, then rewrite the "At a glance" tables.
+- Fill the placeholders in the course's own AI-use disclosure on the home page.
+- Interactive web version: every `_rueckmeldung.qmd` / `_feedback.qmd` / `_retour.qmd` include marks the place for a per-page feedback form. Bracketed `[...]` fields in prompts and templates mark the inputs the interactive page should render as form fields.

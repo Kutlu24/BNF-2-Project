@@ -46,6 +46,7 @@ references:
 ## Traduction automatique
 
 Cet exercice a été traduit automatiquement depuis l'[original allemand](../../de/exercises/formulieren-historische-forschungsfrage-schweiz-europarat.qmd) et peut contenir des erreurs. En cas de doute, consultez la version originale.
+
 :::
 
 ## Aperçu et objectif didactique
@@ -61,6 +62,7 @@ L'exercice suit une **conception circulaire de la recherche**: les résultats de
 ## Remarque sur la recherche en ligne
 
 Malgré la numérisation croissante, la recherche historique ne peut pas se mener entièrement en ligne. La littérature secondaire épuisée et les sources primaires non encore cataloguées exigent souvent des recherches physiques en bibliothèque et en archives. Planifiez les accès (bibliothèque, prêt entre bibliothèques, archives) et notez que les plateformes et les catalogues structurent la visibilité (logique de catalogage) et ne garantissent aucune exhaustivité. [@putnam2016shadows] La critique des sources numériques demande une attention particulière à la création et à la curation des collections en ligne. [@fickers2022criticism]
+
 :::
 
 ## En un coup d'œil
@@ -74,6 +76,16 @@ Malgré la numérisation croissante, la recherche historique ne peut pas se mene
 | **Rendu (minimum)**             | Une question de recherche. [Journal IA](../glossary.qmd#gl-ki-protokoll): 5 entrées. |
 
 Le parcours principal vous mène à une question de recherche traitable en 90 minutes environ. L'étape 3 coûte environ 60 minutes de plus. Vous entraînez l'état de la recherche en détail dans l'exercice [Recherche bibliographique](recherche-bibliographique-securite-sociale-ch.qmd).
+
+<!-- bridge -->
+
+::: {.callout-note title="Passerelle: ce que vous apportez"}
+De l'exercice précédent, il vous faut:
+
+- Parcours A: votre journal d'IA de [Prompt Engineering](prompt-engineering.qmd).
+- Parcours B: cet exercice **ne fait pas partie du parcours B**. Votre question y naît dans [Recherche bibliographique](recherche-bibliographique-securite-sociale-ch.qmd), étape 8. Ne faites cet exercice que si vous voulez exercer la méthode sur un second sujet.
+
+:::
 
 ## Ce dont vous avez besoin
 
@@ -107,6 +119,14 @@ Le système doit savoir faire les deux choses suivantes:
 Aucun des quatre guides de comparaison de l'étape 1 n'est disponible en français: celui de Bâle est en anglais, ceux de Zurich, Brême et Hambourg sont en allemand. Prévoyez du temps de lecture dans ces langues si le français est votre seule langue de travail.
 
 {{< include ../_exigences-ia.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Lecture obligatoire"}
+
+- Bâle «History: A Toolkit for Students», section «Formulating a Research Question» (vers p. 11). Questions: quelles deux caractéristiques d'une question traitable la section nomme-t-elle? Testez votre question avec les deux avant de terminer l'étape 1.
+
+:::
 
 ## Objectifs d'apprentissage
 
@@ -197,6 +217,7 @@ Tu es historien et tu m'aides par le dialogue à trouver un sujet historique pou
 ## Question de réflexion
 
 En quoi ce dialogue avec l'IA se distingue-t-il d'un entretien avec un enseignant ou avec une camarade d'études?
+
 :::
 
 ### Tâche (vue d'ensemble historique)
@@ -370,11 +391,21 @@ Clôturez votre journal IA. Il comprend au moins 5 entrées, c'est-à-dire une e
 - d'une compréhension réfléchie des **potentiels et des limites de l'IA** dans le dispositif de recherche,
 - d'une appréciation méthodiquement fondée de la **faisabilité** de votre projet.
 
+<!-- take -->
+
+::: {.callout-note title="À emporter dans l'exercice suivant"}
+
+- Votre question de travail en une phrase. C'est la question pour [Critique des sources](critique-sources-conseil-federal-conseil-europe-1949.qmd) et [Recherche de sources](recherche-sources-vorort-conseil-europe-1963.qmd) dans le parcours A.
+
+:::
+
 ## Ressources complémentaires
 
 - [Ranke.2: Wikipedia as a historical source](https://ranke2.uni.lu/u/wikipedia-historical-source/) – Provenance, historiques de révision et critique des sources numériques. (ENGLISH only)
 - [AI Pedagogy Project: What is AI?](https://aipedagogy.org/guide/what-is-ai/) – Introduction conceptuelle pour un public non technique. (ENGLISH only)
 - @meadows2023practice – Introduction à un forum de revue sur ce que l'IA change aux méthodes et à l'épistémologie de l'histoire; utile pour la question de savoir quelles décisions de recherche restent chez les chercheurs.
+
+{{< include ../_retour.qmd >}}
 
 ## Bibliographie
 

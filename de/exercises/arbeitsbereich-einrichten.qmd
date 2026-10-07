@@ -1,0 +1,120 @@
+---
+lang: de
+title: "Arbeitsbereich einrichten"
+subtitle: "Konto, Werkzeuge, Recht und KI-Protokoll: einmal klären, danach in allen Übungen nutzen"
+description: "Eine kurze Startübung. Sie klären Konto, Kosten, Datenschutz und Kennzeichnungspflichten einmal, legen Ihr KI-Protokoll an und halten Ihre Arbeitsumgebung fest."
+author:
+  - name: "Moritz Mähr"
+    orcid: 0000-0002-1367-1618
+    email: moritz.maehr@gmail.com
+    affiliations:
+      - "Universität Bern"
+date: "2026-10-07"
+date-modified: "2026-10-07"
+categories: [KI & Digitale Methoden]
+tags:
+  - Datenschutz
+  - Toolkritik
+  - Nachvollziehbarkeit
+  - Ethik
+difficulty: Beginner
+time_estimate: "30-45 min"
+draft: false
+nocite: ""
+references: []
+---
+
+## Überblick und didaktisches Ziel
+
+Jede andere Übung setzt voraus, dass Sie wissen, mit welchem Konto Sie arbeiten, was dieses Konto kann und welches Material Sie hochladen dürfen. Diese Übung klärt das **einmal**. Die anderen Übungen verweisen nur noch auf diese Seite.
+
+Sie bearbeiten hier keine Quelle und schreiben keinen Prompt. Sie legen Ihren Arbeitsbereich an.
+
+## Auf einen Blick
+
+| Angabe                   | Wert                                                                                    |
+| ------------------------ | --------------------------------------------------------------------------------------- |
+| **Dauer**                | ca. 30 bis 45 Minuten                                                                   |
+| **Niveau**               | Beginner                                                                                |
+| **Kernpfad**             | 1 → 2 → 3                                                                               |
+| **Optionale Vertiefung** | Rechtsabschnitt (Datenschutz und Kennzeichnung) im Detail lesen                         |
+| **Abgabe (Minimum)**     | Ein [KI-Protokoll](../glossary.qmd#gl-ki-protokoll) mit dem Abschnitt «Arbeitsumgebung» |
+
+## Was Sie brauchen
+
+- Ein Konto bei mindestens einem KI-System.
+- Eine Textdatei oder ein Dokument für Ihr KI-Protokoll.
+
+**Sprache**
+
+Die Anleitung ist auf Deutsch. Die Rechtstexte (DSGVO, KI-Verordnung) existieren in allen drei Kursprachen. Verbindlich ist der Gesetzestext.
+
+## Schritt 1: Konto und Werkzeuge klären
+
+Lesen Sie den folgenden Abschnitt und beantworten Sie die fünf Punkte für Ihr Konto.
+
+{{< include ../_ki-anforderungen-voll.qmd >}}
+
+### Seminararbeit: berufliche oder private Nutzung?
+
+Das Gesetz nennt Sie «Betreiber», sobald Sie ein KI-System beruflich einsetzen, und nimmt rein private Nutzung aus. Eine Seminararbeit liegt dazwischen.
+
+**Orientierung, keine Rechtsberatung:** Eine Seminararbeit gehört zu Ihrem Studium und nicht zu Ihrem Privatleben. Gehen Sie deshalb vorsichtshalber davon aus, dass Sie als Betreiber gelten, solange Ihre Hochschule nichts anderes regelt. Das ändert im Alltag wenig, denn die Pflichten nach Artikel 50 Absatz 4 greifen nur bei **Veröffentlichung**:
+
+- Eine Seminararbeit, die nur Ihre Dozentin oder Ihr Dozent liest, löst die Kennzeichnungspflicht nicht aus. Die **wissenschaftliche Offenlegung** gilt trotzdem (siehe [Zitieren](zitieren.qmd)).
+- Ein veröffentlichter Blogpost, ein Podcast oder ein Social-Media-Beitrag zu einer öffentlichen Frage fällt dagegen unter die Pflicht, ausser eine Person hat den Text geprüft und trägt die redaktionelle Verantwortung (siehe [Public History](public-history.qmd)).
+
+<!-- TODO Kursverantwortliche: Diese Einordnung rechtlich prüfen lassen, bevor sie veröffentlicht wird. -->
+
+## Schritt 2: KI-Protokoll anlegen
+
+{{< include ../_ki-protokoll.qmd >}}
+
+Legen Sie jetzt Ihre Protokolldatei an, zum Beispiel `ki-protokoll.md`, und schreiben Sie als erste Überschrift `## Arbeitsumgebung`.
+
+## Schritt 3: Arbeitsumgebung festhalten
+
+Tragen Sie unter `## Arbeitsumgebung` Ihre Antworten auf die fünf Punkte aus Schritt 1 ein. Verwenden Sie diese Vorlage:
+
+```markdown
+## Arbeitsumgebung
+
+- Werkzeug und Version: [Name, Version]
+- Anbieter: [Name]
+- Konto: [institutionell / privat], [kostenlos / bezahlt]
+- Websuche: [an / aus]
+- Dateien lesen: [ja / nein]
+- Denkmodus: [an / aus / nicht vorhanden]
+- Speicher und Chatverlauf: [an / aus]
+- Regeln meiner Hochschule zu KI und Datenschutz: [Link oder «nicht gefunden, nachgefragt am …»]
+- Antwortsprache der KI (Standard): [Sprache]
+```
+
+Die Vorlage gibt es auch zum [Herunterladen](../vorlagen.qmd). Sie tragen dies **einmal** ein. Ändert sich eine Angabe (zum Beispiel wechseln Sie das Werkzeug), notieren Sie die Änderung mit Datum im selben Abschnitt.
+
+::: callout-tip
+
+## Prüfen Sie sich selbst
+
+Beantworten Sie ohne Nachschlagen:
+
+1. Welches Material laden Sie nicht hoch?
+2. Warum genügt «frei zugänglich» nicht als Erlaubnis?
+3. Wann müssen Sie KI-erzeugten Text als solchen kennzeichnen, und wann nicht?
+
+:::
+
+## Lernziele
+
+Nach Abschluss der Übung können Sie:
+
+- Konto, Kosten und Werkzeuge Ihres KI-Systems einordnen,
+- beurteilen, welches Material Sie nicht hochladen dürfen,
+- zwischen rechtlicher Kennzeichnung und wissenschaftlicher Offenlegung unterscheiden,
+- Ihr KI-Protokoll anlegen und Ihre Arbeitsumgebung festhalten.
+
+## Weiter
+
+Weiter geht es mit [Prompt Engineering](prompt-engineering.qmd).
+
+{{< include ../_rueckmeldung.qmd >}}

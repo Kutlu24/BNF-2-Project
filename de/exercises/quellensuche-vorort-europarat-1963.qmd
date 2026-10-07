@@ -55,6 +55,7 @@ Die Übung folgt einem **zirkulären Forschungsverständnis**: Suchresultate ver
 ## Hinweis zur Materialität der Quellenlage
 
 Beachten Sie bei der Archivarbeit **Schutzfristen, Nutzungsbedingungen und digitale Verfügbarkeit** der einzelnen Bestände. Planen Sie den Arbeitsaufwand für Einsichtsgesuche, On-Site-Konsultation und Reproduktionsrechte ein.
+
 :::
 
 ## Auf einen Blick
@@ -82,6 +83,27 @@ Planen Sie die Arbeit in drei Etappen:
 Für die Abgabe brauchen Sie keinen Archivbesuch. Die Shortlist entsteht aus den Findmitteln.
 
 Wenn Sie die Dossiers wirklich einsehen wollen, rechnen Sie mit zusätzlichen Wochen. Ein Einsichtsgesuch, eine Schutzfristverkürzung und ein Termin im Lesesaal haben lange Vorlaufzeiten. Diese Kalenderzeit gehört zur Übung, aber nicht zur Abgabe.
+
+:::
+
+<!-- bridge -->
+
+::: {.callout-note title="Brücke: Das bringen Sie mit"}
+Aus der vorigen Übung brauchen Sie:
+
+- Pfad A: Ihre Arbeitsfrage aus [Forschungsfrage](formulieren-historische-forschungsfrage-schweiz-europarat.qmd) und die Lesefähigkeit aus [Quellenkritik](quellenkritik-bundesrat-europarat-1949.qmd).
+- Eine Datei für Ihr Rechercheprotokoll. Nutzen Sie die [Vorlage zum Herunterladen](../vorlagen.qmd).
+
+:::
+
+::: {.callout-important title="Welche Frage bearbeiten Sie?"}
+Diese Übung zeigt das Verfahren am Beispiel der Vorort-Frage 1963 (Beitrittsdebatte und Interessenverbände). Sie haben zwei Wege:
+
+1. **Eigene Frage (empfohlen in Pfad A).** Sie nutzen Ihre Arbeitsfrage aus [Forschungsfrage](formulieren-historische-forschungsfrage-schweiz-europarat.qmd). Die Vorort-Frage dient als Muster. Ersetzen Sie in den Prompts die Begriffe durch Ihre eigenen.
+2. **Vorort-Frage wie vorgegeben.** Sie bearbeiten die Übung mit der Frage im Text. Das ist der richtige Weg, wenn Sie die Übung einzeln bearbeiten.
+
+Notieren Sie Ihre Wahl im KI-Protokoll. Die Übung ist die umfangreichste des Kurses und kein Einstieg. Planen Sie sie als Abschluss von Pfad A.
+
 :::
 
 ## Was Sie brauchen
@@ -114,7 +136,19 @@ Das System muss die drei folgenden Dinge können:
 - Ein [Literaturverwaltungsprogramm](../glossary.qmd#gl-zotero) für die kurzannotierte Bibliografie.
 - Eine Datei für Ihr Rechercheprotokoll und eine Datei für Ihr KI-Protokoll.
 
+**Sprache**
+
+Die Bestände und Findmittel zum Vorort sind überwiegend deutschsprachig, die Zeitungsarchive enthalten deutsche und französische Titel. Die Prompts sind auf Deutsch. Legen Sie vorab fest, in welcher Sprache die KI antworten soll, und notieren Sie diese Wahl im KI-Protokoll.
+
 {{< include ../_ki-anforderungen.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Pflichtlektüre"}
+
+- @putnam2016shadows (Zugang oft nur über die Hochschulbibliothek): Welche Folge hat die Volltextsuche für die Auswahl Ihrer Quellen? Beantworten Sie in drei Sätzen, bevor Sie Schritt 3 beginnen.
+
+:::
 
 ## Lernziele
 
@@ -294,9 +328,9 @@ Ersetzen Sie im folgenden Prompt die Beispielzeilen durch Ihre eigenen Suchbegri
 
 ```markdown
 Hier sind meine bisherigen Suchbegriffe und Trefferprobleme:
-- "Vorort AND Europarat": 3 Treffer, alle nach 1990.
-- "SHIV AND Beitritt": 0 Treffer.
-- "Interessenverband AND Europapolitik": über 800 Treffer, kaum einschlägig.
+- [Suchbegriff 1]: [Trefferzahl und Problem, z. B. «wenige Treffer, alle zu spät»]
+- [Suchbegriff 2]: [Trefferzahl und Problem]
+- [Suchbegriff 3]: [Trefferzahl und Problem]
 Optimiere die Suchbegriffe für Kataloge (Boolean, Phrasen, Trunkierung).
 Gib 6 Varianten an und erkläre kurz, welches Problem jede Variante adressiert.
 ```
@@ -353,7 +387,7 @@ Primärquellen so identifizieren, dass sie **bestell- und auswertbar** sind.
 
 ### Startpunkte (Orientierung)
 
-- Vorort-/economiesuisse-Bestände im Archiv für Zeitgeschichte (ETH Zürich)
+- Vorort-/economiesuisse-Bestände im [Archiv für Zeitgeschichte (ETH Zürich)](https://afz.ethz.ch/)
 - Nachweise in Katalogen (z. B. SWA/UB Wirtschaft Basel)
 - Vorort-bezogene Dokumente in diplomatiegeschichtlichen Kontexten (z. B. Dodis)
 
@@ -362,6 +396,7 @@ Primärquellen so identifizieren, dass sie **bestell- und auswertbar** sind.
 ## Methodischer Hinweis
 
 „Dossier gefunden“ ist nicht gleich „Evidenz gesichert“. Findmittel sind tertiäre Zugangsinstrumente: Sie strukturieren Sichtbarkeit, nicht Wahrheit.
+
 :::
 
 ### Aufgabe A: Findmittelanalyse
@@ -398,6 +433,7 @@ Je Pfad: 8–12 Suchbegriffe (DE/FR/EN) inkl. Namensvarianten.
 Diese Übung führt Sie zu Beständen mit Zugangsbeschränkungen. Laden Sie kein Digitalisat hoch, dessen Benutzungsordnung eine Weitergabe untersagt. Laden Sie auch keine Unterlagen mit [personenbezogenen Daten](../glossary.qmd#gl-personenbezogene-daten) lebender Personen hoch. Der Abschnitt «Was Sie brauchen» nennt die vollständige Liste und die rechtliche Grundlage.
 
 Arbeiten Sie im Zweifel mit einem kurzen Auszug oder mit einem [lokalen Modell](../glossary.qmd#gl-lokales-modell). Bei einem lokalen Modell bleibt das Material auf Ihrem Rechner.
+
 :::
 
 ::: callout-warning
@@ -409,6 +445,7 @@ Sie stossen im Archiv auf Maschinenschrift, auf Durchschläge und auf Handschrif
 Der gefährlichste Fehler ist die glatte Lesart. Ein allgemeines KI-System hält an einer unleserlichen Stelle nicht an, sondern setzt ein plausibles Wort ein [@diezgarcia2025evaluating]. Solche Fehler wandern in jede spätere Auswertung [@vanstrien2020assessing].
 
 Notieren Sie im Rechercheprotokoll, welche Texte maschinell erkannt wurden. Vergleichen Sie jedes Zitat mit dem Digitalisat. Der Abschnitt [Fähigkeiten prüfen und einordnen](prompt-engineering.qmd#sec-faehigkeiten) erklärt diesen Punkt ausführlich.
+
 :::
 
 ## 8. Iteration, Reproduzierbarkeit und KI-Protokoll
@@ -449,10 +486,20 @@ Wenn Sie zusätzlich die optionale Vertiefung (Schritt 5) bearbeitet haben, verf
 
 Dazu kommt eine methodische Einsicht: Sie können begründen, welche Suchwege belastbare Treffer liefern und wo eine KI-Antwort nur plausibel klingt.
 
+<!-- take -->
+
+::: {.callout-note title="Mitnehmen in die nächste Übung"}
+
+- Ihr Rechercheprotokoll und die Liste der gefundenen Quellen in [Schreiben](schreiben.qmd).
+
+:::
+
 ## Weiterführende Ressourcen
 
 - [Ranke.2: Lessons Übersicht](https://ranke2.uni.lu/lessons/) – Lernmodule zu Web, Social Media und dem digitalen Wandel.
 - [Knowing Machines: Models All the Way Down](https://knowingmachines.org/models-all-the-way) – Kritik an Trainingsdaten und ihre Parallelen zur Quellenkritik.
+
+{{< include ../_rueckmeldung.qmd >}}
 
 ## Bibliographie
 

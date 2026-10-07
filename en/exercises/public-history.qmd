@@ -107,6 +107,7 @@ references:
 ## Automated Translation
 
 This exercise was translated automatically from the [German original](../../de/exercises/public-history.qmd) and can contain errors. Consult the original version in case of doubt.
+
 :::
 
 ## Overview and Didactic Goal
@@ -128,6 +129,17 @@ The core path leads you to a blog post and to two short formats in about 4 hours
 Instead of the blog post you can hand in a podcast script of 6 to 8 minutes. Replace step 3 with step 5B for that.
 
 The blog post stays a hand-in of text, so the exercise names a word count for it. For the AI log you count entries.
+
+<!-- bridge -->
+
+::: {.callout-note title="Bridge: what you bring"}
+From the previous exercise you need:
+
+- Track B: use a scholarly work from your literature list in [Literature Research](literature-research-social-security-ch.qmd) as the base article.
+- Track C: an article from your field.
+- Your disclosure from [Citing](citing.qmd).
+
+:::
 
 ## What You Need
 
@@ -157,7 +169,19 @@ The system must be able to do the three following things:
 - A scholarly article as the base text. Choose a freely accessible article from your field.
 - A file for your AI log.
 
+**Language**
+
+The example article is in English, and your target audience may use another language. Fix the language of the communication product in the briefing and keep it the same in all prompts.
+
 {{< include ../_ai-requirements.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Required reading"}
+
+- The base article itself. Read it in full and note five key claims with page numbers before you start step 1. Only these key claims go into the source package.
+
+:::
 
 ## Learning Objectives
 
@@ -186,6 +210,7 @@ Search engines and AI systems structure visibility in a problematic way. [@noble
 
 Work with a **source package**: the title and DOI, the abstract, the central results in your own notes, a few key points with their evidence (pages or sections), and figures or tables if you have them.
 Give the AI only material that you can control yourself, and let the AI work **only from that material**.
+
 :::
 
 ::: callout-tip
@@ -193,6 +218,7 @@ Give the AI only material that you can control yourself, and let the AI work **o
 ## Transparency in the product
 
 Plan a short element of transparency at the end, for example "How we worked" or "AI support". State what you used the AI for (structure, variants of language, proofreading) and what you did not use it for (facts, decisions of interpretation).
+
 :::
 
 ::: callout-important
@@ -207,6 +233,7 @@ This exercise leads to products for an audience. Beside the academic disclosure,
 Article 50(4) therefore requires no marking for every generated image. A generated image without a resemblance to existing persons or events does not fall under it. The separate duty to mark generated content in a machine-readable format lies with the provider under Article 50(2), and not with you.
 
 The exception for reviewed text does not lift your academic disclosure. Disclose your AI use even when the regulation requires no marking. The exercise [Citing](citing.qmd) shows how you meet both duties.
+
 :::
 
 {{< include ../_ai-log.qmd >}}
@@ -288,7 +315,7 @@ Build a base model in text that serves as the reference for the further adaptati
 
 ### Task
 
-Write a blog post of about 700 to 1000 words. The blog post holds:
+Write the draft of a blog post of about 700 to 1000 words **yourself**. The AI works as an editor and checks your draft; it does not write it. If you revise an AI draft instead, state this explicitly in your AI log and in your disclosure. The blog post holds:
 
 - an opening that fits the target group and the purpose,
 - a clear structure of sections with subheadings,
@@ -299,9 +326,10 @@ Write a blog post of about 700 to 1000 words. The blog post holds:
 ### AI Workflow (Prompt Sketch)
 
 ```markdown
-Role: you are a blog editor. Write a blog post for the following context.
+Role: you are a blog editor. Check my blog post draft for the following context.
+Draft: [your own draft]
 Constraints: 900 words, clear subheadings, no new facts.
-Use claim IDs in the text in square brackets, for example [C3].
+Mark passages without a claim ID in square brackets, for example [C3], and suggest cuts. Do not rewrite paragraphs.
 Material: the briefing, the source package, the message map and the table of claims.
 ```
 
@@ -441,11 +469,21 @@ At the end you hold these artifacts:
 
 One methodological insight comes on top: you can give reasons for where the AI improves a communication, and where you carry the responsibility for the evidence and the interpretation yourself.
 
+<!-- take -->
+
+::: {.callout-note title="Take this into the next exercise"}
+
+- The product with disclosure. This is the hand-in.
+
+:::
+
 ## Further Resources
 
 - [AI Pedagogy Project: What is AI?](https://aipedagogy.org/guide/what-is-ai/) – Conceptual introduction for non-technical audiences.
 - [Critical AI Literacy: Curated Resources](https://critical-ai-literacy.github.io/resources/) – Ethics, power, labour and politics of AI.
 - @drucker2011humanities – Critiques the conventions of data visualization; introduces the concept of "capta", the idea that data are constructed and not objectively given.
+
+{{< include ../_feedback.qmd >}}
 
 ## Bibliography
 

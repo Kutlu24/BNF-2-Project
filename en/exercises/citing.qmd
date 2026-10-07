@@ -108,6 +108,7 @@ references:
 ## Automated Translation
 
 This exercise was translated automatically from the [German original](../../de/exercises/zitieren.qmd) and can contain errors. Consult the original version in case of doubt.
+
 :::
 
 ## Overview and Didactic Goal
@@ -135,6 +136,16 @@ All three exercises belong to the core path. The optional deepening costs about 
 Exercise 3 works with the AI log from the earlier exercises. Without this log you cannot write a disclosure.
 
 Do you have no log yet? Work through the exercise [Prompt Engineering](prompt-engineering.qmd) first. You set up your log there.
+
+:::
+
+<!-- bridge -->
+
+::: {.callout-note title="Bridge: what you bring"}
+From the previous exercise you need:
+
+- Your AI log from **all earlier sections of the same file**. The exercise takes it as input. There is no merging of several files.
+
 :::
 
 ## What You Need
@@ -166,7 +177,19 @@ The system must be able to do the two following things:
 - Your AI log from the earlier exercises.
 - The binding rule of your institution on AI use. You find this rule with the procedure in this exercise.
 
+**Language**
+
+The test article by Fickers (2020) is available in German only. You need to read German to check the quotations in exercise 2 against the original. Otherwise choose an open-access article in your working language and record the choice in your AI log.
+
 {{< include ../_ai-requirements.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Required reading"}
+
+- Chicago Manual of Style, Quick Guide: <https://www.chicagomanualofstyle.org/tools_citationguide.html>. Question: how does the guide cite a journal article with a DOI? Write your own citation of the test article **before** exercise 1 and compare afterwards.
+
+:::
 
 ## Learning Objectives
 
@@ -460,6 +483,36 @@ YOUR PROMPT
 
 :::
 
+::: {.callout-note collapse="true" title="Reference solution: Chicago entry for the test article (open only after your own citation)"}
+**Bibliography:**
+
+Fickers, Andreas. "Update für die Hermeneutik: Geschichtswissenschaft auf dem Weg zur digitalen Forensik?" _Zeithistorische Forschungen / Studies in Contemporary History_ 17, no. 1 (2020): 157–68. <https://doi.org/10.14765/zzf.dok-1765>.
+
+**Footnote:**
+
+Andreas Fickers, "Update für die Hermeneutik: Geschichtswissenschaft auf dem Weg zur digitalen Forensik?," _Zeithistorische Forschungen / Studies in Contemporary History_ 17, no. 1 (2020): 157–68, <https://doi.org/10.14765/zzf.dok-1765>.
+
+**Acceptable variants** (if you apply them consistently):
+
+- Journal title in German only or bilingual.
+- "Heft 1" instead of "no. 1" if your paper uses German conventions.
+- Page range "157–68" or "157–168".
+- Citation of the online edition: without page numbers, but with the DOI.
+
+**Errors** (not a matter of style): wrong year, wrong volume, a different or invented DOI, added co-authors or editors, wrong page range.
+
+<!-- TODO course maintainers: check the entry against the Chicago Manual of Style (18th edition). -->
+
+:::
+
+::: {.callout-note title="English-language replacement for the test article"}
+
+<!-- TODO course maintainers: choose an open-access English article on digital history, add a Chicago reference solution and test exercise 2 with it. -->
+
+[Enter title, author, year and DOI of an open-access English article here.]
+
+:::
+
 Compare the answer with your manual citation, with the official citation recommendations on the publisher page, and with the DOI import in Zotero. Test further sources of secondary literature (other articles, monographs).
 
 - Do all items agree?
@@ -529,6 +582,14 @@ You take four results away from this exercise:
 3. the place where you found the binding rule of your institution, noted in the AI log
 4. an AI log with at least 4 entries from this exercise
 
+<!-- take -->
+
+::: {.callout-note title="Take this into the next exercise"}
+
+- Your disclosure for the hand-in. In Track B, take it into [Public History](public-history.qmd).
+
+:::
+
 ## Further Resources
 
 - [DFG: Statement on the influence of generative models](https://www.dfg.de/resource/blob/289674/ff57cf46c5ca109cb18533b21fba49bd/230921-stellungnahme-praesidium-ki-ai-data.pdf) – Short foundational text on disclosure and authorship [@dfg2023generative] (GERMAN only).
@@ -537,6 +598,8 @@ You take four results away from this exercise:
 - [Historisches Institut Bern: Plagiate und KI-Gebrauch](https://www.hist.unibe.ch/studium/plagiate__ki_gebrauch/index_ger.html) – Example of an institutional rule with a template for an AI declaration (GERMAN only).
 - [Stanford HAI: AI-Detectors Biased Against Non-Native English Writers](https://hai.stanford.edu/news/ai-detectors-biased-against-non-native-english-writers) – Report on a study that tests AI detectors. The detectors often misclassify texts of students who are not native speakers of English as machine-written.
 - [The Turing Way](https://book.the-turing-way.org/) – Handbook for reproducible, ethical and collaborative research.
+
+{{< include ../_feedback.qmd >}}
 
 ## Bibliography
 

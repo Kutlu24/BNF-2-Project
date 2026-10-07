@@ -46,6 +46,7 @@ references:
 ## Automated Translation
 
 This exercise was translated automatically from the [German original](../../de/exercises/quellensuche-vorort-europarat-1963.qmd) and can contain errors. Consult the original version in case of doubt.
+
 :::
 
 ## Overview and Didactic Goal
@@ -62,6 +63,7 @@ The exercise follows a **circular understanding of research**: search results ch
 ## Note on the materiality of the sources
 
 For work in an archive, note the **protection periods, the terms of use and the digital availability** of each holding. Plan the workload for requests for access, for consultation on site and for reproduction rights.
+
 :::
 
 ## At a Glance
@@ -89,6 +91,27 @@ Plan the work in three stages:
 You need no visit to an archive for the hand-in. The shortlist comes from the finding aids.
 
 If you really want to consult the dossiers, plan for additional weeks. A request for access, a shortening of a protection period and an appointment in the reading room all have long lead times. This calendar time belongs to the exercise, but not to the hand-in.
+
+:::
+
+::: {.callout-important title="Which question do you work on?"}
+This exercise shows the method with the example of the Vorort question 1963 (accession debate and interest groups). You have two ways:
+
+1. **Your own question (recommended in Track A).** You use your working question from [Research Question](formulating-historical-research-question-switzerland-council-of-europe.qmd). The Vorort question serves as a pattern. Replace the terms in the prompts with your own.
+2. **The Vorort question as given.** You work through the exercise with the question in the text. This is the right way if you work on the exercise on its own.
+
+Record your choice in your AI log. This is the largest exercise of the course and not an entry point. Plan it as the conclusion of Track A.
+
+:::
+
+<!-- bridge -->
+
+::: {.callout-note title="Bridge: what you bring"}
+From the previous exercise you need:
+
+- Track A: your working question from [Research Question](formulating-historical-research-question-switzerland-council-of-europe.qmd) and the reading skill from [Source Criticism](source-criticism-federal-council-council-of-europe-1949.qmd).
+- A file for your search log. Use the [template to download](../templates.qmd).
+
 :::
 
 ## What You Need
@@ -121,7 +144,19 @@ The system must be able to do the three following things:
 - A [reference manager](../glossary.qmd#gl-zotero) for the short annotated bibliography.
 - One file for your search log and one file for your AI log.
 
+**Language**
+
+The Vorort holdings and finding aids are mostly in German, and the newspaper archives hold German and French titles. The prompts are in English. Decide beforehand which language the AI should answer in, and record the choice in your AI log.
+
 {{< include ../_ai-requirements.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Required reading"}
+
+- @putnam2016shadows (access is often only through a university library): What are the consequences of full-text search for the sources you select? Answer in three sentences before you start step 3.
+
+:::
 
 ## Learning Objectives
 
@@ -301,9 +336,9 @@ Replace the example lines in the following prompt with your own search terms and
 
 ```markdown
 Here are my search terms so far and my hit problems:
-- "Vorort AND Europarat": 3 hits, all after 1990.
-- "SHIV AND Beitritt": 0 hits.
-- "Interessenverband AND Europapolitik": over 800 hits, hardly any relevant.
+- [search term 1]: [number of hits and problem, e.g. "few hits, all too late"]
+- [search term 2]: [number of hits and problem]
+- [search term 3]: [number of hits and problem]
 Optimize the search terms for catalogues (Boolean, phrases, truncation).
 Give 6 variants and explain briefly which problem each variant addresses.
 ```
@@ -360,7 +395,7 @@ Identify primary sources so that you can **order and analyse** them.
 
 ### Starting Points (Orientation)
 
-- The holdings of the Vorort and economiesuisse at the Archives of Contemporary History (ETH Zurich)
+- The holdings of the Vorort and economiesuisse at the [Archives of Contemporary History (ETH Zurich)](https://afz.ethz.ch/)
 - Records in catalogues (for example SWA/UB Wirtschaft Basel)
 - Documents on the Vorort in contexts of diplomatic history (for example Dodis)
 
@@ -369,6 +404,7 @@ Identify primary sources so that you can **order and analyse** them.
 ## Methodological note
 
 "Dossier found" is not the same as "evidence secured". Finding aids are tertiary instruments of access: they structure visibility, and not truth.
+
 :::
 
 ### Task A: Analysis of the Finding Aids
@@ -405,6 +441,7 @@ Per path: 8–12 search terms (DE/FR/EN), including variants of names.
 This exercise leads you to holdings with restrictions on access. Do not upload a digitized item whose rules of use forbid a disclosure. Do not upload records with [personal data](../glossary.qmd#gl-personenbezogene-daten) of living persons either. The section "What you need" names the complete list and the legal basis.
 
 In case of doubt, work with a short excerpt or with a [local model](../glossary.qmd#gl-lokales-modell). With a local model, the material stays on your computer.
+
 :::
 
 ::: callout-warning
@@ -416,6 +453,7 @@ In the archive you meet typescript, carbon copies and handwriting. An AI system 
 The most dangerous error is the smooth reading. A general AI system does not stop at an illegible passage. It inserts a plausible word instead [@diezgarcia2025evaluating]. Such errors travel into every later analysis [@vanstrien2020assessing].
 
 Note in the search log which texts a machine recognized. Compare every citation with the digitized item. The section [Check and classify capabilities](prompt-engineering.qmd#sec-capabilities) explains this point in detail.
+
 :::
 
 ## 8. Iteration, Reproducibility and the AI Log
@@ -456,10 +494,20 @@ If you also completed the optional step 5, you additionally hold a short annotat
 
 One methodological insight comes on top: you can give reasons for which search paths deliver reliable hits, and where an AI answer only sounds plausible.
 
+<!-- take -->
+
+::: {.callout-note title="Take this into the next exercise"}
+
+- Your search log and the list of sources you found into [Writing](writing.qmd).
+
+:::
+
 ## Further Resources
 
 - [Ranke.2: Lessons Overview](https://ranke2.uni.lu/lessons/) – Learning modules on the web, social media and digital change.
 - [Knowing Machines: Models All the Way Down](https://knowingmachines.org/models-all-the-way) – Critique of training data and its parallels to source criticism.
+
+{{< include ../_feedback.qmd >}}
 
 ## Bibliography
 

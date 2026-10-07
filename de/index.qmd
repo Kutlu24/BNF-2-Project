@@ -5,6 +5,8 @@ listing:
   id: exercises
   # Lernreihenfolge, nicht alphabetisch. "sort: false" behält diese Reihenfolge bei.
   contents:
+    - exercises/arbeitsbereich-einrichten.qmd
+    - exercises/startpaket-dodis-5020.qmd
     - exercises/prompt-engineering.qmd
     - exercises/literaturrecherche-sozialversicherung-ch.qmd
     - exercises/formulieren-historische-forschungsfrage-schweiz-europarat.qmd
@@ -25,6 +27,7 @@ Dieses Repository bietet strukturierte, praxisorientierte Übungen für Historik
 
 ::: {.callout-warning title="DISCLAIMER"}
 Dieses Projekt ist derzeit noch in einer sehr frühen Phase und wird aktiv entwickelt. Die Materialien, die hier zur Verfügung gestellt werden, sind vorläufig und können sich erheblich verändern. Bitte verwenden Sie sie mit Vorsicht und achten Sie darauf, dass sie möglicherweise noch nicht die endgültige Qualität oder den gewünschten Umfang repräsentieren, die für diese Ressource vorgesehen waren.
+
 :::
 
 ### Offenlegung des KI-Einsatzes bei diesem Kurs
@@ -45,6 +48,7 @@ Dieser Kurs setzt selbst generative KI ein, und zwar bei der Erstellung seiner e
 Der frühere Satz auf dieser Seite lautete sinngemäss "entwickelt unter der Zuhilfenahme von AI". Die Übung [Zitieren](exercises/zitieren.qmd) nennt fast genau diesen Satz als Beispiel für eine **unzureichende** Offenlegung: Er nennt weder Werkzeug noch Zweck noch Umfang noch Prüfung. Diese Seite folgt jetzt demselben Massstab, den der Kurs von Lernenden verlangt.
 
 **Für die Kursverantwortlichen**: Die Felder in eckigen Klammern oben sind Platzhalter. Bitte ersetzen Sie sie mit den tatsächlichen Angaben, bevor Sie diese Änderung veröffentlichen. Beachten Sie dabei die Regel aus `AGENTS.md` Abschnitt 5, kein KI-Produkt und keinen Anbieter beim Namen zu nennen, ausserhalb von Zitationen; prüfen Sie, ob diese Regel auch für die Offenlegung der eigenen Kursentwicklung gelten soll, oder ob eine Offenlegung wie ein Zitat als Tatsachenangabe zu behandeln ist.
+
 :::
 
 ### Zweck
@@ -76,32 +80,43 @@ Je nach Interesse oder Lernziel können Sie verschiedenen Pfaden durch die Mater
 
 ### Pfad A: Europarat / Dodis (Quellen-fokussiert)
 
-Dieser Pfad führt Sie durch den gesamten Forschungsprozess am Beispiel der Schweizer Diplomatiegeschichte (Dodis) und des Europarats.
+Dieser Pfad führt Sie als **ein zusammenhängendes Projekt** durch den Forschungsprozess am Beispiel der Schweizer Diplomatiegeschichte (Dodis) und des Europarats. Eine Frage und ein Protokollsatz tragen durch alle Übungen: Ihre Arbeitsfrage aus Schritt 3 bleibt die Frage für Quellenkritik, Quellensuche und Schreiben.
 
-1. [**Prompt Engineering**](exercises/prompt-engineering.qmd): Grundlagen der Interaktion mit LLMs.
-2. [**Forschungsfrage**](exercises/formulieren-historische-forschungsfrage-schweiz-europarat.qmd): Eine historische Forschungsfrage entwickeln.
-3. [**Quellenkritik**](exercises/quellenkritik-bundesrat-europarat-1949.qmd): Digitale Quellenkritik anwenden – die Lesefähigkeit, die die nächste Übung braucht.
-4. [**Quellensuche**](exercises/quellensuche-vorort-europarat-1963.qmd): Mit dieser Lesefähigkeit gezielt weitere Primärquellen finden.
-5. [**Schreiben**](exercises/schreiben.qmd): Texte verfassen und überarbeiten.
-6. [**Zitieren**](exercises/zitieren.qmd): KI-Nutzung korrekt ausweisen.
+Rechnen Sie mit etwa **20 Stunden** reiner Arbeitszeit (ohne Archivbesuche). Die Quellensuche ist ein mehrtägiges Projekt und kommt als Abschluss, nicht als Einstieg.
+
+1. [**Arbeitsbereich einrichten**](exercises/arbeitsbereich-einrichten.qmd): Konto, Recht und KI-Protokoll einmal klären (ca. 30–45 Min.).
+2. [**Prompt Engineering**](exercises/prompt-engineering.qmd) mit dem [Startpaket Dodis 5020](exercises/startpaket-dodis-5020.qmd): Grundlagen der Interaktion mit LLMs.
+3. [**Forschungsfrage**](exercises/formulieren-historische-forschungsfrage-schweiz-europarat.qmd): Ihre Arbeitsfrage entwickeln.
+4. [**Quellenkritik**](exercises/quellenkritik-bundesrat-europarat-1949.qmd): Die Lesefähigkeit, die die nächste Übung braucht.
+5. [**Quellensuche**](exercises/quellensuche-vorort-europarat-1963.qmd): Mit dieser Lesefähigkeit gezielt weitere Primärquellen zu Ihrer Frage finden.
+6. [**Schreiben**](exercises/schreiben.qmd): Aus Ihren Protokollen einen Text entwickeln.
+7. [**Zitieren**](exercises/zitieren.qmd): Belege sichern und KI-Nutzung ausweisen.
 
 ### Pfad B: Sozialversicherung (Literatur-fokussiert)
 
-Dieser Pfad konzentriert sich auf die Literaturrecherche und die Vermittlung historischer Themen in der Öffentlichkeit.
+Dieser Pfad konzentriert sich auf die Literaturrecherche und die Vermittlung historischer Themen in der Öffentlichkeit. Ihre Forschungsfrage entsteht in der Literaturrecherche (Schritt 8). Sie müssen sie in keiner anderen Übung neu formulieren.
 
-1. [**Prompt Engineering**](exercises/prompt-engineering.qmd): Grundlagen der Interaktion mit LLMs.
-2. [**Literaturrecherche**](exercises/literaturrecherche-sozialversicherung-ch.qmd): Sekundärliteratur finden und bewerten.
-3. [**Forschungsfrage**](exercises/formulieren-historische-forschungsfrage-schweiz-europarat.qmd): Eine Forschungsfrage formulieren. Die Übung nutzt das Beispiel Europarat. Übertragen Sie jeden Schritt auf das Thema Sozialversicherung.
-4. [**Schreiben**](exercises/schreiben.qmd): Texte verfassen und überarbeiten.
-5. [**Zitieren**](exercises/zitieren.qmd): KI-Nutzung korrekt ausweisen.
-6. [**Public History**](exercises/public-history.qmd): Geschichte für ein breites Publikum aufbereiten.
+1. [**Arbeitsbereich einrichten**](exercises/arbeitsbereich-einrichten.qmd): Konto, Recht und KI-Protokoll einmal klären.
+2. [**Prompt Engineering**](exercises/prompt-engineering.qmd) mit dem [Startpaket Dodis 5020](exercises/startpaket-dodis-5020.qmd): Grundlagen der Interaktion mit LLMs.
+3. [**Literaturrecherche**](exercises/literaturrecherche-sozialversicherung-ch.qmd): Sekundärliteratur finden und bewerten; am Ende steht Ihre Forschungsfrage.
+4. [**Schreiben**](exercises/schreiben.qmd): Aus Literaturliste und Forschungslücke einen Text entwickeln.
+5. [**Zitieren**](exercises/zitieren.qmd): Belege sichern und KI-Nutzung ausweisen.
+6. [**Public History**](exercises/public-history.qmd): Eine Arbeit aus Ihrer Literaturliste für ein breites Publikum aufbereiten.
 
 ### Pfad C: Eigenes Thema
 
-Nutzen Sie die Methoden und Vorlagen für Ihr eigenes Forschungsprojekt.
+Nutzen Sie die Methoden und Vorlagen für Ihr eigenes Forschungsprojekt. So übertragen Sie sie:
 
-- **Voraussetzung**: Absolvieren Sie zuerst die Übung zum [**Prompt Engineering**](exercises/prompt-engineering.qmd).
-- **Transfer**: Übernehmen Sie die Prompts und Reflexionsfragen aus den anderen Übungen und wenden Sie diese auf Ihre eigenen Quellen und Themen an.
+| Übung                              | Was Sie übernehmen                              | Was Sie ersetzen                                       |
+| ---------------------------------- | ----------------------------------------------- | ------------------------------------------------------ |
+| Arbeitsbereich, Prompt Engineering | alles (themenunabhängig)                        | nur das Material: Ihre eigene Quelle statt Dodis 5020  |
+| Forschungsfrage                    | Verfahren und Qualitätscheck                    | Beispielfrage und Vergleichsressourcen durch Ihr Thema |
+| Quellenkritik                      | Ebenen, Reflexionsfragen                        | Quelle, Metadatenblock                                 |
+| Quellensuche                       | Cycle aus Suchbegriffen, Treffern und Protokoll | Archive und Portale für Ihr Thema                      |
+| Schreiben                          | alle Rollenprompts                              | Textfragment (halbe bis eine Seite) und 10 Stichpunkte |
+| Zitieren                           | alle Schritte                                   | Testartikel durch einen Artikel aus Ihrem Feld         |
+
+Beginnen Sie mit den ersten beiden Übungen. Suchen Sie danach die Übung, die Ihrem nächsten Arbeitsschritt entspricht.
 
 :::
 

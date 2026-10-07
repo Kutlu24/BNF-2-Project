@@ -12,6 +12,8 @@ listing:
   # was auch den Schwierigkeitssprung Beginner -> Advanced -> Intermediate
   # erzeugte (siehe Friction-Log v3, Stolperstein 7).
   contents:
+    - arbeitsbereich-einrichten.qmd
+    - startpaket-dodis-5020.qmd
     - prompt-engineering.qmd
     - literaturrecherche-sozialversicherung-ch.qmd
     - formulieren-historische-forschungsfrage-schweiz-europarat.qmd
@@ -31,7 +33,7 @@ listing:
 citation: false
 ---
 
-Diese Seite listet die acht Übungen des Kurses. Jede Übung trainiert einen Arbeitsschritt der historischen Forschung mit KI-Systemen. Sie brauchen keine Programmierkenntnisse.
+Diese Seite listet die Übungen des Kurses: eine Startübung, ein Startpaket und acht Fachübungen. Jede Übung trainiert einen Arbeitsschritt der historischen Forschung mit KI-Systemen. Sie brauchen keine Programmierkenntnisse.
 
 ## So lesen Sie eine Übung
 
@@ -47,9 +49,9 @@ Danach folgt der Abschnitt «Was Sie brauchen». Er nennt das Wissen, die nötig
 
 ## Empfohlene Reihenfolge
 
-Beginnen Sie mit der Übung [Prompt Engineering](prompt-engineering.qmd). Sie ist die Grundlage für alle anderen Übungen. Danach folgen die Übungen dem Ablauf eines Forschungsprojekts:
+Beginnen Sie mit der Übung [Arbeitsbereich einrichten](arbeitsbereich-einrichten.qmd). Sie klärt Konto, Recht und KI-Protokoll einmal für den ganzen Kurs. Danach folgt [Prompt Engineering](prompt-engineering.qmd), die Grundlage für alle anderen Übungen, mit dem [Startpaket Dodis 5020](startpaket-dodis-5020.qmd). Danach folgen die Übungen dem Ablauf eines Forschungsprojekts:
 
-1. [Prompt Engineering](prompt-engineering.qmd) – die gemeinsame Grundlage. Hier legen Sie auch Ihr [KI-Protokoll](../glossary.qmd#gl-ki-protokoll) an.
+1. [Prompt Engineering](prompt-engineering.qmd) – die gemeinsame Grundlage (Arbeitsmaterial: [Startpaket Dodis 5020](startpaket-dodis-5020.qmd)). Hier legen Sie auch Ihr [KI-Protokoll](../glossary.qmd#gl-ki-protokoll) an.
 2. [Literaturrecherche](literaturrecherche-sozialversicherung-ch.qmd) – den Forschungsstand systematisch erschliessen.
 3. [Forschungsfrage](formulieren-historische-forschungsfrage-schweiz-europarat.qmd) – aus dem Thema eine bearbeitbare Frage machen.
 4. [Quellenkritik](quellenkritik-bundesrat-europarat-1949.qmd) – eine einzelne Quelle prüfen und einordnen. Diese Lesefähigkeit brauchen Sie in der nächsten Übung.
@@ -65,6 +67,7 @@ Sie können die Übungen 2 bis 8 auch einzeln bearbeiten. Die Übung [Zitieren](
 ## Planen Sie die Quellensuche früh
 
 Die Übung [Quellensuche](quellensuche-vorort-europarat-1963.qmd) ist ein mehrtägiges Rechercheprojekt. Alle anderen Übungen dauern zwischen einer Stunde und einem Arbeitstag. Beginnen Sie deshalb früh mit der Quellensuche, wenn Sie den ganzen Kurs in einem Semester bearbeiten.
+
 :::
 
 ## Alle Übungen
