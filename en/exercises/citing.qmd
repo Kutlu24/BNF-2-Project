@@ -508,9 +508,23 @@ Andreas Fickers, "Update für die Hermeneutik: Geschichtswissenschaft auf dem We
 
 ::: {.callout-note title="English-language replacement for the test article"}
 
-<!-- TODO course maintainers: choose an open-access English article on digital history, add a Chicago reference solution and test exercise 2 with it. -->
+Use this article instead of the German test article in exercises 1 and 2, for example if you work in English:
 
-[Enter title, author, year and DOI of an open-access English article here.]
+Andreas Fickers and Frédéric Clavert, "On Pyramids, Prisms, and Scalable Reading," _Journal of Digital History_ 1 (2021), issue 1, pp. 1–13, <https://doi.org/10.1515/jdh-2021-1008>.
+
+The article is published open access. Check the licence on the publisher page before you redistribute the PDF. Download it before you start, as you need it to check the AI answers against the original.
+
+**Reference solution (open only after your own citation).**
+
+Bibliography:
+
+Fickers, Andreas, and Frédéric Clavert. "On Pyramids, Prisms, and Scalable Reading." _Journal of Digital History_ 1, no. 1 (2021): 1–13. <https://doi.org/10.1515/jdh-2021-1008>.
+
+Footnote:
+
+Andreas Fickers and Frédéric Clavert, "On Pyramids, Prisms, and Scalable Reading," _Journal of Digital History_ 1, no. 1 (2021): 1–13, <https://doi.org/10.1515/jdh-2021-1008>.
+
+<!-- TODO course maintainers: check this entry against the Chicago Manual of Style (18th edition) and test exercise 2 with this article. -->
 
 :::
 

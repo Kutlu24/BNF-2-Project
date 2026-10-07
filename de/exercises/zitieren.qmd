@@ -503,9 +503,23 @@ Andreas Fickers, «Update für die Hermeneutik: Geschichtswissenschaft auf dem W
 
 ::: {.callout-note title="Englischsprachiger Ersatz für den Testartikel"}
 
-<!-- TODO Kursverantwortliche: offen zugänglichen englischen Aufsatz zur Digital History auswählen, Chicago-Referenzlösung ergänzen und Übung 2 daran prüfen. -->
+Verwenden Sie in den Übungen 1 und 2 stattdessen diesen Artikel, zum Beispiel wenn Sie auf Englisch arbeiten:
 
-[Titel, Autor:in, Jahr und DOI eines offen zugänglichen englischen Artikels hier eintragen.]
+Andreas Fickers und Frédéric Clavert, "On Pyramids, Prisms, and Scalable Reading," _Journal of Digital History_ 1 (2021), Heft 1, S. 1–13, <https://doi.org/10.1515/jdh-2021-1008>.
+
+Der Artikel ist Open Access. Prüfen Sie die Lizenz auf der Verlagsseite, bevor Sie die PDF-Datei weitergeben. Laden Sie ihn vor dem Start herunter, denn Sie brauchen ihn, um die KI-Antworten am Original zu prüfen.
+
+**Referenzlösung (erst nach Ihrer eigenen Zitation öffnen).**
+
+Literaturverzeichnis (Chicago):
+
+Fickers, Andreas, and Frédéric Clavert. "On Pyramids, Prisms, and Scalable Reading." _Journal of Digital History_ 1, no. 1 (2021): 1–13. <https://doi.org/10.1515/jdh-2021-1008>.
+
+Fussnote (Chicago):
+
+Andreas Fickers and Frédéric Clavert, "On Pyramids, Prisms, and Scalable Reading," _Journal of Digital History_ 1, no. 1 (2021): 1–13, <https://doi.org/10.1515/jdh-2021-1008>.
+
+<!-- TODO Kursverantwortliche: Eintrag mit dem Chicago Manual of Style (18. Auflage) abgleichen und Übung 2 mit diesem Artikel testen. -->
 
 :::
 

@@ -46,7 +46,7 @@ These items need a human decision or real model output. They are marked with `TO
 - Legal check of the publication note (Article 50(4)) in "Arbeitsbereich einrichten" (de, en, fr). The seminar-paper classification was removed; the page now refers students to their university rules.
 - Dodis terms of use for passing the edition text to an AI system (`startpaket-dodis-5020.qmd` and the translations).
 - Check the sample answer to Source Criticism task 1a and the Chicago reference solution in Citing against the sources.
-- Choose an open-access English article to replace the German test article in Citing (placeholder callout in Citing).
+- Citing: the English test article is set (Fickers and Clavert 2021, JDH). Still to do: compare the Chicago solution with the 18th edition and test exercise 2 with this article.
 - Answer keys and a gallery of typical AI errors on Dodis 5020 need real model output. Collect them in the pilot.
 - Pilot with 5 to 8 students: log actual minutes per step, run the prompts on two consumer systems, then rewrite the "At a glance" tables.
 - Fill the placeholders in the course's own AI-use disclosure on the home page.
