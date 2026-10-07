@@ -59,12 +59,14 @@ Lesen Sie den folgenden Abschnitt und beantworten Sie die fünf Punkte für Ihr 
 
 Das Gesetz nennt Sie «Betreiber», sobald Sie ein KI-System beruflich einsetzen, und nimmt rein private Nutzung aus. Eine Seminararbeit liegt dazwischen.
 
-**Orientierung, keine Rechtsberatung:** Eine Seminararbeit gehört zu Ihrem Studium und nicht zu Ihrem Privatleben. Gehen Sie deshalb vorsichtshalber davon aus, dass Sie als Betreiber gelten, solange Ihre Hochschule nichts anderes regelt. Das ändert im Alltag wenig, denn die Pflichten nach Artikel 50 Absatz 4 greifen nur bei **Veröffentlichung**:
+**Der Kurs entscheidet diese Frage nicht.** Ob eine Seminararbeit als berufliche Nutzung gilt, hängt von den Regeln Ihrer Hochschule ab. Fragen Sie bei Ihrer Dozentin, Ihrem Dozenten oder der zuständigen Stelle Ihrer Hochschule nach den geltenden Regeln zum Einsatz von KI. Das ist keine Rechtsberatung.
 
-- Eine Seminararbeit, die nur Ihre Dozentin oder Ihr Dozent liest, löst die Kennzeichnungspflicht nicht aus. Die **wissenschaftliche Offenlegung** gilt trotzdem (siehe [Zitieren](zitieren.qmd)).
-- Ein veröffentlichter Blogpost, ein Podcast oder ein Social-Media-Beitrag zu einer öffentlichen Frage fällt dagegen unter die Pflicht, ausser eine Person hat den Text geprüft und trägt die redaktionelle Verantwortung (siehe [Public History](public-history.qmd)).
+Unabhängig davon gilt in jedem Fall:
 
-<!-- TODO Kursverantwortliche: Diese Einordnung rechtlich prüfen lassen, bevor sie veröffentlicht wird. -->
+- Die **wissenschaftliche Offenlegung** von KI-Einsatz in Ihrer Arbeit (siehe [Zitieren](zitieren.qmd)).
+- Wenn Sie etwas veröffentlichen, etwa einen Blogpost, einen Podcast oder einen Social-Media-Beitrag zu einer öffentlichen Frage, können Kennzeichnungspflichten nach Artikel 50 Absatz 4 greifen, ausser eine Person hat den Text geprüft und trägt die redaktionelle Verantwortung (siehe [Public History](public-history.qmd)).
+
+<!-- TODO Kursverantwortliche: Den Hinweis zur Veröffentlichung (Artikel 50 Absatz 4) rechtlich prüfen lassen. -->
 
 ## Schritt 2: KI-Protokoll anlegen
 

@@ -43,7 +43,7 @@ The repository already has these items:
 
 These items need a human decision or real model output. They are marked with `TODO` comments or bracketed placeholders in the exercise files.
 
-- Legal check of the answer to "Is a seminar paper professional or private use?" in the exercise "Arbeitsbereich einrichten" (de, en, fr).
+- Legal check of the publication note (Article 50(4)) in "Arbeitsbereich einrichten" (de, en, fr). The seminar-paper classification was removed; the page now refers students to their university rules.
 - Dodis terms of use for passing the edition text to an AI system (`startpaket-dodis-5020.qmd` and the translations).
 - Check the sample answer to Source Criticism task 1a and the Chicago reference solution in Citing against the sources.
 - Choose an open-access English article to replace the German test article in Citing (placeholder callout in Citing).

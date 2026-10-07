@@ -67,12 +67,14 @@ Lisez la section suivante et répondez aux cinq points pour votre compte.
 
 La loi vous appelle «déployeur» dès que vous utilisez un système d'IA à titre professionnel, et elle exclut l'usage purement privé. Un travail de séminaire se situe entre les deux.
 
-**Orientation, pas un conseil juridique:** un travail de séminaire fait partie de vos études, pas de votre vie privée. Partez par prudence du principe que vous comptez comme déployeur, tant que votre université ne décide pas autrement. Au quotidien, cela change peu, car les obligations de l'article 50, paragraphe 4, ne s'appliquent qu'en cas de **publication**:
+**Le cours ne tranche pas cette question.** La réponse dépend des règles de votre université pour savoir si un travail de séminaire compte comme usage professionnel. Demandez à votre enseignant ou au service compétent de votre université quelles règles sur l'usage de l'IA s'appliquent. Ce n'est pas un conseil juridique.
 
-- Un travail de séminaire que seul votre enseignant lit ne déclenche pas l'obligation d'indication. La **déclaration scientifique** s'applique néanmoins (voir [Citer](citer.qmd)).
-- Un billet de blog, un podcast ou une publication sur les réseaux sociaux consacrés à une question publique relèvent en revanche de l'obligation, sauf si une personne a vérifié le texte et assume la responsabilité éditoriale (voir [Public History](public-history.qmd)).
+Indépendamment de cela, deux points valent toujours:
 
-<!-- TODO responsables du cours: faire vérifier juridiquement cette appréciation avant publication. -->
+- La **déclaration scientifique** de l'usage de l'IA dans votre travail (voir [Citer](citer.qmd)).
+- Si vous publiez quelque chose, par exemple un billet de blog, un podcast ou une publication sur les réseaux sociaux consacrés à une question publique, des obligations d'indication au titre de l'article 50, paragraphe 4, peuvent s'appliquer, sauf si une personne a vérifié le texte et assume la responsabilité éditoriale (voir [Public History](public-history.qmd)).
+
+<!-- TODO responsables du cours: faire vérifier juridiquement la remarque sur la publication (article 50, paragraphe 4). -->
 
 ## Étape 2: créer le journal d'IA
 

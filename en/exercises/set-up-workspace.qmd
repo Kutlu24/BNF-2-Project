@@ -67,12 +67,14 @@ Read the following section and answer the five points for your account.
 
 The law calls you a "deployer" as soon as you use an AI system professionally, and it exempts purely private use. A seminar paper lies in between.
 
-**Orientation, not legal advice:** A seminar paper belongs to your studies, not to your private life. Assume for safety that you count as a deployer, unless your university rules otherwise. In daily practice this changes little, because the duties under Article 50(4) apply only on **publication**:
+**The course does not settle this question.** Whether a seminar paper counts as professional use depends on your university's rules. Ask your lecturer or the responsible office at your university which rules on AI use apply. This is not legal advice.
 
-- A seminar paper that only your lecturer reads does not trigger the disclosure duty. The **academic disclosure** still applies (see [Citing](citing.qmd)).
-- A published blog post, a podcast or a social-media post on a public question does fall under the duty, unless a person has checked the text and bears editorial responsibility (see [Public History](public-history.qmd)).
+Independent of that, two things always hold:
 
-<!-- TODO course maintainers: have this assessment checked legally before it is published. -->
+- The **academic disclosure** of AI use in your work (see [Citing](citing.qmd)).
+- If you publish something, such as a blog post, a podcast or a social-media post on a public question, labelling duties under Article 50(4) can apply, unless a person has checked the text and bears editorial responsibility (see [Public History](public-history.qmd)).
+
+<!-- TODO course maintainers: have the note on publication (Article 50(4)) checked legally. -->
 
 ## Step 2: Create the AI Log
 
