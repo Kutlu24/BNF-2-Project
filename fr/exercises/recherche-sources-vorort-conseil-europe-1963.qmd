@@ -91,6 +91,24 @@ Pour le rendu, vous n'avez besoin d'aucune visite en archives. La liste restrein
 Si vous voulez vraiment consulter les dossiers, comptez des semaines supplémentaires. Une demande de consultation, une réduction du délai de protection et un rendez-vous en salle de lecture ont de longs délais. Ce temps de calendrier fait partie de l'exercice, mais pas du rendu.
 :::
 
+::: {.callout-important title="Sur quelle question travaillez-vous?"}
+Cet exercice montre la méthode avec l'exemple de la question du Vorort en 1963 (débat sur l'adhésion et groupes d'intérêt). Vous avez deux voies:
+
+1. **Votre propre question (recommandé dans le parcours A).** Vous utilisez votre question de travail de [Question de recherche](formuler-question-recherche-historique-suisse-conseil-europe.qmd). La question du Vorort sert de modèle. Remplacez dans les prompts les termes par les vôtres.
+2. **La question du Vorort telle quelle.** Vous travaillez l'exercice avec la question du texte. C'est la bonne voie si vous travaillez l'exercice seul.
+
+Notez votre choix dans votre journal d'IA. C'est l'exercice le plus vaste du cours et non un point d'entrée. Planifiez-le comme conclusion du parcours A.
+:::
+
+<!-- bridge -->
+
+::: {.callout-note title="Passerelle: ce que vous apportez"}
+De l'exercice précédent, il vous faut:
+
+- Parcours A: votre question de travail de [Question de recherche](formuler-question-recherche-historique-suisse-conseil-europe.qmd) et la compétence de lecture de [Critique des sources](critique-sources-conseil-federal-conseil-europe-1949.qmd).
+- Un fichier pour votre journal de recherche.
+  :::
+
 ## Ce dont vous avez besoin
 
 **Connaissances disciplinaires**
@@ -126,6 +144,13 @@ Le système doit savoir faire les trois choses suivantes:
 Les fonds et instruments de recherche sur le Vorort sont surtout en allemand, et les archives de presse contiennent des titres allemands et français. Les prompts sont en français. Décidez au préalable dans quelle langue l'IA doit répondre et notez ce choix dans votre journal d'IA.
 
 {{< include ../_exigences-ia.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Lecture obligatoire"}
+
+- @putnam2016shadows (l'accès passe souvent par une bibliothèque universitaire): quelles sont les conséquences de la recherche en plein texte sur le choix de vos sources? Répondez en trois phrases avant l'étape 3.
+  :::
 
 ## Objectifs d'apprentissage
 
@@ -460,10 +485,19 @@ Si vous avez aussi traité l'approfondissement optionnel (étape 5), vous dispos
 
 S'y ajoute une connaissance méthodique: vous pouvez justifier quelles voies de recherche livrent des résultats solides, et où une réponse d'IA ne fait que sonner juste.
 
+<!-- take -->
+
+::: {.callout-note title="À emporter dans l'exercice suivant"}
+
+- Votre journal de recherche et la liste des sources trouvées dans [Écriture](ecriture.qmd).
+  :::
+
 ## Ressources complémentaires
 
 - [Ranke.2: Lessons](https://ranke2.uni.lu/lessons/) – Modules d'apprentissage sur le web, les médias sociaux et le changement numérique. (ENGLISH only)
 - [Knowing Machines: Models All the Way Down](https://knowingmachines.org/models-all-the-way) – Critique des données d'entraînement et parallèles avec la critique des sources. (ENGLISH only)
+
+{{< include ../_retour.qmd >}}
 
 ## Bibliographie
 

@@ -1,0 +1,8 @@
+<!-- Gemeinsamer Rückmeldungs-Hinweis. Die Übungen binden diese Datei mit dem include-Shortcode ein. -->
+
+::: {.callout-note title="Wo sind Sie hängen geblieben?"}
+Notieren Sie, an welchem Schritt Sie gezögert haben, wie lange Sie tatsächlich gebraucht haben und was unklar war. Melden Sie das über ein [Issue im Repository](https://github.com/maehr/critical-ai-literacy-for-historians/issues/new/choose). Ihre Zeitangaben fliessen in die Dauer der Übung ein.
+
+<!-- TODO interaktive Version: Formular mit Feldern «Schritt», «Minuten», «Was war unklar?». Platzhalter für die spätere Web-Fassung. -->
+
+:::

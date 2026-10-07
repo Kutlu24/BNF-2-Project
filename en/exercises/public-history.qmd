@@ -129,6 +129,16 @@ Instead of the blog post you can hand in a podcast script of 6 to 8 minutes. Rep
 
 The blog post stays a hand-in of text, so the exercise names a word count for it. For the AI log you count entries.
 
+<!-- bridge -->
+
+::: {.callout-note title="Bridge: what you bring"}
+From the previous exercise you need:
+
+- Track B: use a scholarly work from your literature list in [Literature Research](literature-research-social-security-ch.qmd) as the base article.
+- Track C: an article from your field.
+- Your disclosure from [Citing](citing.qmd).
+  :::
+
 ## What You Need
 
 **Subject knowledge**
@@ -162,6 +172,13 @@ The system must be able to do the three following things:
 The example article is in English, and your target audience may use another language. Fix the language of the communication product in the briefing and keep it the same in all prompts.
 
 {{< include ../_ai-requirements.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Required reading"}
+
+- The base article itself. Read it in full and note five key claims with page numbers before you start step 1. Only these key claims go into the source package.
+  :::
 
 ## Learning Objectives
 
@@ -446,11 +463,20 @@ At the end you hold these artifacts:
 
 One methodological insight comes on top: you can give reasons for where the AI improves a communication, and where you carry the responsibility for the evidence and the interpretation yourself.
 
+<!-- take -->
+
+::: {.callout-note title="Take this into the next exercise"}
+
+- The product with disclosure. This is the hand-in.
+  :::
+
 ## Further Resources
 
 - [AI Pedagogy Project: What is AI?](https://aipedagogy.org/guide/what-is-ai/) – Conceptual introduction for non-technical audiences.
 - [Critical AI Literacy: Curated Resources](https://critical-ai-literacy.github.io/resources/) – Ethics, power, labour and politics of AI.
 - @drucker2011humanities – Critiques the conventions of data visualization; introduces the concept of "capta", the idea that data are constructed and not objectively given.
+
+{{< include ../_feedback.qmd >}}
 
 ## Bibliography
 

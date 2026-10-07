@@ -1,0 +1,161 @@
+---
+lang: en
+title: "Starter kit Dodis 5020"
+subtitle: "The material for Prompt Engineering and Source Criticism in one place"
+description: "A material package for getting started: the file note Dodis 5020 with a metadata block, notes on the person and the text type, a note on terms of use, working material for the exercises and placeholders for your own input."
+author:
+  - name: "Moritz Mähr"
+    orcid: 0000-0002-1367-1618
+    email: moritz.maehr@gmail.com
+    affiliations:
+      - "University of Bern"
+date: "2026-10-07"
+date-modified: "2026-10-07"
+categories: [Sources]
+tags:
+  - Source criticism
+  - Dodis
+  - Prompting
+difficulty: Beginner
+time_estimate: "20-30 min"
+draft: false
+nocite: ""
+references: []
+---
+
+::: callout-warning
+
+## Automated Translation
+
+This exercise was translated automatically from the [German original](../../de/exercises/startpaket-dodis-5020.qmd) and can contain errors. Consult the original version in case of doubt.
+:::
+
+## What This Package Is For
+
+The exercise [Prompt Engineering](prompt-engineering.qmd) works on a single source: the file note Dodis 5020. This package provides everything you need for it, so that you do not jump back and forth between four exercises. It holds no previews of later exercises.
+
+## At a Glance
+
+| Item                   | Value                                                                                  |
+| ---------------------- | -------------------------------------------------------------------------------------- |
+| **Duration**           | about 20 to 30 minutes                                                                 |
+| **Level**              | Beginner                                                                               |
+| **Core path**          | 1 → 2 → 3 → 4                                                                          |
+| **Optional deepening** | Write your own summary without AI (recommended before the first AI prompt)             |
+| **Hand-in (minimum)**  | One file with the source text, the metadata block and your sentence selection (step 4) |
+
+## What You Need
+
+- Access to <https://dodis.ch/5020> (Diplomatic Documents of Switzerland database).
+- Your [AI log](../glossary.qmd#gl-ki-protokoll) from the exercise [Set up your workspace](set-up-workspace.qmd).
+
+**Language**
+
+The source is in **French**. Allow extra reading time. Record in your AI log which language the AI should answer and quote in (for example: "Answer in English, quote passages in the French original").
+
+{{< include ../_ai-requirements.qmd >}}
+
+## 1. Obtain the Source
+
+1. Open <https://dodis.ch/5020>.
+2. Save the **edition text** (title, regest, document text and footnotes) in a text file. Copy the text; do not upload a third-party file.
+3. Note the access date.
+
+::: callout-caution
+
+## Terms of Use
+
+The Dodis imprint assigns responsibility for source criticism to the users. It does not state clearly whether passing the text to an AI system is allowed. Check the terms yourself before you upload a file. When in doubt, copy only the plain edition text into the prompt.
+
+<!-- TODO course maintainers: settle the Dodis terms of use binding and enter them here. The Dodis website blocks automated access and could not be checked. -->
+
+:::
+
+## 2. Metadata Block
+
+Fill in this block from the Dodis metadata field. You pass it along with every task in which the AI is meant to classify provenance. Without it, a model easily invents a provenance.
+
+```markdown
+METADATA
+Title: [title according to Dodis]
+Date: 7 July 1949
+Place: Bern
+Author: Federal Councillor Max Petitpierre (head of the Political Department)
+Interlocutor: Hansen, representative of Denmark in Switzerland [enter first name and function from the Dodis person record]
+Text type: file note (note of a conversation)
+Language: French
+Edition: Diplomatic Documents of Switzerland, vol. 17, Zurich/Locarno/Geneva 2001
+Dodis URL: https://dodis.ch/5020
+Archive reference: [enter from the Dodis metadata field]
+Access date: [enter date]
+```
+
+## 3. Background in Three Lines
+
+- **Who is Hansen?** The interlocutor represents Denmark in Switzerland. Check name and function in the Dodis person record.
+- **What is a file note?** An official or magistrate records a conversation for their own files. It is not a meeting minute and not a decision. It gives the view of the person who writes it.
+- **What is the occasion?** The Council of Europe session in Strasbourg in August 1949.
+
+## 4. Working Material for Prompt Engineering
+
+### 4.1 Ten Sentences for Level Separation (Exercise 4A)
+
+Choose ten sentences from the edition text. You need three groups:
+
+| Group                          | Number | Where from                                                              |
+| ------------------------------ | ------ | ----------------------------------------------------------------------- |
+| Document text                  | 4      | Heading or body of the file note                                        |
+| Edition and metadata           | 3      | Title, regest, footnotes, details of the printing                       |
+| Conclusion (formulated by you) | 3      | Your own statements about the source that the text itself does not make |
+
+Enter the sentences here:
+
+```markdown
+1) [sentence 1]
+2) [sentence 2]
+3) [sentence 3]
+4) [sentence 4]
+5) [sentence 5]
+6) [sentence 6]
+7) [sentence 7]
+8) [sentence 8]
+9) [sentence 9]
+10) [sentence 10]
+```
+
+Headers, footers, title and regest count as **edition or metadata** when they come from the editors, and as **document text** when they belong to the original. Decide this for each sentence and record your reason.
+
+### 4.2 Working Hypotheses (Exercise 2A, Devil's Advocate)
+
+After reading, enter three hypotheses of your own. The forms below are examples that you should test and change:
+
+```markdown
+H1: [In the note, neutrality serves as an argument against accession.]
+H2: [Despite the refusal, Petitpierre signals interest in cooperation.]
+H3: [The note shows that the decision was not made by the department alone.]
+```
+
+### 4.3 Summary Without AI (recommended)
+
+Before the first AI prompt, write a summary of at most four sentences without AI. Later you compare the model's answers with it.
+
+```markdown
+Who speaks/acts: [...]
+Occasion: [...]
+Central statement: [...]
+Implied consequence: [...] (the answer "none stated explicitly" is allowed)
+```
+
+## Learning Objectives
+
+After the package you can:
+
+- obtain the source with full metadata and file it,
+- distinguish document text, edition and conclusion,
+- write a summary without AI against which you compare AI answers.
+
+## Next
+
+Continue with [Prompt Engineering](prompt-engineering.qmd).
+
+{{< include ../_feedback.qmd >}}

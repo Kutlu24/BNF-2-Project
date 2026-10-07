@@ -62,6 +62,15 @@ Der Kernpfad führt Sie in ca. 150 Minuten zu einem vollständigen Ergebnis. Die
 
 Diese Übung ist die Grundlage für alle anderen Übungen. Rechnen Sie beim ersten Durchgang mit mehr Zeit, denn Sie richten hier auch Ihr KI-Protokoll ein.
 
+<!-- bridge -->
+
+::: {.callout-note title="Brücke: Das bringen Sie mit"}
+Aus der vorigen Übung brauchen Sie:
+
+- Ihre Protokolldatei mit dem Abschnitt «Arbeitsumgebung» aus der Übung [Arbeitsbereich einrichten](arbeitsbereich-einrichten.qmd).
+- Das ausgefüllte [Startpaket Dodis 5020](startpaket-dodis-5020.qmd).
+  :::
+
 ## Was Sie brauchen
 
 **Fachliches Wissen**
@@ -79,13 +88,21 @@ Das System muss die drei folgenden Dinge können:
 **Weitere Werkzeuge und Zugänge**
 
 - Eine Datei für Ihr KI-Protokoll. Eine Textdatei oder ein Dokument in Ihrer Textverarbeitung genügt.
-- Das Materialpaket aus dem Abschnitt «Fallpaket für alle Übungen». Sie laden dafür eine frei zugängliche Quelle herunter.
+- Das ausgefüllte [Startpaket Dodis 5020](startpaket-dodis-5020.qmd).
 
 **Sprache**
 
 Die Aktennotiz Dodis 5020, mit der Sie in dieser Übung arbeiten, ist auf **Französisch**. Alle Prompts unten sind auf Deutsch, aber keiner sagt dem Modell, in welcher Sprache es antworten oder zitieren soll. Legen Sie das für sich selbst fest, bevor Sie beginnen (zum Beispiel: «Antworte auf Deutsch, zitiere Textstellen im französischen Original»), und notieren Sie Ihre Wahl im KI-Protokoll.
 
 {{< include ../_ki-anforderungen.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Pflichtlektüre"}
+
+- @walters2023fabrication: Welche Anteile erfundener und fehlerhafter Referenzen berichten die Autor:innen, und was folgt daraus für Ihren Umgang mit KI-generierten Literaturangaben? Beantworten Sie in drei Sätzen im KI-Protokoll, vor Abschnitt 7.
+- @turpin2023unfaithful (vor Abschnitt 5): Die Studie zeigt, dass die Begründung, die ein Modell zu seiner Antwort gibt, den wirklichen Einfluss auf die Antwort verschweigen kann. Welche Folge hat das für Ihre Prüfung einer angeforderten Denkspur? Beantworten Sie in zwei Sätzen.
+  :::
 
 ## Lernziele
 
@@ -114,13 +131,9 @@ Lassen Sie für jede Technik mindestens **zwei Prompt-Varianten** laufen. Vergle
 2. Übergriffigkeit (Spekulationen)
 3. Anschlussfähigkeit an Ihre nächsten Arbeitsschritte.
 
-## Fallpaket für alle Übungen
+## Fallpaket: das Startpaket Dodis 5020
 
-Verwenden Sie – wie in den anderen Übungen – ein **konkretes, kontrollierbares Materialpaket**:
-
-1. **Primärquelle** siehe Übung [Quellenkritik](quellenkritik-bundesrat-europarat-1949.qmd)
-2. **Kontextressource** siehe Übung [Forschungsfrage](formulieren-historische-forschungsfrage-schweiz-europarat.qmd) oder [Quellensuche](quellensuche-vorort-europarat-1963.qmd).
-3. **Optionale Sekundärquelle** siehe Übung [Literaturrecherche](literaturrecherche-sozialversicherung-ch.qmd) oder [Zitieren](zitieren.qmd).
+Diese Übung arbeitet an einer einzigen Quelle: der Aktennotiz Dodis 5020. Alles, was Sie dafür brauchen, steht im [Startpaket Dodis 5020](startpaket-dodis-5020.qmd): die Quelle, ein ausfüllbarer Metadatenblock, Hinweise zu Person und Textsorte, Platz für Ihre zehn Sätze und Ihre Arbeitshypothesen. Bearbeiten Sie das Startpaket zuerst. Sie brauchen keine andere Übung, um diese Übung abzuschliessen.
 
 ::: callout-tip
 
@@ -196,7 +209,7 @@ Fasse das Dokument zusammen und sag mir, was wichtig ist.
 - **Variante A (minimal):** nur Ziel + Antwort-Format.
 - **Variante B (robust):** Ziel + strukturierter Kontext + Vorgaben + Antwort-Format + Self-Check.
 
-Orientieren Sie sich am Setup aus der Übung [Quellenkritik](quellenkritik-bundesrat-europarat-1949.qmd) (Minimalparaphrase, max. 4 Sätze).
+Die Aufgabe ist die Minimalparaphrase der Aktennotiz Dodis 5020 (max. 4 Sätze). Das Setup besteht aus vier Fragen: Wer spricht oder handelt? Was ist der Anlass? Was ist die zentrale Aussage? Welche Konsequenz wird angedeutet, falls überhaupt eine?
 
 **Prompt-Gerüst (robust, adaptierbar):**
 
@@ -228,9 +241,9 @@ Wählen Sie **eine** Aufgabe aus den anderen Übungen (z. B. Forschungsfrage e
 
 Lassen Sie dieselbe Aufgabe in drei Rollen bearbeiten:
 
-1. **Quellenkritiker:in** (textnah, Ebenen trennen) – siehe [Quellenkritik](quellenkritik-bundesrat-europarat-1949.qmd).
-2. **Devil’s Advocate** (Stress-Tests, Gegenargumente) – siehe [Schreiben](schreiben.qmd).
-3. **Strukturierer:in** (Arbeitsplan, Zwischenprodukte) – siehe [Public History](public-history.qmd) oder [Schreiben](schreiben.qmd).
+1. **Quellenkritiker:in** (textnah, Ebenen trennen) (wird in der Übung [Quellenkritik](quellenkritik-bundesrat-europarat-1949.qmd) vertieft).
+2. **Devil’s Advocate** (Stress-Tests, Gegenargumente) (wird in der Übung [Schreiben](schreiben.qmd) vertieft).
+3. **Strukturierer:in** (Arbeitsplan, Zwischenprodukte) (kommt in [Schreiben](schreiben.qmd) und [Public History](public-history.qmd) wieder vor).
 
 **Rollen-Prompt (Beispiel: Quellenkritiker:in, stark begrenzend):**
 
@@ -251,7 +264,7 @@ Ausgabe:
 
 ```markdown
 Rolle: Devil’s Advocate.
-Input: Meine Arbeitshypothesen (H1–H3) + Materialhinweise.
+Input: Meine Arbeitshypothesen [H1–H3 aus dem Startpaket, Abschnitt 4.2] + Materialhinweise.
 Aufgabe:
 - Nenne zu jeder Hypothese die diskutierbare Annahme.
 - Formuliere einen Stress-Test (welcher Befund würde kippen?).
@@ -263,8 +276,8 @@ Keine externen Fakten.
 
 Nehmen Sie die **beste** Antwort aus 2A und lassen Sie sie durch eine zweite Rolle **prüfen**, nicht neu schreiben:
 
-- Rolle «Logik-Prüfer:in» (vgl. Übung [Schreiben](schreiben.qmd)): Konsistenz, Sprünge, fehlende Evidenzstellen.
-- Rolle «Katalog-Assistent:in» (vgl. Übung [Literaturrecherche](literaturrecherche-sozialversicherung-ch.qmd)): übersetzt in Suchstrings/Indikatoren.
+- Rolle «Logik-Prüfer:in» (kommt später in der Übung [Schreiben](schreiben.qmd) wieder vor): Konsistenz, Sprünge, fehlende Evidenzstellen.
+- Rolle «Katalog-Assistent:in» (kommt später in der Übung [Literaturrecherche](literaturrecherche-sozialversicherung-ch.qmd) wieder vor): übersetzt in Suchstrings/Indikatoren.
 
 ## 3. Zero-shot Prompting
 
@@ -326,7 +339,7 @@ Markieren Sie in der Antwort:
 
 ### Übung 3B: Drei Forschungsfragen (Zero-shot)
 
-Nutzen Sie die Vorlage aus der Übung [Forschungsfrage](formulieren-historische-forschungsfrage-schweiz-europarat.qmd).
+Nutzen Sie den folgenden Prompt als Zero-shot-Vorlage.
 
 ```markdown
 Gib mir drei mögliche historische Forschungsfragen, die sich aus der Aktennotiz ableiten lassen.
@@ -377,7 +390,7 @@ Material: [hier Ihre 10 Sätze aus der Aktennotiz einfügen]
 Frühere Fassungen dieses Beispiels labelten «Ort: Bern; Datum: 7.7.1949» als [Edition/Metadaten] und eine bereits analytische Paraphrase als [Dokumenttext]. Beide Zuordnungen waren angreifbar: Aktennotizen tragen Ort und Datum meist in der eigenen Kopfzeile, nicht erst in der gedruckten Edition, und ein Satz, der bereits eine Interpretation formuliert ("Neutralität wird als Argument verwendet"), ist keine wörtliche Textstelle mehr. Die korrigierten Beispiele oben zeigen die Unterscheidung, die diese Aufgabe eigentlich trainieren soll.
 :::
 
-**Arbeitsauftrag:** Übernehmen Sie danach den Few-shot-Block in Ihren Prompt aus der Übung [Quellenkritik](quellenkritik-bundesrat-europarat-1949.qmd) und prüfen Sie, ob die Labels zuverlässiger werden.
+**Arbeitsauftrag:** Übernehmen Sie danach den Few-shot-Block in Ihren Prompt aus Übung 3A und prüfen Sie, ob die Labels zuverlässiger werden.
 
 ### Übung 4B: Few-shot für Forschungsfragen (schwach vs. stark)
 
@@ -442,7 +455,7 @@ Der Abschnitt [Fähigkeiten prüfen und einordnen](#sec-faehigkeiten) vertieft d
 
 ### Übung 5A: Argumentmapping mit Zwischenschritten
 
-Nutzen Sie das Argumentmapping aus der Übung [Quellenkritik](quellenkritik-bundesrat-europarat-1949.qmd) (Claim/Begründung/Voraussetzung/Implikation), aber erzwingen Sie Schrittlogik:
+Ein Argumentmapping ordnet eine Aussage in Claim (Behauptung), Begründung, Voraussetzung und Implikation. Erzwingen Sie dabei eine Schrittlogik:
 
 ```markdown
 Aufgabe: Erzeuge ein Argumentmapping zu den Passagen, die Neutralität/Vereinbarkeit/Entscheidungsprozess betreffen.
@@ -464,7 +477,7 @@ Material: ...
 Übertragen Sie die Struktur aus [Quellensuche](quellensuche-vorort-europarat-1963.qmd) (Teilfragen → Quellentypen → Suchorte → Suchstrings) in eine explizite Pipeline. Setzen Sie unten Ihre eigene Frage ein; die Frage in Klammern ist nur ein Platzhalter und kein Vorschlag, den Sie übernehmen sollten.
 
 ```markdown
-Ziel: Erstelle einen Rechercheplan zur Frage: [Ihre eigene Forschungsfrage einsetzen, zum Beispiel eine Frage aus Übung 4B oder aus der Übung Forschungsfrage]
+Ziel: Erstelle einen Rechercheplan zur Frage: [Ihre eigene Forschungsfrage einsetzen, zum Beispiel eine Frage aus Übung 4B]
 
 Schritte:
 1) Zerlege in 4–6 Teilfragen (prüfbar).
@@ -492,7 +505,7 @@ Iteration als **kontrollierte Revision**: Sie bauen nicht «mehr Text», sondern
 ### Übung 6A: Generate → Critique → Revise (Forschungsfrage)
 
 1. **Generate (v1):** Zero-shot Forschungsfragen (Übung 3B).\
-2. **Critique:** Nutzen Sie den kritischen Abgleich aus der Übung [Forschungsfrage](formulieren-historische-forschungsfrage-schweiz-europarat.qmd) («Warum fehlt der Aspekt Neutralität?» / «Auf welche Quellen stützt sich das?»).\
+2. **Critique:** Kritisieren Sie v1 mit eigenen Rückfragen, zum Beispiel: «Warum fehlt der Aspekt Neutralität?» und «Auf welche Quellen stützt sich das?»\
 3. **Revise (v2):** Lassen Sie die KI die Fragen revidieren, aber nur anhand Ihrer Kritikpunkte.
 
 **Critique-Prompt (Vorlage):**
@@ -511,7 +524,7 @@ Keine neuen Fakten.
 
 ### Übung 6B: Iteration über Antwort-Format (Zitieren / Zusammenfassen)
 
-Nehmen Sie die Übung [Zitieren](zitieren.qmd) und erzwingen Sie eine zweistufige Ausgabe:
+Quelle ist die Aktennotiz Dodis 5020 aus dem Startpaket. Lassen Sie die KI diese Quelle zitieren, und erzwingen Sie eine zweistufige Ausgabe. Das **Chicago-Zitat** ist ein Beleg im Zitierstil des Chicago Manual of Style, das **Zotero-Importformat** eine Datei (zum Beispiel RIS oder BibTeX), die Sie in die Literaturverwaltung Zotero laden können. Die Übung [Zitieren](zitieren.qmd) vertieft beides später.
 
 1. Extraktion strukturierter Metadaten (Felder),\
 2. erst dann Chicago-Zitat + Zotero-Importformat.
@@ -534,9 +547,21 @@ Bewerten Sie jede Prompt-Variante (0–2 Punkte pro Kriterium):
 4. **Fehlertransparenz** (markiert Unsicherheiten)
 5. **Anschlussfähigkeit** (Antwort ist direkt weiterverwendbar, z. B. für Exzerpt/Gliederung/Recherchelog)
 
+**Verankerung der Punkte.** Bewerten Sie jedes Kriterium mit dieser Tabelle, damit zwei Personen dieselbe Antwort gleich beurteilen:
+
+| Kriterium          | 0 Punkte                                                          | 1 Punkt                                                                | 2 Punkte                                                        |
+| ------------------ | ----------------------------------------------------------------- | ---------------------------------------------------------------------- | --------------------------------------------------------------- |
+| Input-Bindung      | Die Antwort enthält Fakten, die nicht im Material stehen          | Die Antwort bleibt meist im Material, enthält aber 1 bis 2 Zusätze     | Jede Aussage lässt sich im Material finden                      |
+| Ebenen-Trennung    | Text, Metadaten und Schlussfolgerung sind vermischt               | Die Ebenen sind benannt, aber einzelne Aussagen sind falsch zugeordnet | Jede Aussage ist der richtigen Ebene zugeordnet                 |
+| Formatstabilität   | Das geforderte Format fehlt oder wechselt                         | Das Format stimmt, aber ein Element fehlt oder weicht ab               | Das Format stimmt in allen Elementen, auch bei Wiederholung     |
+| Fehlertransparenz  | Unsicherheiten werden nicht genannt                               | Unsicherheiten werden pauschal genannt («könnte sein»)                 | Unsicherheiten werden pro Aussage markiert und begründet        |
+| Anschlussfähigkeit | Sie müssen die Antwort vor der Weiterverwendung neu strukturieren | Sie müssen kleine Teile umformen                                       | Sie übernehmen die Antwort ohne Umbau in Exzerpt oder Protokoll |
+
+Bewerten Sie dieselbe Antwort nach einigen Tagen noch einmal. Weichen Ihre Punkte ab, ist ein Kriterium für Sie zu unscharf. Notieren Sie das im KI-Protokoll.
+
 ### Übung 7A: Prompt «härten» (Literaturrecherche)
 
-Nehmen Sie einen naiven Literaturprompt («Nenne zentrale Literatur zu X») und optimieren Sie ihn so, dass er als **Rechercheassistenz** taugt (nicht als Quellenproduzent). Orientierung: Übung [Literaturrecherche](literaturrecherche-sozialversicherung-ch.qmd) («Keine erfundenen Titel; keine vorgetäuschte Katalogkenntnis; Unsicherheiten markieren»).
+Nehmen Sie einen naiven Literaturprompt («Nenne zentrale Literatur zu X») und optimieren Sie ihn so, dass er als **Rechercheassistenz** taugt (nicht als Quellenproduzent). Drei Regeln sind dafür zentral: keine erfundenen Titel, keine vorgetäuschte Katalogkenntnis, Unsicherheiten markieren.
 
 **Optimierter Prompt (Gerüst):**
 
@@ -561,7 +586,7 @@ Definieren Sie ein Fehlerbudget und optimieren Sie darauf:
 - **Budget B:** «0 ungestützte Kontextannahmen» (Quellenkritik),
 - **Budget C:** «0 Formatverstösse» (z. B. max. 4 Sätze, Tabelle, Claim-IDs).
 
-Führen Sie 3 Iterationen durch (v1–v3) und protokollieren Sie:
+Wählen Sie **ein** Budget und einen Prompt. Führen Sie 3 Iterationen durch (v1–v3), das sind drei Läufe. Wollen Sie ein zweites Budget bearbeiten, ist das eine eigene Runde mit eigenen Läufen. Protokollieren Sie:
 
 - welche Prompt-Änderung welches Fehlerfeld reduziert hat,
 - welche Nebenwirkungen entstehen (z. B. Antwort wird zu vage).
@@ -705,10 +730,17 @@ Self-Check: Nenne 3 plausible Gegenbelege oder alternative Deutungen und was du 
 
 Am Ende verfügen Sie über diese Artefakte:
 
-1. Ein KI-Protokoll mit mindestens 8 Einträgen, verteilt über die Techniken.\
+1. Ein KI-Protokoll mit mindestens 8 Einträgen, verteilt über die Techniken. Die 8 sind eine Untergrenze. Führen Sie sonst einen Eintrag pro Arbeitsschritt mit KI. Die zwei Läufe einer A/B-Variante dürfen Sie in einem Eintrag zusammenfassen.\
 2. Pro Technik einen kurzen A/B-Vergleich und 5–8 Sätze Reflexion. Beschreiben Sie darin, was sich methodisch verbessert oder verschlechtert hat.\
 3. Eine «beste Praxis»-Vorlage. Das ist Ihr persönlicher Standardprompt für (a) Quellenkritik oder (b) Literaturrecherche oder (c) Schreibassistenz.\
 4. Die ausgefüllte Tabelle aus Aufgabe 8A. Sie beschreibt die Fähigkeiten Ihres Kontos und gehört zur Dokumentation Ihrer Arbeitsumgebung.
+
+<!-- take -->
+
+::: {.callout-note title="Mitnehmen in die nächste Übung"}
+
+- Ihre «beste Praxis»-Vorlage und die Tabelle aus Aufgabe 8A in Ihr KI-Protokoll. Beide brauchen Sie in jeder weiteren Übung.
+  :::
 
 ## Weiterführende Ressourcen
 
@@ -722,6 +754,8 @@ Am Ende verfügen Sie über diese Artefakte:
 - [Wikipedia: Prompt Engineering](https://de.wikipedia.org/wiki/Prompt_Engineering) – Enzyklopädischer Überblick mit Belegen zur Forschungsliteratur.
 - [YouTube-Playlist: Kritische KI-Kompetenz (Zentralbibliothek Zürich)](https://www.youtube.com/playlist?list=PLxDekeBVQtVJoizqbYM0ghqolcN3jUPsy) – Videoreihe zu Machine Learning, Sprachmodellen, Prompting, Bias, Datenvisualisierung, Evaluationsverfahren und Open Science. (GERMAN only)
 - @sternfeld2023historian – Erklärt, wie ein maschinelles Lernsystem aus einem Datensatz «lernt» und warum KI als soziotechnisches System und nicht als autonome Instanz funktioniert.
+
+{{< include ../_rueckmeldung.qmd >}}
 
 ## Bibliographie
 

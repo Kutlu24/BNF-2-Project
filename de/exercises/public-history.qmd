@@ -122,6 +122,16 @@ Statt des Blogposts können Sie ein Podcast-Skript von 6 bis 8 Minuten abgeben. 
 
 Der Blogpost bleibt eine Textabgabe, deshalb nennt die Übung dafür eine Wortzahl. Für das KI-Protokoll zählen Sie Einträge.
 
+<!-- bridge -->
+
+::: {.callout-note title="Brücke: Das bringen Sie mit"}
+Aus der vorigen Übung brauchen Sie:
+
+- Pfad B: Als Ausgangsartikel nutzen Sie eine wissenschaftliche Arbeit aus Ihrer Literaturliste in [Literaturrecherche](literaturrecherche-sozialversicherung-ch.qmd).
+- Pfad C: ein Artikel aus Ihrem Feld.
+- Ihre Offenlegung aus [Zitieren](zitieren.qmd).
+  :::
+
 ## Was Sie brauchen
 
 **Fachliches Wissen**
@@ -155,6 +165,13 @@ Das System muss die drei folgenden Dinge können:
 Der Beispielartikel ist auf Englisch, Ihr Zielpublikum kann eine andere Sprache haben. Legen Sie die Sprache des Vermittlungsprodukts im Kommunikationsbriefing fest und halten Sie sie in allen Prompts gleich.
 
 {{< include ../_ki-anforderungen.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Pflichtlektüre"}
+
+- Der Ausgangsartikel selbst. Lesen Sie ihn vollständig und notieren Sie fünf Kernaussagen mit Seitenzahl, bevor Sie Schritt 1 beginnen. Nur diese Kernaussagen gehen in das Quellenpaket.
+  :::
 
 ## Lernziele
 
@@ -439,11 +456,20 @@ Am Ende verfügen Sie über diese Artefakte:
 
 Dazu kommt eine methodische Einsicht: Sie können begründen, wo die KI eine Vermittlung verbessert und wo Sie die Verantwortung für Evidenz und Deutung selbst tragen.
 
+<!-- take -->
+
+::: {.callout-note title="Mitnehmen in die nächste Übung"}
+
+- Das Produkt mit Offenlegung. Das ist die Abgabe.
+  :::
+
 ## Weiterführende Ressourcen
 
 - [AI Pedagogy Project: Was ist KI?](https://aipedagogy.org/guide/what-is-ai/) – Konzeptuelle Einführung für nicht-technische Zielgruppen.
 - [Critical AI Literacy: Kuratierte Ressourcen](https://critical-ai-literacy.github.io/resources/) – Ethik, Macht, Arbeit und Politik der KI.
 - @drucker2011humanities – Kritik an Konventionen der Datenvisualisierung; führt das Konzept der «Capta» ein – die Idee, dass Daten konstruiert und nicht objektiv gegeben sind.
+
+{{< include ../_rueckmeldung.qmd >}}
 
 ## Bibliographie
 

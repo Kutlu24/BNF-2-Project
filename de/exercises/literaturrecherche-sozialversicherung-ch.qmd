@@ -115,6 +115,15 @@ Teilen Sie den Arbeitstag auf zwei oder drei Sitzungen auf. Der Kernpfad führt 
 Bestellen Sie fehlende Titel früh. Eine Fernleihe dauert oft mehrere Tage. Diese Wartezeit ist in der Dauer oben nicht enthalten.
 :::
 
+<!-- bridge -->
+
+::: {.callout-note title="Brücke: Das bringen Sie mit"}
+Aus der vorigen Übung brauchen Sie:
+
+- Ihr KI-Protokoll und die Grundtechniken aus [Prompt Engineering](prompt-engineering.qmd) (Abschnitte 1 bis 4, 6 und 7).
+- Eine Datei für Ihr Rechercheprotokoll.
+  :::
+
 ## Was Sie brauchen
 
 **Fachliches Wissen**
@@ -149,6 +158,13 @@ Das System muss die drei folgenden Dinge können:
 Die Plattform «Geschichte der Sozialen Sicherheit in der Schweiz» und das Historische Lexikon der Schweiz (HLS) existieren auch auf Englisch. Ein Teil der Literatur ist nur auf Deutsch oder Französisch erhältlich. Das HLS öffnet sich je nach Link auf Deutsch, auch wenn Sie die Übung in einer anderen Sprache lesen. Notieren Sie im KI-Protokoll, in welcher Sprache die KI antworten soll.
 
 {{< include ../_ki-anforderungen.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Pflichtlektüre"}
+
+- @walters2023fabrication (bereits in Prompt Engineering gelesen): Lesen Sie die Ergebnisse noch einmal, bevor Sie Schritt 3 beginnen, und notieren Sie drei Prüfschritte für jeden Literaturhinweis der KI.
+  :::
 
 ## Lernziele
 
@@ -550,10 +566,19 @@ Dazu kommt eine methodische Einsicht: Sie können begründen, welche Treffer ein
 
 - Dokumentieren Sie Workflow und Daten (README + Lizenz/Reuse-Hinweise).
 
+<!-- take -->
+
+::: {.callout-note title="Mitnehmen in die nächste Übung"}
+
+- Pfad B: Ihre Literaturliste, Ihre Forschungslücke und Ihre priorisierte Forschungsfrage aus Schritt 8 in [Schreiben](schreiben.qmd) und später in [Public History](public-history.qmd). Sie müssen die Frage nicht in einer anderen Übung noch einmal formulieren.
+  :::
+
 ## Weiterführende Ressourcen
 
 - [Ranke.2: Lessons Übersicht](https://ranke2.uni.lu/lessons/) – Lernmodule zu Web, Social Media und dem digitalen Wandel.
 - [Knowing Machines: Models All the Way Down](https://knowingmachines.org/models-all-the-way) – Kritik an Trainingsdaten und ihre Parallelen zur Quellenkritik.
+
+{{< include ../_rueckmeldung.qmd >}}
 
 ## Bibliographie
 

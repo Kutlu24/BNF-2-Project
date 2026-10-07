@@ -122,6 +122,15 @@ Split the working day over two or three sessions. The core path leads you to a p
 Order the titles that you lack early. An interlibrary loan often takes several days. The duration above does not include this waiting time.
 :::
 
+<!-- bridge -->
+
+::: {.callout-note title="Bridge: what you bring"}
+From the previous exercise you need:
+
+- Your AI log and the basic techniques from [Prompt Engineering](prompt-engineering.qmd) (sections 1 to 4, 6 and 7).
+- A file for your search log.
+  :::
+
 ## What You Need
 
 **Subject knowledge**
@@ -156,6 +165,13 @@ The system must be able to do the three following things:
 The platform "History of Social Security in Switzerland" and the Historical Dictionary of Switzerland (HLS) also exist in English. Part of the literature is only available in German or French, and an HLS link may open in German even from this English course. Record in your AI log which language the AI should answer in.
 
 {{< include ../_ai-requirements.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Required reading"}
+
+- @walters2023fabrication (already read in Prompt Engineering): Re-read the results before you start step 3, and note three checks for each literature reference the AI gives you.
+  :::
 
 ## Learning Objectives
 
@@ -557,10 +573,19 @@ One methodological insight comes on top: you can give reasons for which hits a c
 
 - Document the workflow and the data (a README file and notes on the license and on reuse).
 
+<!-- take -->
+
+::: {.callout-note title="Take this into the next exercise"}
+
+- Track B: your literature list, your research gap and your prioritised research question from step 8 into [Writing](writing.qmd) and later into [Public History](public-history.qmd). You do not need to formulate the question again in another exercise.
+  :::
+
 ## Further Resources
 
 - [Ranke.2: Lessons Overview](https://ranke2.uni.lu/lessons/) – Learning modules on the web, social media and digital change.
 - [Knowing Machines: Models All the Way Down](https://knowingmachines.org/models-all-the-way) – Critique of training data and its parallels to source criticism.
+
+{{< include ../_feedback.qmd >}}
 
 ## Bibliography
 

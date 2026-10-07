@@ -75,6 +75,15 @@ Malgré la numérisation croissante, la recherche historique ne peut pas se mene
 
 Le parcours principal vous mène à une question de recherche traitable en 90 minutes environ. L'étape 3 coûte environ 60 minutes de plus. Vous entraînez l'état de la recherche en détail dans l'exercice [Recherche bibliographique](recherche-bibliographique-securite-sociale-ch.qmd).
 
+<!-- bridge -->
+
+::: {.callout-note title="Passerelle: ce que vous apportez"}
+De l'exercice précédent, il vous faut:
+
+- Parcours A: votre journal d'IA de [Prompt Engineering](prompt-engineering.qmd).
+- Parcours B: cet exercice **ne fait pas partie du parcours B**. Votre question y naît dans [Recherche bibliographique](recherche-bibliographique-securite-sociale-ch.qmd), étape 8. Ne faites cet exercice que si vous voulez exercer la méthode sur un second sujet.
+  :::
+
 ## Ce dont vous avez besoin
 
 **Connaissances disciplinaires**
@@ -107,6 +116,13 @@ Le système doit savoir faire les deux choses suivantes:
 Aucun des quatre guides de comparaison de l'étape 1 n'est disponible en français: celui de Bâle est en anglais, ceux de Zurich, Brême et Hambourg sont en allemand. Prévoyez du temps de lecture dans ces langues si le français est votre seule langue de travail.
 
 {{< include ../_exigences-ia.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Lecture obligatoire"}
+
+- Bâle «History: A Toolkit for Students», section «Formulating a Research Question» (vers p. 11). Questions: quelles deux caractéristiques d'une question traitable la section nomme-t-elle? Testez votre question avec les deux avant de terminer l'étape 1.
+  :::
 
 ## Objectifs d'apprentissage
 
@@ -370,11 +386,20 @@ Clôturez votre journal IA. Il comprend au moins 5 entrées, c'est-à-dire une e
 - d'une compréhension réfléchie des **potentiels et des limites de l'IA** dans le dispositif de recherche,
 - d'une appréciation méthodiquement fondée de la **faisabilité** de votre projet.
 
+<!-- take -->
+
+::: {.callout-note title="À emporter dans l'exercice suivant"}
+
+- Votre question de travail en une phrase. C'est la question pour [Critique des sources](critique-sources-conseil-federal-conseil-europe-1949.qmd) et [Recherche de sources](recherche-sources-vorort-conseil-europe-1963.qmd) dans le parcours A.
+  :::
+
 ## Ressources complémentaires
 
 - [Ranke.2: Wikipedia as a historical source](https://ranke2.uni.lu/u/wikipedia-historical-source/) – Provenance, historiques de révision et critique des sources numériques. (ENGLISH only)
 - [AI Pedagogy Project: What is AI?](https://aipedagogy.org/guide/what-is-ai/) – Introduction conceptuelle pour un public non technique. (ENGLISH only)
 - @meadows2023practice – Introduction à un forum de revue sur ce que l'IA change aux méthodes et à l'épistémologie de l'histoire; utile pour la question de savoir quelles décisions de recherche restent chez les chercheurs.
+
+{{< include ../_retour.qmd >}}
 
 ## Bibliographie
 

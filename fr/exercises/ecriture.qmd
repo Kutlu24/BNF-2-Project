@@ -136,6 +136,16 @@ Le but n'est pas d'«automatiser» la production de texte, mais d'augmenter la *
 
 Le parcours principal vous mène à un texte révisé en 45 à 60 minutes. Chaque approfondissement optionnel coûte environ 15 minutes de plus. Faites une entrée dans le journal IA pour chaque étape du parcours principal.
 
+<!-- bridge -->
+
+::: {.callout-note title="Passerelle: ce que vous apportez"}
+Utilisez comme matériau:
+
+- Parcours A: votre journal d'analyse de source de [Critique des sources](critique-sources-conseil-federal-conseil-europe-1949.qmd) et votre journal de recherche de [Recherche de sources](recherche-sources-vorort-conseil-europe-1963.qmd).
+- Parcours B: votre liste de lectures et votre lacune de recherche de [Recherche bibliographique](recherche-bibliographique-securite-sociale-ch.qmd).
+- Parcours C: un fragment de texte (une demi-page à une page) et au moins 10 points clés sur votre sujet.
+  :::
+
 ## Ce dont vous avez besoin
 
 **Connaissances disciplinaires**
@@ -171,6 +181,13 @@ Cet exercice n'a besoin ni d'une recherche sur le web ni d'un téléversement de
 Les prompts sont en français et demandent un français académique. Si vous rédigez votre travail dans une autre langue, remplacez la langue cible dans les prompts (voir étapes 4 et 7) et notez ce choix dans votre journal d'IA.
 
 {{< include ../_exigences-ia.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Lecture obligatoire"}
+
+- @bender2021stochastic (l'introduction et la conclusion suffisent): pourquoi un texte plausible n'est-il pas une preuve? Répondez en trois phrases et appliquez la réponse à la version du paragraphe de l'étape 4.
+  :::
 
 ## Objectifs d'apprentissage
 
@@ -537,10 +554,19 @@ Texte: …
 - le résumé (et en option la traduction et le glossaire)\
 - le journal IA avec au moins 6 entrées
 
+<!-- take -->
+
+::: {.callout-note title="À emporter dans l'exercice suivant"}
+
+- Votre fragment de texte, le résumé et le méta-commentaire dans [Citer](citer.qmd). Vous y sécurisez les références.
+  :::
+
 ## Ressources complémentaires
 
 - [AI Pedagogy Project: LLM Tutorial](https://aipedagogy.org/guide/llm-tutorial/) – Limites, hallucinations, vérification et usage critique des grands modèles de langue. (ENGLISH only)
 - [The Turing Way](https://book.the-turing-way.org/) – Manuel pour une recherche reproductible, éthique et collaborative. (ENGLISH only)
+
+{{< include ../_retour.qmd >}}
 
 ## Bibliographie
 

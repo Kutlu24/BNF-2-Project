@@ -84,6 +84,15 @@ The core path leads you to a complete source criticism in about 180 minutes. Ste
 
 The two logs have different tasks. The source analysis log describes the source. The AI log describes your AI use. Keep the two separately.
 
+<!-- bridge -->
+
+::: {.callout-note title="Bridge: what you bring"}
+From the previous exercise you need:
+
+- Your AI log and the completed [Dodis 5020 starter kit](starter-kit-dodis-5020.qmd). The source is the same in both exercises.
+- Track A: your working question from [Research Question](formulating-historical-research-question-switzerland-council-of-europe.qmd).
+  :::
+
 ## What You Need
 
 **Subject knowledge**
@@ -117,6 +126,13 @@ The system must be able to do the three following things:
 The memorandum Dodis 5020 is in **French**. Plan extra time for translation if French is not your working language. Also decide in which language the AI should answer and quote, and note that choice in your AI log (see [Prompt Engineering](prompt-engineering.qmd), section "What You Need").
 
 {{< include ../_ai-requirements.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Required reading"}
+
+- @fickers2020hermeneutik (open access, German only): What does "update for hermeneutics" mean? Name two points that change for your work on Dodis 5020 and two that stay the same. If you do not read German, read @oberbichler2025implementing (English) instead and answer the same question for the idea of "tool and method".
+  :::
 
 ## Learning Objectives
 
@@ -159,6 +175,15 @@ Formulate in **at most 4 sentences**:
 - What is the occasion?
 - What is the central statement or decision?
 - Which consequence is indicated?
+
+::: {.callout-note collapse="true" title="Sample answer to task 1a (open only after your own paraphrase)"}
+Federal Councillor Petitpierre records a conversation with Mr Hansen. Hansen, on the instructions of the Danish foreign minister Rasmussen, drew attention to the Council of Europe's August session in Strasbourg and promised full Danish support should Switzerland apply. Petitpierre replies that Swiss neutrality policy rules out accession: Sweden sees no incompatibility, but Swiss neutrality is "more absolute". He stresses interest without "indifference or hostility", pointing to leading party figures in a private federalist committee and to his briefing of the foreign-affairs commissions.
+
+On the fourth question: the note records a refusal and a signal of goodwill. Any further "consequence" would be your own inference. "None stated explicitly" is therefore an acceptable answer.
+
+<!-- TODO course maintainers: check the sample answer against the edition text. -->
+
+:::
 
 ### Task 1b: The Same Minimal Paraphrase with AI
 
@@ -618,12 +643,21 @@ At the end you hold:
 - an **AI log** with at least 6 entries,
 - a considered judgement on **where AI supports exploration** and **where you must limit it methodologically**.
 
+<!-- take -->
+
+::: {.callout-note title="Take this into the next exercise"}
+
+- Your source analysis log on Dodis 5020 into [Source Search](source-search-vorort-council-of-europe-1963.qmd) (to classify the sources you find) and into [Writing](writing.qmd) (as material).
+  :::
+
 ## Further Resources
 
 - [Ranke.2: Wikipedia as Historical Source](https://ranke2.uni.lu/u/wikipedia-historical-source/) – Provenance, revision histories and digital source criticism.
 - [Knowing Machines: Models All the Way Down](https://knowingmachines.org/models-all-the-way) – Critique of training data and its parallels to source criticism.
 - @stark2023conjectural – Reads machine learning as a conjectural science that infers from traces; discusses the epistemological risks of automated pattern recognition.
 - @lang2026beyond – Ethical data work in the (digital) humanities; relevant to data provenance and dataset documentation.
+
+{{< include ../_feedback.qmd >}}
 
 ## Bibliography
 

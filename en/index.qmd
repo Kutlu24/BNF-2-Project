@@ -5,6 +5,8 @@ listing:
   id: exercises
   # Learning order, not alphabetical order. "sort: false" keeps this order.
   contents:
+    - exercises/set-up-workspace.qmd
+    - exercises/starter-kit-dodis-5020.qmd
     - exercises/prompt-engineering.qmd
     - exercises/literature-research-social-security-ch.qmd
     - exercises/formulating-historical-research-question-switzerland-council-of-europe.qmd
@@ -72,38 +74,49 @@ By engaging with these materials, historians will be better equipped to design t
 
 ## Choose Your Path
 
-Depending on your interests or learning goals, you can follow different paths through the materials. We recommend starting with the **Prompt Engineering** exercise.
+Depending on your interests or learning goals, you can follow different paths through the materials. We recommend starting with **Set up your workspace** and then **Prompt Engineering**.
 
 ::: {.panel-tabset}
 
 ### Track A: Council of Europe / Dodis (Source-focused)
 
-This track guides you through the entire research process using the example of Swiss diplomatic history (Dodis) and the Council of Europe.
+This track guides you through the research process as **one continuous project** using the example of Swiss diplomatic history (Dodis) and the Council of Europe. One question carries through all exercises: your working question from step 3 remains the question for Source Criticism, Source Search and Writing.
 
-1. [**Prompt Engineering**](exercises/prompt-engineering.qmd): Basics of interacting with LLMs.
-2. [**Research Question**](exercises/formulating-historical-research-question-switzerland-council-of-europe.qmd): Developing a historical research question.
-3. [**Source Criticism**](exercises/source-criticism-federal-council-council-of-europe-1949.qmd): Applying digital source criticism — the reading skill the next exercise needs.
-4. [**Source Search**](exercises/source-search-vorort-council-of-europe-1963.qmd): Using this reading skill for a targeted search for further primary sources.
-5. [**Writing**](exercises/writing.qmd): Drafting and refining historical texts.
-6. [**Citing**](exercises/citing.qmd): Properly documenting AI use.
+Allow about **20 hours** of pure working time (without archive visits). The source search is a multi-day project and comes as the conclusion, not as the entry.
+
+1. [**Set up your workspace**](exercises/set-up-workspace.qmd): Settle account, law and AI log once (about 30–45 min).
+2. [**Prompt Engineering**](exercises/prompt-engineering.qmd) with the [Dodis 5020 starter kit](exercises/starter-kit-dodis-5020.qmd): Basics of interacting with LLMs.
+3. [**Research Question**](exercises/formulating-historical-research-question-switzerland-council-of-europe.qmd): Develop your working question.
+4. [**Source Criticism**](exercises/source-criticism-federal-council-council-of-europe-1949.qmd): The reading skill the next exercise needs.
+5. [**Source Search**](exercises/source-search-vorort-council-of-europe-1963.qmd): Use this reading skill to find further primary sources for your question.
+6. [**Writing**](exercises/writing.qmd): Develop a text from your logs.
+7. [**Citing**](exercises/citing.qmd): Secure references and disclose AI use.
 
 ### Track B: Social Security (Literature-focused)
 
-This track focuses on literature research and communicating historical topics to the public.
+This track focuses on literature research and communicating historical topics to the public. Your research question emerges in Literature Research (step 8). You do not need to formulate it again in any other exercise.
 
-1. [**Prompt Engineering**](exercises/prompt-engineering.qmd): Basics of interacting with LLMs.
-2. [**Literature Research**](exercises/literature-research-social-security-ch.qmd): Finding and evaluating secondary literature.
-3. [**Research Question**](exercises/formulating-historical-research-question-switzerland-council-of-europe.qmd): Formulating a research question. The exercise uses the Council of Europe as its example. Transfer each step to the topic of social security.
-4. [**Writing**](exercises/writing.qmd): Drafting and refining historical texts.
-5. [**Citing**](exercises/citing.qmd): Properly documenting AI use.
-6. [**Public History**](exercises/public-history.qmd): Presenting history for a broad audience.
+1. [**Set up your workspace**](exercises/set-up-workspace.qmd): Settle account, law and AI log once.
+2. [**Prompt Engineering**](exercises/prompt-engineering.qmd) with the [Dodis 5020 starter kit](exercises/starter-kit-dodis-5020.qmd): Basics of interacting with LLMs.
+3. [**Literature Research**](exercises/literature-research-social-security-ch.qmd): Finding and evaluating secondary literature; your research question is the result.
+4. [**Writing**](exercises/writing.qmd): Develop a text from your literature list and research gap.
+5. [**Citing**](exercises/citing.qmd): Secure references and disclose AI use.
+6. [**Public History**](exercises/public-history.qmd): Present a work from your literature list to a broad audience.
 
 ### Track C: Your Own Topic
 
-Utilize the methods and templates for your own research project.
+Utilize the methods and templates for your own research project. This is how you transfer them:
 
-- **Prerequisite**: Complete the [**Prompt Engineering**](exercises/prompt-engineering.qmd) exercise first.
-- **Transfer**: Use the prompts and reflection questions from the other exercises and apply them to your own sources and topics.
+| Exercise                      | What you take over                      | What you replace                                          |
+| ----------------------------- | --------------------------------------- | --------------------------------------------------------- |
+| Workspace, Prompt Engineering | everything (independent of topic)       | only the material: your own source instead of Dodis 5020  |
+| Research Question             | procedure and quality check             | example question and comparison resources by your topic   |
+| Source Criticism              | levels, reflection questions            | source, metadata block                                    |
+| Source Search                 | the cycle of search terms, hits and log | archives and portals for your topic                       |
+| Writing                       | all role prompts                        | text fragment (half a page to one page), 10 bullet points |
+| Citing                        | all steps                               | test article by an article from your field                |
+
+Start with the first two exercises. Then pick the exercise that matches your next work step.
 
 :::
 

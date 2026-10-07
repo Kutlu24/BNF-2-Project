@@ -129,6 +129,16 @@ Le parcours principal vous mène en 4 heures environ à un billet de blog et à 
 
 Le billet de blog reste un rendu textuel, l'exercice nomme donc un nombre de mots. Pour le journal IA, vous comptez des entrées.
 
+<!-- bridge -->
+
+::: {.callout-note title="Passerelle: ce que vous apportez"}
+De l'exercice précédent, il vous faut:
+
+- Parcours B: utilisez comme article de départ un travail scientifique de votre liste de lectures de [Recherche bibliographique](recherche-bibliographique-securite-sociale-ch.qmd).
+- Parcours C: un article de votre domaine.
+- Votre déclaration de [Citer](citer.qmd).
+  :::
+
 ## Ce dont vous avez besoin
 
 **Connaissances disciplinaires**
@@ -162,6 +172,13 @@ Le système doit savoir faire les trois choses suivantes:
 L'article d'exemple est en anglais, et votre public cible peut utiliser une autre langue. Fixez la langue du produit de médiation dans le briefing et gardez-la identique dans tous les prompts.
 
 {{< include ../_exigences-ia.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Lecture obligatoire"}
+
+- L'article de départ lui-même. Lisez-le en entier et notez cinq affirmations clés avec numéro de page avant l'étape 1. Seules ces affirmations clés vont dans le paquet de sources.
+  :::
 
 ## Objectifs d'apprentissage
 
@@ -446,11 +463,20 @@ Entrée: carte des messages + paquet de sources + ébauche du blog ou du podcast
 
 S'y ajoute une connaissance méthodique: vous pouvez justifier où l'IA améliore une médiation, et où vous portez vous-même la responsabilité des preuves et de l'interprétation.
 
+<!-- take -->
+
+::: {.callout-note title="À emporter dans l'exercice suivant"}
+
+- Le produit avec déclaration. C'est le rendu.
+  :::
+
 ## Ressources complémentaires
 
 - [AI Pedagogy Project: What is AI?](https://aipedagogy.org/guide/what-is-ai/) – Introduction conceptuelle pour un public non technique. (ENGLISH only)
 - [Critical AI Literacy: ressources curées](https://critical-ai-literacy.github.io/resources/) – Éthique, pouvoir, travail et politique de l'IA. (ENGLISH only)
 - @drucker2011humanities – Critique des conventions de la visualisation de données; introduit le concept de «capta», l'idée que les données sont construites et non données de manière objective.
+
+{{< include ../_retour.qmd >}}
 
 ## Bibliographie
 

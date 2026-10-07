@@ -130,6 +130,14 @@ Alle drei Übungen gehören zum Kernpfad. Die optionale Vertiefung kostet ca. 20
 Haben Sie noch kein Protokoll? Führen Sie zuerst die Übung [Prompt Engineering](prompt-engineering.qmd) durch. Sie legen dort Ihr Protokoll an.
 :::
 
+<!-- bridge -->
+
+::: {.callout-note title="Brücke: Das bringen Sie mit"}
+Aus der vorigen Übung brauchen Sie:
+
+- Ihr KI-Protokoll aus **allen früheren Abschnitten derselben Datei**. Die Übung braucht es als Eingabe. Ein Zusammenführen mehrerer Dateien entfällt.
+  :::
+
 ## Was Sie brauchen
 
 **Fachliches Wissen**
@@ -164,6 +172,13 @@ Das System muss die zwei folgenden Dinge können:
 Der Testartikel von Fickers (2020) liegt nur auf Deutsch vor. Sie brauchen Deutschkenntnisse, um die Zitate in Übung 2 gegen den Originaltext zu prüfen. Wählen Sie sonst einen offen zugänglichen Artikel in Ihrer Arbeitssprache und notieren Sie die Wahl im KI-Protokoll.
 
 {{< include ../_ki-anforderungen.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Pflichtlektüre"}
+
+- Chicago Manual of Style, Quick Guide: <https://www.chicagomanualofstyle.org/tools_citationguide.html>. Frage: Wie zitiert der Guide einen Zeitschriftenartikel mit DOI? Schreiben Sie Ihre eigene Zitierung des Testartikels **vor** Übung 1 und vergleichen Sie danach.
+  :::
 
 ## Lernziele
 
@@ -460,6 +475,35 @@ IHR PROMPT
 
 :::
 
+::: {.callout-note collapse="true" title="Referenzlösung: Chicago-Eintrag für den Testartikel (erst nach Ihrer eigenen Zitation aufklappen)"}
+**Literaturverzeichnis:**
+
+Fickers, Andreas. «Update für die Hermeneutik: Geschichtswissenschaft auf dem Weg zur digitalen Forensik?» _Zeithistorische Forschungen / Studies in Contemporary History_ 17, no. 1 (2020): 157–68. <https://doi.org/10.14765/zzf.dok-1765>.
+
+**Fussnote:**
+
+Andreas Fickers, «Update für die Hermeneutik: Geschichtswissenschaft auf dem Weg zur digitalen Forensik?», _Zeithistorische Forschungen / Studies in Contemporary History_ 17, no. 1 (2020): 157–68, <https://doi.org/10.14765/zzf.dok-1765>.
+
+**Zulässige Varianten** (wenn Sie sie durchgängig anwenden):
+
+- Zeitschriftentitel nur deutsch oder zweisprachig.
+- «Heft 1» statt «no. 1», wenn Ihre Arbeit deutsche Konventionen verwendet.
+- Seitenbereich «157–68» oder «157–168».
+- Zitation der Online-Ausgabe: ohne Seitenzahlen, dafür mit DOI.
+
+**Fehler** (keine Stilfrage): falsches Jahr, falscher Band, anderer oder erfundener DOI, hinzugefügte Mitautorinnen oder Herausgeber, falscher Seitenbereich.
+
+<!-- TODO Kursverantwortliche: Eintrag mit dem Chicago Manual of Style (18. Auflage) abgleichen. -->
+
+:::
+
+::: {.callout-note title="Englischsprachiger Ersatz für den Testartikel"}
+
+<!-- TODO Kursverantwortliche: offen zugänglichen englischen Aufsatz zur Digital History auswählen, Chicago-Referenzlösung ergänzen und Übung 2 daran prüfen. -->
+
+[Titel, Autor:in, Jahr und DOI eines offen zugänglichen englischen Artikels hier eintragen.]
+:::
+
 Vergleichen Sie die Antwort mit Ihrer manuellen Zitation, den offiziellen Zitierempfehlungen auf der Verlagsseite bzw. dem DOI-Import in Zotero. Testen Sie weitere Sekundärliteraturquellen (andere Artikel, Monographien).
 
 - Stimmen alle Angaben überein?
@@ -529,6 +573,13 @@ Sie nehmen aus dieser Übung vier Ergebnisse mit:
 3. die Fundstelle der verbindlichen Regel Ihrer Institution, notiert im KI-Protokoll
 4. ein KI-Protokoll mit mindestens 4 Einträgen aus dieser Übung
 
+<!-- take -->
+
+::: {.callout-note title="Mitnehmen in die nächste Übung"}
+
+- Ihre Offenlegung für die Abgabe. In Pfad B nehmen Sie sie in [Public History](public-history.qmd) mit.
+  :::
+
 ## Weiterführende Ressourcen
 
 - [DFG: Stellungnahme zum Einfluss generativer Modelle](https://www.dfg.de/resource/blob/289674/ff57cf46c5ca109cb18533b21fba49bd/230921-stellungnahme-praesidium-ki-ai-data.pdf) – Kurzer Grundlagentext zu Offenlegung und Autorschaft [@dfg2023generative].
@@ -537,6 +588,8 @@ Sie nehmen aus dieser Übung vier Ergebnisse mit:
 - [Historisches Institut Bern: Plagiate und KI-Gebrauch](https://www.hist.unibe.ch/studium/plagiate__ki_gebrauch/index_ger.html) – Beispiel für eine institutionelle Regel mit Vorlage zur KI-Deklaration.
 - [Stanford HAI: AI-Detectors Biased Against Non-Native English Writers](https://hai.stanford.edu/news/ai-detectors-biased-against-non-native-english-writers) – Bericht zu einer Studie, die KI-Detektoren prüft. Die Detektoren stufen Texte von Studierenden ohne englische Muttersprache oft falsch als maschinell ein (ENGLISH only).
 - [The Turing Way](https://book.the-turing-way.org/) – Handbuch für reproduzierbare, ethische und kollaborative Forschung.
+
+{{< include ../_rueckmeldung.qmd >}}
 
 ## Bibliographie
 

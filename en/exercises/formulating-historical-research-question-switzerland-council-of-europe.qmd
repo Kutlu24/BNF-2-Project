@@ -75,6 +75,15 @@ Digitization advances, but historical research is not possible online alone. Sec
 
 The core path leads you to a research question that you can work on in about 90 minutes. Step 3 costs about 60 minutes more. You practise the state of research in detail in the exercise [Literature Research](literature-research-social-security-ch.qmd).
 
+<!-- bridge -->
+
+::: {.callout-note title="Bridge: what you bring"}
+From the previous exercise you need:
+
+- Track A: your AI log from [Prompt Engineering](prompt-engineering.qmd).
+- Track B: this exercise is **not part of Track B**. Your question emerges there in [Literature Research](literature-research-social-security-ch.qmd), step 8. Only do this exercise if you want to practise the method on a second topic.
+  :::
+
 ## What You Need
 
 **Subject knowledge**
@@ -107,6 +116,13 @@ The system must be able to do the two following things:
 Three of the four comparison guides in step 1 (Zurich, Bremen, Hamburg) are German only. The Basel guide has a genuine English translation ("History: A Toolkit for Students"), linked below. Plan time for reading in German for the other three if that is not your working language.
 
 {{< include ../_ai-requirements.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Required reading"}
+
+- Basel "History: A Toolkit for Students", section "Formulating a Research Question" (around p. 11). Questions: which two features of a workable question does the section name? Test your question against both before you finish step 1.
+  :::
 
 ## Learning Objectives
 
@@ -370,11 +386,20 @@ At the end of the exercise you hold:
 - a considered understanding of the **potential and the limits of AI** in a research design,
 - a methodologically reasoned judgement on the **feasibility** of your project.
 
+<!-- take -->
+
+::: {.callout-note title="Take this into the next exercise"}
+
+- Your working question in one sentence. It is the question for [Source Criticism](source-criticism-federal-council-council-of-europe-1949.qmd) and [Source Search](source-search-vorort-council-of-europe-1963.qmd) in Track A.
+  :::
+
 ## Further Resources
 
 - [Ranke.2: Wikipedia as Historical Source](https://ranke2.uni.lu/u/wikipedia-historical-source/) – Provenance, revision histories and digital source criticism.
 - [AI Pedagogy Project: What is AI?](https://aipedagogy.org/guide/what-is-ai/) – Conceptual introduction for non-technical audiences.
 - @meadows2023practice – Introduces a journal forum on what AI changes for the methods and the epistemology of history; useful for judging which research decisions stay with the researcher.
+
+{{< include ../_feedback.qmd >}}
 
 ## Bibliography
 

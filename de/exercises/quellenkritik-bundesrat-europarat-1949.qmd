@@ -77,6 +77,15 @@ Der Kernpfad führt Sie in ca. 180 Minuten zu einer vollständigen Quellenkritik
 
 Die zwei Protokolle haben unterschiedliche Aufgaben. Das Analyseprotokoll beschreibt die Quelle. Das KI-Protokoll beschreibt Ihre KI-Nutzung. Führen Sie beide getrennt.
 
+<!-- bridge -->
+
+::: {.callout-note title="Brücke: Das bringen Sie mit"}
+Aus der vorigen Übung brauchen Sie:
+
+- Ihr KI-Protokoll und das ausgefüllte [Startpaket Dodis 5020](startpaket-dodis-5020.qmd). Die Quelle ist in beiden Übungen dieselbe.
+- Pfad A: Ihre Arbeitsfrage aus [Forschungsfrage](formulieren-historische-forschungsfrage-schweiz-europarat.qmd).
+  :::
+
 ## Was Sie brauchen
 
 **Fachliches Wissen**
@@ -110,6 +119,13 @@ Das System muss die drei folgenden Dinge können:
 Die Aktennotiz Dodis 5020 ist auf **Französisch**. Rechnen Sie mit zusätzlicher Zeit für die Übersetzung, wenn Französisch nicht Ihre Arbeitssprache ist. Legen Sie ausserdem fest, in welcher Sprache die KI antworten und zitieren soll, und notieren Sie diese Wahl im KI-Protokoll (siehe [Prompt Engineering](prompt-engineering.qmd), Abschnitt «Was Sie brauchen»).
 
 {{< include ../_ki-anforderungen.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Pflichtlektüre"}
+
+- @fickers2020hermeneutik (offen zugänglich, nur auf Deutsch): Was meint «Update für die Hermeneutik»? Nennen Sie zwei Punkte, die sich für Ihre Arbeit an Dodis 5020 ändern, und zwei, die gleich bleiben. Wenn Sie kein Deutsch lesen, lesen Sie stattdessen @oberbichler2025implementing (Englisch) und beantworten Sie dieselbe Frage für den Begriff «Werkzeug und Methode».
+  :::
 
 ## Lernziele
 
@@ -152,6 +168,15 @@ Formulieren Sie in **max. 4 Sätzen**:
 - Was ist der Anlass?
 - Was ist die zentrale Aussage/Entscheidung?
 - Welche Konsequenz wird angedeutet?
+
+::: {.callout-note collapse="true" title="Beispielantwort zu Aufgabe 1a (erst nach Ihrer eigenen Paraphrase aufklappen)"}
+Bundesrat Petitpierre hält ein Gespräch mit Herrn Hansen fest. Hansen hat im Auftrag des dänischen Aussenministers Rasmussen auf die Tagung des Europarats im August in Strassburg hingewiesen und der Schweiz im Falle einer Bewerbung volle dänische Unterstützung zugesagt. Petitpierre antwortet, die schweizerische Neutralitätspolitik stehe einem Beitritt entgegen: Schweden sehe keine Unvereinbarkeit, die Schweizer Neutralität sei jedoch «absoluter». Er betont Interesse ohne «Gleichgültigkeit oder Feindseligkeit» und verweist auf führende Parteivertreter in einem privaten föderalistischen Komitee und auf seine Information der aussenpolitischen Kommissionen.
+
+Zur vierten Frage: Die Notiz hält eine Absage und ein Signal des Wohlwollens fest. Eine weitergehende «Konsequenz» wäre Ihre eigene Folgerung. «Keine ausdrücklich genannt» ist daher eine zulässige Antwort.
+
+<!-- TODO Kursverantwortliche: Beispielantwort mit dem Editionstext abgleichen. -->
+
+:::
 
 ### Aufgabe 1b: Dieselbe Minimalparaphrase mittels KI
 
@@ -611,12 +636,21 @@ Am Ende verfügen Sie über:
 - ein **KI-Protokoll** mit mindestens 6 Einträgen,
 - eine reflektierte Einschätzung, **wo KI Exploration unterstützt** und **wo sie methodisch zu begrenzen** ist.
 
+<!-- take -->
+
+::: {.callout-note title="Mitnehmen in die nächste Übung"}
+
+- Ihr Quellenanalyseprotokoll zu Dodis 5020 in [Quellensuche](quellensuche-vorort-europarat-1963.qmd) (Einordnung gefundener Quellen) und in [Schreiben](schreiben.qmd) (als Material).
+  :::
+
 ## Weiterführende Ressourcen
 
 - [Ranke.2: Wikipedia als historische Quelle](https://ranke2.uni.lu/u/wikipedia-historical-source/) – Provenienz, Revisionsgeschichten und digitale Quellenkritik.
 - [Knowing Machines: Models All the Way Down](https://knowingmachines.org/models-all-the-way) – Kritik an Trainingsdaten und ihre Parallelen zur Quellenkritik.
 - @stark2023conjectural – Liest maschinelles Lernen als konjekturale Wissenschaft, die aus Spuren schliesst; diskutiert die epistemologischen Risiken automatisierter Mustererkennung.
 - @lang2026beyond – Ethische Datenarbeit in den (digitalen) Geisteswissenschaften; relevant für Datenprovenienz und Datensatzdokumentation.
+
+{{< include ../_rueckmeldung.qmd >}}
 
 ## Bibliographie
 

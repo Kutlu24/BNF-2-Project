@@ -1,0 +1,126 @@
+---
+lang: fr
+title: "Préparer votre espace de travail"
+subtitle: "Compte, outils, droit et journal d'IA: à régler une fois, puis à utiliser dans chaque exercice"
+description: "Un court exercice de départ. Vous réglez une fois le compte, les coûts, la protection des données et les obligations d'indication, vous créez votre journal d'IA et vous notez votre environnement de travail."
+author:
+  - name: "Moritz Mähr"
+    orcid: 0000-0002-1367-1618
+    email: moritz.maehr@gmail.com
+    affiliations:
+      - "Université de Berne"
+date: "2026-10-07"
+date-modified: "2026-10-07"
+categories: [IA & Méthodes numériques]
+tags:
+  - Protection des données
+  - Critique des outils
+  - Traçabilité
+  - Éthique
+difficulty: Beginner
+time_estimate: "30-45 min"
+draft: false
+nocite: ""
+references: []
+---
+
+::: callout-warning
+
+## Traduction automatique
+
+Cet exercice a été traduit automatiquement depuis l'[original allemand](../../de/exercises/arbeitsbereich-einrichten.qmd) et peut contenir des erreurs. En cas de doute, consultez la version originale.
+:::
+
+## Aperçu et objectif didactique
+
+Chaque autre exercice suppose que vous sachiez avec quel compte vous travaillez, ce que ce compte sait faire et quel matériel vous pouvez téléverser. Cet exercice règle cela **une seule fois**. Les autres exercices renvoient seulement à cette page.
+
+Vous ne travaillez sur aucune source ici et n'écrivez aucun prompt. Vous préparez votre espace de travail.
+
+## En un coup d'œil
+
+| Indication                       | Valeur                                                                                        |
+| -------------------------------- | --------------------------------------------------------------------------------------------- |
+| **Durée**                        | environ 30 à 45 minutes                                                                       |
+| **Niveau**                       | Beginner                                                                                      |
+| **Parcours principal**           | 1 → 2 → 3                                                                                     |
+| **Approfondissement facultatif** | Lire en détail la section juridique (protection des données et indication)                    |
+| **Rendu (minimum)**              | Un [journal d'IA](../glossary.qmd#gl-ki-protokoll) avec la section «Environnement de travail» |
+
+## Ce dont vous avez besoin
+
+- Un compte auprès d'au moins un système d'IA.
+- Un fichier texte ou un document de traitement de texte pour votre journal d'IA.
+
+**Langue**
+
+Le guide est en français. Les textes juridiques (RGPD, règlement sur l'IA) existent dans les trois langues du cours. Seul le texte de loi fait foi.
+
+## Étape 1: régler compte et outils
+
+Lisez la section suivante et répondez aux cinq points pour votre compte.
+
+{{< include ../_exigences-ia-complet.qmd >}}
+
+### Travail de séminaire: usage professionnel ou privé?
+
+La loi vous appelle «déployeur» dès que vous utilisez un système d'IA à titre professionnel, et elle exclut l'usage purement privé. Un travail de séminaire se situe entre les deux.
+
+**Orientation, pas un conseil juridique:** un travail de séminaire fait partie de vos études, pas de votre vie privée. Partez par prudence du principe que vous comptez comme déployeur, tant que votre université ne décide pas autrement. Au quotidien, cela change peu, car les obligations de l'article 50, paragraphe 4, ne s'appliquent qu'en cas de **publication**:
+
+- Un travail de séminaire que seul votre enseignant lit ne déclenche pas l'obligation d'indication. La **déclaration scientifique** s'applique néanmoins (voir [Citer](citer.qmd)).
+- Un billet de blog, un podcast ou une publication sur les réseaux sociaux consacrés à une question publique relèvent en revanche de l'obligation, sauf si une personne a vérifié le texte et assume la responsabilité éditoriale (voir [Public History](public-history.qmd)).
+
+<!-- TODO responsables du cours: faire vérifier juridiquement cette appréciation avant publication. -->
+
+## Étape 2: créer le journal d'IA
+
+{{< include ../_journal-ia.qmd >}}
+
+Créez maintenant votre fichier de journal, par exemple `journal-ia.md`, et écrivez `## Environnement de travail` comme premier titre.
+
+## Étape 3: noter votre environnement de travail
+
+Sous `## Environnement de travail`, notez vos réponses aux cinq points de l'étape 1. Utilisez ce modèle:
+
+```markdown
+## Environnement de travail
+
+- Outil et version: [nom, version]
+- Fournisseur: [nom]
+- Compte: [institutionnel / privé], [gratuit / payant]
+- Recherche web: [activée / désactivée]
+- Lecture de fichiers: [oui / non]
+- Mode de réflexion: [activé / désactivé / absent]
+- Mémoire et historique de conversation: [activés / désactivés]
+- Règles de mon université sur l'IA et la protection des données: [lien ou «introuvable, demandé le …»]
+- Langue de réponse de l'IA par défaut: [langue]
+```
+
+Vous le notez **une seule fois**. Si une indication change (par exemple si vous changez d'outil), notez le changement avec sa date dans la même section.
+
+::: callout-tip
+
+## Contrôlez-vous
+
+Répondez sans rien consulter:
+
+1. Quel matériel ne téléversez-vous pas?
+2. Pourquoi «librement accessible» ne suffit-il pas comme autorisation?
+3. Quand devez-vous signaler un texte généré par l'IA comme tel, et quand non?
+   :::
+
+## Objectifs d'apprentissage
+
+Après l'exercice, vous pouvez:
+
+- situer le compte, les coûts et les outils de votre système d'IA,
+- juger quel matériel vous ne devez pas téléverser,
+- distinguer l'indication juridique de la déclaration scientifique,
+- créer votre journal d'IA et noter votre environnement de travail.
+
+## Suite
+
+Continuez avec [Prompt Engineering](prompt-engineering.qmd).
+
+{{< include ../_retour.qmd >}}

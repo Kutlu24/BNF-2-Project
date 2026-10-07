@@ -68,6 +68,15 @@ Trotz fortschreitender Digitalisierung ist historische Forschung nicht vollstän
 
 Der Kernpfad führt Sie in ca. 90 Minuten zu einer bearbeitbaren Forschungsfrage. Schritt 3 kostet ca. 60 Minuten zusätzlich. Sie üben den Forschungsstand ausführlich in der Übung [Literaturrecherche](literaturrecherche-sozialversicherung-ch.qmd).
 
+<!-- bridge -->
+
+::: {.callout-note title="Brücke: Das bringen Sie mit"}
+Aus der vorigen Übung brauchen Sie:
+
+- Pfad A: Ihr KI-Protokoll aus [Prompt Engineering](prompt-engineering.qmd).
+- Pfad B: Diese Übung ist **nicht Teil von Pfad B**. Ihre Frage entsteht dort in [Literaturrecherche](literaturrecherche-sozialversicherung-ch.qmd), Schritt 8. Bearbeiten Sie diese Übung nur, wenn Sie das Verfahren zusätzlich an einem zweiten Thema üben wollen.
+  :::
+
 ## Was Sie brauchen
 
 **Fachliches Wissen**
@@ -100,6 +109,13 @@ Das System muss die zwei folgenden Dinge können:
 Drei der vier Vergleichsleitfäden in Schritt 1 (Zürich, Bremen, Hamburg) liegen nur auf Deutsch vor. Der Leitfaden aus Basel existiert zusätzlich in einer englischen Übersetzung ("History: A Toolkit for Students") - für die englischsprachige Version dieser Übung wird diese englische Fassung verlinkt.
 
 {{< include ../_ki-anforderungen.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Pflichtlektüre"}
+
+- Basel «History: A Toolkit for Students», Abschnitt «Formulating a Research Question» (um S. 11). Fragen: Welche zwei Merkmale einer bearbeitbaren Frage nennt der Abschnitt? Prüfen Sie Ihre Frage an beiden Merkmalen, bevor Sie Schritt 1 abschliessen.
+  :::
 
 ## Lernziele
 
@@ -363,11 +379,20 @@ Am Ende der Übung verfügen Sie über:
 - ein reflektiertes Verständnis der **Potenziale und Grenzen von KI** im Forschungsdesign,
 - eine methodisch begründete Einschätzung der **Machbarkeit** Ihres Projekts.
 
+<!-- take -->
+
+::: {.callout-note title="Mitnehmen in die nächste Übung"}
+
+- Ihre Arbeitsfrage in einem Satz. Sie ist die Frage für [Quellenkritik](quellenkritik-bundesrat-europarat-1949.qmd) und [Quellensuche](quellensuche-vorort-europarat-1963.qmd) in Pfad A.
+  :::
+
 ## Weiterführende Ressourcen
 
 - [Ranke.2: Wikipedia als historische Quelle](https://ranke2.uni.lu/u/wikipedia-historical-source/) – Provenienz, Revisionsgeschichten und digitale Quellenkritik.
 - [AI Pedagogy Project: Was ist KI?](https://aipedagogy.org/guide/what-is-ai/) – Konzeptuelle Einführung für nicht-technische Zielgruppen.
 - @meadows2023practice – Einführung in ein Zeitschriftenforum dazu, was KI für Methoden und Epistemologie der Geschichtswissenschaft verändert; hilfreich für die Frage, welche Forschungsentscheide bei den Forschenden bleiben.
+
+{{< include ../_rueckmeldung.qmd >}}
 
 ## Bibliographie
 

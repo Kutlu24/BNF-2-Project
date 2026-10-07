@@ -1,0 +1,126 @@
+---
+lang: en
+title: "Set up your workspace"
+subtitle: "Account, tools, law and AI log: settle them once, then use them in every exercise"
+description: "A short starter exercise. You settle account, cost, data protection and disclosure duties once, create your AI log and record your working environment."
+author:
+  - name: "Moritz Mähr"
+    orcid: 0000-0002-1367-1618
+    email: moritz.maehr@gmail.com
+    affiliations:
+      - "University of Bern"
+date: "2026-10-07"
+date-modified: "2026-10-07"
+categories: [AI & Digital Methods]
+tags:
+  - Data protection
+  - Tool criticism
+  - Traceability
+  - Ethics
+difficulty: Beginner
+time_estimate: "30-45 min"
+draft: false
+nocite: ""
+references: []
+---
+
+::: callout-warning
+
+## Automated Translation
+
+This exercise was translated automatically from the [German original](../../de/exercises/arbeitsbereich-einrichten.qmd) and can contain errors. Consult the original version in case of doubt.
+:::
+
+## Overview and Didactic Goal
+
+Every other exercise assumes that you know which account you work with, what this account can do and which material you may upload. This exercise settles that **once**. The other exercises only refer to this page.
+
+You work on no source here and write no prompt. You set up your workspace.
+
+## At a Glance
+
+| Item                   | Value                                                                               |
+| ---------------------- | ----------------------------------------------------------------------------------- |
+| **Duration**           | about 30 to 45 minutes                                                              |
+| **Level**              | Beginner                                                                            |
+| **Core path**          | 1 → 2 → 3                                                                           |
+| **Optional deepening** | Read the legal section (data protection and disclosure) in detail                   |
+| **Hand-in (minimum)**  | An [AI log](../glossary.qmd#gl-ki-protokoll) with the section "Working environment" |
+
+## What You Need
+
+- An account with at least one AI system.
+- A text file or a word-processor document for your AI log.
+
+**Language**
+
+The guide is in English. The legal texts (GDPR, AI Act) exist in all three course languages. The text of the law is binding.
+
+## Step 1: Settle Account and Tools
+
+Read the following section and answer the five points for your account.
+
+{{< include ../_ai-requirements-full.qmd >}}
+
+### Seminar Paper: Professional or Private Use?
+
+The law calls you a "deployer" as soon as you use an AI system professionally, and it exempts purely private use. A seminar paper lies in between.
+
+**Orientation, not legal advice:** A seminar paper belongs to your studies, not to your private life. Assume for safety that you count as a deployer, unless your university rules otherwise. In daily practice this changes little, because the duties under Article 50(4) apply only on **publication**:
+
+- A seminar paper that only your lecturer reads does not trigger the disclosure duty. The **academic disclosure** still applies (see [Citing](citing.qmd)).
+- A published blog post, a podcast or a social-media post on a public question does fall under the duty, unless a person has checked the text and bears editorial responsibility (see [Public History](public-history.qmd)).
+
+<!-- TODO course maintainers: have this assessment checked legally before it is published. -->
+
+## Step 2: Create the AI Log
+
+{{< include ../_ai-log.qmd >}}
+
+Create your log file now, for example `ai-log.md`, and write `## Working environment` as the first heading.
+
+## Step 3: Record Your Working Environment
+
+Under `## Working environment`, enter your answers to the five points from step 1. Use this template:
+
+```markdown
+## Working environment
+
+- Tool and version: [name, version]
+- Provider: [name]
+- Account: [institutional / private], [free / paid]
+- Web search: [on / off]
+- Read files: [yes / no]
+- Reasoning mode: [on / off / not available]
+- Memory and chat history: [on / off]
+- My university's rules on AI and data protection: [link or "not found, asked on …"]
+- Default answer language of the AI: [language]
+```
+
+You enter this **once**. If an item changes (for example you switch tools), note the change with its date in the same section.
+
+::: callout-tip
+
+## Check yourself
+
+Answer without looking anything up:
+
+1. Which material do you not upload?
+2. Why is "freely accessible" not enough as permission?
+3. When must you label AI-generated text as such, and when not?
+   :::
+
+## Learning Objectives
+
+After the exercise you can:
+
+- classify the account, cost and tools of your AI system,
+- judge which material you must not upload,
+- distinguish legal disclosure from academic disclosure,
+- create your AI log and record your working environment.
+
+## Next
+
+Continue with [Prompt Engineering](prompt-engineering.qmd).
+
+{{< include ../_feedback.qmd >}}

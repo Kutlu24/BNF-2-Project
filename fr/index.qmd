@@ -5,6 +5,8 @@ listing:
   id: exercises
   # Ordre d'apprentissage, et non alphabétique. « sort: false » conserve cet ordre.
   contents:
+    - exercises/preparer-espace-de-travail.qmd
+    - exercises/kit-de-depart-dodis-5020.qmd
     - exercises/prompt-engineering.qmd
     - exercises/recherche-bibliographique-securite-sociale-ch.qmd
     - exercises/formuler-question-recherche-historique-suisse-conseil-europe.qmd
@@ -76,32 +78,43 @@ Selon vos intérêts ou vos objectifs d'apprentissage, vous pouvez suivre diffé
 
 ### Parcours A: Conseil de l'Europe / Dodis (Focalisé sur les sources)
 
-Ce parcours vous guide à travers l'ensemble du processus de recherche en utilisant l'exemple de l'histoire diplomatique suisse (Dodis) et du Conseil de l'Europe.
+Ce parcours vous guide à travers le processus de recherche comme **un projet continu** en utilisant l'exemple de l'histoire diplomatique suisse (Dodis) et du Conseil de l'Europe. Une question traverse tous les exercices: votre question de travail de l'étape 3 reste la question pour la critique des sources, la recherche de sources et l'écriture.
 
-1. [**Prompt Engineering**](exercises/prompt-engineering.qmd): Bases de l'interaction avec les LLM.
-2. [**Question de recherche**](exercises/formuler-question-recherche-historique-suisse-conseil-europe.qmd): Développer une question de recherche historique.
-3. [**Critique des sources**](exercises/critique-sources-conseil-federal-conseil-europe-1949.qmd): Appliquer la critique des sources numériques – la compétence de lecture nécessaire pour l'exercice suivant.
-4. [**Recherche de sources**](exercises/recherche-sources-vorort-conseil-europe-1963.qmd): Utiliser cette compétence de lecture pour une recherche ciblée d'autres sources primaires.
-5. [**Écriture**](exercises/ecriture.qmd): Rédiger et affiner des textes historiques.
-6. [**Citer**](exercises/citer.qmd): Documenter correctement l'utilisation de l'IA.
+Prévoyez environ **20 heures** de travail effectif (sans visites d'archives). La recherche de sources est un projet de plusieurs jours et vient en conclusion, non en entrée.
+
+1. [**Préparer votre espace de travail**](exercises/preparer-espace-de-travail.qmd): régler une fois compte, droit et journal d'IA (environ 30–45 min).
+2. [**Prompt Engineering**](exercises/prompt-engineering.qmd) avec le [kit de départ Dodis 5020](exercises/kit-de-depart-dodis-5020.qmd): bases de l'interaction avec les LLM.
+3. [**Question de recherche**](exercises/formuler-question-recherche-historique-suisse-conseil-europe.qmd): développer votre question de travail.
+4. [**Critique des sources**](exercises/critique-sources-conseil-federal-conseil-europe-1949.qmd): la compétence de lecture nécessaire pour l'exercice suivant.
+5. [**Recherche de sources**](exercises/recherche-sources-vorort-conseil-europe-1963.qmd): utiliser cette compétence pour trouver d'autres sources primaires pour votre question.
+6. [**Écriture**](exercises/ecriture.qmd): développer un texte à partir de vos journaux.
+7. [**Citer**](exercises/citer.qmd): sécuriser les références et déclarer l'usage de l'IA.
 
 ### Parcours B: Sécurité sociale (Focalisé sur la littérature)
 
-Ce parcours se concentre sur la recherche bibliographique et la communication de sujets historiques auprès du public.
+Ce parcours se concentre sur la recherche bibliographique et la communication de sujets historiques auprès du public. Votre question de recherche naît dans la recherche bibliographique (étape 8). Vous n'avez pas à la reformuler dans un autre exercice.
 
-1. [**Prompt Engineering**](exercises/prompt-engineering.qmd): Bases de l'interaction avec les LLM.
-2. [**Recherche bibliographique**](exercises/recherche-bibliographique-securite-sociale-ch.qmd): Trouver et évaluer la littérature secondaire.
-3. [**Question de recherche**](exercises/formuler-question-recherche-historique-suisse-conseil-europe.qmd): Formuler une question de recherche. L'exercice utilise l'exemple du Conseil de l'Europe. Transposez chaque étape au thème de la sécurité sociale.
-4. [**Écriture**](exercises/ecriture.qmd): Rédiger et affiner des textes historiques.
-5. [**Citer**](exercises/citer.qmd): Documenter correctement l'utilisation de l'IA.
-6. [**Public History**](exercises/public-history.qmd): Présenter l'histoire à un large public.
+1. [**Préparer votre espace de travail**](exercises/preparer-espace-de-travail.qmd): régler une fois compte, droit et journal d'IA.
+2. [**Prompt Engineering**](exercises/prompt-engineering.qmd) avec le [kit de départ Dodis 5020](exercises/kit-de-depart-dodis-5020.qmd): bases de l'interaction avec les LLM.
+3. [**Recherche bibliographique**](exercises/recherche-bibliographique-securite-sociale-ch.qmd): trouver et évaluer la littérature secondaire; votre question de recherche en est le résultat.
+4. [**Écriture**](exercises/ecriture.qmd): développer un texte à partir de votre liste de lectures et de la lacune de recherche.
+5. [**Citer**](exercises/citer.qmd): sécuriser les références et déclarer l'usage de l'IA.
+6. [**Public History**](exercises/public-history.qmd): présenter à un large public un travail de votre liste de lectures.
 
 ### Parcours C: Votre propre sujet
 
-Utilisez les méthodes et les modèles pour votre propre projet de recherche.
+Utilisez les méthodes et les modèles pour votre propre projet de recherche. Voici comment les transposer:
 
-- **Prérequis**: Terminez d'abord l'exercice sur le [**Prompt Engineering**](exercises/prompt-engineering.qmd).
-- **Transfert**: Utilisez les prompts et les questions de réflexion des autres exercices et appliquez-les à vos propres sources et sujets.
+| Exercice                              | Ce que vous reprenez                                  | Ce que vous remplacez                                            |
+| ------------------------------------- | ----------------------------------------------------- | ---------------------------------------------------------------- |
+| Espace de travail, Prompt Engineering | tout (indépendant du sujet)                           | seulement le matériel: votre propre source au lieu de Dodis 5020 |
+| Question de recherche                 | procédure et contrôle de qualité                      | question d'exemple et ressources de comparaison par votre sujet  |
+| Critique des sources                  | niveaux, questions de réflexion                       | source, bloc de métadonnées                                      |
+| Recherche de sources                  | le cycle de termes de recherche, résultats et journal | archives et portails pour votre sujet                            |
+| Écriture                              | tous les prompts de rôle                              | fragment de texte (une demi-page à une page), 10 points clés     |
+| Citer                                 | toutes les étapes                                     | article test par un article de votre domaine                     |
+
+Commencez par les deux premiers exercices. Choisissez ensuite l'exercice qui correspond à votre prochaine étape de travail.
 
 :::
 

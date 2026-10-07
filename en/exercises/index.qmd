@@ -12,6 +12,8 @@ listing:
   # Criticism) also produced the Beginner -> Advanced -> Intermediate
   # difficulty jump flagged in Friction Log v3, stumbling block 7.
   contents:
+    - set-up-workspace.qmd
+    - starter-kit-dodis-5020.qmd
     - prompt-engineering.qmd
     - literature-research-social-security-ch.qmd
     - formulating-historical-research-question-switzerland-council-of-europe.qmd
@@ -31,7 +33,7 @@ listing:
 citation: false
 ---
 
-This page lists the eight exercises of the course. Each exercise trains one work step of historical research with AI systems. You need no knowledge of programming.
+This page lists the exercises of the course: a starter exercise, a starter kit and eight subject exercises. Each exercise trains one work step of historical research with AI systems. You need no knowledge of programming.
 
 ## How to Read an Exercise
 
@@ -47,9 +49,9 @@ The section "What you need" follows. It names the knowledge, the necessary capab
 
 ## Recommended Order
 
-Start with the exercise [Prompt Engineering](prompt-engineering.qmd). It is the basis for all other exercises. After it, the exercises follow the course of a research project:
+Start with the exercise [Set up your workspace](set-up-workspace.qmd). It settles account, law and AI log once for the whole course. Then comes [Prompt Engineering](prompt-engineering.qmd), the basis for all other exercises, with the [Dodis 5020 starter kit](starter-kit-dodis-5020.qmd). After it, the exercises follow the course of a research project:
 
-1. [Prompt Engineering](prompt-engineering.qmd) – the shared basis. You also set up your [AI log](../glossary.qmd#gl-ki-protokoll) here.
+1. [Prompt Engineering](prompt-engineering.qmd) – the shared basis (working material: [Dodis 5020 starter kit](starter-kit-dodis-5020.qmd)).
 2. [Literature Research](literature-research-social-security-ch.qmd) – open up the state of research systematically.
 3. [Research Question](formulating-historical-research-question-switzerland-council-of-europe.qmd) – turn the topic into a question that you can work on.
 4. [Source Criticism](source-criticism-federal-council-council-of-europe-1949.qmd) – check and classify one single source. You need this reading skill for the next exercise.

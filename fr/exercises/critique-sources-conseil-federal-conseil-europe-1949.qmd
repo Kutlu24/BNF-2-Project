@@ -84,6 +84,15 @@ Le parcours principal vous mène à une critique des sources complète en 180 mi
 
 Les deux journaux ont des tâches différentes. Le journal d'analyse de source décrit la source. Le journal IA décrit votre usage de l'IA. Tenez les deux séparément.
 
+<!-- bridge -->
+
+::: {.callout-note title="Passerelle: ce que vous apportez"}
+De l'exercice précédent, il vous faut:
+
+- Votre journal d'IA et le [kit de départ Dodis 5020](kit-de-depart-dodis-5020.qmd) rempli. La source est la même dans les deux exercices.
+- Parcours A: votre question de travail de [Question de recherche](formuler-question-recherche-historique-suisse-conseil-europe.qmd).
+  :::
+
 ## Ce dont vous avez besoin
 
 **Connaissances disciplinaires**
@@ -117,6 +126,13 @@ Le système doit savoir faire les trois choses suivantes:
 La notice Dodis 5020 est en **français**. Décidez en outre dans quelle langue l'IA doit répondre et citer, et notez ce choix dans votre journal IA (voir [Prompt Engineering](prompt-engineering.qmd), section «Ce dont vous avez besoin»).
 
 {{< include ../_exigences-ia.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Lecture obligatoire"}
+
+- @fickers2020hermeneutik (libre accès, allemand uniquement): que signifie «mise à jour pour l'herméneutique»? Nommez deux points qui changent pour votre travail sur Dodis 5020 et deux qui restent identiques. Si vous ne lisez pas l'allemand, lisez plutôt @oberbichler2025implementing (anglais) et répondez à la même question pour l'idée d'«outil et méthode».
+  :::
 
 ## Objectifs d'apprentissage
 
@@ -159,6 +175,15 @@ Formulez en **4 phrases au plus**:
 - Quelle est l'occasion?
 - Quelle est l'affirmation ou la décision centrale?
 - Quelle conséquence est suggérée?
+
+::: {.callout-note collapse="true" title="Exemple de réponse à la tâche 1a (à ouvrir seulement après votre propre paraphrase)"}
+Le conseiller fédéral Petitpierre consigne un entretien avec M. Hansen. Hansen, sur instruction du ministre danois des Affaires étrangères Rasmussen, a attiré l'attention sur la session d'août du Conseil de l'Europe à Strasbourg et promis le plein soutien du Danemark si la Suisse posait sa candidature. Petitpierre répond que la politique de neutralité suisse s'oppose à une adhésion: la Suède ne voit pas d'incompatibilité, mais la neutralité suisse est «plus absolue». Il souligne un intérêt sans «indifférence ni hostilité» et renvoie à des figures dirigeantes de partis dans un comité fédéraliste privé et à l'information des commissions des affaires étrangères.
+
+Sur la quatrième question: la note consigne un refus et un signe de bienveillance. Toute «conséquence» supplémentaire serait votre propre inférence. «Aucune indiquée explicitement» est donc une réponse admise.
+
+<!-- TODO responsables du cours: comparer l'exemple de réponse avec le texte de l'édition. -->
+
+:::
 
 ### Tâche 1b: la même paraphrase minimale au moyen de l'IA
 
@@ -618,12 +643,21 @@ Une bonne critique des sources n'est pas celle qui «explique tout», mais celle
 - d'un **journal IA** avec au moins 6 entrées,
 - d'une appréciation réfléchie de **là où l'IA soutient l'exploration** et de **là où il faut la limiter sur le plan méthodique**.
 
+<!-- take -->
+
+::: {.callout-note title="À emporter dans l'exercice suivant"}
+
+- Votre journal d'analyse de source sur Dodis 5020 dans [Recherche de sources](recherche-sources-vorort-conseil-europe-1963.qmd) (pour classer les sources trouvées) et dans [Écriture](ecriture.qmd) (comme matériau).
+  :::
+
 ## Ressources complémentaires
 
 - [Ranke.2: Wikipedia as a historical source](https://ranke2.uni.lu/u/wikipedia-historical-source/) – Provenance, historiques de révision et critique des sources numériques. (ENGLISH only)
 - [Knowing Machines: Models All the Way Down](https://knowingmachines.org/models-all-the-way) – Critique des données d'entraînement et parallèles avec la critique des sources. (ENGLISH only)
 - @stark2023conjectural – Lit l'apprentissage automatique comme une science conjecturale qui infère à partir de traces; discute les risques épistémologiques de la reconnaissance automatisée de motifs.
 - @lang2026beyond – Travail éthique sur les données dans les humanités (numériques); pertinent pour la provenance des données et la documentation des jeux de données.
+
+{{< include ../_retour.qmd >}}
 
 ## Bibliographie
 

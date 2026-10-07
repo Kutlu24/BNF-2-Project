@@ -122,6 +122,15 @@ Répartissez la journée de travail sur deux ou trois séances. Le parcours prin
 Commandez tôt les titres manquants. Un prêt entre bibliothèques prend souvent plusieurs jours. Ce temps d'attente n'est pas compris dans la durée indiquée ci-dessus.
 :::
 
+<!-- bridge -->
+
+::: {.callout-note title="Passerelle: ce que vous apportez"}
+De l'exercice précédent, il vous faut:
+
+- Votre journal d'IA et les techniques de base de [Prompt Engineering](prompt-engineering.qmd) (sections 1 à 4, 6 et 7).
+- Un fichier pour votre journal de recherche.
+  :::
+
 ## Ce dont vous avez besoin
 
 **Connaissances disciplinaires**
@@ -156,6 +165,13 @@ Le système doit savoir faire les trois choses suivantes:
 La plateforme «Histoire de la sécurité sociale en Suisse» et le Dictionnaire historique de la Suisse (DHS) existent aussi en français. Une partie de la littérature n'existe qu'en allemand. Notez dans votre journal d'IA dans quelle langue l'IA doit répondre.
 
 {{< include ../_exigences-ia.qmd >}}
+
+<!-- reading -->
+
+::: {.callout-tip title="Lecture obligatoire"}
+
+- @walters2023fabrication (déjà lu dans Prompt Engineering): relisez les résultats avant l'étape 3 et notez trois contrôles pour chaque référence bibliographique que l'IA vous donne.
+  :::
 
 ## Objectifs d'apprentissage
 
@@ -557,10 +573,19 @@ S'y ajoute une connaissance méthodique: vous pouvez justifier quels résultats 
 
 - Documentez le flux de travail et les données (README, licence et indications de réutilisation).
 
+<!-- take -->
+
+::: {.callout-note title="À emporter dans l'exercice suivant"}
+
+- Parcours B: votre liste de lectures, votre lacune de recherche et votre question de recherche priorisée de l'étape 8 dans [Écriture](ecriture.qmd), puis dans [Public History](public-history.qmd). Vous n'avez pas à reformuler la question dans un autre exercice.
+  :::
+
 ## Ressources complémentaires
 
 - [Ranke.2: Lessons](https://ranke2.uni.lu/lessons/) – Modules d'apprentissage sur le web, les médias sociaux et le changement numérique. (ENGLISH only)
 - [Knowing Machines: Models All the Way Down](https://knowingmachines.org/models-all-the-way) – Critique des données d'entraînement et parallèles avec la critique des sources. (ENGLISH only)
+
+{{< include ../_retour.qmd >}}
 
 ## Bibliographie
 

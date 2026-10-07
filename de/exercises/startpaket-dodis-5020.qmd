@@ -1,0 +1,154 @@
+---
+lang: de
+title: "Startpaket Dodis 5020"
+subtitle: "Das Material für Prompt Engineering und Quellenkritik an einem Ort"
+description: "Ein Materialpaket für den Einstieg: die Aktennotiz Dodis 5020 mit Metadatenblock, Hinweisen zu Person und Textsorte, Nutzungshinweis, Arbeitsmaterial für die Übungen und Platzhaltern für Ihre eigenen Eingaben."
+author:
+  - name: "Moritz Mähr"
+    orcid: 0000-0002-1367-1618
+    email: moritz.maehr@gmail.com
+    affiliations:
+      - "Universität Bern"
+date: "2026-10-07"
+date-modified: "2026-10-07"
+categories: [Quellen]
+tags:
+  - Quellenkritik
+  - Dodis
+  - Prompting
+difficulty: Beginner
+time_estimate: "20-30 min"
+draft: false
+nocite: ""
+references: []
+---
+
+## Wozu dieses Paket dient
+
+Die Übung [Prompt Engineering](prompt-engineering.qmd) arbeitet an einer einzigen Quelle: der Aktennotiz Dodis 5020. Dieses Paket stellt alles bereit, was Sie dafür brauchen, damit Sie nicht zwischen vier Übungen hin- und herspringen. Es enthält keine Vorgriffe auf spätere Übungen.
+
+## Auf einen Blick
+
+| Angabe                   | Wert                                                                               |
+| ------------------------ | ---------------------------------------------------------------------------------- |
+| **Dauer**                | ca. 20 bis 30 Minuten                                                              |
+| **Niveau**               | Beginner                                                                           |
+| **Kernpfad**             | 1 → 2 → 3 → 4                                                                      |
+| **Optionale Vertiefung** | Eigene Zusammenfassung ohne KI schreiben (empfohlen vor dem ersten KI-Prompt)      |
+| **Abgabe (Minimum)**     | Eine Datei mit dem Quelltext, dem Metadatenblock und Ihrer Satzauswahl (Schritt 4) |
+
+## Was Sie brauchen
+
+- Zugriff auf <https://dodis.ch/5020> (Datenbank Diplomatische Dokumente der Schweiz).
+- Ihr [KI-Protokoll](../glossary.qmd#gl-ki-protokoll) aus der Übung [Arbeitsbereich einrichten](arbeitsbereich-einrichten.qmd).
+
+**Sprache**
+
+Die Quelle ist auf **Französisch**. Rechnen Sie mit zusätzlicher Lesezeit. Legen Sie in Ihrem KI-Protokoll fest, in welcher Sprache die KI antworten und zitieren soll (zum Beispiel: «Antworte auf Deutsch, zitiere Textstellen im französischen Original»).
+
+{{< include ../_ki-anforderungen.qmd >}}
+
+## 1. Die Quelle beschaffen
+
+1. Öffnen Sie <https://dodis.ch/5020>.
+2. Speichern Sie den **Editionstext** (Titel, Regest, Dokumenttext und Fussnoten) in einer Textdatei. Kopieren Sie den Text, laden Sie keine fremde Datei hoch.
+3. Notieren Sie das Zugriffsdatum.
+
+::: callout-caution
+
+## Nutzungsbedingungen
+
+Das Impressum von Dodis weist die Verantwortung für die Quellenkritik den Nutzenden zu. Es äussert sich nicht eindeutig zu einer Weitergabe an ein KI-System. Prüfen Sie die Bedingungen selbst, bevor Sie eine Datei hochladen. Im Zweifel kopieren Sie nur den reinen Editionstext in den Prompt.
+
+<!-- TODO Kursverantwortliche: Aussage der Dodis-Nutzungsbedingungen verbindlich klären und hier eintragen. Die Dodis-Website blockiert automatisierten Zugriff und konnte nicht geprüft werden. -->
+
+:::
+
+## 2. Metadatenblock
+
+Füllen Sie diesen Block aus dem Dodis-Metadatenfeld aus. Dieser Block wird bei jeder Aufgabe mit übergeben, bei der die KI die Herkunft einordnen soll. Ohne ihn erfindet ein Modell leicht eine Herkunft.
+
+```markdown
+METADATEN
+Titel: [Titel laut Dodis]
+Datum: 7. Juli 1949
+Ort: Bern
+Autor: Bundesrat Max Petitpierre (Vorsteher des Politischen Departements)
+Gesprächspartner: Hansen, Vertreter Dänemarks in der Schweiz [Vorname und Funktion laut Dodis-Personeneintrag einsetzen]
+Textsorte: Aktennotiz (Gesprächsnotiz)
+Sprache: Französisch
+Edition: Diplomatische Dokumente der Schweiz, Bd. 17, Zürich/Locarno/Genf 2001
+Dodis-URL: https://dodis.ch/5020
+Archivsignatur: [aus dem Dodis-Metadatenfeld einsetzen]
+Zugriffsdatum: [Datum einsetzen]
+```
+
+## 3. Vorwissen in drei Zeilen
+
+- **Wer ist Hansen?** Der Gesprächspartner vertritt Dänemark in der Schweiz. Prüfen Sie im Dodis-Personeneintrag Name und Funktion.
+- **Was ist eine Aktennotiz?** Ein Beamter oder Magistrat hält ein Gespräch für die eigenen Akten fest. Sie ist kein Sitzungsprotokoll und kein Beschluss. Sie gibt die Sicht der schreibenden Person wieder.
+- **Worauf bezieht sich der Anlass?** Auf die Tagung des Europarats im August 1949 in Strassburg.
+
+## 4. Arbeitsmaterial für Prompt Engineering
+
+### 4.1 Zehn Sätze für die Ebenen-Trennung (Übung 4A)
+
+Wählen Sie zehn Sätze aus dem Editionstext. Sie brauchen drei Gruppen:
+
+| Gruppe                                         | Anzahl | Woher                                                            |
+| ---------------------------------------------- | ------ | ---------------------------------------------------------------- |
+| Dokumenttext                                   | 4      | Kopfzeile oder Fliesstext der Aktennotiz                         |
+| Edition und Metadaten                          | 3      | Titel, Regest, Fussnoten, Angaben zur Drucklegung                |
+| Schlussfolgerung (von Ihnen selbst formuliert) | 3      | Eigene Aussagen über die Quelle, die der Text nicht selbst macht |
+
+Tragen Sie die Sätze hier ein:
+
+```markdown
+1) [Satz 1]
+2) [Satz 2]
+3) [Satz 3]
+4) [Satz 4]
+5) [Satz 5]
+6) [Satz 6]
+7) [Satz 7]
+8) [Satz 8]
+9) [Satz 9]
+10) [Satz 10]
+```
+
+Kopf- und Fusszeilen, Titel und Regest zählen als **Edition oder Metadaten**, wenn sie von den Herausgebenden stammen, und als **Dokumenttext**, wenn sie zum Original gehören. Entscheiden Sie das für jeden Satz und halten Sie die Begründung fest.
+
+### 4.2 Arbeitshypothesen (Übung 2A, Devil’s Advocate)
+
+Setzen Sie nach Ihrer Lektüre drei eigene Hypothesen ein. Die folgenden Formen sind Beispiele, die Sie prüfen und ändern sollen:
+
+```markdown
+H1: [Neutralität dient in der Notiz als Argument gegen einen Beitritt.]
+H2: [Petitpierre signalisiert trotz der Absage Interesse an einer Zusammenarbeit.]
+H3: [Die Notiz zeigt, dass die Entscheidung nicht allein im Departement fiel.]
+```
+
+### 4.3 Zusammenfassung ohne KI (empfohlen)
+
+Schreiben Sie vor dem ersten KI-Prompt eine Zusammenfassung von höchstens vier Sätzen ohne KI. Mit ihr vergleichen Sie später die Antworten des Modells.
+
+```markdown
+Wer spricht/handelt: [...]
+Anlass: [...]
+Zentrale Aussage: [...]
+Angedeutete Konsequenz: [...] (Antwort «keine ausdrücklich genannt» ist zulässig)
+```
+
+## Lernziele
+
+Nach Abschluss des Pakets können Sie:
+
+- die Quelle mit vollständigen Metadaten beschaffen und ablegen,
+- Dokumenttext, Edition und Schlussfolgerung unterscheiden,
+- eine Zusammenfassung ohne KI schreiben, mit der Sie KI-Antworten vergleichen.
+
+## Weiter
+
+Weiter geht es mit [Prompt Engineering](prompt-engineering.qmd).
+
+{{< include ../_rueckmeldung.qmd >}}
