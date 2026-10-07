@@ -47,7 +47,7 @@ Wie viel eine Übung verlangt, steht in der jeweiligen Übung. Manche Übungen n
 
 ### Vorlage für einen Eintrag
 
-Kopieren Sie diese Tabelle für jeden Eintrag neu.
+Kopieren Sie diese Tabelle für jeden Eintrag neu. Die Vorlage gibt es auch als Word- und Markdown-Datei zum [Herunterladen](../vorlagen.qmd).
 
 | Feld                                | Inhalt |
 | ----------------------------------- | ------ |

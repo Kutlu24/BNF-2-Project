@@ -90,7 +90,7 @@ Tragen Sie unter `## Arbeitsumgebung` Ihre Antworten auf die fünf Punkte aus Sc
 - Antwortsprache der KI (Standard): [Sprache]
 ```
 
-Sie tragen dies **einmal** ein. Ändert sich eine Angabe (zum Beispiel wechseln Sie das Werkzeug), notieren Sie die Änderung mit Datum im selben Abschnitt.
+Die Vorlage gibt es auch zum [Herunterladen](../vorlagen.qmd). Sie tragen dies **einmal** ein. Ändert sich eine Angabe (zum Beispiel wechseln Sie das Werkzeug), notieren Sie die Änderung mit Datum im selben Abschnitt.
 
 ::: callout-tip
 

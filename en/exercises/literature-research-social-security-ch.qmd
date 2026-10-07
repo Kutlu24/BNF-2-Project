@@ -130,7 +130,7 @@ Order the titles that you lack early. An interlibrary loan often takes several d
 From the previous exercise you need:
 
 - Your AI log and the basic techniques from [Prompt Engineering](prompt-engineering.qmd) (sections 1 to 4, 6 and 7).
-- A file for your search log.
+- A file for your search log. Use the [template to download](../templates.qmd).
 
 :::
 

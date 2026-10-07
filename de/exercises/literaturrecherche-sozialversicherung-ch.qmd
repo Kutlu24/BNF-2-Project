@@ -122,7 +122,7 @@ Bestellen Sie fehlende Titel früh. Eine Fernleihe dauert oft mehrere Tage. Dies
 Aus der vorigen Übung brauchen Sie:
 
 - Ihr KI-Protokoll und die Grundtechniken aus [Prompt Engineering](prompt-engineering.qmd) (Abschnitte 1 bis 4, 6 und 7).
-- Eine Datei für Ihr Rechercheprotokoll.
+- Eine Datei für Ihr Rechercheprotokoll. Nutzen Sie die [Vorlage zum Herunterladen](../vorlagen.qmd).
 
 :::
 

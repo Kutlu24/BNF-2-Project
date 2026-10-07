@@ -98,7 +98,7 @@ Sous `## Environnement de travail`, notez vos réponses aux cinq points de l'ét
 - Langue de réponse de l'IA par défaut: [langue]
 ```
 
-Vous le notez **une seule fois**. Si une indication change (par exemple si vous changez d'outil), notez le changement avec sa date dans la même section.
+Le modèle existe aussi à [télécharger](../modeles.qmd). Vous le notez **une seule fois**. Si une indication change (par exemple si vous changez d'outil), notez le changement avec sa date dans la même section.
 
 ::: callout-tip
 

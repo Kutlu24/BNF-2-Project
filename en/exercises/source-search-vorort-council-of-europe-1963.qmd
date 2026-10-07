@@ -110,7 +110,7 @@ Record your choice in your AI log. This is the largest exercise of the course an
 From the previous exercise you need:
 
 - Track A: your working question from [Research Question](formulating-historical-research-question-switzerland-council-of-europe.qmd) and the reading skill from [Source Criticism](source-criticism-federal-council-council-of-europe-1949.qmd).
-- A file for your search log.
+- A file for your search log. Use the [template to download](../templates.qmd).
 
 :::
 

@@ -130,7 +130,7 @@ Commandez tôt les titres manquants. Un prêt entre bibliothèques prend souvent
 De l'exercice précédent, il vous faut:
 
 - Votre journal d'IA et les techniques de base de [Prompt Engineering](prompt-engineering.qmd) (sections 1 à 4, 6 et 7).
-- Un fichier pour votre journal de recherche.
+- Un fichier pour votre journal de recherche. Utilisez le [modèle à télécharger](../modeles.qmd).
 
 :::
 

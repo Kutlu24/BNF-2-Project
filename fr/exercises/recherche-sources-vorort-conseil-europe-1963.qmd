@@ -110,7 +110,7 @@ Notez votre choix dans votre journal d'IA. C'est l'exercice le plus vaste du cou
 De l'exercice précédent, il vous faut:
 
 - Parcours A: votre question de travail de [Question de recherche](formuler-question-recherche-historique-suisse-conseil-europe.qmd) et la compétence de lecture de [Critique des sources](critique-sources-conseil-federal-conseil-europe-1949.qmd).
-- Un fichier pour votre journal de recherche.
+- Un fichier pour votre journal de recherche. Utilisez le [modèle à télécharger](../modeles.qmd).
 
 :::
 

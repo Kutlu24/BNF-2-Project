@@ -92,7 +92,7 @@ Wenn Sie die Dossiers wirklich einsehen wollen, rechnen Sie mit zusätzlichen Wo
 Aus der vorigen Übung brauchen Sie:
 
 - Pfad A: Ihre Arbeitsfrage aus [Forschungsfrage](formulieren-historische-forschungsfrage-schweiz-europarat.qmd) und die Lesefähigkeit aus [Quellenkritik](quellenkritik-bundesrat-europarat-1949.qmd).
-- Eine Datei für Ihr Rechercheprotokoll.
+- Eine Datei für Ihr Rechercheprotokoll. Nutzen Sie die [Vorlage zum Herunterladen](../vorlagen.qmd).
 
 :::
 

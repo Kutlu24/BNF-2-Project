@@ -47,7 +47,7 @@ Each exercise states how much it requires. Some exercises name a number of entri
 
 ### Template for an entry
 
-Copy this table again for each entry.
+Copy this table again for each entry. The template is also available as a Word and a Markdown file to [download](../templates.qmd).
 
 | Field                               | Content |
 | ----------------------------------- | ------- |

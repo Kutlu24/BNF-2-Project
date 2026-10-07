@@ -1,5 +1,14 @@
 project:
   type: website
+  render:
+    - '*.md'
+    - '*.qmd'
+    - 'de/**/*.qmd'
+    - 'en/**/*.qmd'
+    - 'fr/**/*.qmd'
+    - '!templates/'
+  resources:
+    - templates/**
 
 website:
   title: 'Critical AI Literacy for Historians'
@@ -52,6 +61,8 @@ website:
             - en/exercises/writing.qmd
             - en/exercises/citing.qmd
             - en/exercises/public-history.qmd
+        - text: Templates
+          href: en/templates.qmd
         - text: Glossary
           href: en/glossary.qmd
         - text: Bibliography
@@ -77,6 +88,8 @@ website:
             - de/exercises/schreiben.qmd
             - de/exercises/zitieren.qmd
             - de/exercises/public-history.qmd
+        - text: Vorlagen
+          href: de/vorlagen.qmd
         - text: Glossar
           href: de/glossary.qmd
         - text: Bibliographie
@@ -102,6 +115,8 @@ website:
             - fr/exercises/ecriture.qmd
             - fr/exercises/citer.qmd
             - fr/exercises/public-history.qmd
+        - text: Modèles
+          href: fr/modeles.qmd
         - text: Glossaire
           href: fr/glossary.qmd
         - text: Bibliographie

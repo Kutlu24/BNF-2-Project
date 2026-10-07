@@ -98,7 +98,7 @@ Under `## Working environment`, enter your answers to the five points from step 
 - Default answer language of the AI: [language]
 ```
 
-You enter this **once**. If an item changes (for example you switch tools), note the change with its date in the same section.
+The template is also available to [download](../templates.qmd). You enter this **once**. If an item changes (for example you switch tools), note the change with its date in the same section.
 
 ::: callout-tip
 

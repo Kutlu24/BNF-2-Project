@@ -47,7 +47,7 @@ Chaque exercice indique ce qu'il exige. Certains exercices nomment un nombre d'e
 
 ### Modèle pour une entrée
 
-Copiez ce tableau à nouveau pour chaque entrée.
+Copiez ce tableau à nouveau pour chaque entrée. Le modèle existe aussi en fichier Word et Markdown à [télécharger](../modeles.qmd).
 
 | Champ                                               | Contenu |
 | --------------------------------------------------- | ------- |
