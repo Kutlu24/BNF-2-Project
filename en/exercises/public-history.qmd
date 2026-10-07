@@ -157,6 +157,10 @@ The system must be able to do the three following things:
 - A scholarly article as the base text. Choose a freely accessible article from your field.
 - A file for your AI log.
 
+**Language**
+
+The example article is in English, and your target audience may use another language. Fix the language of the communication product in the briefing and keep it the same in all prompts.
+
 {{< include ../_ai-requirements.qmd >}}
 
 ## Learning Objectives
@@ -288,7 +292,7 @@ Build a base model in text that serves as the reference for the further adaptati
 
 ### Task
 
-Write a blog post of about 700 to 1000 words. The blog post holds:
+Write the draft of a blog post of about 700 to 1000 words **yourself**. The AI works as an editor and checks your draft; it does not write it. If you revise an AI draft instead, state this explicitly in your AI log and in your disclosure. The blog post holds:
 
 - an opening that fits the target group and the purpose,
 - a clear structure of sections with subheadings,
@@ -299,9 +303,10 @@ Write a blog post of about 700 to 1000 words. The blog post holds:
 ### AI Workflow (Prompt Sketch)
 
 ```markdown
-Role: you are a blog editor. Write a blog post for the following context.
+Role: you are a blog editor. Check my blog post draft for the following context.
+Draft: [your own draft]
 Constraints: 900 words, clear subheadings, no new facts.
-Use claim IDs in the text in square brackets, for example [C3].
+Mark passages without a claim ID in square brackets, for example [C3], and suggest cuts. Do not rewrite paragraphs.
 Material: the briefing, the source package, the message map and the table of claims.
 ```
 

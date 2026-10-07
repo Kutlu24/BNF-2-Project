@@ -150,6 +150,10 @@ Das System muss die drei folgenden Dinge können:
 - Ein wissenschaftlicher Artikel als Basistext. Wählen Sie einen frei zugänglichen Artikel aus Ihrem Themenfeld.
 - Eine Datei für Ihr KI-Protokoll.
 
+**Sprache**
+
+Der Beispielartikel ist auf Englisch, Ihr Zielpublikum kann eine andere Sprache haben. Legen Sie die Sprache des Vermittlungsprodukts im Kommunikationsbriefing fest und halten Sie sie in allen Prompts gleich.
+
 {{< include ../_ki-anforderungen.qmd >}}
 
 ## Lernziele
@@ -281,7 +285,7 @@ Ein textliches Basismodell erstellen, das als Referenz für weitere Adaptionen d
 
 ### Aufgabe
 
-Schreiben Sie einen Blogpost von ca. 700–1'000 Wörtern. Der Blogpost enthält:
+Schreiben Sie den Entwurf eines Blogposts von ca. 700–1'000 Wörtern **selbst**. Die KI arbeitet als Redaktion und prüft Ihren Entwurf, sie schreibt ihn nicht. Überarbeiten Sie stattdessen einen KI-Entwurf, halten Sie das im KI-Protokoll und in der Offenlegung ausdrücklich fest. Der Blogpost enthält:
 
 - einen Einstieg, der Zielgruppe und Zweck trifft,
 - eine klare Abschnittsstruktur mit Zwischentiteln,
@@ -292,9 +296,10 @@ Schreiben Sie einen Blogpost von ca. 700–1'000 Wörtern. Der Blogpost enthält
 ### KI-Workflow (Prompt-Skizze)
 
 ```markdown
-Rolle: Du bist Blogredaktor:in. Schreibe einen Blogpost für folgenden Kontext.
+Rolle: Du bist Blogredaktor:in. Prüfe meinen Blogpost-Entwurf für folgenden Kontext.
+Entwurf: [Ihr eigener Entwurf]
 Vorgaben: Länge 900 Wörter, klare Zwischenüberschriften, keine neuen Fakten.
-Nutze Claim-IDs im Text in eckigen Klammern, z.B. [C3].
+Markiere Stellen ohne Claim-ID in eckigen Klammern, z.B. [C3], und schlage Kürzungen vor. Schreibe keine Absätze neu.
 Material: Briefing + Quellenpaket + Message Map + Claim-Tabelle.
 ```
 

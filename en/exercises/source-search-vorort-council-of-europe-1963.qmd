@@ -121,6 +121,10 @@ The system must be able to do the three following things:
 - A [reference manager](../glossary.qmd#gl-zotero) for the short annotated bibliography.
 - One file for your search log and one file for your AI log.
 
+**Language**
+
+The Vorort holdings and finding aids are mostly in German, and the newspaper archives hold German and French titles. The prompts are in English. Decide beforehand which language the AI should answer in, and record the choice in your AI log.
+
 {{< include ../_ai-requirements.qmd >}}
 
 ## Learning Objectives
@@ -301,9 +305,9 @@ Replace the example lines in the following prompt with your own search terms and
 
 ```markdown
 Here are my search terms so far and my hit problems:
-- "Vorort AND Europarat": 3 hits, all after 1990.
-- "SHIV AND Beitritt": 0 hits.
-- "Interessenverband AND Europapolitik": over 800 hits, hardly any relevant.
+- [search term 1]: [number of hits and problem, e.g. "few hits, all too late"]
+- [search term 2]: [number of hits and problem]
+- [search term 3]: [number of hits and problem]
 Optimize the search terms for catalogues (Boolean, phrases, truncation).
 Give 6 variants and explain briefly which problem each variant addresses.
 ```
@@ -360,7 +364,7 @@ Identify primary sources so that you can **order and analyse** them.
 
 ### Starting Points (Orientation)
 
-- The holdings of the Vorort and economiesuisse at the Archives of Contemporary History (ETH Zurich)
+- The holdings of the Vorort and economiesuisse at the [Archives of Contemporary History (ETH Zurich)](https://afz.ethz.ch/)
 - Records in catalogues (for example SWA/UB Wirtschaft Basel)
 - Documents on the Vorort in contexts of diplomatic history (for example Dodis)
 

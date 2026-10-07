@@ -166,6 +166,10 @@ Cet exercice n'a besoin ni d'une recherche sur le web ni d'un téléversement de
 - Vos propres notes ou mots-clés sur le sujet, au moins 10 points.
 - Un fichier pour votre journal IA.
 
+**Langue**
+
+Les prompts sont en français et demandent un français académique. Si vous rédigez votre travail dans une autre langue, remplacez la langue cible dans les prompts (voir étapes 4 et 7) et notez ce choix dans votre journal d'IA.
+
 {{< include ../_exigences-ia.qmd >}}
 
 ## Objectifs d'apprentissage
@@ -337,7 +341,7 @@ Choisissez **un** point du plan (par exemple «argument principal 1») et fourni
 
 ```markdown
 Rôle: générateur de texte à partir de notes.
-Écris un paragraphe (120–180 mots) en français académique.
+Écris un paragraphe (120–180 mots) en langue académique ([langue cible, par exemple français]).
 Conditions:
 - Utilise exclusivement les informations de mes notes.
 - Aucun exemple, aucune donnée, aucun nom, aucune source nouvelle.

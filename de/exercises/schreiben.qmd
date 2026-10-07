@@ -159,6 +159,10 @@ Diese Übung braucht weder eine Websuche noch einen Datei-Upload. Ein kostenlose
 - Eigene Stichpunkte oder Notizen zum Thema, mindestens 10 Punkte.
 - Eine Datei für Ihr KI-Protokoll.
 
+**Sprache**
+
+Die Prompts sind auf Deutsch und verlangen akademisches Deutsch. Schreiben Sie Ihre Arbeit in einer anderen Sprache, ersetzen Sie die Zielsprache in den Prompts (siehe Schritt 4 und Schritt 7) und notieren Sie die Wahl im KI-Protokoll.
+
 {{< include ../_ki-anforderungen.qmd >}}
 
 ## Lernziele
@@ -330,7 +334,7 @@ Wählen Sie **einen** Gliederungspunkt (z.B. «Hauptargument 1») und liefern Si
 
 ```markdown
 Rolle: Textgenerator aus Stichpunkten.
-Schreibe einen Absatz (120–180 Wörter) in akademischem Deutsch.
+Schreibe einen Absatz (120–180 Wörter) in akademischer Sprache ([Zielsprache, z. B. Deutsch]).
 Bedingungen:
 - Verwende ausschliesslich Informationen aus meinen Stichpunkten.
 - Keine neuen Beispiele, Daten, Namen, Quellen.

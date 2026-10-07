@@ -166,6 +166,10 @@ Le système doit savoir faire les deux choses suivantes:
 - Votre journal IA des exercices précédents.
 - La règle contraignante de votre institution sur l'usage de l'IA. Vous trouvez cette règle par la procédure de cet exercice.
 
+**Langue**
+
+L'article test de Fickers (2020) n'existe qu'en allemand. Il faut lire l'allemand pour vérifier les citations de l'exercice 2 avec le texte original. Sinon, choisissez un article en libre accès dans votre langue de travail et notez ce choix dans votre journal d'IA.
+
 {{< include ../_exigences-ia.qmd >}}
 
 ## Objectifs d'apprentissage

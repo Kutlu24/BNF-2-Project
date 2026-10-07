@@ -157,6 +157,10 @@ Le système doit savoir faire les trois choses suivantes:
 - Un article scientifique comme texte de base. Choisissez un article librement accessible dans votre champ thématique.
 - Un fichier pour votre journal IA.
 
+**Langue**
+
+L'article d'exemple est en anglais, et votre public cible peut utiliser une autre langue. Fixez la langue du produit de médiation dans le briefing et gardez-la identique dans tous les prompts.
+
 {{< include ../_exigences-ia.qmd >}}
 
 ## Objectifs d'apprentissage
@@ -288,7 +292,7 @@ Matériel: ...
 
 ### Tâche
 
-Écrivez un billet de blog d'environ 700 à 1000 mots. Le billet contient:
+Rédigez **vous-même** le brouillon d'un billet de blog d'environ 700 à 1000 mots. L'IA joue le rôle de rédaction et vérifie votre brouillon, elle ne l'écrit pas. Si vous révisez plutôt un brouillon d'IA, indiquez-le explicitement dans votre journal d'IA et dans votre déclaration. Le billet contient:
 
 - une accroche qui atteint le public cible et le but,
 - une structure de sections claire avec des intertitres,
@@ -299,9 +303,10 @@ Matériel: ...
 ### Flux de travail avec l'IA (esquisse de prompt)
 
 ```markdown
-Rôle: tu es rédacteur de blog. Écris un billet de blog pour le contexte suivant.
+Rôle: tu es rédacteur de blog. Vérifie mon brouillon de billet de blog pour le contexte suivant.
+Brouillon: [votre propre brouillon]
 Consignes: longueur 900 mots, intertitres clairs, aucun fait nouveau.
-Utilise des identifiants d'affirmation dans le texte, entre crochets, par exemple [C3].
+Signale entre crochets les passages sans identifiant d'affirmation, par exemple [C3], et propose des coupes. Ne réécris aucun paragraphe.
 Matériel: briefing + paquet de sources + carte des messages + tableau des affirmations.
 ```
 

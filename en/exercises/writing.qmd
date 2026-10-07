@@ -165,6 +165,10 @@ This exercise needs neither a web search nor a file upload. A free account is en
 - Your own bullet points or notes on the topic, at least 10 points.
 - A file for your AI log.
 
+**Language**
+
+The prompts are in English and ask for academic English. If you write your paper in another language, replace the target language in the prompts (see steps 4 and 7) and record the choice in your AI log.
+
 {{< include ../_ai-requirements.qmd >}}
 
 ## Learning Objectives
@@ -336,7 +340,7 @@ Choose **one** point of the outline (for example "main argument 1") and supply 8
 
 ```markdown
 Role: text generator from bullet points.
-Write a paragraph (120–180 words) in academic English.
+Write a paragraph (120–180 words) in academic language ([target language, e.g. English]).
 Conditions:
 - Use only information from my bullet points.
 - No new examples, data, names or sources.

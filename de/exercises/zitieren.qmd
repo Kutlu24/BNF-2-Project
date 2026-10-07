@@ -159,6 +159,10 @@ Das System muss die zwei folgenden Dinge können:
 - Ihr KI-Protokoll aus den vorherigen Übungen.
 - Die verbindliche Regel Ihrer Institution zur KI-Nutzung. Sie finden diese Regel nach dem Verfahren in dieser Übung.
 
+**Sprache**
+
+Der Testartikel von Fickers (2020) liegt nur auf Deutsch vor. Sie brauchen Deutschkenntnisse, um die Zitate in Übung 2 gegen den Originaltext zu prüfen. Wählen Sie sonst einen offen zugänglichen Artikel in Ihrer Arbeitssprache und notieren Sie die Wahl im KI-Protokoll.
+
 {{< include ../_ki-anforderungen.qmd >}}
 
 ## Lernziele

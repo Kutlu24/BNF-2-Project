@@ -144,6 +144,10 @@ Das System muss die drei folgenden Dinge können:
 - Ein Konto für den Bibliothekskatalog Ihrer Hochschule. Sie brauchen es für Schritt 3 und für die Fernleihe.
 - Eine Datei für Ihr Rechercheprotokoll und eine Datei für Ihr KI-Protokoll.
 
+**Sprache**
+
+Die Plattform «Geschichte der Sozialen Sicherheit in der Schweiz» und das Historische Lexikon der Schweiz (HLS) existieren auch auf Englisch. Ein Teil der Literatur ist nur auf Deutsch oder Französisch erhältlich. Das HLS öffnet sich je nach Link auf Deutsch, auch wenn Sie die Übung in einer anderen Sprache lesen. Notieren Sie im KI-Protokoll, in welcher Sprache die KI antworten soll.
+
 {{< include ../_ki-anforderungen.qmd >}}
 
 ## Lernziele

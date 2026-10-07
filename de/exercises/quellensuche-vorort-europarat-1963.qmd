@@ -114,6 +114,10 @@ Das System muss die drei folgenden Dinge können:
 - Ein [Literaturverwaltungsprogramm](../glossary.qmd#gl-zotero) für die kurzannotierte Bibliografie.
 - Eine Datei für Ihr Rechercheprotokoll und eine Datei für Ihr KI-Protokoll.
 
+**Sprache**
+
+Die Bestände und Findmittel zum Vorort sind überwiegend deutschsprachig, die Zeitungsarchive enthalten deutsche und französische Titel. Die Prompts sind auf Deutsch. Legen Sie vorab fest, in welcher Sprache die KI antworten soll, und notieren Sie diese Wahl im KI-Protokoll.
+
 {{< include ../_ki-anforderungen.qmd >}}
 
 ## Lernziele
@@ -294,9 +298,9 @@ Ersetzen Sie im folgenden Prompt die Beispielzeilen durch Ihre eigenen Suchbegri
 
 ```markdown
 Hier sind meine bisherigen Suchbegriffe und Trefferprobleme:
-- "Vorort AND Europarat": 3 Treffer, alle nach 1990.
-- "SHIV AND Beitritt": 0 Treffer.
-- "Interessenverband AND Europapolitik": über 800 Treffer, kaum einschlägig.
+- [Suchbegriff 1]: [Trefferzahl und Problem, z. B. «wenige Treffer, alle zu spät»]
+- [Suchbegriff 2]: [Trefferzahl und Problem]
+- [Suchbegriff 3]: [Trefferzahl und Problem]
 Optimiere die Suchbegriffe für Kataloge (Boolean, Phrasen, Trunkierung).
 Gib 6 Varianten an und erkläre kurz, welches Problem jede Variante adressiert.
 ```
@@ -353,7 +357,7 @@ Primärquellen so identifizieren, dass sie **bestell- und auswertbar** sind.
 
 ### Startpunkte (Orientierung)
 
-- Vorort-/economiesuisse-Bestände im Archiv für Zeitgeschichte (ETH Zürich)
+- Vorort-/economiesuisse-Bestände im [Archiv für Zeitgeschichte (ETH Zürich)](https://afz.ethz.ch/)
 - Nachweise in Katalogen (z. B. SWA/UB Wirtschaft Basel)
 - Vorort-bezogene Dokumente in diplomatiegeschichtlichen Kontexten (z. B. Dodis)
 

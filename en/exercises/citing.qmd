@@ -166,6 +166,10 @@ The system must be able to do the two following things:
 - Your AI log from the earlier exercises.
 - The binding rule of your institution on AI use. You find this rule with the procedure in this exercise.
 
+**Language**
+
+The test article by Fickers (2020) is available in German only. You need to read German to check the quotations in exercise 2 against the original. Otherwise choose an open-access article in your working language and record the choice in your AI log.
+
 {{< include ../_ai-requirements.qmd >}}
 
 ## Learning Objectives

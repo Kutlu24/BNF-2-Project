@@ -151,6 +151,10 @@ Le système doit savoir faire les trois choses suivantes:
 - Un compte pour le catalogue de bibliothèque de votre haute école. Vous en avez besoin pour l'étape 3 et pour le prêt entre bibliothèques.
 - Un fichier pour votre journal de recherche documentaire et un fichier pour votre journal IA.
 
+**Langue**
+
+La plateforme «Histoire de la sécurité sociale en Suisse» et le Dictionnaire historique de la Suisse (DHS) existent aussi en français. Une partie de la littérature n'existe qu'en allemand. Notez dans votre journal d'IA dans quelle langue l'IA doit répondre.
+
 {{< include ../_exigences-ia.qmd >}}
 
 ## Objectifs d'apprentissage

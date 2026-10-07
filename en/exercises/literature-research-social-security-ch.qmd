@@ -151,6 +151,10 @@ The system must be able to do the three following things:
 - An account for the library catalogue of your university. You need it for step 3 and for the interlibrary loan.
 - One file for your search log and one file for your AI log.
 
+**Language**
+
+The platform "History of Social Security in Switzerland" and the Historical Dictionary of Switzerland (HLS) also exist in English. Part of the literature is only available in German or French, and an HLS link may open in German even from this English course. Record in your AI log which language the AI should answer in.
+
 {{< include ../_ai-requirements.qmd >}}
 
 ## Learning Objectives

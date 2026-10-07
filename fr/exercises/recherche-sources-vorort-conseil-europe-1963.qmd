@@ -121,6 +121,10 @@ Le système doit savoir faire les trois choses suivantes:
 - Un [logiciel de gestion bibliographique](../glossary.qmd#gl-zotero) pour la bibliographie brièvement annotée.
 - Un fichier pour votre journal de recherche documentaire et un fichier pour votre journal IA.
 
+**Langue**
+
+Les fonds et instruments de recherche sur le Vorort sont surtout en allemand, et les archives de presse contiennent des titres allemands et français. Les prompts sont en français. Décidez au préalable dans quelle langue l'IA doit répondre et notez ce choix dans votre journal d'IA.
+
 {{< include ../_exigences-ia.qmd >}}
 
 ## Objectifs d'apprentissage
@@ -301,9 +305,9 @@ Remplacez dans le prompt suivant les lignes d'exemple par vos propres termes de 
 
 ```markdown
 Voici mes termes de recherche actuels et mes problèmes de résultats:
-- «Vorort AND Conseil de l'Europe»: 3 résultats, tous postérieurs à 1990.
-- «USCI AND adhésion»: 0 résultat.
-- «groupe d'intérêt AND politique européenne»: plus de 800 résultats, presque aucun pertinent.
+- [terme de recherche 1]: [nombre de résultats et problème, par exemple «peu de résultats, tous trop tardifs»]
+- [terme de recherche 2]: [nombre de résultats et problème]
+- [terme de recherche 3]: [nombre de résultats et problème]
 Optimise les termes de recherche pour les catalogues (booléens, expressions, troncature).
 Donne 6 variantes et explique brièvement quel problème chaque variante traite.
 ```
@@ -360,7 +364,7 @@ Identifier les sources primaires pour qu'elles soient **commandables et exploita
 
 ### Points de départ (orientation)
 
-- Fonds Vorort et economiesuisse aux Archives d'histoire contemporaine (EPF de Zurich)
+- Fonds Vorort et economiesuisse aux [Archives d'histoire contemporaine (EPF de Zurich)](https://afz.ethz.ch/)
 - Références dans les catalogues (par exemple SWA et bibliothèque d'économie de Bâle)
 - Documents liés au Vorort dans des contextes d'histoire diplomatique (par exemple Dodis)
 
