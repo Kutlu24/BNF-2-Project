@@ -46,6 +46,7 @@ references:
 ## Automated Translation
 
 This exercise was translated automatically from the [German original](../../de/exercises/quellenkritik-bundesrat-europarat-1949.qmd) and can contain errors. Consult the original version in case of doubt.
+
 :::
 
 ## Overview and Didactic Goal
@@ -59,6 +60,7 @@ This exercise teaches **transferable competencies in source criticism** (externa
 ## Note on digital transmission
 
 The source that we use here exists in an **edited digital edition**. For source criticism, the object of study therefore holds not only the text, but also the **edition layer** (metadata, archive reference, links, editorial guidelines). [@fickers2022criticism]
+
 :::
 
 ::: callout-tip
@@ -68,6 +70,7 @@ The source that we use here exists in an **edited digital edition**. For source 
 **Who is Hansen?** The memorandum names him in every prompt but never introduces him. The text itself reveals that Hansen is Petitpierre's Danish interlocutor and lives in Switzerland. He delivers a message from the Danish foreign minister Rasmussen. This one piece of information makes task 5 of the internal criticism ("What can I say about the Danish position?") noticeably easier.
 
 **What is a memorandum ("Aktennotiz")?** In Swiss administrative practice, an "Aktennotiz" is a short, informal record kept for the files: it captures a conversation or a matter of fact without recording who attended a meeting, its agenda, or its resolutions. It is therefore shorter and more informal than **minutes** ("Protokoll"), which record a meeting's formal proceedings. This distinction matters in the filled-in AI-log example in the exercise [Prompt Engineering](prompt-engineering.qmd) (section "Working Mode: AI Log and A/B Testing"): the AI there calls the text "minutes of a Federal Council meeting", which misidentifies the text type.
+
 :::
 
 ## At a Glance
@@ -91,7 +94,8 @@ From the previous exercise you need:
 
 - Your AI log and the completed [Dodis 5020 starter kit](starter-kit-dodis-5020.qmd). The source is the same in both exercises.
 - Track A: your working question from [Research Question](formulating-historical-research-question-switzerland-council-of-europe.qmd).
-  :::
+
+:::
 
 ## What You Need
 
@@ -132,7 +136,8 @@ The memorandum Dodis 5020 is in **French**. Plan extra time for translation if F
 ::: {.callout-tip title="Required reading"}
 
 - @fickers2020hermeneutik (open access, German only): What does "update for hermeneutics" mean? Name two points that change for your work on Dodis 5020 and two that stay the same. If you do not read German, read @oberbichler2025implementing (English) instead and answer the same question for the idea of "tool and method".
-  :::
+
+:::
 
 ## Learning Objectives
 
@@ -201,6 +206,7 @@ At most 4 sentences. No interpretation.
 ## When no consequence is stated explicitly
 
 The fourth question asks for an indicated consequence, but the "no interpretation" rule still applies. The memorandum records a refusal and a signal of goodwill; anything beyond that is already your own conclusion. **"None stated explicitly" is a fully valid answer** to this question when the text does not name a consequence explicitly.
+
 :::
 
 ::: callout-tip
@@ -214,6 +220,7 @@ Check before the upload whether you have the right to pass the material on. The 
 ## On Dodis's terms of use
 
 The Dodis website blocks automated access, so the exact reuse terms for edition texts could not be conclusively checked while building this exercise (as of 2026-09-25). Dodis's imprint assigns responsibility for source criticism to the user, but does not clearly address disclosure to an AI system. Check for yourself on the Dodis website whether, and under what conditions, an upload for study purposes is permitted before you upload the digitized item. When in doubt, copy only the plain edition text into the prompt (see the exception below) rather than uploading a file.
+
 :::
 
 Upload the document as a PDF file together with the prompt. That is the normal case. Make sure that the AI also has access to the metadata. Retrieve the metadata online, or state it yourself.
@@ -243,6 +250,7 @@ This exercise uses an edited version with a checked text. For a scan or for a ha
 A general AI system does not stop at an illegible passage. It inserts a plausible word and marks nothing. The error rate of [handwritten text recognition](../glossary.qmd#gl-htr) depends strongly on the script, the layout and the language [@romein2025assessing; @diezgarcia2025evaluating]. Such errors change every later analysis [@vanstrien2020assessing].
 
 Compare therefore every citation with the digitized item. Note in the [source analysis log](../glossary.qmd#gl-analyseprotokoll) whether a machine recognized the text. The section [Check and classify capabilities](prompt-engineering.qmd#sec-capabilities) explains this point in detail.
+
 :::
 
 ### Work Assignment (Reflection)
@@ -630,6 +638,7 @@ Note:
 ## Quality criterion
 
 A good source criticism is not the one that "explains everything". It is the one that makes **limits and verification steps** visible: what has support? what is hypothetical? what would you have to check next?
+
 :::
 
 ## Learning Outcome
@@ -648,7 +657,8 @@ At the end you hold:
 ::: {.callout-note title="Take this into the next exercise"}
 
 - Your source analysis log on Dodis 5020 into [Source Search](source-search-vorort-council-of-europe-1963.qmd) (to classify the sources you find) and into [Writing](writing.qmd) (as material).
-  :::
+
+:::
 
 ## Further Resources
 

@@ -108,6 +108,7 @@ references:
 ## Automated Translation
 
 This exercise was translated automatically from the [German original](../../de/exercises/zitieren.qmd) and can contain errors. Consult the original version in case of doubt.
+
 :::
 
 ## Overview and Didactic Goal
@@ -135,6 +136,7 @@ All three exercises belong to the core path. The optional deepening costs about 
 Exercise 3 works with the AI log from the earlier exercises. Without this log you cannot write a disclosure.
 
 Do you have no log yet? Work through the exercise [Prompt Engineering](prompt-engineering.qmd) first. You set up your log there.
+
 :::
 
 <!-- bridge -->
@@ -143,7 +145,8 @@ Do you have no log yet? Work through the exercise [Prompt Engineering](prompt-en
 From the previous exercise you need:
 
 - Your AI log from **all earlier sections of the same file**. The exercise takes it as input. There is no merging of several files.
-  :::
+
+:::
 
 ## What You Need
 
@@ -185,7 +188,8 @@ The test article by Fickers (2020) is available in German only. You need to read
 ::: {.callout-tip title="Required reading"}
 
 - Chicago Manual of Style, Quick Guide: <https://www.chicagomanualofstyle.org/tools_citationguide.html>. Question: how does the guide cite a journal article with a DOI? Write your own citation of the test article **before** exercise 1 and compare afterwards.
-  :::
+
+:::
 
 ## Learning Objectives
 
@@ -506,6 +510,7 @@ Andreas Fickers, "Update für die Hermeneutik: Geschichtswissenschaft auf dem We
 <!-- TODO course maintainers: choose an open-access English article on digital history, add a Chicago reference solution and test exercise 2 with it. -->
 
 [Enter title, author, year and DOI of an open-access English article here.]
+
 :::
 
 Compare the answer with your manual citation, with the official citation recommendations on the publisher page, and with the DOI import in Zotero. Test further sources of secondary literature (other articles, monographs).
@@ -582,7 +587,8 @@ You take four results away from this exercise:
 ::: {.callout-note title="Take this into the next exercise"}
 
 - Your disclosure for the hand-in. In Track B, take it into [Public History](public-history.qmd).
-  :::
+
+:::
 
 ## Further Resources
 

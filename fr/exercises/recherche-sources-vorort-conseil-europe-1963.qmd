@@ -46,6 +46,7 @@ references:
 ## Traduction automatique
 
 Cet exercice a été traduit automatiquement depuis l'[original allemand](../../de/exercises/quellensuche-vorort-europarat-1963.qmd) et peut contenir des erreurs. En cas de doute, consultez la version originale.
+
 :::
 
 ## Aperçu et objectif didactique
@@ -62,6 +63,7 @@ L'exercice suit une **conception circulaire de la recherche**: les résultats de
 ## Remarque sur la matérialité de la situation documentaire
 
 Dans le travail en archives, tenez compte des **délais de protection, des conditions d'utilisation et de la disponibilité numérique** de chaque fonds. Prévoyez la charge de travail des demandes de consultation, de la consultation sur place et des droits de reproduction.
+
 :::
 
 ## En un coup d'œil
@@ -89,6 +91,7 @@ Planifiez le travail en trois étapes:
 Pour le rendu, vous n'avez besoin d'aucune visite en archives. La liste restreinte naît des instruments de recherche.
 
 Si vous voulez vraiment consulter les dossiers, comptez des semaines supplémentaires. Une demande de consultation, une réduction du délai de protection et un rendez-vous en salle de lecture ont de longs délais. Ce temps de calendrier fait partie de l'exercice, mais pas du rendu.
+
 :::
 
 ::: {.callout-important title="Sur quelle question travaillez-vous?"}
@@ -98,6 +101,7 @@ Cet exercice montre la méthode avec l'exemple de la question du Vorort en 1963 
 2. **La question du Vorort telle quelle.** Vous travaillez l'exercice avec la question du texte. C'est la bonne voie si vous travaillez l'exercice seul.
 
 Notez votre choix dans votre journal d'IA. C'est l'exercice le plus vaste du cours et non un point d'entrée. Planifiez-le comme conclusion du parcours A.
+
 :::
 
 <!-- bridge -->
@@ -107,7 +111,8 @@ De l'exercice précédent, il vous faut:
 
 - Parcours A: votre question de travail de [Question de recherche](formuler-question-recherche-historique-suisse-conseil-europe.qmd) et la compétence de lecture de [Critique des sources](critique-sources-conseil-federal-conseil-europe-1949.qmd).
 - Un fichier pour votre journal de recherche.
-  :::
+
+:::
 
 ## Ce dont vous avez besoin
 
@@ -150,7 +155,8 @@ Les fonds et instruments de recherche sur le Vorort sont surtout en allemand, et
 ::: {.callout-tip title="Lecture obligatoire"}
 
 - @putnam2016shadows (l'accès passe souvent par une bibliothèque universitaire): quelles sont les conséquences de la recherche en plein texte sur le choix de vos sources? Répondez en trois phrases avant l'étape 3.
-  :::
+
+:::
 
 ## Objectifs d'apprentissage
 
@@ -398,6 +404,7 @@ Identifier les sources primaires pour qu'elles soient **commandables et exploita
 ## Remarque méthodique
 
 «Dossier trouvé» n'égale pas «preuve assurée». Les instruments de recherche sont des instruments d'accès tertiaires: ils structurent la visibilité, et non la vérité.
+
 :::
 
 ### Tâche A: analyse des instruments de recherche
@@ -434,6 +441,7 @@ Par voie: 8–12 termes de recherche (DE/FR/EN), variantes de noms comprises.
 Cet exercice vous mène vers des fonds soumis à des restrictions d'accès. Ne téléversez aucune numérisation dont le règlement d'utilisation interdit une communication. Ne téléversez pas non plus de documents contenant des [données à caractère personnel](../glossary.qmd#gl-personenbezogene-daten) de personnes vivantes. La section «Ce dont vous avez besoin» nomme la liste complète et la base juridique.
 
 En cas de doute, travaillez avec un court extrait ou avec un [modèle local](../glossary.qmd#gl-lokales-modell). Avec un modèle local, le matériel reste sur votre ordinateur.
+
 :::
 
 ::: callout-warning
@@ -445,6 +453,7 @@ En archives, vous rencontrez de la dactylographie, des copies carbone et de l'é
 L'erreur la plus dangereuse est la lecture lisse. Un système d'IA général ne s'arrête pas devant un passage illisible, il insère un mot plausible [@diezgarcia2025evaluating]. De telles erreurs se propagent dans toute analyse ultérieure [@vanstrien2020assessing].
 
 Notez dans le journal de recherche documentaire quels textes ont été reconnus par machine. Comparez chaque citation avec la numérisation. La section [Vérifier et situer les capacités](prompt-engineering.qmd#sec-capacites) explique ce point en détail.
+
 :::
 
 ## 8. Itération, reproductibilité et journal IA
@@ -490,7 +499,8 @@ S'y ajoute une connaissance méthodique: vous pouvez justifier quelles voies de 
 ::: {.callout-note title="À emporter dans l'exercice suivant"}
 
 - Votre journal de recherche et la liste des sources trouvées dans [Écriture](ecriture.qmd).
-  :::
+
+:::
 
 ## Ressources complémentaires
 

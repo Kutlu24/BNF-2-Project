@@ -14,6 +14,7 @@ citation: false
 ## Traduction automatique
 
 Ce glossaire a été traduit automatiquement depuis l'[original allemand](../de/glossary.qmd) et peut contenir des erreurs. En cas de doute, consultez la version originale.
+
 :::
 
 Ce glossaire explique les termes que les exercices utilisent sans autre explication. Chaque entrée est une définition de travail pour ce cours, et non un article d'encyclopédie. Les exercices disent **système d'IA** lorsqu'un programme repose sur un grand modèle de langue. Lorsqu'un terme vient de l'anglais, le terme de travail français vient en premier et le terme anglais suit entre parenthèses.

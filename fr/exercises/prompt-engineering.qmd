@@ -33,6 +33,7 @@ references: []
 ## Traduction automatique
 
 Cet exercice a été traduit automatiquement depuis l'[original allemand](../../de/exercises/prompt-engineering.qmd) et peut contenir des erreurs. En cas de doute, consultez la version originale.
+
 :::
 
 ## Aperçu et objectif didactique
@@ -53,6 +54,7 @@ Contrairement aux exercices thématiques ([Question de recherche](formuler-quest
 ## Règle de base: l'IA comme hypothèse
 
 Dès que le modèle fournit des faits, de la littérature, des archives, des cotes ou des citations qui ne viennent pas de votre entrée ou de références vérifiables, traitez cela comme une **hypothèse**, et non comme un résultat. [@bender2021stochastic] Votre travail reste le même: **contre-épreuve, preuve, décision**.
+
 :::
 
 ## En un coup d'œil
@@ -76,7 +78,8 @@ De l'exercice précédent, il vous faut:
 
 - Votre fichier de journal avec la section «Environnement de travail» de l'exercice [Préparer votre espace de travail](preparer-espace-de-travail.qmd).
 - Le [kit de départ Dodis 5020](kit-de-depart-dodis-5020.qmd) rempli.
-  :::
+
+:::
 
 ## Ce dont vous avez besoin
 
@@ -109,7 +112,8 @@ La notice Dodis 5020 avec laquelle vous travaillez dans cet exercice est en **fr
 
 - @walters2023fabrication: Quelles parts de références inventées et erronées les auteurs rapportent-ils, et qu'en résulte-t-il pour votre usage des références bibliographiques générées par l'IA? Répondez en trois phrases dans le journal d'IA, avant la section 7.
 - @turpin2023unfaithful (avant la section 5): L'étude montre que les raisons qu'un modèle donne pour sa réponse peuvent masquer ce qui l'a réellement influencé. Qu'est-ce que cela implique pour votre contrôle d'une trace de raisonnement demandée? Répondez en deux phrases.
-  :::
+
+:::
 
 ## Objectifs d'apprentissage
 
@@ -395,6 +399,7 @@ Matériel: [insérer ici vos 10 phrases tirées de la notice]
 ## Pourquoi les exemples 1 et 2 ont changé
 
 Les versions précédentes de cet exemple étiquetaient «Lieu: Berne; date: 7.7.1949» comme [édition/métadonnées] et une paraphrase déjà analytique comme [texte du document]. Les deux attributions étaient contestables: une notice porte généralement le lieu et la date dans son propre en-tête, pas seulement dans l'édition imprimée, et une phrase qui formule déjà une interprétation («la neutralité sert d'argument») n'est plus un passage littéral. Les exemples corrigés ci-dessus montrent la distinction que cette tâche est censée entraîner.
+
 :::
 
 **Consigne de travail:** reprenez ensuite le bloc few-shot dans votre prompt de l'exercice 3A et vérifiez si les étiquettes deviennent plus fiables.
@@ -442,6 +447,7 @@ Décomposer les tâches complexes en **produits intermédiaires** et imposer une
 ## Remarque sur la «trace de raisonnement»
 
 Formulez la trace de raisonnement pour qu'elle reste **courte** et **vérifiable** (points, critères, tests). Le but est la vérifiabilité, et non un «journal intime» détaillé.
+
 :::
 
 ::: callout-caution
@@ -458,6 +464,7 @@ Seule la trace de raisonnement demandée est un artefact que vous avez produit v
 La même limite vaut pour les deux formes. Les étapes visibles ne prouvent pas le calcul réel. Les modèles nomment des raisons qui taisent l'influence véritable sur la réponse. [@turpin2023unfaithful] Traitez chaque trace de raisonnement comme une aide à la vérification, et jamais comme une preuve.
 
 La section [Vérifier et situer les capacités](#sec-capacites) approfondit le mode de raisonnement.
+
 :::
 
 ### Exercice 5A: cartographie d'arguments avec étapes intermédiaires
@@ -609,6 +616,7 @@ Nommer cinq capacités récentes des systèmes d'IA, les vérifier dans votre pr
 ## Ces capacités non plus ne produisent pas de preuve
 
 Aucune des cinq capacités ne transforme une sortie en preuve. Chacune produit des hypothèses, et vous vérifiez chaque hypothèse sur l'original. [@bender2021stochastic] Les capacités déplacent seulement l'endroit **où** l'erreur naît: dans le mode de raisonnement, dans l'étape de recherche, dans l'extraction, dans la transcription ou dans le modèle lui-même.
+
 :::
 
 ### 8.1 Mode de raisonnement intégré
@@ -654,6 +662,7 @@ Cet exercice est un exercice de critique des sources. L'erreur est donc au premi
 ## Traitez une transcription automatique comme une hypothèse de lecture
 
 Comparez chaque citation avec la numérisation avant de la reprendre. Notez dans le [journal d'analyse de source](../glossary.qmd#gl-analyseprotokoll) que le texte a été reconnu par machine. Notez aussi la date et la forme d'affichage. Dans un texte, une transcription sans cette mention ne se distingue pas d'une lecture vérifiée.
+
 :::
 
 ### 8.5 Modèles locaux et modèles ouverts
@@ -747,7 +756,8 @@ Auto-vérification: nomme 3 contre-preuves plausibles ou interprétations altern
 ::: {.callout-note title="À emporter dans l'exercice suivant"}
 
 - Votre modèle de «bonne pratique» et le tableau de la tâche 8A, dans votre journal d'IA. Vous avez besoin des deux dans chaque exercice suivant.
-  :::
+
+:::
 
 ## Ressources complémentaires
 

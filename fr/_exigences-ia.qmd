@@ -7,4 +7,5 @@ Vous réglez ces questions **une seule fois** dans l'exercice [Préparer votre e
 - Vérifiez quels outils votre compte active (recherche web, lecture de fichiers, mode de réflexion) et s'il s'agit d'un compte institutionnel ou privé.
 - Ne téléversez pas de matériel dont vous ne pouvez pas disposer: pas de [données personnelles](../glossary.qmd#gl-personenbezogene-daten) de personnes vivantes, pas de numérisations dont les conditions interdisent la transmission, pas de manuscrits de tiers.
 - Notez votre choix dans votre [journal d'IA](../glossary.qmd#gl-ki-protokoll). Si c'est déjà fait, vous n'avez rien à répéter ici.
-  :::
+
+:::

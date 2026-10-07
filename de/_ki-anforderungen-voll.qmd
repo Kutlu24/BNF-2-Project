@@ -42,6 +42,7 @@ Diese Materialien bleiben ausserhalb des KI-Systems:
 - Lizenzpflichtige Volltexte, wenn die Lizenz Ihrer Bibliothek eine Weitergabe untersagt.
 
 Im Zweifel arbeiten Sie mit einem kurzen Auszug oder mit einer anonymisierten Fassung. Sie können auch ein [lokales Modell](../glossary.qmd#gl-lokales-modell) verwenden, denn dabei bleibt das Material auf Ihrem Rechner.
+
 :::
 
 ## Recht: Datenschutz und Kennzeichnung
@@ -70,4 +71,5 @@ Artikel 50 Absatz 4 verlangt also keine Kennzeichnung für jedes erzeugte Bild u
 ## Die Kennzeichnung ersetzt die wissenschaftliche Offenlegung nicht
 
 Die rechtliche Kennzeichnung und die wissenschaftliche Offenlegung sind zwei getrennte Pflichten. Ihre Hochschule verlangt eine Deklaration auch dann, wenn das Gesetz keine Kennzeichnung fordert. Die Übung [Zitieren](zitieren.qmd) zeigt, wie Sie Ihre KI-Nutzung ausweisen.
+
 :::

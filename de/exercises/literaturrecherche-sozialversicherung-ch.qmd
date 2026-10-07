@@ -113,6 +113,7 @@ Teilen Sie den Arbeitstag auf zwei oder drei Sitzungen auf. Der Kernpfad führt 
 ## Planen Sie Zeit für den Zugang zur Literatur ein
 
 Bestellen Sie fehlende Titel früh. Eine Fernleihe dauert oft mehrere Tage. Diese Wartezeit ist in der Dauer oben nicht enthalten.
+
 :::
 
 <!-- bridge -->
@@ -122,7 +123,8 @@ Aus der vorigen Übung brauchen Sie:
 
 - Ihr KI-Protokoll und die Grundtechniken aus [Prompt Engineering](prompt-engineering.qmd) (Abschnitte 1 bis 4, 6 und 7).
 - Eine Datei für Ihr Rechercheprotokoll.
-  :::
+
+:::
 
 ## Was Sie brauchen
 
@@ -164,7 +166,8 @@ Die Plattform «Geschichte der Sozialen Sicherheit in der Schweiz» und das Hist
 ::: {.callout-tip title="Pflichtlektüre"}
 
 - @walters2023fabrication (bereits in Prompt Engineering gelesen): Lesen Sie die Ergebnisse noch einmal, bevor Sie Schritt 3 beginnen, und notieren Sie drei Prüfschritte für jeden Literaturhinweis der KI.
-  :::
+
+:::
 
 ## Lernziele
 
@@ -191,6 +194,7 @@ Nach Abschluss dieser Übung können Sie:
 ## Hinweis zur online Recherche
 
 Trotz fortschreitender Digitalisierung ist historische Forschung nicht vollständig online durchführbar. [@milligan2019history] Insbesondere vergriffene Sekundärliteratur und noch nicht erschlossene Primärquellen erfordern häufig physische Recherchen in Bibliotheken und Archiven. Planen Sie Zugänge (Bibliothek, Fernleihe, Archiv) und beachten Sie, dass Plattformen/Kataloge Sichtbarkeit strukturieren (Erschliessungslogik) und keine Vollständigkeit garantieren. [@putnam2016shadows]
+
 :::
 
 ::: callout-caution
@@ -206,6 +210,7 @@ Drei Gründe sprechen für eine vollständige Gegenprobe:
 - Der Bericht nennt seine Suchstrategie nicht vollständig. Sie können die Abdeckung deshalb nicht beurteilen.
 
 Prüfen Sie jeden Titel im Katalog Ihrer Bibliothek. Halten Sie die Suche im [Rechercheprotokoll](../glossary.qmd#gl-rechercheprotokoll) fest und die KI-Nutzung im [KI-Protokoll](../glossary.qmd#gl-ki-protokoll). Der Abschnitt [Fähigkeiten prüfen und einordnen](prompt-engineering.qmd#sec-faehigkeiten) erklärt diese Abläufe.
+
 :::
 
 ::: callout-tip
@@ -217,6 +222,7 @@ Manche Konten erlauben den [Abruf aus eigenen Dokumenten](../glossary.qmd#gl-eig
 Der Abruf bindet die Antwort aber nicht an Ihre Sammlung. Er erweitert nur den Kontext um die gefundenen Abschnitte. Das System kann weiterhin Wissen aus dem Training einmischen, und der Suchschritt findet nicht jeden relevanten Abschnitt. Eine Stellenangabe belegt zudem nur die Fundstelle und nicht die Aussage. Öffnen Sie deshalb jede genannte Seite und lesen Sie sie selbst.
 
 Eine hinterlegte Sammlung ist ein Upload. Prüfen Sie deshalb die Lizenz Ihrer Bibliothek, bevor Sie lizenzpflichtige Volltexte hinterlegen. Der Abschnitt «Was Sie brauchen» nennt die Regeln.
+
 :::
 
 ## Struktur der Übung
@@ -571,7 +577,8 @@ Dazu kommt eine methodische Einsicht: Sie können begründen, welche Treffer ein
 ::: {.callout-note title="Mitnehmen in die nächste Übung"}
 
 - Pfad B: Ihre Literaturliste, Ihre Forschungslücke und Ihre priorisierte Forschungsfrage aus Schritt 8 in [Schreiben](schreiben.qmd) und später in [Public History](public-history.qmd). Sie müssen die Frage nicht in einer anderen Übung noch einmal formulieren.
-  :::
+
+:::
 
 ## Weiterführende Ressourcen
 

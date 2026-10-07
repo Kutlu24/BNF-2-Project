@@ -29,6 +29,7 @@ references: []
 ## Traduction automatique
 
 Cet exercice a été traduit automatiquement depuis l'[original allemand](../../de/exercises/arbeitsbereich-einrichten.qmd) et peut contenir des erreurs. En cas de doute, consultez la version originale.
+
 :::
 
 ## Aperçu et objectif didactique
@@ -108,7 +109,8 @@ Répondez sans rien consulter:
 1. Quel matériel ne téléversez-vous pas?
 2. Pourquoi «librement accessible» ne suffit-il pas comme autorisation?
 3. Quand devez-vous signaler un texte généré par l'IA comme tel, et quand non?
-   :::
+
+:::
 
 ## Objectifs d'apprentissage
 

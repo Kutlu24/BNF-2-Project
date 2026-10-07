@@ -29,6 +29,7 @@ This repository provides structured, hands-on exercises for historians to develo
 
 ::: {.callout-warning title="DISCLAIMER"}
 This project is currently under active development and in a very early stage. The materials provided here are preliminary and may change significantly. Please use them with caution and be aware that they may not yet represent the final quality or scope intended for this resource.
+
 :::
 
 ### Disclosure of AI use for this course
@@ -49,6 +50,7 @@ This course itself uses generative AI, in building its own materials. The [Citin
 The earlier sentence on this page said, in effect, "developed with the help of AI". The [Citing](exercises/citing.qmd) exercise names almost exactly this sentence as an example of an **insufficient** disclosure: it names no tool, no purpose, no extent and no verification. This page now follows the same standard the course asks of learners.
 
 **For the course maintainers**: the bracketed fields above are placeholders. Please replace them with the real details before publishing this change. Note the rule in `AGENTS.md` section 5 against naming an AI product or vendor outside a citation; consider whether that rule should also cover the disclosure of the course's own development, or whether a disclosure, like a citation, states a fact rather than prose.
+
 :::
 
 ### Purpose

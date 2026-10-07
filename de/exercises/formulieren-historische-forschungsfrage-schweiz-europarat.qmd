@@ -54,6 +54,7 @@ Die Übung folgt einem **zirkulären Forschungsverständnis**: Ergebnisse einzel
 ## Hinweis zur online Recherche
 
 Trotz fortschreitender Digitalisierung ist historische Forschung nicht vollständig online durchführbar. Insbesondere vergriffene Sekundärliteratur und noch nicht erschlossene Primärquellen erfordern häufig physische Recherchen in Bibliotheken und Archiven. Planen Sie Zugänge (Bibliothek, Fernleihe, Archiv) und beachten Sie, dass Plattformen/Kataloge Sichtbarkeit strukturieren (Erschliessungslogik) und keine Vollständigkeit garantieren. [@putnam2016shadows] Digitale Quellenkritik erfordert besondere Aufmerksamkeit für die Entstehung und Kuratierung von Online-Sammlungen. [@fickers2022criticism]
+
 :::
 
 ## Auf einen Blick
@@ -75,7 +76,8 @@ Aus der vorigen Übung brauchen Sie:
 
 - Pfad A: Ihr KI-Protokoll aus [Prompt Engineering](prompt-engineering.qmd).
 - Pfad B: Diese Übung ist **nicht Teil von Pfad B**. Ihre Frage entsteht dort in [Literaturrecherche](literaturrecherche-sozialversicherung-ch.qmd), Schritt 8. Bearbeiten Sie diese Übung nur, wenn Sie das Verfahren zusätzlich an einem zweiten Thema üben wollen.
-  :::
+
+:::
 
 ## Was Sie brauchen
 
@@ -115,7 +117,8 @@ Drei der vier Vergleichsleitfäden in Schritt 1 (Zürich, Bremen, Hamburg) liege
 ::: {.callout-tip title="Pflichtlektüre"}
 
 - Basel «History: A Toolkit for Students», Abschnitt «Formulating a Research Question» (um S. 11). Fragen: Welche zwei Merkmale einer bearbeitbaren Frage nennt der Abschnitt? Prüfen Sie Ihre Frage an beiden Merkmalen, bevor Sie Schritt 1 abschliessen.
-  :::
+
+:::
 
 ## Lernziele
 
@@ -206,6 +209,7 @@ Du bist Historiker und hilfst mir im Dialog, ein historisches Thema für eine st
 ## Reflexionsfrage
 
 Worin unterscheidet sich dieser KI-Dialog von einem Gespräch mit einer Dozierenden oder einer Kommilitonin?
+
 :::
 
 ### Aufgabe (historischer Überblick)
@@ -384,7 +388,8 @@ Am Ende der Übung verfügen Sie über:
 ::: {.callout-note title="Mitnehmen in die nächste Übung"}
 
 - Ihre Arbeitsfrage in einem Satz. Sie ist die Frage für [Quellenkritik](quellenkritik-bundesrat-europarat-1949.qmd) und [Quellensuche](quellensuche-vorort-europarat-1963.qmd) in Pfad A.
-  :::
+
+:::
 
 ## Weiterführende Ressourcen
 

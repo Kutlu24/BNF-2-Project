@@ -13,6 +13,7 @@ In der englischsprachigen Literatur heisst dieses Protokoll **Audit Trail**. Der
 ## Schreiben Sie jeden Eintrag sofort
 
 Schreiben Sie den Eintrag direkt nach dem Arbeitsschritt, nicht am Ende der Übung. Nach einer Stunde kennen Sie den genauen Wortlaut Ihres Prompts nicht mehr.
+
 :::
 
 ### Wo Sie das Protokoll führen
@@ -30,6 +31,7 @@ Sie brauchen kein besonderes Werkzeug. Eine Textdatei oder ein Dokument in Ihrer
 ## Eine Datei, nicht eine pro Übung
 
 Frühere Fassungen dieser Anleitung liessen offen, ob Sie eine Datei pro Übung oder eine Datei für den ganzen Kurs führen. Die Regel ist jetzt eindeutig: **eine Datei, ein Abschnitt pro Übung.** Übungen, die "Ihr KI-Protokoll aus den früheren Übungen" verlangen (zum Beispiel [Zitieren](zitieren.qmd)), meinen damit die früheren Abschnitte derselben Datei, kein Zusammenführen mehrerer Dateien.
+
 :::
 
 ### Wie lang ein Eintrag ist
@@ -94,6 +96,7 @@ Eine Liste mit denselben Feldern ist ebenso gültig. Wählen Sie die Form, die S
 ## Warum diese sechs neuen Felder
 
 Die Felder "Werkzeug", "Anbieter", "Kontotyp", "Websuche", "Denkmodus" und "Datei hochgeladen" fehlten in früheren Fassungen dieser Vorlage. Die Übung [Zitieren](zitieren.qmd) verlangt aber genau diese Angaben für die Offenlegung der KI-Nutzung ("Werkzeug, Version, Anbieter"), und [Prompt Engineering](prompt-engineering.qmd) Schritt 8 verlangt den Denkmodus "auf dieselbe Weise wie Modell und Datum". Ohne diese Felder im Protokoll können Sie die Offenlegung am Ende nicht schreiben. Füllen Sie diese sechs Felder einmal pro Sitzung aus, nicht pro Eintrag, wenn sich nichts ändert.
+
 :::
 
 ### Ein ausgefüllter Eintrag als Beispiel
@@ -121,5 +124,6 @@ Beachten Sie die dritte Kategorie. Die Studentin behauptet nicht, die Signatur s
 ## Was zählt hier als "Material"
 
 "Material" meint in diesem Beispiel ausschliesslich den kopierten Text der Aktennotiz selbst, nicht die Fussnoten der gedruckten Edition. Die Edition von Dodis 5020 zitiert in ihren Fussnoten tatsächlich Aktenzeichen wie E 2001(E) und E 2800, aber diese Fussnoten waren nicht Teil dessen, was die Studentin in den Prompt kopiert hat. Die Signatur "steht nirgends im Material" heisst also: nirgends im kopierten Aktennotiz-Text, nicht: nirgends in der gedruckten Edition. Wenn Sie stattdessen die ganze Editionsseite mit Fussnoten kopieren, ändert sich, was als geprüft gelten kann.
+
 :::
 ::::

@@ -101,7 +101,8 @@ Beantworten Sie ohne Nachschlagen:
 1. Welches Material laden Sie nicht hoch?
 2. Warum genügt «frei zugänglich» nicht als Erlaubnis?
 3. Wann müssen Sie KI-erzeugten Text als solchen kennzeichnen, und wann nicht?
-   :::
+
+:::
 
 ## Lernziele
 

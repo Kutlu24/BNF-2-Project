@@ -42,6 +42,7 @@ Ces matériels restent hors du système d'IA:
 - Les textes intégraux sous licence, lorsque la licence de votre bibliothèque interdit une communication.
 
 En cas de doute, travaillez avec un court extrait ou avec une version anonymisée. Vous pouvez aussi utiliser un [modèle local](../glossary.qmd#gl-lokales-modell), car le matériel reste alors sur votre ordinateur.
+
 :::
 
 ## Droit: protection des données et indication
@@ -70,4 +71,5 @@ L'article 50, paragraphe 4, n'exige donc pas une indication pour chaque image g�
 ## L'indication légale ne remplace pas la déclaration scientifique
 
 L'indication légale et la déclaration scientifique sont deux obligations distinctes. Votre haute école exige une déclaration même lorsque la loi n'exige aucune indication. L'exercice [Citation](citer.qmd) montre comment déclarer votre usage de l'IA.
+
 :::

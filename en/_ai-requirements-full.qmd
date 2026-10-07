@@ -42,6 +42,7 @@ These materials stay outside the AI system:
 - Licensed full texts, when the license of your library forbids a disclosure.
 
 In case of doubt, work with a short excerpt or with an anonymized version. You can also use a [local model](../glossary.qmd#gl-lokales-modell), because the material then stays on your computer.
+
 :::
 
 ## Law: data protection and disclosure
@@ -70,4 +71,5 @@ Article 50(4) therefore requires no disclosure for every generated image and for
 ## The legal disclosure does not replace the academic one
 
 The legal disclosure and the academic disclosure are two separate duties. Your university requires a declaration even when the law requires no disclosure. The exercise [Citing](citing.qmd) shows how you declare your AI use.
+
 :::

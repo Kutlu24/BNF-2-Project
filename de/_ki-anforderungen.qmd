@@ -7,4 +7,5 @@ Diese Fragen klären Sie **einmal** in der Übung [Arbeitsbereich einrichten](ar
 - Prüfen Sie, welche Werkzeuge Ihr Konto freischaltet (Websuche, Dateien lesen, Denkmodus) und ob es sich um ein institutionelles oder ein privates Konto handelt.
 - Laden Sie kein Material hoch, über das Sie nicht verfügen dürfen: keine [personenbezogenen Daten](../glossary.qmd#gl-personenbezogene-daten) lebender Personen, keine Digitalisate mit Weitergabeverbot, keine fremden Manuskripte.
 - Halten Sie Ihre Wahl in Ihrem [KI-Protokoll](../glossary.qmd#gl-ki-protokoll) fest. Haben Sie das schon getan, müssen Sie hier nichts wiederholen.
-  :::
+
+:::

@@ -46,6 +46,7 @@ Im Unterschied zu den thematischen Übungen ([Forschungsfrage](formulieren-histo
 ## Grundregel: KI als Hypothese
 
 Sobald das Modell Fakten, Literatur, Archive, Signaturen oder Zitate liefert, die nicht aus Ihrem Input oder verifizierbaren Nachweisen stammen, behandeln Sie das als **Hypothese** (nicht als Ergebnis). [@bender2021stochastic] Ihre Arbeit bleibt: **Gegenprobe, Nachweis, Entscheidung**.
+
 :::
 
 ## Auf einen Blick
@@ -69,7 +70,8 @@ Aus der vorigen Übung brauchen Sie:
 
 - Ihre Protokolldatei mit dem Abschnitt «Arbeitsumgebung» aus der Übung [Arbeitsbereich einrichten](arbeitsbereich-einrichten.qmd).
 - Das ausgefüllte [Startpaket Dodis 5020](startpaket-dodis-5020.qmd).
-  :::
+
+:::
 
 ## Was Sie brauchen
 
@@ -102,7 +104,8 @@ Die Aktennotiz Dodis 5020, mit der Sie in dieser Übung arbeiten, ist auf **Fran
 
 - @walters2023fabrication: Welche Anteile erfundener und fehlerhafter Referenzen berichten die Autor:innen, und was folgt daraus für Ihren Umgang mit KI-generierten Literaturangaben? Beantworten Sie in drei Sätzen im KI-Protokoll, vor Abschnitt 7.
 - @turpin2023unfaithful (vor Abschnitt 5): Die Studie zeigt, dass die Begründung, die ein Modell zu seiner Antwort gibt, den wirklichen Einfluss auf die Antwort verschweigen kann. Welche Folge hat das für Ihre Prüfung einer angeforderten Denkspur? Beantworten Sie in zwei Sätzen.
-  :::
+
+:::
 
 ## Lernziele
 
@@ -388,6 +391,7 @@ Material: [hier Ihre 10 Sätze aus der Aktennotiz einfügen]
 ## Warum Beispiel 1 und 2 geändert wurden
 
 Frühere Fassungen dieses Beispiels labelten «Ort: Bern; Datum: 7.7.1949» als [Edition/Metadaten] und eine bereits analytische Paraphrase als [Dokumenttext]. Beide Zuordnungen waren angreifbar: Aktennotizen tragen Ort und Datum meist in der eigenen Kopfzeile, nicht erst in der gedruckten Edition, und ein Satz, der bereits eine Interpretation formuliert ("Neutralität wird als Argument verwendet"), ist keine wörtliche Textstelle mehr. Die korrigierten Beispiele oben zeigen die Unterscheidung, die diese Aufgabe eigentlich trainieren soll.
+
 :::
 
 **Arbeitsauftrag:** Übernehmen Sie danach den Few-shot-Block in Ihren Prompt aus Übung 3A und prüfen Sie, ob die Labels zuverlässiger werden.
@@ -435,6 +439,7 @@ Komplexe Aufgaben in **Zwischenprodukte** zerlegen (Decomposition) und einen **S
 ## Hinweis zur «Denkspur»
 
 Formulieren Sie die Denkspur so, dass sie **kurz** und **auditierbar** bleibt (Stichpunkte, Kriterien, Tests). Ziel ist Prüfbarkeit, nicht ein ausführliches «inneres Tagebuch».
+
 :::
 
 ::: callout-caution
@@ -451,6 +456,7 @@ Nur die angeforderte Denkspur ist ein Artefakt, das Sie selbst hergestellt haben
 Für beide Formen gilt dieselbe Grenze. Die sichtbaren Schritte belegen den tatsächlichen Rechenweg nicht. Modelle nennen Gründe, die den wirklichen Einfluss auf die Antwort verschweigen. [@turpin2023unfaithful] Behandeln Sie jede Denkspur als Prüfhilfe und nie als Beleg.
 
 Der Abschnitt [Fähigkeiten prüfen und einordnen](#sec-faehigkeiten) vertieft den Denkmodus.
+
 :::
 
 ### Übung 5A: Argumentmapping mit Zwischenschritten
@@ -602,6 +608,7 @@ Fünf neuere Fähigkeiten von KI-Systemen benennen, im eigenen Konto prüfen und
 ## Auch diese Fähigkeiten erzeugen keine Evidenz
 
 Keine der fünf Fähigkeiten macht eine Ausgabe zum Beleg. Jede erzeugt Hypothesen, und Sie prüfen jede Hypothese am Original. [@bender2021stochastic] Die Fähigkeiten verschieben nur, **wo** der Fehler entsteht: im Denkmodus, im Suchschritt, im Abruf, in der Transkription oder im Modell selbst.
+
 :::
 
 ### 8.1 Eingebauter Denkmodus
@@ -647,6 +654,7 @@ Diese Übung ist eine Übung zur Quellenkritik. Deshalb steht hier der Fehler im
 ## Behandeln Sie eine maschinelle Transkription als Lesehypothese
 
 Vergleichen Sie jedes Zitat mit dem Digitalisat, bevor Sie es übernehmen. Notieren Sie im [Analyseprotokoll](../glossary.qmd#gl-analyseprotokoll), dass der Text maschinell erkannt wurde. Notieren Sie auch das Datum und die Anzeigeform. Eine Transkription ohne diesen Vermerk ist im Text nicht von einer geprüften Lesart zu unterscheiden.
+
 :::
 
 ### 8.5 Lokale und offene Modelle
@@ -740,7 +748,8 @@ Am Ende verfügen Sie über diese Artefakte:
 ::: {.callout-note title="Mitnehmen in die nächste Übung"}
 
 - Ihre «beste Praxis»-Vorlage und die Tabelle aus Aufgabe 8A in Ihr KI-Protokoll. Beide brauchen Sie in jeder weiteren Übung.
-  :::
+
+:::
 
 ## Weiterführende Ressourcen
 

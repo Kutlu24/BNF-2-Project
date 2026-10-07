@@ -7,4 +7,5 @@ You settle these questions **once** in the exercise [Set up your workspace](set-
 - Check which tools your account switches on (web search, reading files, reasoning mode) and whether it is an institutional or a private account.
 - Do not upload material you are not allowed to dispose of: no [personal data](../glossary.qmd#gl-personenbezogene-daten) of living persons, no digitised items with a ban on passing them on, no third-party manuscripts.
 - Record your choice in your [AI log](../glossary.qmd#gl-ki-protokoll). If you have already done so, you do not need to repeat anything here.
-  :::
+
+:::

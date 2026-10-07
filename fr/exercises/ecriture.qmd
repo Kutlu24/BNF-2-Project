@@ -116,6 +116,7 @@ references:
 ## Traduction automatique
 
 Cet exercice a été traduit automatiquement depuis l'[original allemand](../../de/exercises/schreiben.qmd) et peut contenir des erreurs. En cas de doute, consultez la version originale.
+
 :::
 
 ## Aperçu et objectif didactique
@@ -144,7 +145,8 @@ Utilisez comme matériau:
 - Parcours A: votre journal d'analyse de source de [Critique des sources](critique-sources-conseil-federal-conseil-europe-1949.qmd) et votre journal de recherche de [Recherche de sources](recherche-sources-vorort-conseil-europe-1963.qmd).
 - Parcours B: votre liste de lectures et votre lacune de recherche de [Recherche bibliographique](recherche-bibliographique-securite-sociale-ch.qmd).
 - Parcours C: un fragment de texte (une demi-page à une page) et au moins 10 points clés sur votre sujet.
-  :::
+
+:::
 
 ## Ce dont vous avez besoin
 
@@ -187,7 +189,8 @@ Les prompts sont en français et demandent un français académique. Si vous ré
 ::: {.callout-tip title="Lecture obligatoire"}
 
 - @bender2021stochastic (l'introduction et la conclusion suffisent): pourquoi un texte plausible n'est-il pas une preuve? Répondez en trois phrases et appliquez la réponse à la version du paragraphe de l'étape 4.
-  :::
+
+:::
 
 ## Objectifs d'apprentissage
 
@@ -213,6 +216,7 @@ Pour un travail plus fiable, utilisez systématiquement deux principes de prompt
 ## Règle de base: l'IA ne doit rien «inventer»
 
 N'utilisez l'IA que comme **outil de transformation et de vérification** pour _votre_ matériel (notes, extraits de sources, résumés de littérature, ébauches de plan). Lorsque l'IA nomme des faits, de la littérature ou des sources supplémentaires, cela compte comme une **hypothèse de recherche** que vous devez **vérifier à l'extérieur**.
+
 :::
 
 {{< include ../_journal-ia.qmd >}}
@@ -559,7 +563,8 @@ Texte: …
 ::: {.callout-note title="À emporter dans l'exercice suivant"}
 
 - Votre fragment de texte, le résumé et le méta-commentaire dans [Citer](citer.qmd). Vous y sécurisez les références.
-  :::
+
+:::
 
 ## Ressources complémentaires
 

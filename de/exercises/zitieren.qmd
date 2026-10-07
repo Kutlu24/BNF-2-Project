@@ -128,6 +128,7 @@ Alle drei Übungen gehören zum Kernpfad. Die optionale Vertiefung kostet ca. 20
 Übung 3 arbeitet mit dem KI-Protokoll aus den vorherigen Übungen. Ohne dieses Protokoll können Sie keine Offenlegung schreiben.
 
 Haben Sie noch kein Protokoll? Führen Sie zuerst die Übung [Prompt Engineering](prompt-engineering.qmd) durch. Sie legen dort Ihr Protokoll an.
+
 :::
 
 <!-- bridge -->
@@ -136,7 +137,8 @@ Haben Sie noch kein Protokoll? Führen Sie zuerst die Übung [Prompt Engineering
 Aus der vorigen Übung brauchen Sie:
 
 - Ihr KI-Protokoll aus **allen früheren Abschnitten derselben Datei**. Die Übung braucht es als Eingabe. Ein Zusammenführen mehrerer Dateien entfällt.
-  :::
+
+:::
 
 ## Was Sie brauchen
 
@@ -178,7 +180,8 @@ Der Testartikel von Fickers (2020) liegt nur auf Deutsch vor. Sie brauchen Deuts
 ::: {.callout-tip title="Pflichtlektüre"}
 
 - Chicago Manual of Style, Quick Guide: <https://www.chicagomanualofstyle.org/tools_citationguide.html>. Frage: Wie zitiert der Guide einen Zeitschriftenartikel mit DOI? Schreiben Sie Ihre eigene Zitierung des Testartikels **vor** Übung 1 und vergleichen Sie danach.
-  :::
+
+:::
 
 ## Lernziele
 
@@ -502,6 +505,7 @@ Andreas Fickers, «Update für die Hermeneutik: Geschichtswissenschaft auf dem W
 <!-- TODO Kursverantwortliche: offen zugänglichen englischen Aufsatz zur Digital History auswählen, Chicago-Referenzlösung ergänzen und Übung 2 daran prüfen. -->
 
 [Titel, Autor:in, Jahr und DOI eines offen zugänglichen englischen Artikels hier eintragen.]
+
 :::
 
 Vergleichen Sie die Antwort mit Ihrer manuellen Zitation, den offiziellen Zitierempfehlungen auf der Verlagsseite bzw. dem DOI-Import in Zotero. Testen Sie weitere Sekundärliteraturquellen (andere Artikel, Monographien).
@@ -578,7 +582,8 @@ Sie nehmen aus dieser Übung vier Ergebnisse mit:
 ::: {.callout-note title="Mitnehmen in die nächste Übung"}
 
 - Ihre Offenlegung für die Abgabe. In Pfad B nehmen Sie sie in [Public History](public-history.qmd) mit.
-  :::
+
+:::
 
 ## Weiterführende Ressourcen
 

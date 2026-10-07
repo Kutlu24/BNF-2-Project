@@ -115,6 +115,7 @@ references:
 ## Automated Translation
 
 This exercise was translated automatically from the [German original](../../de/exercises/schreiben.qmd) and can contain errors. Consult the original version in case of doubt.
+
 :::
 
 ## Overview and Didactic Goal
@@ -143,7 +144,8 @@ Use as material:
 - Track A: your source analysis log from [Source Criticism](source-criticism-federal-council-council-of-europe-1949.qmd) and your search log from [Source Search](source-search-vorort-council-of-europe-1963.qmd).
 - Track B: your literature list and research gap from [Literature Research](literature-research-social-security-ch.qmd).
 - Track C: a text fragment (half a page to one page) and at least 10 bullet points on your topic.
-  :::
+
+:::
 
 ## What You Need
 
@@ -186,7 +188,8 @@ The prompts are in English and ask for academic English. If you write your paper
 ::: {.callout-tip title="Required reading"}
 
 - @bender2021stochastic (introduction and conclusion are enough): Why is plausible text not evidence? Answer in three sentences and apply the answer to the paragraph version in step 4.
-  :::
+
+:::
 
 ## Learning Objectives
 
@@ -212,6 +215,7 @@ For more reliable work, use two principles of prompting consistently. 1. **Delim
 ## Basic rule: the AI may "invent" nothing
 
 Use AI only as a **tool of transformation and verification** for _your_ material (notes, excerpts from sources, summaries of literature, drafts of an outline). If the AI names additional facts, literature or sources, that counts as a **hypothesis for a search** that you must **verify externally**.
+
 :::
 
 {{< include ../_ai-log.qmd >}}
@@ -558,7 +562,8 @@ At the end you hold a small package of artifacts that you can reuse in your acad
 ::: {.callout-note title="Take this into the next exercise"}
 
 - Your text fragment, the abstract and the meta-comment into [Citing](citing.qmd). There you secure the references.
-  :::
+
+:::
 
 ## Further Resources
 

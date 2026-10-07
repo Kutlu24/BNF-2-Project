@@ -28,6 +28,7 @@ references: []
 ## Traduction automatique
 
 Cet exercice a été traduit automatiquement depuis l'[original allemand](../../de/exercises/startpaket-dodis-5020.qmd) et peut contenir des erreurs. En cas de doute, consultez la version originale.
+
 :::
 
 ## À quoi sert ce paquet

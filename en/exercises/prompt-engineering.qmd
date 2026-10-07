@@ -33,6 +33,7 @@ references: []
 ## Automated Translation
 
 This exercise was translated automatically from the [German original](../../de/exercises/prompt-engineering.qmd) and can contain errors. Consult the original version in case of doubt.
+
 :::
 
 ## Overview and Didactic Goal
@@ -53,6 +54,7 @@ Unlike the thematic exercises ([Research Question](formulating-historical-resear
 ## Basic rule: AI as hypothesis
 
 As soon as the model delivers facts, literature, archives, references or citations that do not come from your input or from verifiable records, treat that as a **hypothesis** and not as a result. [@bender2021stochastic] Your work stays the same: **counter-check, record, decide**.
+
 :::
 
 ## At a Glance
@@ -76,7 +78,8 @@ From the previous exercise you need:
 
 - Your log file with the section "Working environment" from the exercise [Set up your workspace](set-up-workspace.qmd).
 - The completed [Dodis 5020 starter kit](starter-kit-dodis-5020.qmd).
-  :::
+
+:::
 
 ## What You Need
 
@@ -109,7 +112,8 @@ The memorandum Dodis 5020 that you work with in this exercise is in **French**. 
 
 - @walters2023fabrication: Which shares of fabricated and faulty references do the authors report, and what follows for how you treat AI-generated literature references? Answer in three sentences in your AI log, before section 7.
 - @turpin2023unfaithful (before section 5): The study shows that the reasons a model gives for its answer can hide what actually influenced it. What does this mean for how you check a requested reasoning trace? Answer in two sentences.
-  :::
+
+:::
 
 ## Learning Objectives
 
@@ -395,6 +399,7 @@ Material: [insert your 10 sentences from the memorandum here]
 ## Why examples 1 and 2 changed
 
 Earlier versions of this example labelled "Place: Bern; date: 7.7.1949" as [edition or metadata] and an already-analytical paraphrase as [document text]. Both labels were contestable: a memorandum usually carries place and date in its own heading, not first in the printed edition, and a sentence that already states an interpretation ("neutrality serves as an argument") is no longer a literal passage. The corrected examples above show the distinction this task is actually meant to train.
+
 :::
 
 **Work assignment:** Then take the few-shot block into your prompt from exercise 3A, and check whether the labels become more reliable.
@@ -442,6 +447,7 @@ Break complex tasks into **intermediate products** (decomposition) and enforce a
 ## Note on the reasoning trace
 
 Formulate the reasoning trace so that it stays **short** and **auditable** (bullet points, criteria, tests). The goal is verifiability and not a detailed "inner diary".
+
 :::
 
 ::: callout-caution
@@ -458,6 +464,7 @@ Only the requested reasoning trace is an artifact that you made yourself. Only i
 The same limit applies to both forms. The visible steps do not prove the actual computation. Models name reasons that hide the real influence on the answer. [@turpin2023unfaithful] Treat every reasoning trace as an aid to your check and never as evidence.
 
 The section [Check and classify capabilities](#sec-capabilities) goes deeper into the reasoning mode.
+
 :::
 
 ### Exercise 5A: Argument Mapping with Intermediate Steps
@@ -609,6 +616,7 @@ Name five newer capabilities of AI systems, check them in your own account, and 
 ## These capabilities produce no evidence either
 
 None of the five capabilities turns an output into evidence. Each one produces hypotheses, and you check each hypothesis against the original. [@bender2021stochastic] The capabilities only move **where** the error appears: in the reasoning mode, in the search step, in the retrieval, in the transcription or in the model itself.
+
 :::
 
 ### 8.1 Built-in Reasoning Mode
@@ -654,6 +662,7 @@ This exercise is an exercise on source criticism. The error therefore stands in 
 ## Treat a machine transcription as a reading hypothesis
 
 Compare every citation with the digitized item before you adopt it. Note in the [source analysis log](../glossary.qmd#gl-analyseprotokoll) that a machine recognized the text. Note the date and the display form as well. In your text, a transcription without this note is indistinguishable from a reading that you checked.
+
 :::
 
 ### 8.5 Local and Open-Weight Models
@@ -747,7 +756,8 @@ At the end you hold these artifacts:
 ::: {.callout-note title="Take this into the next exercise"}
 
 - Your "best practice" template and the table from task 8A, in your AI log. You need both in every further exercise.
-  :::
+
+:::
 
 ## Further Resources
 

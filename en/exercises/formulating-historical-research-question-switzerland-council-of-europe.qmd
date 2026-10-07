@@ -46,6 +46,7 @@ references:
 ## Automated Translation
 
 This exercise was translated automatically from the [German original](../../de/exercises/formulieren-historische-forschungsfrage-schweiz-europarat.qmd) and can contain errors. Consult the original version in case of doubt.
+
 :::
 
 ## Overview and Didactic Goal
@@ -61,6 +62,7 @@ The exercise follows a **circular understanding of research**: you can revise th
 ## Note on the search online
 
 Digitization advances, but historical research is not possible online alone. Secondary literature that is out of print, and primary sources that no one has catalogued yet, often demand a physical search in libraries and archives. Plan your access (library, interlibrary loan, archive). Note that platforms and catalogues structure visibility through their logic of cataloguing, and that they guarantee no completeness. [@putnam2016shadows] Digital source criticism demands particular attention to the creation and the curation of online collections. [@fickers2022criticism]
+
 :::
 
 ## At a Glance
@@ -82,7 +84,8 @@ From the previous exercise you need:
 
 - Track A: your AI log from [Prompt Engineering](prompt-engineering.qmd).
 - Track B: this exercise is **not part of Track B**. Your question emerges there in [Literature Research](literature-research-social-security-ch.qmd), step 8. Only do this exercise if you want to practise the method on a second topic.
-  :::
+
+:::
 
 ## What You Need
 
@@ -122,7 +125,8 @@ Three of the four comparison guides in step 1 (Zurich, Bremen, Hamburg) are Germ
 ::: {.callout-tip title="Required reading"}
 
 - Basel "History: A Toolkit for Students", section "Formulating a Research Question" (around p. 11). Questions: which two features of a workable question does the section name? Test your question against both before you finish step 1.
-  :::
+
+:::
 
 ## Learning Objectives
 
@@ -213,6 +217,7 @@ You are a historian and you help me in a dialogue to find a historical topic for
 ## Question for reflection
 
 How does this dialogue with an AI differ from a conversation with a teacher or with a fellow student?
+
 :::
 
 ### Task (Historical Overview)
@@ -391,7 +396,8 @@ At the end of the exercise you hold:
 ::: {.callout-note title="Take this into the next exercise"}
 
 - Your working question in one sentence. It is the question for [Source Criticism](source-criticism-federal-council-council-of-europe-1949.qmd) and [Source Search](source-search-vorort-council-of-europe-1963.qmd) in Track A.
-  :::
+
+:::
 
 ## Further Resources
 

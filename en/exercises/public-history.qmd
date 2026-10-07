@@ -107,6 +107,7 @@ references:
 ## Automated Translation
 
 This exercise was translated automatically from the [German original](../../de/exercises/public-history.qmd) and can contain errors. Consult the original version in case of doubt.
+
 :::
 
 ## Overview and Didactic Goal
@@ -137,7 +138,8 @@ From the previous exercise you need:
 - Track B: use a scholarly work from your literature list in [Literature Research](literature-research-social-security-ch.qmd) as the base article.
 - Track C: an article from your field.
 - Your disclosure from [Citing](citing.qmd).
-  :::
+
+:::
 
 ## What You Need
 
@@ -178,7 +180,8 @@ The example article is in English, and your target audience may use another lang
 ::: {.callout-tip title="Required reading"}
 
 - The base article itself. Read it in full and note five key claims with page numbers before you start step 1. Only these key claims go into the source package.
-  :::
+
+:::
 
 ## Learning Objectives
 
@@ -207,6 +210,7 @@ Search engines and AI systems structure visibility in a problematic way. [@noble
 
 Work with a **source package**: the title and DOI, the abstract, the central results in your own notes, a few key points with their evidence (pages or sections), and figures or tables if you have them.
 Give the AI only material that you can control yourself, and let the AI work **only from that material**.
+
 :::
 
 ::: callout-tip
@@ -214,6 +218,7 @@ Give the AI only material that you can control yourself, and let the AI work **o
 ## Transparency in the product
 
 Plan a short element of transparency at the end, for example "How we worked" or "AI support". State what you used the AI for (structure, variants of language, proofreading) and what you did not use it for (facts, decisions of interpretation).
+
 :::
 
 ::: callout-important
@@ -228,6 +233,7 @@ This exercise leads to products for an audience. Beside the academic disclosure,
 Article 50(4) therefore requires no marking for every generated image. A generated image without a resemblance to existing persons or events does not fall under it. The separate duty to mark generated content in a machine-readable format lies with the provider under Article 50(2), and not with you.
 
 The exception for reviewed text does not lift your academic disclosure. Disclose your AI use even when the regulation requires no marking. The exercise [Citing](citing.qmd) shows how you meet both duties.
+
 :::
 
 {{< include ../_ai-log.qmd >}}
@@ -468,7 +474,8 @@ One methodological insight comes on top: you can give reasons for where the AI i
 ::: {.callout-note title="Take this into the next exercise"}
 
 - The product with disclosure. This is the hand-in.
-  :::
+
+:::
 
 ## Further Resources
 

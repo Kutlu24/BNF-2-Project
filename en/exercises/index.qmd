@@ -67,6 +67,7 @@ You can also work on the exercises 2 to 8 one by one. The exercise [Citing](citi
 ## Plan the source search early
 
 The exercise [Source Search](source-search-vorort-council-of-europe-1963.qmd) is a research project over several days. All other exercises take between one hour and one working day. Start the source search early when you work through the whole course in one semester.
+
 :::
 
 ## All Exercises

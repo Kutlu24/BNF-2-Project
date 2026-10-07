@@ -27,6 +27,7 @@ Ce dépôt propose des exercices structurés et pratiques permettant aux histori
 
 ::: {.callout-warning title="DISCLAIMER"}
 Ce projet est actuellement en développement actif et dans une phase très précoce. Les matériels fournis ici sont provisoires et peuvent subir des changements significatifs. Utilisez-les avec prudence et soyez conscients que les ressources actuelles peuvent ne pas représenter la qualité finale ou l'étendue voulue pour cette ressource.
+
 :::
 
 ### Déclaration de l'usage de l'IA pour ce cours
@@ -47,6 +48,7 @@ Ce cours emploie lui-même de l'IA générative, pour construire ses propres mat
 La phrase précédente sur cette page disait, en substance, «développé avec l'aide de l'IA». L'exercice [Citer](exercises/citer.qmd) nomme presque exactement cette phrase comme exemple d'une déclaration **insuffisante**: elle ne nomme ni outil, ni but, ni étendue, ni vérification. Cette page suit maintenant le même standard que le cours exige des apprenants.
 
 **Pour les responsables du cours**: les champs entre crochets ci-dessus sont des espaces réservés. Merci de les remplacer par les indications réelles avant de publier ce changement. Notez la règle de `AGENTS.md` section 5 contre le fait de nommer un produit ou un fournisseur d'IA en dehors d'une citation; examinez si cette règle doit aussi couvrir la déclaration du développement du cours lui-même, ou si une déclaration, comme une citation, énonce un fait plutôt qu'une prose.
+
 :::
 
 ### Objectif

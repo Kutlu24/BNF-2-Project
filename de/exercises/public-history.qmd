@@ -130,7 +130,8 @@ Aus der vorigen Übung brauchen Sie:
 - Pfad B: Als Ausgangsartikel nutzen Sie eine wissenschaftliche Arbeit aus Ihrer Literaturliste in [Literaturrecherche](literaturrecherche-sozialversicherung-ch.qmd).
 - Pfad C: ein Artikel aus Ihrem Feld.
 - Ihre Offenlegung aus [Zitieren](zitieren.qmd).
-  :::
+
+:::
 
 ## Was Sie brauchen
 
@@ -171,7 +172,8 @@ Der Beispielartikel ist auf Englisch, Ihr Zielpublikum kann eine andere Sprache 
 ::: {.callout-tip title="Pflichtlektüre"}
 
 - Der Ausgangsartikel selbst. Lesen Sie ihn vollständig und notieren Sie fünf Kernaussagen mit Seitenzahl, bevor Sie Schritt 1 beginnen. Nur diese Kernaussagen gehen in das Quellenpaket.
-  :::
+
+:::
 
 ## Lernziele
 
@@ -200,6 +202,7 @@ Suchmaschinen und KI-Systeme strukturieren Sichtbarkeit auf problematische Weise
 
 Arbeiten Sie mit einem **Quellenpaket**: Titel/DOI, Abstract, zentrale Resultate in eigenen Notizen, ein paar Schlüsselpunkte/Belegstellen (Seiten/Abschnitte), ggf. Abbildungen/Tabellen.
 Geben Sie der KI nur Material, das Sie selbst kontrollieren können, und lassen Sie die KI explizit **nur daraus** arbeiten.
+
 :::
 
 ::: callout-tip
@@ -207,6 +210,7 @@ Geben Sie der KI nur Material, das Sie selbst kontrollieren können, und lassen 
 ## Transparenz im Produkt
 
 Planen Sie am Ende ein kurzes Transparenz-Element ein (z.B. «So wurde gearbeitet» / «KI-Unterstützung»): wofür KI genutzt wurde (Struktur/Sprachvarianten/Gegenlesen), wofür nicht (Fakten/Interpretationsentscheid).
+
 :::
 
 ::: callout-important
@@ -221,6 +225,7 @@ Diese Übung führt zu Produkten für ein Publikum. Damit gilt neben der wissens
 Artikel 50 Absatz 4 verlangt also keine Kennzeichnung für jedes erzeugte Bild. Ein erzeugtes Bild ohne Bezug zu wirklichen Personen oder Ereignissen fällt nicht darunter. Die getrennte Pflicht, erzeugte Inhalte maschinenlesbar zu kennzeichnen, trifft nach Artikel 50 Absatz 2 den Anbieter und nicht Sie.
 
 Die Ausnahme für geprüften Text hebt Ihre wissenschaftliche Offenlegung nicht auf. Legen Sie Ihren KI-Einsatz auch dann offen, wenn die Verordnung keine Kennzeichnung fordert. Die Übung [Zitieren](zitieren.qmd) zeigt, wie Sie beide Pflichten erfüllen.
+
 :::
 
 {{< include ../_ki-protokoll.qmd >}}
@@ -461,7 +466,8 @@ Dazu kommt eine methodische Einsicht: Sie können begründen, wo die KI eine Ver
 ::: {.callout-note title="Mitnehmen in die nächste Übung"}
 
 - Das Produkt mit Offenlegung. Das ist die Abgabe.
-  :::
+
+:::
 
 ## Weiterführende Ressourcen
 

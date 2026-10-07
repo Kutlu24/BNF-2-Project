@@ -93,6 +93,7 @@ references:
 ## Automated Translation
 
 This exercise was translated automatically from the [German original](../../de/exercises/literaturrecherche-sozialversicherung-ch.qmd) and can contain errors. Consult the original version in case of doubt.
+
 :::
 
 ## Overview and Didactic Goal
@@ -120,6 +121,7 @@ Split the working day over two or three sessions. The core path leads you to a p
 ## Plan time for the access to the literature
 
 Order the titles that you lack early. An interlibrary loan often takes several days. The duration above does not include this waiting time.
+
 :::
 
 <!-- bridge -->
@@ -129,7 +131,8 @@ From the previous exercise you need:
 
 - Your AI log and the basic techniques from [Prompt Engineering](prompt-engineering.qmd) (sections 1 to 4, 6 and 7).
 - A file for your search log.
-  :::
+
+:::
 
 ## What You Need
 
@@ -171,7 +174,8 @@ The platform "History of Social Security in Switzerland" and the Historical Dict
 ::: {.callout-tip title="Required reading"}
 
 - @walters2023fabrication (already read in Prompt Engineering): Re-read the results before you start step 3, and note three checks for each literature reference the AI gives you.
-  :::
+
+:::
 
 ## Learning Objectives
 
@@ -198,6 +202,7 @@ After this exercise you can:
 ## Note on the search online
 
 Digitization advances, but historical research is not possible online alone. [@milligan2019history] Secondary literature that is out of print, and primary sources that no one has catalogued yet, often demand a physical search in libraries and archives. Plan your access (library, interlibrary loan, archive). Note that platforms and catalogues structure visibility through their logic of cataloguing, and that they guarantee no completeness. [@putnam2016shadows]
+
 :::
 
 ::: callout-caution
@@ -213,6 +218,7 @@ Three reasons speak for a complete counter-check:
 - The report does not name its search strategy in full. You therefore cannot judge its coverage.
 
 Check every title in the catalogue of your library. Record the search in the [search log](../glossary.qmd#gl-rechercheprotokoll) and the AI use in the [AI log](../glossary.qmd#gl-ki-protokoll). The section [Check and classify capabilities](prompt-engineering.qmd#sec-capabilities) explains these workflows.
+
 :::
 
 ::: callout-tip
@@ -224,6 +230,7 @@ Some accounts permit [retrieval from your own documents](../glossary.qmd#gl-eige
 The retrieval does not bind the answer to your collection. It only widens the context by the passages that the search found. The system can still mix in knowledge from the training, and the search step does not find every relevant passage. A location reference also supports only the location, and not the statement. Open therefore every page that the system names and read it yourself.
 
 A deposited collection is an upload. Check therefore the license of your library before you deposit licensed full texts. The section "What you need" names the rules.
+
 :::
 
 ## Structure of the Exercise
@@ -578,7 +585,8 @@ One methodological insight comes on top: you can give reasons for which hits a c
 ::: {.callout-note title="Take this into the next exercise"}
 
 - Track B: your literature list, your research gap and your prioritised research question from step 8 into [Writing](writing.qmd) and later into [Public History](public-history.qmd). You do not need to formulate the question again in another exercise.
-  :::
+
+:::
 
 ## Further Resources
 

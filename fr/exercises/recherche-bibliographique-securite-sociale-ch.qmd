@@ -93,6 +93,7 @@ references:
 ## Traduction automatique
 
 Cet exercice a été traduit automatiquement depuis l'[original allemand](../../de/exercises/literaturrecherche-sozialversicherung-ch.qmd) et peut contenir des erreurs. En cas de doute, consultez la version originale.
+
 :::
 
 ## Aperçu et objectif didactique
@@ -120,6 +121,7 @@ Répartissez la journée de travail sur deux ou trois séances. Le parcours prin
 ## Prévoyez du temps pour l'accès à la littérature
 
 Commandez tôt les titres manquants. Un prêt entre bibliothèques prend souvent plusieurs jours. Ce temps d'attente n'est pas compris dans la durée indiquée ci-dessus.
+
 :::
 
 <!-- bridge -->
@@ -129,7 +131,8 @@ De l'exercice précédent, il vous faut:
 
 - Votre journal d'IA et les techniques de base de [Prompt Engineering](prompt-engineering.qmd) (sections 1 à 4, 6 et 7).
 - Un fichier pour votre journal de recherche.
-  :::
+
+:::
 
 ## Ce dont vous avez besoin
 
@@ -171,7 +174,8 @@ La plateforme «Histoire de la sécurité sociale en Suisse» et le Dictionnaire
 ::: {.callout-tip title="Lecture obligatoire"}
 
 - @walters2023fabrication (déjà lu dans Prompt Engineering): relisez les résultats avant l'étape 3 et notez trois contrôles pour chaque référence bibliographique que l'IA vous donne.
-  :::
+
+:::
 
 ## Objectifs d'apprentissage
 
@@ -198,6 +202,7 @@ La plateforme «Histoire de la sécurité sociale en Suisse» et le Dictionnaire
 ## Remarque sur la recherche en ligne
 
 Malgré la numérisation croissante, la recherche historique ne peut pas se mener entièrement en ligne. [@milligan2019history] La littérature secondaire épuisée et les sources primaires non encore cataloguées exigent souvent des recherches physiques en bibliothèque et en archives. Planifiez les accès (bibliothèque, prêt entre bibliothèques, archives) et notez que les plateformes et les catalogues structurent la visibilité (logique de catalogage) et ne garantissent aucune exhaustivité. [@putnam2016shadows]
+
 :::
 
 ::: callout-caution
@@ -213,6 +218,7 @@ Trois raisons plaident pour une contre-épreuve complète:
 - Le rapport ne nomme pas complètement sa stratégie de recherche. Vous ne pouvez donc pas juger de sa couverture.
 
 Vérifiez chaque titre dans le catalogue de votre bibliothèque. Retenez la recherche dans le [journal de recherche documentaire](../glossary.qmd#gl-rechercheprotokoll) et l'usage de l'IA dans le [journal IA](../glossary.qmd#gl-ki-protokoll). La section [Vérifier et situer les capacités](prompt-engineering.qmd#sec-capacites) explique ces déroulements.
+
 :::
 
 ::: callout-tip
@@ -224,6 +230,7 @@ Certains comptes permettent l'[extraction depuis vos propres documents](../gloss
 L'extraction ne lie toutefois pas la réponse à votre collection. Elle élargit seulement le contexte avec les passages trouvés. Le système peut toujours mêler des connaissances issues de l'entraînement, et l'étape de recherche ne trouve pas chaque passage pertinent. Une indication de passage ne prouve en outre que l'emplacement, et non l'affirmation. Ouvrez donc chaque page nommée et lisez-la vous-même.
 
 Une collection déposée est un téléversement. Vérifiez donc la licence de votre bibliothèque avant de déposer des textes intégraux sous licence. La section «Ce dont vous avez besoin» nomme les règles.
+
 :::
 
 ## Structure de l'exercice
@@ -578,7 +585,8 @@ S'y ajoute une connaissance méthodique: vous pouvez justifier quels résultats 
 ::: {.callout-note title="À emporter dans l'exercice suivant"}
 
 - Parcours B: votre liste de lectures, votre lacune de recherche et votre question de recherche priorisée de l'étape 8 dans [Écriture](ecriture.qmd), puis dans [Public History](public-history.qmd). Vous n'avez pas à reformuler la question dans un autre exercice.
-  :::
+
+:::
 
 ## Ressources complémentaires
 

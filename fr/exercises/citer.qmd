@@ -108,6 +108,7 @@ references:
 ## Traduction automatique
 
 Cet exercice a été traduit automatiquement depuis l'[original allemand](../../de/exercises/zitieren.qmd) et peut contenir des erreurs. En cas de doute, consultez la version originale.
+
 :::
 
 ## Aperçu et objectif didactique
@@ -135,6 +136,7 @@ Les trois exercices font tous partie du parcours principal. L'approfondissement 
 L'exercice 3 travaille avec le journal IA des exercices précédents. Sans ce journal, vous ne pouvez pas écrire de déclaration.
 
 Vous n'avez pas encore de journal? Faites d'abord l'exercice [Prompt Engineering](prompt-engineering.qmd). Vous y créez votre journal.
+
 :::
 
 <!-- bridge -->
@@ -143,7 +145,8 @@ Vous n'avez pas encore de journal? Faites d'abord l'exercice [Prompt Engineering
 De l'exercice précédent, il vous faut:
 
 - Votre journal d'IA de **toutes les sections précédentes du même fichier**. L'exercice le prend comme entrée. Il n'y a pas de fusion de plusieurs fichiers.
-  :::
+
+:::
 
 ## Ce dont vous avez besoin
 
@@ -185,7 +188,8 @@ L'article test de Fickers (2020) n'existe qu'en allemand. Il faut lire l'alleman
 ::: {.callout-tip title="Lecture obligatoire"}
 
 - Chicago Manual of Style, Quick Guide: <https://www.chicagomanualofstyle.org/tools_citationguide.html>. Question: comment le guide cite-t-il un article de revue avec DOI? Rédigez votre propre citation de l'article test **avant** l'exercice 1 et comparez ensuite.
-  :::
+
+:::
 
 ## Objectifs d'apprentissage
 
@@ -509,6 +513,7 @@ Andreas Fickers, «Update für die Hermeneutik: Geschichtswissenschaft auf dem W
 <!-- TODO responsables du cours: choisir un article anglais en libre accès sur l'histoire numérique, ajouter une solution de référence Chicago et tester l'exercice 2 avec lui. -->
 
 [Indiquer ici titre, auteur, année et DOI d'un article anglais en libre accès.]
+
 :::
 
 Comparez la réponse avec votre citation manuelle, avec les recommandations de citation officielles de la page de l'éditeur, ou avec l'import par DOI dans votre logiciel de gestion bibliographique. Testez d'autres sources de littérature secondaire (d'autres articles, des monographies).
@@ -585,7 +590,8 @@ Vous retirez quatre résultats de cet exercice:
 ::: {.callout-note title="À emporter dans l'exercice suivant"}
 
 - Votre déclaration pour le rendu. Dans le parcours B, emportez-la dans [Public History](public-history.qmd).
-  :::
+
+:::
 
 ## Ressources complémentaires
 
