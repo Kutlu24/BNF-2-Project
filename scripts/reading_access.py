@@ -280,7 +280,7 @@ def pages():
         def usedin(key):
             order = list(EX) + ['home', 'glossary']
             ks = sorted(used.get(key, set()), key=order.index)
-            return '; '.join(f'[{ex[k][0]}]({ex[k][1]})' + (f' ({t["req"]})' if k in req.get(key, set()) else '') for k in ks) or '–'
+            return '<br>'.join(f'[{ex[k][0]}]({ex[k][1]})' + (f' ({t["req"]})' if k in req.get(key, set()) else '') for k in ks) or '–'
         def link(key, v):
             f = bib[key]
             url = v.get('url') or f.get('url')
@@ -323,6 +323,7 @@ title: '{t["title"]}'
 description: "{t["desc"]}"
 date: '{checked}'
 date-modified: '{checked}'
+page-layout: full
 draft: false
 citation: false
 ---
