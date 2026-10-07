@@ -3,6 +3,7 @@
 
     python3 scripts/reading_access.py fetch   # query OpenAlex for DOI entries -> data/reading-access.json
     python3 scripts/reading_access.py pages   # write the three reading-access pages
+    python3 scripts/reading_access.py check   # open every link and list the ones that do not answer
 
 `fetch` needs the network and only reads public metadata (DOI -> OpenAlex).
 Entries without a DOI are classified in OVERRIDES below, by hand, after the
@@ -71,6 +72,7 @@ def summarise(d):
 # status: open | free_web | closed ; url = where the legal free copy lives.
 OVERRIDES = {
     # --- checked by hand (what was verified is in "verified") ---
+    'fickers2020hermeneutik': {'status': 'open', 'url': 'https://zeithistorische-forschungen.de/1-2020/5823', 'license': None, 'license_text': {'de': 'siehe Zeitschriftenseite', 'en': 'see the journal page', 'fr': 'voir la page de la revue'}, 'verified': 'journal page opens (HTTP 200); the DOI resolves to the journal\'s open document server (HTTP 200). OpenAlex pointed to a repository that did not answer.'},
     'oberbichler2025implementing': {'status': 'open', 'url': 'https://zenodo.org/records/14924737', 'license': 'cc-by-4.0', 'version': 'working paper', 'verified': 'Zenodo API: access_right open, licence CC BY 4.0'},
     'buolamwini2018gender': {'status': 'open', 'url': 'https://proceedings.mlr.press/v81/buolamwini18a.html', 'license': None, 'verified': 'page opens (HTTP 200); PMLR proceedings are free to read'},
     'dignazio2023feminism': {'status': 'open', 'url': 'https://data-feminism.mitpress.mit.edu/', 'license': None, 'verified': 'automated check blocked (HTTP 403); MIT Press publishes the book as an open-access web edition. Check once in a browser.'},
@@ -127,6 +129,8 @@ EX = {  # key -> {lang: file stem}
 }
 PAGE = {'de': 'lesezugang.qmd', 'en': 'reading-access.qmd', 'fr': 'acces-aux-lectures.qmd'}
 GERMAN_ONLY = {'fickers2020hermeneutik', 'dfg2023generative', 'unibe2026kirichtlinien', 'schweiz2020datenschutzgesetz'}
+
+WEAK_HOSTS = ('doaj.org', 'orbilu.uni.lu')
 
 def access_class(v):
     st = v.get('status')
@@ -284,6 +288,9 @@ def pages():
         def link(key, v):
             f = bib[key]
             url = v.get('url') or f.get('url')
+            doi0 = v.get('doi') or f.get('doi')
+            if url and doi0 and any(h in url for h in WEAK_HOSTS):
+                url = 'https://doi.org/' + doi0   # record pages / unstable repositories: the DOI is the stable address
             url = localized(url, lang, v.get('multilingual', '')) if url else None
             doi = v.get('doi') or f.get('doi')
             parts = []
@@ -300,6 +307,8 @@ def pages():
             v = ent[key]; c = access_class(v)
             if c in ('open', 'free'):
                 lic = (v.get('license') or '').upper().replace('-', ' ') if v.get('license') else t['lic_none']
+                if v.get('license_text'):
+                    lic = v['license_text'][lang]
                 if v.get('license') is None and c == 'free' and v.get('version') == 'submittedVersion':
                     lic = t['pre']
                 acc = link(key, v) + ('' if v.get('verified', '').startswith('NOT') is False else f' ⚠ {t["verified_no"]}')
@@ -371,8 +380,27 @@ citation: false
         (ROOT / lang / PAGE[lang]).write_text(md, encoding='utf-8')
         print(lang, PAGE[lang], 'open/free:', len(rows_open), 'closed:', len(rows_closed))
 
+def check():
+    """Open every link of the open/free entries and print the ones that do not answer with 2xx/3xx."""
+    import subprocess
+    bib, ent = parse_bib(), json.loads(DATA.read_text())['entries']
+    bad = 0
+    for key, v in sorted(ent.items()):
+        if access_class(v) == 'closed':
+            continue
+        url = v.get('url') or bib[key].get('url')
+        if not url:
+            continue
+        r = subprocess.run(['curl', '-s', '-L', '-o', '/dev/null', '-m', '30', '-A', 'Mozilla/5.0', '-w', '%{http_code}', url], capture_output=True, text=True)
+        code = r.stdout.strip()
+        if code[:1] not in ('2', '3'):
+            bad += 1
+            print(f'{code}  {key}  {url}')
+    print('links that did not answer:', bad)
+
 if __name__ == '__main__':
     cmd = sys.argv[1] if len(sys.argv) > 1 else ''
     if cmd == 'fetch': fetch()
     elif cmd == 'pages': pages()
+    elif cmd == 'check': check()
     else: print(__doc__)
