@@ -115,7 +115,7 @@ Das System muss die drei folgenden Dinge können:
 **Weitere Werkzeuge und Zugänge**
 
 - Die Quelle als Datei. Sie laden das Dokument Dodis 5020 frei herunter, und Sie brauchen dafür keinen institutionellen Zugang.
-- Eine Datei für Ihr Analyseprotokoll und eine Datei für Ihr KI-Protokoll.
+- Eine Datei für Ihr Analyseprotokoll und eine Datei für Ihr KI-Protokoll. Nutzen Sie die [Vorlagen zum Herunterladen](../vorlagen.qmd).
 
 **Sprache**
 

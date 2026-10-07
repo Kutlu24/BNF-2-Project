@@ -123,7 +123,7 @@ Le système doit savoir faire les trois choses suivantes:
 **Autres outils et accès**
 
 - La source comme fichier. Vous téléchargez librement le document Dodis 5020, et vous n'avez besoin d'aucun accès institutionnel.
-- Un fichier pour votre journal d'analyse de source et un fichier pour votre journal IA.
+- Un fichier pour votre journal d'analyse de source et un fichier pour votre journal IA. Utilisez les [modèles à télécharger](../modeles.qmd).
 
 **Langue**
 

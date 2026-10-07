@@ -441,7 +441,7 @@ Marque: lesquelles des 3 seraient indispensables pour une section «état de la 
 
 ### Contrôle critique
 
-Tenez dans le journal de recherche documentaire une section _journal des rejets_: au moins 5 résultats rejetés, mais «plausibles et tentants», avec le motif du rejet (mauvaise période, mauvaise arène, seulement de vulgarisation, etc.).
+Tenez dans le journal de recherche documentaire une section _journal des rejets_ (voir le [modèle](../modeles.qmd)): au moins 5 résultats rejetés, mais «plausibles et tentants», avec le motif du rejet (mauvaise période, mauvaise arène, seulement de vulgarisation, etc.).
 
 **Livrable**: liste boule de neige (≥ 30 références au total) et section _journal des rejets_ (≥ 5).
 
